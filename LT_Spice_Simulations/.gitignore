@@ -1,0 +1,4 @@
+# LTSpice simulation files
+**/*.log
+**/*.raw
+**/*.op
