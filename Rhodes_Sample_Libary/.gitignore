@@ -1,0 +1,5 @@
+#output files that come from the python scripts
+*.json
+*.mid
+samples_wav/
+venv/
