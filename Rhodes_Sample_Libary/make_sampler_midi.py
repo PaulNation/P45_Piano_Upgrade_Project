@@ -3,7 +3,8 @@
 make_sampler_midi.py
 Generates a MIDI file for auto-sampling a Keyscape Rhodes patch, plus a
 manifest.json describing exactly where every note lands in the bounced audio
-(in samples @ 48 kHz), so slice_to_pcm.py can cut the bounce deterministically.
+(in samples @ the configured sample rate), so slice_to_pcm.py can cut the
+bounce deterministically.
 
 Usage examples:
     python3 make_sampler_midi.py                          # full library (defaults)
@@ -28,7 +29,8 @@ import sys
 
 import mido
 
-SR = 48000            # target sample rate of your bounce
+SR = 44100            # target sample rate of your bounce
+BITS = 16             # target bit depth of your bounce
 PPQ = 480             # ticks per quarter note
 TEMPO_BPM = 120.0     # fixed tempo -> 1 beat = 0.5 s -> 960 ticks per second
 TICKS_PER_SEC = PPQ * TEMPO_BPM / 60.0  # 960
@@ -155,7 +157,7 @@ def main():
 
     manifest = {
         "sample_rate": SR,
-        "bits_per_sample": 24,
+        "bits_per_sample": BITS,
         "channels": 2,
         "prefix": args.prefix,
         "total_seconds": round(t + 1.0, 3),
@@ -167,10 +169,11 @@ def main():
         json.dump(manifest, f, indent=1)
 
     total = t + 1.0
+    bytes_per_frame = 2 * (BITS // 8)
     print(f"Wrote {midi_path} and {manifest_path}")
     print(f"{len(slots)} samples ({len(notes)} notes x {len(velocities)} velocities)")
     print(f"Bounce length needed: {total:.0f} s = {total/60:.1f} min "
-          f"(~{total * SR * 6 / 1e9:.2f} GB at 48k/24-bit stereo)")
+          f"(~{total * SR * bytes_per_frame / 1e9:.2f} GB at {SR/1000:.1f}k/{BITS}-bit stereo)")
 
 
 if __name__ == "__main__":
