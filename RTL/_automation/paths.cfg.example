@@ -1,0 +1,11 @@
+# _automation/paths.cfg.example — commit this file, not paths.cfg
+# Copy to _automation/paths.cfg and fill in your local tool paths.
+#
+# MACHINE LOCAL — do not commit paths.cfg (it is gitignored).
+
+# Full path to the Diamond installation root (the directory containing bin/)
+DIAMOND_INSTALL=/path/to/lscc/diamond/<version>
+
+# Full path to the directory containing vsim, vlog, vcom
+# For Diamond-bundled Questa: $DIAMOND_INSTALL/questasim/linux_x86_64
+QUESTA_BIN=/path/to/questa/linux_x86_64
