@@ -26,5 +26,32 @@ module top (
     output wire i2s_lrclk,
     output wire i2s_dout
 );
+
+
+
+scan_keys_controller scan_controller_slave(
+    .clk(),
+    .rst(),
+    .row_en_n(row),
+    .col_in_m1(),
+    .col_in_m2(),
+
+    .wea(),
+    .addra(),
+    .dia(),
+);
+
+pressed_keys_ram dual_port_ram_dual_clock(
+    //Port A: Write Domain
+    .clka(),
+    .wea(),
+    .addra(),
+    .dia(),
+    //Port B: Read Domain
+    .clkb(),
+    .enb(),
+    .addrb(),
+    .doutb()
+);
     
 endmodule
