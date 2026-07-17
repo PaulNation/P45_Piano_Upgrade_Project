@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 slice_to_pcm.py
-Cuts a bounced WAV (sample rate / bit depth / stereo as set in the manifest,
-e.g. 44.1 kHz / 16-bit) into headerless raw PCM files using the manifest
-written by make_sampler_midi.py.
+Cuts a bounced WAV (sample rate / bit depth / channel count as set in the
+manifest, e.g. 44.1 kHz / 16-bit / mono) into headerless raw PCM files using
+the manifest written by make_sampler_midi.py.
 
 For every slot it writes, by default, just the sustain slice:
     <prefix>_<name>_n<note>_v<vel>_sus.pcm   (note-on  -> note-off)
@@ -11,9 +11,9 @@ Pass --with-release to also export the release tail:
     <prefix>_<name>_n<note>_v<vel>_rel.pcm   (note-off -> end of tail)
 plus an index.json describing every file (format, frame counts, root note...).
 
-Output format: raw interleaved PCM, signed little-endian, L/R, at the sample
-rate/bit depth recorded in the manifest — byte-for-byte identical to the
-WAV's data chunk (no resampling, no dither).
+Output format: raw interleaved PCM, signed little-endian, at the channel
+count/sample rate/bit depth recorded in the manifest — byte-for-byte
+identical to the WAV's data chunk (no resampling, no dither).
 
 Alongside the PCM folder, a second folder is written with a plain WAV copy of
 every slice (same bytes, just wrapped in a standard RIFF/WAVE header) so the
@@ -76,7 +76,7 @@ def parse_wav(path):
 
 # ------------------------------------------------------- bit-depth helpers
 def frames_to_ints(buf, bytes_per_sample):
-    """Decode interleaved signed LE stereo bytes -> list of ints (L,R,L,R...)."""
+    """Decode interleaved signed LE bytes -> list of ints, one per channel per frame."""
     bps = bytes_per_sample
     sign_bit = 1 << (8 * bps - 1)
     full = 1 << (8 * bps)
@@ -104,7 +104,7 @@ def ints_to_bytes(vals, bytes_per_sample):
     return bytes(b)
 
 
-def trim_point(f, data_offset, start_frame, end_frame, thresh, frame_bytes, bytes_per_sample):
+def trim_point(f, data_offset, start_frame, end_frame, thresh, frame_bytes, bytes_per_sample, channels):
     """Scan backwards in 0.25 s blocks; return new end_frame after which the
     signal never exceeds `thresh` (peak, absolute integer units for the
     current bit depth)."""
@@ -121,12 +121,12 @@ def trim_point(f, data_offset, start_frame, end_frame, thresh, frame_bytes, byte
                 last = i
                 break
         if last >= 0:
-            return min(end_frame, lo + (last // 2) + 1)
+            return min(end_frame, lo + (last // channels) + 1)
         end = lo
     return start_frame  # slice is entirely silent
 
 
-def write_slice(f, data_offset, start_frame, end_frame, out_path, fade_frames, frame_bytes, bytes_per_sample):
+def write_slice(f, data_offset, start_frame, end_frame, out_path, fade_frames, frame_bytes, bytes_per_sample, channels):
     n = end_frame - start_frame
     if n <= 0:
         return 0
@@ -146,13 +146,13 @@ def write_slice(f, data_offset, start_frame, end_frame, out_path, fade_frames, f
             vals = frames_to_ints(f.read(tail * frame_bytes), bytes_per_sample)
             for i in range(tail):
                 g = 1.0 - (i + 1) / tail
-                vals[2 * i] = int(vals[2 * i] * g)
-                vals[2 * i + 1] = int(vals[2 * i + 1] * g)
+                for ch in range(channels):
+                    vals[i * channels + ch] = int(vals[i * channels + ch] * g)
             out.write(ints_to_bytes(vals, bytes_per_sample))
     return n
 
 
-def pcm_file_to_wav(pcm_path, wav_path, sr, channels=2, bits=24):
+def pcm_file_to_wav(pcm_path, wav_path, sr, channels, bits=24):
     """Wrap an existing headerless PCM file in a standard RIFF/WAVE header."""
     data_size = os.path.getsize(pcm_path)
     byte_rate = sr * channels * bits // 8
@@ -196,10 +196,11 @@ def main():
         man = json.load(m)
     sr = man["sample_rate"]
     bits = man.get("bits_per_sample", 24)
+    channels = man.get("channels", 2)
     prefix = man.get("prefix", "sample")
 
     bytes_per_sample = bits // 8
-    frame_bytes = 2 * bytes_per_sample
+    frame_bytes = channels * bytes_per_sample
 
     fmt, data_offset, data_size = parse_wav(args.wav)
     problems = []
@@ -207,11 +208,12 @@ def main():
         problems.append(f"sample rate {fmt['rate']} (expected {sr})")
     if fmt["bits"] != bits or fmt["tag"] != 1:
         problems.append(f"format tag={fmt['tag']} bits={fmt['bits']} (expected PCM {bits}-bit)")
-    if fmt["channels"] != 2:
-        problems.append(f"{fmt['channels']} channels (expected 2)")
+    if fmt["channels"] != channels:
+        problems.append(f"{fmt['channels']} channels (expected {channels})")
     if problems:
+        chan_label = {1: "mono", 2: "stereo"}.get(channels, f"{channels}-channel")
         sys.exit("Bounce doesn't match the expected format: " + "; ".join(problems) +
-                 f"\nRe-export as {sr} Hz / {bits}-bit / stereo WAV (PCM).")
+                 f"\nRe-export as {sr} Hz / {bits}-bit / {chan_label} WAV (PCM).")
 
     total_frames = data_size // frame_bytes
     offset = int(round(args.offset_ms / 1000.0 * sr))
@@ -235,7 +237,7 @@ def main():
     write_wav = not args.no_wav
     if write_wav:
         os.makedirs(args.wavdir, exist_ok=True)
-    index = {"format": {"sample_rate": sr, "bits": bits, "channels": 2,
+    index = {"format": {"sample_rate": sr, "bits": bits, "channels": channels,
                         "encoding": f"pcm_s{bits}le interleaved"},
              "pcm_dir": args.outdir,
              "wav_dir": args.wavdir if write_wav else None,
@@ -255,16 +257,16 @@ def main():
 
         for kind, a, b in cuts:
             if not args.no_trim:
-                b = max(a, trim_point(f, data_offset, a, b, thresh, frame_bytes, bytes_per_sample))
+                b = max(a, trim_point(f, data_offset, a, b, thresh, frame_bytes, bytes_per_sample, channels))
             if b - a < sr // 100:   # <10 ms -> treat as empty, skip
                 continue
             name = f"{base}_{kind}.pcm"
             pcm_path = os.path.join(args.outdir, name)
-            n = write_slice(f, data_offset, a, b, pcm_path, fade_frames, frame_bytes, bytes_per_sample)
+            n = write_slice(f, data_offset, a, b, pcm_path, fade_frames, frame_bytes, bytes_per_sample, channels)
             wav_name = None
             if write_wav:
                 wav_name = f"{base}_{kind}.wav"
-                pcm_file_to_wav(pcm_path, os.path.join(args.wavdir, wav_name), sr, bits=bits)
+                pcm_file_to_wav(pcm_path, os.path.join(args.wavdir, wav_name), sr, channels, bits=bits)
             index["samples"].append({
                 "file": name, "wav_file": wav_name, "type": kind, "root_note": s["note"],
                 "note_name": s["name"], "velocity": s["velocity"],

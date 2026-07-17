@@ -31,6 +31,7 @@ import mido
 
 SR = 44100            # target sample rate of your bounce
 BITS = 16             # target bit depth of your bounce
+CHANNELS = 1          # target channel count of your bounce (1=mono, 2=stereo) -- Rhodes source is mono
 PPQ = 480             # ticks per quarter note
 TEMPO_BPM = 120.0     # fixed tempo -> 1 beat = 0.5 s -> 960 ticks per second
 TICKS_PER_SEC = PPQ * TEMPO_BPM / 60.0  # 960
@@ -71,6 +72,9 @@ def main():
                     help="seconds of silence between slots")
     ap.add_argument("--off-velocity", type=int, default=64,
                     help="note-off velocity (Keyscape largely ignores this; here for completeness)")
+    ap.add_argument("--channels", type=int, default=CHANNELS, choices=(1, 2),
+                    help="channel count of the bounce (1=mono, 2=stereo; default 1, since the "
+                         "Rhodes source is mono)")
     ap.add_argument("--prefix", type=str, default="rhodes", help="filename prefix used by the slicer")
     ap.add_argument("--out", type=str, default="keyscape_rhodes_sampler",
                     help="output basename (writes <out>.mid and <out>_manifest.json)")
@@ -158,7 +162,7 @@ def main():
     manifest = {
         "sample_rate": SR,
         "bits_per_sample": BITS,
-        "channels": 2,
+        "channels": args.channels,
         "prefix": args.prefix,
         "total_seconds": round(t + 1.0, 3),
         "note_count": len(notes),
@@ -169,11 +173,12 @@ def main():
         json.dump(manifest, f, indent=1)
 
     total = t + 1.0
-    bytes_per_frame = 2 * (BITS // 8)
+    bytes_per_frame = args.channels * (BITS // 8)
+    chan_label = {1: "mono", 2: "stereo"}[args.channels]
     print(f"Wrote {midi_path} and {manifest_path}")
     print(f"{len(slots)} samples ({len(notes)} notes x {len(velocities)} velocities)")
     print(f"Bounce length needed: {total:.0f} s = {total/60:.1f} min "
-          f"(~{total * SR * bytes_per_frame / 1e9:.2f} GB at {SR/1000:.1f}k/{BITS}-bit stereo)")
+          f"(~{total * SR * bytes_per_frame / 1e9:.2f} GB at {SR/1000:.1f}k/{BITS}-bit {chan_label})")
 
 
 if __name__ == "__main__":
