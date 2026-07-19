@@ -1,0 +1,45 @@
+# Flow build artifacts — each flow owns its own out/ and logs/
+syn/out/
+syn/logs/
+par/out/
+par/logs/
+pgrm/*.bit
+pgrm/*.jed
+pgrm/*.fea
+pgrm/logs/
+sim/out/
+sim/logs/
+
+# Diamond intermediate files
+*.ngo
+*.ngd
+*.mrp
+*.par
+*.prf
+*.rpt
+*.srp
+*.twr
+*.twx
+*_map.*
+*_par.*
+*.ncd
+*.pcf
+*.drc
+*_impl*/
+*.bsn
+
+# Diamond project backup (batch flow doesn't create .ldf, but kept for reference)
+*.ldf.bak
+
+# Diamond work directories
+diamond_work/
+
+# Questa Sim artifacts
+work/
+*.wlf
+transcript
+vsim.wlf
+modelsim.ini
+questa.ini
+*_fast.vcd
+*.vcd

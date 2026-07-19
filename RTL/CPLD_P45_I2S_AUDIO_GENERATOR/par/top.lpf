@@ -1,0 +1,7 @@
+# top.lpf — Lattice Diamond pin constraint file
+# Reference: Lattice Diamond User Guide, Appendix A
+#
+# LOCATE COMP "<port_name>" SITE "<pin_name>" ;
+# IOBUF PORT "<port_name>" IO_TYPE=LVCMOS33 ;
+#
+# TODO: add pin assignments for this board

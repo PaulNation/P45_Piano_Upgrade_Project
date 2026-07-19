@@ -1,7 +1,7 @@
 module dual_port_ram_dual_clock #(
     parameter DATA_WIDTH = 2,
     parameter ADDR_WIDTH = 7,
-    parameter RAM_DEPTH  = 88
+    parameter RAM_DEPTH  = 90
 ) (
     // Port A: Write Domain
     input wire                      clka,
