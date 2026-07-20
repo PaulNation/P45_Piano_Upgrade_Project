@@ -44,6 +44,8 @@ module cpld_p45_i2s_audio_generator_top (
     assign col_in_m2_int = ~col_m2_n;
     assign row_n         = ~row_en_int;
 
+    //This scan key controller take about 165 clock cycles to write the 90*2 switches to the dual port ram 
+    //Use this info to choose clk frequency later
     scan_keys_controller scan_controller(
         .clk(clk),
         .rst(rst),
