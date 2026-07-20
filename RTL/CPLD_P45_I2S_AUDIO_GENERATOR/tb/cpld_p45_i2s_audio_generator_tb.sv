@@ -38,20 +38,20 @@ module cpld_p45_i2s_audio_generator_tb;
     int errors = 0;
 
     cpld_p45_i2s_audio_generator_top dut (
-        .clk       (clk),
-        .rst       (rst),
+        .CLK       (clk),
+        .RST       (rst),
         .PSWI      (PSWI),
         .PSWO      (PSWO),
         .SUS_PEDAL (SUS_PEDAL),
         .FUNC_BTN  (FUNC_BTN),
         .ON_LED    (ON_LED),
-        .col_m1_n  (col_m1_n),
-        .col_m2_n  (col_m2_n),
-        .row_n     (row_n),
-        .i2s_mclk  (i2s_mclk),
-        .i2s_bclk  (i2s_bclk),
-        .i2s_lrclk (i2s_lrclk),
-        .i2s_dout  (i2s_dout)
+        .COL_M1_N  (col_m1_n),
+        .COL_M2_N  (col_m2_n),
+        .ROW_N     (row_n),
+        .I2S_MCLK  (i2s_mclk),
+        .I2S_BCLK  (i2s_bclk),
+        .I2S_LRCLK (i2s_lrclk),
+        .I2S_DOUT  (i2s_dout)
     );
 
     always #5 clk = ~clk;  // 100 MHz
