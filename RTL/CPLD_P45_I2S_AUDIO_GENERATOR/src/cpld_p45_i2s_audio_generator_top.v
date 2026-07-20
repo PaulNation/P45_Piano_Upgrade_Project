@@ -4,8 +4,8 @@
 
 module cpld_p45_i2s_audio_generator_top (
     //System Ports
-    input wire clk,
-    input wire rst,
+    input wire CLK,
+    input wire RST,
 
     //Soft Latching Power Circuit ports
     input wire PSWI,
@@ -20,15 +20,15 @@ module cpld_p45_i2s_audio_generator_top (
     //Memory Interface Ports TBD
 
     //Switch Matrix Ports - Piano Keys
-    input  wire [5:0]  col_m1_n,  //Columns have an external pull-up resistor, so they read high when no key is pressed
-    input  wire [5:0]  col_m2_n,  //Columns have an external pull-up resistor, so they read high when no key is pressed
-    output wire [14:0] row_n,     //A row is driven low with a push-pull IO to scan it; when a key is pressed, the corresponding column is pulled low
+    input  wire [5:0]  COL_M1_N,  //Columns have an external pull-up resistor, so they read high when no key is pressed
+    input  wire [5:0]  COL_M2_N,  //Columns have an external pull-up resistor, so they read high when no key is pressed
+    output wire [14:0] ROW_N,     //A row is driven low with a push-pull IO to scan it; when a key is pressed, the corresponding column is pulled low
 
     //I2S Ports - Digital Audio Amplifier
-    output wire i2s_mclk,
-    output wire i2s_bclk,
-    output wire i2s_lrclk,
-    output wire i2s_dout
+    output wire I2S_MCLK,
+    output wire I2S_BCLK,
+    output wire I2S_LRCLK,
+    output wire I2S_DOUT
 );
 
     wire        wea_int;
@@ -40,15 +40,15 @@ module cpld_p45_i2s_audio_generator_top (
     wire [5:0]  col_in_m2_int;
 
     //Pins are active-low; invert to/from the active-high convention used internally
-    assign col_in_m1_int = ~col_m1_n;
-    assign col_in_m2_int = ~col_m2_n;
-    assign row_n         = ~row_en_int;
+    assign col_in_m1_int = ~COL_M1_N;
+    assign col_in_m2_int = ~COL_M2_N;
+    assign ROW_N         = ~row_en_int;
 
     //This scan key controller take about 165 clock cycles to write the 90*2 switches to the dual port ram 
     //Use this info to choose clk frequency later
     scan_keys_controller scan_controller(
-        .clk(clk),
-        .rst(rst),
+        .clk(CLK),
+        .rst(RST),
         //top matrix input ports
         .row_en(row_en_int),
         .col_in_m1(col_in_m1_int),
@@ -59,9 +59,11 @@ module cpld_p45_i2s_audio_generator_top (
         .dia(dia_int)
     );
 
+
+    //Note: Should have a rst
     dual_port_ram_dual_clock pressed_keys_ram(
         //Port A: Write Domain
-        .clka(clk),
+        .clka(CLK),
         .wea(wea_int),
         .addra(addra_int),
         .dia(dia_int),
