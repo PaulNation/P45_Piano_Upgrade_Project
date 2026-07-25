@@ -63,6 +63,66 @@ Other options worth knowing:
 
 Run `python slice_to_pcm.py -h` for the full list.
 
+## 4. Find loop points and build the instrument
+
+```
+python rhodes_loop_tool.py analyse 16bit_44.1kHz_Mono_Left_Only/samples --raw-rate 44100
+```
+
+Dry run — measures f0, T60 (decay time), and touches nothing. Worth running
+once on a new batch of slices before `process`, just to sanity-check the
+numbers look like a Rhodes (T60 of tens of seconds on bass notes, a few
+seconds up top).
+
+```
+python rhodes_loop_tool.py process 16bit_44.1kHz_Mono_Left_Only/samples sample_optimization \
+    --raw-rate 44100 --format pcm --preview-dir sample_optimization_preview \
+    --sfz rhodes_sample_optimization.sfz --report sample_optimization/report.json
+```
+
+For each sample, this finds a short loop point (a handful to a few dozen
+pitch periods, cut precisely on matching zero crossings so it repeats with no
+click and no crossfade needed) and writes two different things:
+
+- **`sample_optimization/`** (the `OUT_DIR` argument) — the actual deployable
+  files, cut short at `loop_end`. This is what a playback engine (or the
+  FPGA) uses: it plays the file through once, then loops `loop_start:loop_end`
+  and shapes the continuing decay itself. `--format pcm` writes headerless raw
+  PCM (`--raw-bits` controls depth) for consumers that don't parse WAV/FLAC
+  headers; use `flac`/`wav` instead if the consumer does.
+- **`sample_optimization_preview/`** (`--preview-dir`, optional) — full-length
+  "held note" renders for auditioning by ear: the same loop, duplicated out to
+  the original recording's own duration with a volume ramp baked in, so it
+  sounds like a complete note when played directly in a DAW or media player.
+  Always written in a directly-playable format (`--preview-format`, default
+  `wav`) regardless of `--format`, and only produced for samples that actually
+  got a loop.
+- **`rhodes_sample_optimization.sfz`** (`--sfz`) — documents every loop point
+  (`loop_start`/`loop_end`/`ampeg_decay`) against the files in `OUT_DIR`, note
+  by note. Also loadable directly in an SFZ-compatible sampler (sfizz, ARIA,
+  etc.) if you want to audition through an actual engine instead of (or in
+  addition to) the preview renders.
+- **`report.json`** (`--report`, written inside `OUT_DIR` above) — the same
+  per-file measurements as `analyse`, plus the loop points and output
+  filenames, as JSON.
+
+Samples that don't have enough content to find a good loop (very short/quiet
+takes, usually the top register) come out as `NO LOOP` — kept as their full
+natural recording in `OUT_DIR`, no loop opcodes in the SFZ.
+
+Other options worth knowing:
+
+- `--loop-start N` — earliest allowed loop point, seconds (default 1.0s).
+  Lower this if a whole register is coming back `NO LOOP`.
+- `--min-loop`/`--max-loop` — loop length search range, seconds (default
+  5ms-300ms, i.e. a handful to a few dozen pitch periods).
+- `--min-score` — reject loops below this correlation (default 0.5; in
+  practice good loops score 0.99+).
+- `--hold` — preview render length, seconds (default: match the original
+  recording's own duration).
+
+Run `python rhodes_loop_tool.py -h` for the full list.
+
 ## Fast iteration loop
 
 While dialing in trim/fade/offset settings:
