@@ -4,7 +4,7 @@
 
 module cpld_p45_i2s_audio_generator_top (
     //System Ports
-    input wire CLK,
+    input wire CLK, //for now assume this is 48 MHz
     input wire RST,
 
     //Soft Latching Power Circuit ports
@@ -18,6 +18,8 @@ module cpld_p45_i2s_audio_generator_top (
     //...Need ADC interface for Volume Control but leave it out for now
     
     //Memory Interface Ports TBD
+    output wire        NOTE_ON_VALID,
+    output wire [6:0]  NOTE_ON_ADDR,
 
     //Switch Matrix Ports - Piano Keys
     input  wire [5:0]  COL_M1_N,  //Columns have an external pull-up resistor, so they read high when no key is pressed
@@ -38,6 +40,14 @@ module cpld_p45_i2s_audio_generator_top (
     wire [14:0] row_en_int;
     wire [5:0]  col_in_m1_int;
     wire [5:0]  col_in_m2_int;
+
+    wire        pkr_enb_int;
+    wire [6:0]  pkr_addrb_int;
+    wire [1:0]  pkr_doutb_int;
+
+    wire        vel_wea_int;
+    wire [6:0]  vel_addra_int;
+    wire [6:0]  vel_dia_int;
 
     //Pins are active-low; invert to/from the active-high convention used internally
     assign col_in_m1_int = ~COL_M1_N;
@@ -68,10 +78,47 @@ module cpld_p45_i2s_audio_generator_top (
         .addra(addra_int),
         .dia(dia_int),
         //Port B: Read Domain
-        .clkb(clk),
+        .clkb(CLK),
+        .enb(pkr_enb_int),
+        .addrb(pkr_addrb_int),
+        .doutb(pkr_doutb_int)
+    );
+
+    velocity_timer_controller velocity_timer(
+        .clk           (CLK),
+        .rst           (RST),
+        //pressed_keys_ram Port B read connection
+        .pkr_enb       (pkr_enb_int),
+        .pkr_addrb     (pkr_addrb_int),
+        .pkr_doutb     (pkr_doutb_int),
+        //velocity_ram Port A write connection
+        .vel_wea       (vel_wea_int),
+        .vel_addra     (vel_addra_int),
+        .vel_dia       (vel_dia_int),
+        //Note-on strobe for a future playback stage
+        .note_on_valid (NOTE_ON_VALID),
+        .note_on_addr  (NOTE_ON_ADDR)
+    );
+
+    //Note: Should have a rst
+    //Port B (read) is intentionally left unconnected/stubbed for now, just like
+    //pressed_keys_ram's Port B was before the velocity timer stage existed; a
+    //future playback stage will read velocity_ram to trigger note-on events.
+    dual_port_ram_dual_clock #(
+        .DATA_WIDTH (7),
+        .ADDR_WIDTH (7),
+        .RAM_DEPTH  (90)
+    ) velocity_ram(
+        //Port A: Write Domain
+        .clka(CLK),
+        .wea(vel_wea_int),
+        .addra(vel_addra_int),
+        .dia(vel_dia_int),
+        //Port B: Read Domain
+        .clkb(CLK),
         .enb(1'b0),
         .addrb(7'd0),
         .doutb()
     );
-    
+
 endmodule
