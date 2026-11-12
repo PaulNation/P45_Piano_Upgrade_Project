@@ -1,0 +1,5291 @@
+{
+  "format": "LPC2 + Golomb-Rice, 16-bit word addressed",
+  "version": 4,
+  "frame_samples": 1024,
+  "sample_rate": 44100,
+  "word_byte_order": "little",
+  "total_words": 33420778,
+  "release_base": 440,
+  "files": [
+    {
+      "name": "rhodes_A0_n021_v016_sus.pcm",
+      "start_word": 5288,
+      "length_words": 46611,
+      "samples": 293056
+    },
+    {
+      "name": "rhodes_A0_n021_v048_sus.pcm",
+      "start_word": 51899,
+      "length_words": 73785,
+      "samples": 489681
+    },
+    {
+      "name": "rhodes_A0_n021_v064_sus.pcm",
+      "start_word": 125684,
+      "length_words": 99437,
+      "samples": 645476
+    },
+    {
+      "name": "rhodes_A0_n021_v080_sus.pcm",
+      "start_word": 225121,
+      "length_words": 129208,
+      "samples": 799683
+    },
+    {
+      "name": "rhodes_A0_n021_v112_sus.pcm",
+      "start_word": 354329,
+      "length_words": 119015,
+      "samples": 790544
+    },
+    {
+      "name": "rhodes_As0_n022_v016_sus.pcm",
+      "start_word": 473344,
+      "length_words": 16993,
+      "samples": 106409
+    },
+    {
+      "name": "rhodes_As0_n022_v048_sus.pcm",
+      "start_word": 490337,
+      "length_words": 23313,
+      "samples": 139967
+    },
+    {
+      "name": "rhodes_As0_n022_v064_sus.pcm",
+      "start_word": 513650,
+      "length_words": 37808,
+      "samples": 220683
+    },
+    {
+      "name": "rhodes_As0_n022_v080_sus.pcm",
+      "start_word": 551458,
+      "length_words": 47318,
+      "samples": 265898
+    },
+    {
+      "name": "rhodes_As0_n022_v112_sus.pcm",
+      "start_word": 598776,
+      "length_words": 45923,
+      "samples": 272259
+    },
+    {
+      "name": "rhodes_B0_n023_v016_sus.pcm",
+      "start_word": 644699,
+      "length_words": 22431,
+      "samples": 133564
+    },
+    {
+      "name": "rhodes_B0_n023_v048_sus.pcm",
+      "start_word": 667130,
+      "length_words": 52768,
+      "samples": 326371
+    },
+    {
+      "name": "rhodes_B0_n023_v064_sus.pcm",
+      "start_word": 719898,
+      "length_words": 71048,
+      "samples": 430752
+    },
+    {
+      "name": "rhodes_B0_n023_v080_sus.pcm",
+      "start_word": 790946,
+      "length_words": 92986,
+      "samples": 542242
+    },
+    {
+      "name": "rhodes_B0_n023_v112_sus.pcm",
+      "start_word": 883932,
+      "length_words": 81997,
+      "samples": 519630
+    },
+    {
+      "name": "rhodes_C1_n024_v016_sus.pcm",
+      "start_word": 965929,
+      "length_words": 60037,
+      "samples": 395608
+    },
+    {
+      "name": "rhodes_C1_n024_v048_sus.pcm",
+      "start_word": 1025966,
+      "length_words": 107741,
+      "samples": 761737
+    },
+    {
+      "name": "rhodes_C1_n024_v064_sus.pcm",
+      "start_word": 1133707,
+      "length_words": 124698,
+      "samples": 818400
+    },
+    {
+      "name": "rhodes_C1_n024_v080_sus.pcm",
+      "start_word": 1258405,
+      "length_words": 134335,
+      "samples": 827830
+    },
+    {
+      "name": "rhodes_C1_n024_v112_sus.pcm",
+      "start_word": 1392740,
+      "length_words": 120542,
+      "samples": 810344
+    },
+    {
+      "name": "rhodes_Cs1_n025_v016_sus.pcm",
+      "start_word": 1513282,
+      "length_words": 53003,
+      "samples": 359409
+    },
+    {
+      "name": "rhodes_Cs1_n025_v048_sus.pcm",
+      "start_word": 1566285,
+      "length_words": 189806,
+      "samples": 910126
+    },
+    {
+      "name": "rhodes_Cs1_n025_v064_sus.pcm",
+      "start_word": 1756091,
+      "length_words": 182691,
+      "samples": 929210
+    },
+    {
+      "name": "rhodes_Cs1_n025_v080_sus.pcm",
+      "start_word": 1938782,
+      "length_words": 211577,
+      "samples": 1072314
+    },
+    {
+      "name": "rhodes_Cs1_n025_v112_sus.pcm",
+      "start_word": 2150359,
+      "length_words": 209351,
+      "samples": 1204556
+    },
+    {
+      "name": "rhodes_D1_n026_v016_sus.pcm",
+      "start_word": 2359710,
+      "length_words": 79313,
+      "samples": 608116
+    },
+    {
+      "name": "rhodes_D1_n026_v048_sus.pcm",
+      "start_word": 2439023,
+      "length_words": 139235,
+      "samples": 919575
+    },
+    {
+      "name": "rhodes_D1_n026_v064_sus.pcm",
+      "start_word": 2578258,
+      "length_words": 152426,
+      "samples": 992291
+    },
+    {
+      "name": "rhodes_D1_n026_v080_sus.pcm",
+      "start_word": 2730684,
+      "length_words": 174187,
+      "samples": 1064614
+    },
+    {
+      "name": "rhodes_D1_n026_v112_sus.pcm",
+      "start_word": 2904871,
+      "length_words": 196596,
+      "samples": 1209486
+    },
+    {
+      "name": "rhodes_Ds1_n027_v016_sus.pcm",
+      "start_word": 3101467,
+      "length_words": 117410,
+      "samples": 735627
+    },
+    {
+      "name": "rhodes_Ds1_n027_v048_sus.pcm",
+      "start_word": 3218877,
+      "length_words": 127906,
+      "samples": 913302
+    },
+    {
+      "name": "rhodes_Ds1_n027_v064_sus.pcm",
+      "start_word": 3346783,
+      "length_words": 149993,
+      "samples": 985204
+    },
+    {
+      "name": "rhodes_Ds1_n027_v080_sus.pcm",
+      "start_word": 3496776,
+      "length_words": 164109,
+      "samples": 1057105
+    },
+    {
+      "name": "rhodes_Ds1_n027_v112_sus.pcm",
+      "start_word": 3660885,
+      "length_words": 198986,
+      "samples": 1200907
+    },
+    {
+      "name": "rhodes_E1_n028_v016_sus.pcm",
+      "start_word": 3859871,
+      "length_words": 118956,
+      "samples": 708521
+    },
+    {
+      "name": "rhodes_E1_n028_v048_sus.pcm",
+      "start_word": 3978827,
+      "length_words": 132970,
+      "samples": 906494
+    },
+    {
+      "name": "rhodes_E1_n028_v064_sus.pcm",
+      "start_word": 4111797,
+      "length_words": 156717,
+      "samples": 978116
+    },
+    {
+      "name": "rhodes_E1_n028_v080_sus.pcm",
+      "start_word": 4268514,
+      "length_words": 169584,
+      "samples": 1049500
+    },
+    {
+      "name": "rhodes_E1_n028_v112_sus.pcm",
+      "start_word": 4438098,
+      "length_words": 205869,
+      "samples": 1192268
+    },
+    {
+      "name": "rhodes_F1_n029_v016_sus.pcm",
+      "start_word": 4643967,
+      "length_words": 127180,
+      "samples": 750723
+    },
+    {
+      "name": "rhodes_F1_n029_v048_sus.pcm",
+      "start_word": 4771147,
+      "length_words": 132947,
+      "samples": 900162
+    },
+    {
+      "name": "rhodes_F1_n029_v064_sus.pcm",
+      "start_word": 4904094,
+      "length_words": 156111,
+      "samples": 970947
+    },
+    {
+      "name": "rhodes_F1_n029_v080_sus.pcm",
+      "start_word": 5060205,
+      "length_words": 169598,
+      "samples": 1041896
+    },
+    {
+      "name": "rhodes_F1_n029_v112_sus.pcm",
+      "start_word": 5229803,
+      "length_words": 193841,
+      "samples": 1183629
+    },
+    {
+      "name": "rhodes_Fs1_n030_v016_sus.pcm",
+      "start_word": 5423644,
+      "length_words": 127840,
+      "samples": 750983
+    },
+    {
+      "name": "rhodes_Fs1_n030_v048_sus.pcm",
+      "start_word": 5551484,
+      "length_words": 132667,
+      "samples": 893427
+    },
+    {
+      "name": "rhodes_Fs1_n030_v064_sus.pcm",
+      "start_word": 5684151,
+      "length_words": 159121,
+      "samples": 963850
+    },
+    {
+      "name": "rhodes_Fs1_n030_v080_sus.pcm",
+      "start_word": 5843272,
+      "length_words": 171031,
+      "samples": 1034290
+    },
+    {
+      "name": "rhodes_Fs1_n030_v112_sus.pcm",
+      "start_word": 6014303,
+      "length_words": 180970,
+      "samples": 1174990
+    },
+    {
+      "name": "rhodes_G1_n031_v016_sus.pcm",
+      "start_word": 6195273,
+      "length_words": 128618,
+      "samples": 747159
+    },
+    {
+      "name": "rhodes_G1_n031_v048_sus.pcm",
+      "start_word": 6323891,
+      "length_words": 131114,
+      "samples": 886977
+    },
+    {
+      "name": "rhodes_G1_n031_v064_sus.pcm",
+      "start_word": 6455005,
+      "length_words": 154001,
+      "samples": 956854
+    },
+    {
+      "name": "rhodes_G1_n031_v080_sus.pcm",
+      "start_word": 6609006,
+      "length_words": 196213,
+      "samples": 1026687
+    },
+    {
+      "name": "rhodes_G1_n031_v112_sus.pcm",
+      "start_word": 6805219,
+      "length_words": 200272,
+      "samples": 1166350
+    },
+    {
+      "name": "rhodes_Gs1_n032_v016_sus.pcm",
+      "start_word": 7005491,
+      "length_words": 129184,
+      "samples": 741823
+    },
+    {
+      "name": "rhodes_Gs1_n032_v048_sus.pcm",
+      "start_word": 7134675,
+      "length_words": 130957,
+      "samples": 880453
+    },
+    {
+      "name": "rhodes_Gs1_n032_v064_sus.pcm",
+      "start_word": 7265632,
+      "length_words": 155420,
+      "samples": 949764
+    },
+    {
+      "name": "rhodes_Gs1_n032_v080_sus.pcm",
+      "start_word": 7421052,
+      "length_words": 183606,
+      "samples": 1019082
+    },
+    {
+      "name": "rhodes_Gs1_n032_v112_sus.pcm",
+      "start_word": 7604658,
+      "length_words": 191463,
+      "samples": 1157711
+    },
+    {
+      "name": "rhodes_A1_n033_v016_sus.pcm",
+      "start_word": 7796121,
+      "length_words": 128497,
+      "samples": 736287
+    },
+    {
+      "name": "rhodes_A1_n033_v048_sus.pcm",
+      "start_word": 7924618,
+      "length_words": 129688,
+      "samples": 873882
+    },
+    {
+      "name": "rhodes_A1_n033_v064_sus.pcm",
+      "start_word": 8054306,
+      "length_words": 153801,
+      "samples": 942680
+    },
+    {
+      "name": "rhodes_A1_n033_v080_sus.pcm",
+      "start_word": 8208107,
+      "length_words": 173654,
+      "samples": 1011477
+    },
+    {
+      "name": "rhodes_A1_n033_v112_sus.pcm",
+      "start_word": 8381761,
+      "length_words": 175292,
+      "samples": 1149014
+    },
+    {
+      "name": "rhodes_As1_n034_v016_sus.pcm",
+      "start_word": 8557053,
+      "length_words": 127833,
+      "samples": 730564
+    },
+    {
+      "name": "rhodes_As1_n034_v048_sus.pcm",
+      "start_word": 8684886,
+      "length_words": 129372,
+      "samples": 867312
+    },
+    {
+      "name": "rhodes_As1_n034_v064_sus.pcm",
+      "start_word": 8814258,
+      "length_words": 154880,
+      "samples": 935592
+    },
+    {
+      "name": "rhodes_As1_n034_v080_sus.pcm",
+      "start_word": 8969138,
+      "length_words": 176071,
+      "samples": 1003872
+    },
+    {
+      "name": "rhodes_As1_n034_v112_sus.pcm",
+      "start_word": 9145209,
+      "length_words": 185624,
+      "samples": 1140432
+    },
+    {
+      "name": "rhodes_B1_n035_v016_sus.pcm",
+      "start_word": 9330833,
+      "length_words": 126884,
+      "samples": 725216
+    },
+    {
+      "name": "rhodes_B1_n035_v048_sus.pcm",
+      "start_word": 9457717,
+      "length_words": 129257,
+      "samples": 860741
+    },
+    {
+      "name": "rhodes_B1_n035_v064_sus.pcm",
+      "start_word": 9586974,
+      "length_words": 154608,
+      "samples": 928464
+    },
+    {
+      "name": "rhodes_B1_n035_v080_sus.pcm",
+      "start_word": 9741582,
+      "length_words": 166031,
+      "samples": 996268
+    },
+    {
+      "name": "rhodes_B1_n035_v112_sus.pcm",
+      "start_word": 9907613,
+      "length_words": 182073,
+      "samples": 1131793
+    },
+    {
+      "name": "rhodes_C2_n036_v016_sus.pcm",
+      "start_word": 10089686,
+      "length_words": 129836,
+      "samples": 719671
+    },
+    {
+      "name": "rhodes_C2_n036_v048_sus.pcm",
+      "start_word": 10219522,
+      "length_words": 127275,
+      "samples": 854154
+    },
+    {
+      "name": "rhodes_C2_n036_v064_sus.pcm",
+      "start_word": 10346797,
+      "length_words": 153502,
+      "samples": 921417
+    },
+    {
+      "name": "rhodes_C2_n036_v080_sus.pcm",
+      "start_word": 10500299,
+      "length_words": 171868,
+      "samples": 988663
+    },
+    {
+      "name": "rhodes_C2_n036_v112_sus.pcm",
+      "start_word": 10672167,
+      "length_words": 172685,
+      "samples": 1123154
+    },
+    {
+      "name": "rhodes_Cs2_n037_v016_sus.pcm",
+      "start_word": 10844852,
+      "length_words": 129490,
+      "samples": 714076
+    },
+    {
+      "name": "rhodes_Cs2_n037_v048_sus.pcm",
+      "start_word": 10974342,
+      "length_words": 126727,
+      "samples": 847602
+    },
+    {
+      "name": "rhodes_Cs2_n037_v064_sus.pcm",
+      "start_word": 11101069,
+      "length_words": 151894,
+      "samples": 914330
+    },
+    {
+      "name": "rhodes_Cs2_n037_v080_sus.pcm",
+      "start_word": 11252963,
+      "length_words": 164814,
+      "samples": 981058
+    },
+    {
+      "name": "rhodes_Cs2_n037_v112_sus.pcm",
+      "start_word": 11417777,
+      "length_words": 181460,
+      "samples": 1114515
+    },
+    {
+      "name": "rhodes_D2_n038_v016_sus.pcm",
+      "start_word": 11599237,
+      "length_words": 127496,
+      "samples": 708610
+    },
+    {
+      "name": "rhodes_D2_n038_v048_sus.pcm",
+      "start_word": 11726733,
+      "length_words": 126478,
+      "samples": 841032
+    },
+    {
+      "name": "rhodes_D2_n038_v064_sus.pcm",
+      "start_word": 11853211,
+      "length_words": 151873,
+      "samples": 907242
+    },
+    {
+      "name": "rhodes_D2_n038_v080_sus.pcm",
+      "start_word": 12005084,
+      "length_words": 164055,
+      "samples": 973454
+    },
+    {
+      "name": "rhodes_D2_n038_v112_sus.pcm",
+      "start_word": 12169139,
+      "length_words": 189480,
+      "samples": 1105876
+    },
+    {
+      "name": "rhodes_Ds2_n039_v016_sus.pcm",
+      "start_word": 12358619,
+      "length_words": 125191,
+      "samples": 703074
+    },
+    {
+      "name": "rhodes_Ds2_n039_v048_sus.pcm",
+      "start_word": 12483810,
+      "length_words": 126469,
+      "samples": 834461
+    },
+    {
+      "name": "rhodes_Ds2_n039_v064_sus.pcm",
+      "start_word": 12610279,
+      "length_words": 152120,
+      "samples": 900155
+    },
+    {
+      "name": "rhodes_Ds2_n039_v080_sus.pcm",
+      "start_word": 12762399,
+      "length_words": 164142,
+      "samples": 965849
+    },
+    {
+      "name": "rhodes_Ds2_n039_v112_sus.pcm",
+      "start_word": 12926541,
+      "length_words": 178370,
+      "samples": 1097196
+    },
+    {
+      "name": "rhodes_E2_n040_v016_sus.pcm",
+      "start_word": 13104911,
+      "length_words": 109743,
+      "samples": 618984
+    },
+    {
+      "name": "rhodes_E2_n040_v048_sus.pcm",
+      "start_word": 13214654,
+      "length_words": 124098,
+      "samples": 827811
+    },
+    {
+      "name": "rhodes_E2_n040_v064_sus.pcm",
+      "start_word": 13338752,
+      "length_words": 146554,
+      "samples": 892967
+    },
+    {
+      "name": "rhodes_E2_n040_v080_sus.pcm",
+      "start_word": 13485306,
+      "length_words": 167657,
+      "samples": 958244
+    },
+    {
+      "name": "rhodes_E2_n040_v112_sus.pcm",
+      "start_word": 13652963,
+      "length_words": 160816,
+      "samples": 1040093
+    },
+    {
+      "name": "rhodes_F2_n041_v016_sus.pcm",
+      "start_word": 13813779,
+      "length_words": 121341,
+      "samples": 692003
+    },
+    {
+      "name": "rhodes_F2_n041_v048_sus.pcm",
+      "start_word": 13935120,
+      "length_words": 124394,
+      "samples": 821287
+    },
+    {
+      "name": "rhodes_F2_n041_v064_sus.pcm",
+      "start_word": 14059514,
+      "length_words": 149077,
+      "samples": 885964
+    },
+    {
+      "name": "rhodes_F2_n041_v080_sus.pcm",
+      "start_word": 14208591,
+      "length_words": 166455,
+      "samples": 950640
+    },
+    {
+      "name": "rhodes_F2_n041_v112_sus.pcm",
+      "start_word": 14375046,
+      "length_words": 190334,
+      "samples": 1079958
+    },
+    {
+      "name": "rhodes_Fs2_n042_v016_sus.pcm",
+      "start_word": 14565380,
+      "length_words": 120530,
+      "samples": 686447
+    },
+    {
+      "name": "rhodes_Fs2_n042_v048_sus.pcm",
+      "start_word": 14685910,
+      "length_words": 124957,
+      "samples": 814726
+    },
+    {
+      "name": "rhodes_Fs2_n042_v064_sus.pcm",
+      "start_word": 14810867,
+      "length_words": 149458,
+      "samples": 878893
+    },
+    {
+      "name": "rhodes_Fs2_n042_v080_sus.pcm",
+      "start_word": 14960325,
+      "length_words": 164864,
+      "samples": 943035
+    },
+    {
+      "name": "rhodes_Fs2_n042_v112_sus.pcm",
+      "start_word": 15125189,
+      "length_words": 191590,
+      "samples": 1071254
+    },
+    {
+      "name": "rhodes_G2_n043_v016_sus.pcm",
+      "start_word": 15316779,
+      "length_words": 116941,
+      "samples": 669114
+    },
+    {
+      "name": "rhodes_G2_n043_v048_sus.pcm",
+      "start_word": 15433720,
+      "length_words": 117702,
+      "samples": 774152
+    },
+    {
+      "name": "rhodes_G2_n043_v064_sus.pcm",
+      "start_word": 15551422,
+      "length_words": 145594,
+      "samples": 871755
+    },
+    {
+      "name": "rhodes_G2_n043_v080_sus.pcm",
+      "start_word": 15697016,
+      "length_words": 160129,
+      "samples": 935342
+    },
+    {
+      "name": "rhodes_G2_n043_v112_sus.pcm",
+      "start_word": 15857145,
+      "length_words": 143523,
+      "samples": 901537
+    },
+    {
+      "name": "rhodes_Gs2_n044_v016_sus.pcm",
+      "start_word": 16000668,
+      "length_words": 118458,
+      "samples": 675396
+    },
+    {
+      "name": "rhodes_Gs2_n044_v048_sus.pcm",
+      "start_word": 16119126,
+      "length_words": 123757,
+      "samples": 801611
+    },
+    {
+      "name": "rhodes_Gs2_n044_v064_sus.pcm",
+      "start_word": 16242883,
+      "length_words": 147469,
+      "samples": 864718
+    },
+    {
+      "name": "rhodes_Gs2_n044_v080_sus.pcm",
+      "start_word": 16390352,
+      "length_words": 156993,
+      "samples": 927826
+    },
+    {
+      "name": "rhodes_Gs2_n044_v112_sus.pcm",
+      "start_word": 16547345,
+      "length_words": 166262,
+      "samples": 1054041
+    },
+    {
+      "name": "rhodes_A2_n045_v016_sus.pcm",
+      "start_word": 16713607,
+      "length_words": 109780,
+      "samples": 626119
+    },
+    {
+      "name": "rhodes_A2_n045_v048_sus.pcm",
+      "start_word": 16823387,
+      "length_words": 103777,
+      "samples": 677299
+    },
+    {
+      "name": "rhodes_A2_n045_v064_sus.pcm",
+      "start_word": 16927164,
+      "length_words": 130154,
+      "samples": 776264
+    },
+    {
+      "name": "rhodes_A2_n045_v080_sus.pcm",
+      "start_word": 17057318,
+      "length_words": 145722,
+      "samples": 849406
+    },
+    {
+      "name": "rhodes_A2_n045_v112_sus.pcm",
+      "start_word": 17203040,
+      "length_words": 108135,
+      "samples": 707554
+    },
+    {
+      "name": "rhodes_As2_n046_v016_sus.pcm",
+      "start_word": 17311175,
+      "length_words": 116725,
+      "samples": 663730
+    },
+    {
+      "name": "rhodes_As2_n046_v048_sus.pcm",
+      "start_word": 17427900,
+      "length_words": 117724,
+      "samples": 761926
+    },
+    {
+      "name": "rhodes_As2_n046_v064_sus.pcm",
+      "start_word": 17545624,
+      "length_words": 144380,
+      "samples": 850125
+    },
+    {
+      "name": "rhodes_As2_n046_v080_sus.pcm",
+      "start_word": 17690004,
+      "length_words": 167620,
+      "samples": 912617
+    },
+    {
+      "name": "rhodes_As2_n046_v112_sus.pcm",
+      "start_word": 17857624,
+      "length_words": 171004,
+      "samples": 971418
+    },
+    {
+      "name": "rhodes_B2_n047_v016_sus.pcm",
+      "start_word": 18028628,
+      "length_words": 115859,
+      "samples": 658505
+    },
+    {
+      "name": "rhodes_B2_n047_v048_sus.pcm",
+      "start_word": 18144487,
+      "length_words": 152244,
+      "samples": 781842
+    },
+    {
+      "name": "rhodes_B2_n047_v064_sus.pcm",
+      "start_word": 18296731,
+      "length_words": 188724,
+      "samples": 843456
+    },
+    {
+      "name": "rhodes_B2_n047_v080_sus.pcm",
+      "start_word": 18485455,
+      "length_words": 198170,
+      "samples": 905012
+    },
+    {
+      "name": "rhodes_B2_n047_v112_sus.pcm",
+      "start_word": 18683625,
+      "length_words": 192514,
+      "samples": 995401
+    },
+    {
+      "name": "rhodes_C3_n048_v016_sus.pcm",
+      "start_word": 18876139,
+      "length_words": 90154,
+      "samples": 506712
+    },
+    {
+      "name": "rhodes_C3_n048_v048_sus.pcm",
+      "start_word": 18966293,
+      "length_words": 121252,
+      "samples": 775331
+    },
+    {
+      "name": "rhodes_C3_n048_v064_sus.pcm",
+      "start_word": 19087545,
+      "length_words": 141986,
+      "samples": 836297
+    },
+    {
+      "name": "rhodes_C3_n048_v080_sus.pcm",
+      "start_word": 19229531,
+      "length_words": 145236,
+      "samples": 896645
+    },
+    {
+      "name": "rhodes_C3_n048_v112_sus.pcm",
+      "start_word": 19374767,
+      "length_words": 130123,
+      "samples": 859347
+    },
+    {
+      "name": "rhodes_Cs3_n049_v016_sus.pcm",
+      "start_word": 19504890,
+      "length_words": 75845,
+      "samples": 424659
+    },
+    {
+      "name": "rhodes_Cs3_n049_v048_sus.pcm",
+      "start_word": 19580735,
+      "length_words": 98341,
+      "samples": 648808
+    },
+    {
+      "name": "rhodes_Cs3_n049_v064_sus.pcm",
+      "start_word": 19679076,
+      "length_words": 123766,
+      "samples": 724690
+    },
+    {
+      "name": "rhodes_Cs3_n049_v080_sus.pcm",
+      "start_word": 19802842,
+      "length_words": 121378,
+      "samples": 752777
+    },
+    {
+      "name": "rhodes_Cs3_n049_v112_sus.pcm",
+      "start_word": 19924220,
+      "length_words": 106232,
+      "samples": 688221
+    },
+    {
+      "name": "rhodes_D3_n050_v016_sus.pcm",
+      "start_word": 20030452,
+      "length_words": 35287,
+      "samples": 196299
+    },
+    {
+      "name": "rhodes_D3_n050_v048_sus.pcm",
+      "start_word": 20065739,
+      "length_words": 100354,
+      "samples": 632886
+    },
+    {
+      "name": "rhodes_D3_n050_v064_sus.pcm",
+      "start_word": 20166093,
+      "length_words": 80527,
+      "samples": 452995
+    },
+    {
+      "name": "rhodes_D3_n050_v080_sus.pcm",
+      "start_word": 20246620,
+      "length_words": 100640,
+      "samples": 568715
+    },
+    {
+      "name": "rhodes_D3_n050_v112_sus.pcm",
+      "start_word": 20347260,
+      "length_words": 100834,
+      "samples": 575832
+    },
+    {
+      "name": "rhodes_Ds3_n051_v016_sus.pcm",
+      "start_word": 20448094,
+      "length_words": 61913,
+      "samples": 345167
+    },
+    {
+      "name": "rhodes_Ds3_n051_v048_sus.pcm",
+      "start_word": 20510007,
+      "length_words": 67702,
+      "samples": 421891
+    },
+    {
+      "name": "rhodes_Ds3_n051_v064_sus.pcm",
+      "start_word": 20577709,
+      "length_words": 86519,
+      "samples": 497199
+    },
+    {
+      "name": "rhodes_Ds3_n051_v080_sus.pcm",
+      "start_word": 20664228,
+      "length_words": 90784,
+      "samples": 525468
+    },
+    {
+      "name": "rhodes_Ds3_n051_v112_sus.pcm",
+      "start_word": 20755012,
+      "length_words": 88762,
+      "samples": 523689
+    },
+    {
+      "name": "rhodes_E3_n052_v016_sus.pcm",
+      "start_word": 20843774,
+      "length_words": 96988,
+      "samples": 543171
+    },
+    {
+      "name": "rhodes_E3_n052_v048_sus.pcm",
+      "start_word": 20940762,
+      "length_words": 118438,
+      "samples": 748705
+    },
+    {
+      "name": "rhodes_E3_n052_v064_sus.pcm",
+      "start_word": 21059200,
+      "length_words": 139357,
+      "samples": 808020
+    },
+    {
+      "name": "rhodes_E3_n052_v080_sus.pcm",
+      "start_word": 21198557,
+      "length_words": 152893,
+      "samples": 866938
+    },
+    {
+      "name": "rhodes_E3_n052_v112_sus.pcm",
+      "start_word": 21351450,
+      "length_words": 126453,
+      "samples": 796006
+    },
+    {
+      "name": "rhodes_F3_n053_v016_sus.pcm",
+      "start_word": 21477903,
+      "length_words": 81705,
+      "samples": 456904
+    },
+    {
+      "name": "rhodes_F3_n053_v048_sus.pcm",
+      "start_word": 21559608,
+      "length_words": 100787,
+      "samples": 635658
+    },
+    {
+      "name": "rhodes_F3_n053_v064_sus.pcm",
+      "start_word": 21660395,
+      "length_words": 133188,
+      "samples": 738852
+    },
+    {
+      "name": "rhodes_F3_n053_v080_sus.pcm",
+      "start_word": 21793583,
+      "length_words": 124829,
+      "samples": 735337
+    },
+    {
+      "name": "rhodes_F3_n053_v112_sus.pcm",
+      "start_word": 21918412,
+      "length_words": 110048,
+      "samples": 677362
+    },
+    {
+      "name": "rhodes_Fs3_n054_v016_sus.pcm",
+      "start_word": 22028460,
+      "length_words": 73571,
+      "samples": 421605
+    },
+    {
+      "name": "rhodes_Fs3_n054_v048_sus.pcm",
+      "start_word": 22102031,
+      "length_words": 89862,
+      "samples": 578731
+    },
+    {
+      "name": "rhodes_Fs3_n054_v064_sus.pcm",
+      "start_word": 22191893,
+      "length_words": 107531,
+      "samples": 637203
+    },
+    {
+      "name": "rhodes_Fs3_n054_v080_sus.pcm",
+      "start_word": 22299424,
+      "length_words": 119099,
+      "samples": 691804
+    },
+    {
+      "name": "rhodes_Fs3_n054_v112_sus.pcm",
+      "start_word": 22418523,
+      "length_words": 100367,
+      "samples": 630327
+    },
+    {
+      "name": "rhodes_G3_n055_v016_sus.pcm",
+      "start_word": 22518890,
+      "length_words": 74901,
+      "samples": 418247
+    },
+    {
+      "name": "rhodes_G3_n055_v048_sus.pcm",
+      "start_word": 22593791,
+      "length_words": 88404,
+      "samples": 560853
+    },
+    {
+      "name": "rhodes_G3_n055_v064_sus.pcm",
+      "start_word": 22682195,
+      "length_words": 106038,
+      "samples": 623243
+    },
+    {
+      "name": "rhodes_G3_n055_v080_sus.pcm",
+      "start_word": 22788233,
+      "length_words": 120266,
+      "samples": 689419
+    },
+    {
+      "name": "rhodes_G3_n055_v112_sus.pcm",
+      "start_word": 22908499,
+      "length_words": 90750,
+      "samples": 573964
+    },
+    {
+      "name": "rhodes_Gs3_n056_v016_sus.pcm",
+      "start_word": 22999249,
+      "length_words": 77325,
+      "samples": 430024
+    },
+    {
+      "name": "rhodes_Gs3_n056_v048_sus.pcm",
+      "start_word": 23076574,
+      "length_words": 93956,
+      "samples": 570102
+    },
+    {
+      "name": "rhodes_Gs3_n056_v064_sus.pcm",
+      "start_word": 23170530,
+      "length_words": 112085,
+      "samples": 629221
+    },
+    {
+      "name": "rhodes_Gs3_n056_v080_sus.pcm",
+      "start_word": 23282615,
+      "length_words": 112655,
+      "samples": 643622
+    },
+    {
+      "name": "rhodes_Gs3_n056_v112_sus.pcm",
+      "start_word": 23395270,
+      "length_words": 101840,
+      "samples": 602643
+    },
+    {
+      "name": "rhodes_A3_n057_v016_sus.pcm",
+      "start_word": 23497110,
+      "length_words": 68200,
+      "samples": 377955
+    },
+    {
+      "name": "rhodes_A3_n057_v048_sus.pcm",
+      "start_word": 23565310,
+      "length_words": 84161,
+      "samples": 512404
+    },
+    {
+      "name": "rhodes_A3_n057_v064_sus.pcm",
+      "start_word": 23649471,
+      "length_words": 102691,
+      "samples": 574450
+    },
+    {
+      "name": "rhodes_A3_n057_v080_sus.pcm",
+      "start_word": 23752162,
+      "length_words": 105652,
+      "samples": 596612
+    },
+    {
+      "name": "rhodes_A3_n057_v112_sus.pcm",
+      "start_word": 23857814,
+      "length_words": 79285,
+      "samples": 492443
+    },
+    {
+      "name": "rhodes_As3_n058_v016_sus.pcm",
+      "start_word": 23937099,
+      "length_words": 69504,
+      "samples": 386278
+    },
+    {
+      "name": "rhodes_As3_n058_v048_sus.pcm",
+      "start_word": 24006603,
+      "length_words": 88153,
+      "samples": 529490
+    },
+    {
+      "name": "rhodes_As3_n058_v064_sus.pcm",
+      "start_word": 24094756,
+      "length_words": 104824,
+      "samples": 582039
+    },
+    {
+      "name": "rhodes_As3_n058_v080_sus.pcm",
+      "start_word": 24199580,
+      "length_words": 106882,
+      "samples": 603088
+    },
+    {
+      "name": "rhodes_As3_n058_v112_sus.pcm",
+      "start_word": 24306462,
+      "length_words": 90385,
+      "samples": 536952
+    },
+    {
+      "name": "rhodes_B3_n059_v016_sus.pcm",
+      "start_word": 24396847,
+      "length_words": 60925,
+      "samples": 337586
+    },
+    {
+      "name": "rhodes_B3_n059_v048_sus.pcm",
+      "start_word": 24457772,
+      "length_words": 77868,
+      "samples": 466174
+    },
+    {
+      "name": "rhodes_B3_n059_v064_sus.pcm",
+      "start_word": 24535640,
+      "length_words": 93015,
+      "samples": 515277
+    },
+    {
+      "name": "rhodes_B3_n059_v080_sus.pcm",
+      "start_word": 24628655,
+      "length_words": 101226,
+      "samples": 544836
+    },
+    {
+      "name": "rhodes_B3_n059_v112_sus.pcm",
+      "start_word": 24729881,
+      "length_words": 69843,
+      "samples": 427454
+    },
+    {
+      "name": "rhodes_C4_n060_v016_sus.pcm",
+      "start_word": 24799724,
+      "length_words": 54003,
+      "samples": 298729
+    },
+    {
+      "name": "rhodes_C4_n060_v048_sus.pcm",
+      "start_word": 24853727,
+      "length_words": 66585,
+      "samples": 396483
+    },
+    {
+      "name": "rhodes_C4_n060_v064_sus.pcm",
+      "start_word": 24920312,
+      "length_words": 79240,
+      "samples": 437324
+    },
+    {
+      "name": "rhodes_C4_n060_v080_sus.pcm",
+      "start_word": 24999552,
+      "length_words": 83836,
+      "samples": 457796
+    },
+    {
+      "name": "rhodes_C4_n060_v112_sus.pcm",
+      "start_word": 25083388,
+      "length_words": 64802,
+      "samples": 386097
+    },
+    {
+      "name": "rhodes_Cs4_n061_v016_sus.pcm",
+      "start_word": 25148190,
+      "length_words": 52386,
+      "samples": 288985
+    },
+    {
+      "name": "rhodes_Cs4_n061_v048_sus.pcm",
+      "start_word": 25200576,
+      "length_words": 71616,
+      "samples": 423983
+    },
+    {
+      "name": "rhodes_Cs4_n061_v064_sus.pcm",
+      "start_word": 25272192,
+      "length_words": 85832,
+      "samples": 470546
+    },
+    {
+      "name": "rhodes_Cs4_n061_v080_sus.pcm",
+      "start_word": 25358024,
+      "length_words": 88246,
+      "samples": 481732
+    },
+    {
+      "name": "rhodes_Cs4_n061_v112_sus.pcm",
+      "start_word": 25446270,
+      "length_words": 67887,
+      "samples": 402731
+    },
+    {
+      "name": "rhodes_D4_n062_v016_sus.pcm",
+      "start_word": 25514157,
+      "length_words": 43280,
+      "samples": 237794
+    },
+    {
+      "name": "rhodes_D4_n062_v048_sus.pcm",
+      "start_word": 25557437,
+      "length_words": 61363,
+      "samples": 357796
+    },
+    {
+      "name": "rhodes_D4_n062_v064_sus.pcm",
+      "start_word": 25618800,
+      "length_words": 71644,
+      "samples": 388084
+    },
+    {
+      "name": "rhodes_D4_n062_v080_sus.pcm",
+      "start_word": 25690444,
+      "length_words": 77492,
+      "samples": 414941
+    },
+    {
+      "name": "rhodes_D4_n062_v112_sus.pcm",
+      "start_word": 25767936,
+      "length_words": 62208,
+      "samples": 356227
+    },
+    {
+      "name": "rhodes_Ds4_n063_v016_sus.pcm",
+      "start_word": 25830144,
+      "length_words": 43950,
+      "samples": 240988
+    },
+    {
+      "name": "rhodes_Ds4_n063_v048_sus.pcm",
+      "start_word": 25874094,
+      "length_words": 56439,
+      "samples": 327678
+    },
+    {
+      "name": "rhodes_Ds4_n063_v064_sus.pcm",
+      "start_word": 25930533,
+      "length_words": 67903,
+      "samples": 362718
+    },
+    {
+      "name": "rhodes_Ds4_n063_v080_sus.pcm",
+      "start_word": 25998436,
+      "length_words": 71249,
+      "samples": 376885
+    },
+    {
+      "name": "rhodes_Ds4_n063_v112_sus.pcm",
+      "start_word": 26069685,
+      "length_words": 56093,
+      "samples": 314522
+    },
+    {
+      "name": "rhodes_E4_n064_v016_sus.pcm",
+      "start_word": 26125778,
+      "length_words": 39222,
+      "samples": 213454
+    },
+    {
+      "name": "rhodes_E4_n064_v048_sus.pcm",
+      "start_word": 26165000,
+      "length_words": 52650,
+      "samples": 302796
+    },
+    {
+      "name": "rhodes_E4_n064_v064_sus.pcm",
+      "start_word": 26217650,
+      "length_words": 63263,
+      "samples": 335369
+    },
+    {
+      "name": "rhodes_E4_n064_v080_sus.pcm",
+      "start_word": 26280913,
+      "length_words": 67080,
+      "samples": 349640
+    },
+    {
+      "name": "rhodes_E4_n064_v112_sus.pcm",
+      "start_word": 26347993,
+      "length_words": 53856,
+      "samples": 295738
+    },
+    {
+      "name": "rhodes_F4_n065_v016_sus.pcm",
+      "start_word": 26401849,
+      "length_words": 43711,
+      "samples": 237539
+    },
+    {
+      "name": "rhodes_F4_n065_v048_sus.pcm",
+      "start_word": 26445560,
+      "length_words": 62620,
+      "samples": 357683
+    },
+    {
+      "name": "rhodes_F4_n065_v064_sus.pcm",
+      "start_word": 26508180,
+      "length_words": 74867,
+      "samples": 396039
+    },
+    {
+      "name": "rhodes_F4_n065_v080_sus.pcm",
+      "start_word": 26583047,
+      "length_words": 81380,
+      "samples": 422052
+    },
+    {
+      "name": "rhodes_F4_n065_v112_sus.pcm",
+      "start_word": 26664427,
+      "length_words": 67508,
+      "samples": 365381
+    },
+    {
+      "name": "rhodes_Fs4_n066_v016_sus.pcm",
+      "start_word": 26731935,
+      "length_words": 35174,
+      "samples": 190715
+    },
+    {
+      "name": "rhodes_Fs4_n066_v048_sus.pcm",
+      "start_word": 26767109,
+      "length_words": 56236,
+      "samples": 314370
+    },
+    {
+      "name": "rhodes_Fs4_n066_v064_sus.pcm",
+      "start_word": 26823345,
+      "length_words": 67316,
+      "samples": 348778
+    },
+    {
+      "name": "rhodes_Fs4_n066_v080_sus.pcm",
+      "start_word": 26890661,
+      "length_words": 75010,
+      "samples": 372465
+    },
+    {
+      "name": "rhodes_Fs4_n066_v112_sus.pcm",
+      "start_word": 26965671,
+      "length_words": 57659,
+      "samples": 310805
+    },
+    {
+      "name": "rhodes_G4_n067_v016_sus.pcm",
+      "start_word": 27023330,
+      "length_words": 34422,
+      "samples": 186393
+    },
+    {
+      "name": "rhodes_G4_n067_v048_sus.pcm",
+      "start_word": 27057752,
+      "length_words": 52573,
+      "samples": 293291
+    },
+    {
+      "name": "rhodes_G4_n067_v064_sus.pcm",
+      "start_word": 27110325,
+      "length_words": 65178,
+      "samples": 333659
+    },
+    {
+      "name": "rhodes_G4_n067_v080_sus.pcm",
+      "start_word": 27175503,
+      "length_words": 70573,
+      "samples": 354322
+    },
+    {
+      "name": "rhodes_G4_n067_v112_sus.pcm",
+      "start_word": 27246076,
+      "length_words": 60057,
+      "samples": 309713
+    },
+    {
+      "name": "rhodes_Gs4_n068_v016_sus.pcm",
+      "start_word": 27306133,
+      "length_words": 30715,
+      "samples": 163539
+    },
+    {
+      "name": "rhodes_Gs4_n068_v048_sus.pcm",
+      "start_word": 27336848,
+      "length_words": 46752,
+      "samples": 258135
+    },
+    {
+      "name": "rhodes_Gs4_n068_v064_sus.pcm",
+      "start_word": 27383600,
+      "length_words": 59169,
+      "samples": 299031
+    },
+    {
+      "name": "rhodes_Gs4_n068_v080_sus.pcm",
+      "start_word": 27442769,
+      "length_words": 64603,
+      "samples": 320000
+    },
+    {
+      "name": "rhodes_Gs4_n068_v112_sus.pcm",
+      "start_word": 27507372,
+      "length_words": 49721,
+      "samples": 253662
+    },
+    {
+      "name": "rhodes_A4_n069_v016_sus.pcm",
+      "start_word": 27557093,
+      "length_words": 26858,
+      "samples": 142599
+    },
+    {
+      "name": "rhodes_A4_n069_v048_sus.pcm",
+      "start_word": 27583951,
+      "length_words": 42571,
+      "samples": 231246
+    },
+    {
+      "name": "rhodes_A4_n069_v064_sus.pcm",
+      "start_word": 27626522,
+      "length_words": 52629,
+      "samples": 261801
+    },
+    {
+      "name": "rhodes_A4_n069_v080_sus.pcm",
+      "start_word": 27679151,
+      "length_words": 56768,
+      "samples": 275313
+    },
+    {
+      "name": "rhodes_A4_n069_v112_sus.pcm",
+      "start_word": 27735919,
+      "length_words": 49909,
+      "samples": 239680
+    },
+    {
+      "name": "rhodes_As4_n070_v016_sus.pcm",
+      "start_word": 27785828,
+      "length_words": 26552,
+      "samples": 138163
+    },
+    {
+      "name": "rhodes_As4_n070_v048_sus.pcm",
+      "start_word": 27812380,
+      "length_words": 43890,
+      "samples": 232376
+    },
+    {
+      "name": "rhodes_As4_n070_v064_sus.pcm",
+      "start_word": 27856270,
+      "length_words": 53220,
+      "samples": 261512
+    },
+    {
+      "name": "rhodes_As4_n070_v080_sus.pcm",
+      "start_word": 27909490,
+      "length_words": 57941,
+      "samples": 281119
+    },
+    {
+      "name": "rhodes_As4_n070_v112_sus.pcm",
+      "start_word": 27967431,
+      "length_words": 53289,
+      "samples": 263705
+    },
+    {
+      "name": "rhodes_B4_n071_v016_sus.pcm",
+      "start_word": 28020720,
+      "length_words": 32452,
+      "samples": 168478
+    },
+    {
+      "name": "rhodes_B4_n071_v048_sus.pcm",
+      "start_word": 28053172,
+      "length_words": 49357,
+      "samples": 263469
+    },
+    {
+      "name": "rhodes_B4_n071_v064_sus.pcm",
+      "start_word": 28102529,
+      "length_words": 62559,
+      "samples": 308105
+    },
+    {
+      "name": "rhodes_B4_n071_v080_sus.pcm",
+      "start_word": 28165088,
+      "length_words": 66989,
+      "samples": 323890
+    },
+    {
+      "name": "rhodes_B4_n071_v112_sus.pcm",
+      "start_word": 28232077,
+      "length_words": 55793,
+      "samples": 279672
+    },
+    {
+      "name": "rhodes_C5_n072_v016_sus.pcm",
+      "start_word": 28287870,
+      "length_words": 27448,
+      "samples": 138308
+    },
+    {
+      "name": "rhodes_C5_n072_v048_sus.pcm",
+      "start_word": 28315318,
+      "length_words": 41234,
+      "samples": 213756
+    },
+    {
+      "name": "rhodes_C5_n072_v064_sus.pcm",
+      "start_word": 28356552,
+      "length_words": 51364,
+      "samples": 246394
+    },
+    {
+      "name": "rhodes_C5_n072_v080_sus.pcm",
+      "start_word": 28407916,
+      "length_words": 56062,
+      "samples": 265036
+    },
+    {
+      "name": "rhodes_C5_n072_v112_sus.pcm",
+      "start_word": 28463978,
+      "length_words": 46888,
+      "samples": 228305
+    },
+    {
+      "name": "rhodes_Cs5_n073_v016_sus.pcm",
+      "start_word": 28510866,
+      "length_words": 28503,
+      "samples": 143626
+    },
+    {
+      "name": "rhodes_Cs5_n073_v048_sus.pcm",
+      "start_word": 28539369,
+      "length_words": 45804,
+      "samples": 237361
+    },
+    {
+      "name": "rhodes_Cs5_n073_v064_sus.pcm",
+      "start_word": 28585173,
+      "length_words": 55280,
+      "samples": 266064
+    },
+    {
+      "name": "rhodes_Cs5_n073_v080_sus.pcm",
+      "start_word": 28640453,
+      "length_words": 60787,
+      "samples": 283241
+    },
+    {
+      "name": "rhodes_Cs5_n073_v112_sus.pcm",
+      "start_word": 28701240,
+      "length_words": 46278,
+      "samples": 217799
+    },
+    {
+      "name": "rhodes_D5_n074_v016_sus.pcm",
+      "start_word": 28747518,
+      "length_words": 19032,
+      "samples": 94175
+    },
+    {
+      "name": "rhodes_D5_n074_v048_sus.pcm",
+      "start_word": 28766550,
+      "length_words": 28888,
+      "samples": 146184
+    },
+    {
+      "name": "rhodes_D5_n074_v064_sus.pcm",
+      "start_word": 28795438,
+      "length_words": 38269,
+      "samples": 175937
+    },
+    {
+      "name": "rhodes_D5_n074_v080_sus.pcm",
+      "start_word": 28833707,
+      "length_words": 41261,
+      "samples": 184810
+    },
+    {
+      "name": "rhodes_D5_n074_v112_sus.pcm",
+      "start_word": 28874968,
+      "length_words": 30350,
+      "samples": 138226
+    },
+    {
+      "name": "rhodes_Ds5_n075_v016_sus.pcm",
+      "start_word": 28905318,
+      "length_words": 22115,
+      "samples": 107500
+    },
+    {
+      "name": "rhodes_Ds5_n075_v048_sus.pcm",
+      "start_word": 28927433,
+      "length_words": 35759,
+      "samples": 178040
+    },
+    {
+      "name": "rhodes_Ds5_n075_v064_sus.pcm",
+      "start_word": 28963192,
+      "length_words": 46034,
+      "samples": 212490
+    },
+    {
+      "name": "rhodes_Ds5_n075_v080_sus.pcm",
+      "start_word": 29009226,
+      "length_words": 47431,
+      "samples": 214567
+    },
+    {
+      "name": "rhodes_Ds5_n075_v112_sus.pcm",
+      "start_word": 29056657,
+      "length_words": 35061,
+      "samples": 161008
+    },
+    {
+      "name": "rhodes_E5_n076_v016_sus.pcm",
+      "start_word": 29091718,
+      "length_words": 24993,
+      "samples": 119258
+    },
+    {
+      "name": "rhodes_E5_n076_v048_sus.pcm",
+      "start_word": 29116711,
+      "length_words": 42550,
+      "samples": 209535
+    },
+    {
+      "name": "rhodes_E5_n076_v064_sus.pcm",
+      "start_word": 29159261,
+      "length_words": 51308,
+      "samples": 233444
+    },
+    {
+      "name": "rhodes_E5_n076_v080_sus.pcm",
+      "start_word": 29210569,
+      "length_words": 56472,
+      "samples": 252690
+    },
+    {
+      "name": "rhodes_E5_n076_v112_sus.pcm",
+      "start_word": 29267041,
+      "length_words": 40052,
+      "samples": 188462
+    },
+    {
+      "name": "rhodes_F5_n077_v016_sus.pcm",
+      "start_word": 29307093,
+      "length_words": 11835,
+      "samples": 54775
+    },
+    {
+      "name": "rhodes_F5_n077_v048_sus.pcm",
+      "start_word": 29318928,
+      "length_words": 21520,
+      "samples": 102941
+    },
+    {
+      "name": "rhodes_F5_n077_v064_sus.pcm",
+      "start_word": 29340448,
+      "length_words": 26327,
+      "samples": 115732
+    },
+    {
+      "name": "rhodes_F5_n077_v080_sus.pcm",
+      "start_word": 29366775,
+      "length_words": 30690,
+      "samples": 131313
+    },
+    {
+      "name": "rhodes_F5_n077_v112_sus.pcm",
+      "start_word": 29397465,
+      "length_words": 27561,
+      "samples": 119048
+    },
+    {
+      "name": "rhodes_Fs5_n078_v016_sus.pcm",
+      "start_word": 29425026,
+      "length_words": 15933,
+      "samples": 73949
+    },
+    {
+      "name": "rhodes_Fs5_n078_v048_sus.pcm",
+      "start_word": 29440959,
+      "length_words": 28339,
+      "samples": 137108
+    },
+    {
+      "name": "rhodes_Fs5_n078_v064_sus.pcm",
+      "start_word": 29469298,
+      "length_words": 33237,
+      "samples": 148461
+    },
+    {
+      "name": "rhodes_Fs5_n078_v080_sus.pcm",
+      "start_word": 29502535,
+      "length_words": 37631,
+      "samples": 164848
+    },
+    {
+      "name": "rhodes_Fs5_n078_v112_sus.pcm",
+      "start_word": 29540166,
+      "length_words": 31414,
+      "samples": 138833
+    },
+    {
+      "name": "rhodes_G5_n079_v016_sus.pcm",
+      "start_word": 29571580,
+      "length_words": 22464,
+      "samples": 103184
+    },
+    {
+      "name": "rhodes_G5_n079_v048_sus.pcm",
+      "start_word": 29594044,
+      "length_words": 34624,
+      "samples": 166675
+    },
+    {
+      "name": "rhodes_G5_n079_v064_sus.pcm",
+      "start_word": 29628668,
+      "length_words": 41032,
+      "samples": 183534
+    },
+    {
+      "name": "rhodes_G5_n079_v080_sus.pcm",
+      "start_word": 29669700,
+      "length_words": 44385,
+      "samples": 195274
+    },
+    {
+      "name": "rhodes_G5_n079_v112_sus.pcm",
+      "start_word": 29714085,
+      "length_words": 34878,
+      "samples": 156682
+    },
+    {
+      "name": "rhodes_Gs5_n080_v016_sus.pcm",
+      "start_word": 29748963,
+      "length_words": 14322,
+      "samples": 65257
+    },
+    {
+      "name": "rhodes_Gs5_n080_v048_sus.pcm",
+      "start_word": 29763285,
+      "length_words": 29229,
+      "samples": 140021
+    },
+    {
+      "name": "rhodes_Gs5_n080_v064_sus.pcm",
+      "start_word": 29792514,
+      "length_words": 36831,
+      "samples": 161815
+    },
+    {
+      "name": "rhodes_Gs5_n080_v080_sus.pcm",
+      "start_word": 29829345,
+      "length_words": 36591,
+      "samples": 160332
+    },
+    {
+      "name": "rhodes_Gs5_n080_v112_sus.pcm",
+      "start_word": 29865936,
+      "length_words": 27318,
+      "samples": 121918
+    },
+    {
+      "name": "rhodes_A5_n081_v016_sus.pcm",
+      "start_word": 29893254,
+      "length_words": 24012,
+      "samples": 108858
+    },
+    {
+      "name": "rhodes_A5_n081_v048_sus.pcm",
+      "start_word": 29917266,
+      "length_words": 35845,
+      "samples": 169779
+    },
+    {
+      "name": "rhodes_A5_n081_v064_sus.pcm",
+      "start_word": 29953111,
+      "length_words": 42248,
+      "samples": 186721
+    },
+    {
+      "name": "rhodes_A5_n081_v080_sus.pcm",
+      "start_word": 29995359,
+      "length_words": 44284,
+      "samples": 195834
+    },
+    {
+      "name": "rhodes_A5_n081_v112_sus.pcm",
+      "start_word": 30039643,
+      "length_words": 31874,
+      "samples": 144000
+    },
+    {
+      "name": "rhodes_As5_n082_v016_sus.pcm",
+      "start_word": 30071517,
+      "length_words": 15479,
+      "samples": 69212
+    },
+    {
+      "name": "rhodes_As5_n082_v048_sus.pcm",
+      "start_word": 30086996,
+      "length_words": 24885,
+      "samples": 113348
+    },
+    {
+      "name": "rhodes_As5_n082_v064_sus.pcm",
+      "start_word": 30111881,
+      "length_words": 29021,
+      "samples": 124160
+    },
+    {
+      "name": "rhodes_As5_n082_v080_sus.pcm",
+      "start_word": 30140902,
+      "length_words": 27661,
+      "samples": 122282
+    },
+    {
+      "name": "rhodes_As5_n082_v112_sus.pcm",
+      "start_word": 30168563,
+      "length_words": 23393,
+      "samples": 104472
+    },
+    {
+      "name": "rhodes_B5_n083_v016_sus.pcm",
+      "start_word": 30191956,
+      "length_words": 20557,
+      "samples": 90898
+    },
+    {
+      "name": "rhodes_B5_n083_v048_sus.pcm",
+      "start_word": 30212513,
+      "length_words": 34136,
+      "samples": 155737
+    },
+    {
+      "name": "rhodes_B5_n083_v064_sus.pcm",
+      "start_word": 30246649,
+      "length_words": 38745,
+      "samples": 170014
+    },
+    {
+      "name": "rhodes_B5_n083_v080_sus.pcm",
+      "start_word": 30285394,
+      "length_words": 39652,
+      "samples": 173814
+    },
+    {
+      "name": "rhodes_B5_n083_v112_sus.pcm",
+      "start_word": 30325046,
+      "length_words": 31831,
+      "samples": 144426
+    },
+    {
+      "name": "rhodes_C6_n084_v016_sus.pcm",
+      "start_word": 30356877,
+      "length_words": 12666,
+      "samples": 55229
+    },
+    {
+      "name": "rhodes_C6_n084_v048_sus.pcm",
+      "start_word": 30369543,
+      "length_words": 21186,
+      "samples": 93723
+    },
+    {
+      "name": "rhodes_C6_n084_v064_sus.pcm",
+      "start_word": 30390729,
+      "length_words": 26343,
+      "samples": 109067
+    },
+    {
+      "name": "rhodes_C6_n084_v080_sus.pcm",
+      "start_word": 30417072,
+      "length_words": 29775,
+      "samples": 116934
+    },
+    {
+      "name": "rhodes_C6_n084_v112_sus.pcm",
+      "start_word": 30446847,
+      "length_words": 24643,
+      "samples": 99499
+    },
+    {
+      "name": "rhodes_Cs6_n085_v016_sus.pcm",
+      "start_word": 30471490,
+      "length_words": 8765,
+      "samples": 35441
+    },
+    {
+      "name": "rhodes_Cs6_n085_v048_sus.pcm",
+      "start_word": 30480255,
+      "length_words": 14594,
+      "samples": 60558
+    },
+    {
+      "name": "rhodes_Cs6_n085_v064_sus.pcm",
+      "start_word": 30494849,
+      "length_words": 17946,
+      "samples": 69926
+    },
+    {
+      "name": "rhodes_Cs6_n085_v080_sus.pcm",
+      "start_word": 30512795,
+      "length_words": 19398,
+      "samples": 74706
+    },
+    {
+      "name": "rhodes_Cs6_n085_v112_sus.pcm",
+      "start_word": 30532193,
+      "length_words": 22717,
+      "samples": 85896
+    },
+    {
+      "name": "rhodes_D6_n086_v016_sus.pcm",
+      "start_word": 30554910,
+      "length_words": 22624,
+      "samples": 99397
+    },
+    {
+      "name": "rhodes_D6_n086_v048_sus.pcm",
+      "start_word": 30577534,
+      "length_words": 33628,
+      "samples": 150595
+    },
+    {
+      "name": "rhodes_D6_n086_v064_sus.pcm",
+      "start_word": 30611162,
+      "length_words": 38773,
+      "samples": 164790
+    },
+    {
+      "name": "rhodes_D6_n086_v080_sus.pcm",
+      "start_word": 30649935,
+      "length_words": 41403,
+      "samples": 173432
+    },
+    {
+      "name": "rhodes_D6_n086_v112_sus.pcm",
+      "start_word": 30691338,
+      "length_words": 33045,
+      "samples": 143807
+    },
+    {
+      "name": "rhodes_Ds6_n087_v016_sus.pcm",
+      "start_word": 30724383,
+      "length_words": 17702,
+      "samples": 76165
+    },
+    {
+      "name": "rhodes_Ds6_n087_v048_sus.pcm",
+      "start_word": 30742085,
+      "length_words": 26566,
+      "samples": 114710
+    },
+    {
+      "name": "rhodes_Ds6_n087_v064_sus.pcm",
+      "start_word": 30768651,
+      "length_words": 31437,
+      "samples": 129865
+    },
+    {
+      "name": "rhodes_Ds6_n087_v080_sus.pcm",
+      "start_word": 30800088,
+      "length_words": 33649,
+      "samples": 136997
+    },
+    {
+      "name": "rhodes_Ds6_n087_v112_sus.pcm",
+      "start_word": 30833737,
+      "length_words": 27009,
+      "samples": 115880
+    },
+    {
+      "name": "rhodes_E6_n088_v016_sus.pcm",
+      "start_word": 30860746,
+      "length_words": 16928,
+      "samples": 72674
+    },
+    {
+      "name": "rhodes_E6_n088_v048_sus.pcm",
+      "start_word": 30877674,
+      "length_words": 19234,
+      "samples": 83675
+    },
+    {
+      "name": "rhodes_E6_n088_v064_sus.pcm",
+      "start_word": 30896908,
+      "length_words": 23650,
+      "samples": 97351
+    },
+    {
+      "name": "rhodes_E6_n088_v080_sus.pcm",
+      "start_word": 30920558,
+      "length_words": 22133,
+      "samples": 91775
+    },
+    {
+      "name": "rhodes_E6_n088_v112_sus.pcm",
+      "start_word": 30942691,
+      "length_words": 17379,
+      "samples": 70820
+    },
+    {
+      "name": "rhodes_F6_n089_v016_sus.pcm",
+      "start_word": 30960070,
+      "length_words": 9767,
+      "samples": 42304
+    },
+    {
+      "name": "rhodes_F6_n089_v048_sus.pcm",
+      "start_word": 30969837,
+      "length_words": 18541,
+      "samples": 77235
+    },
+    {
+      "name": "rhodes_F6_n089_v064_sus.pcm",
+      "start_word": 30988378,
+      "length_words": 22640,
+      "samples": 88576
+    },
+    {
+      "name": "rhodes_F6_n089_v080_sus.pcm",
+      "start_word": 31011018,
+      "length_words": 24185,
+      "samples": 93383
+    },
+    {
+      "name": "rhodes_F6_n089_v112_sus.pcm",
+      "start_word": 31035203,
+      "length_words": 22112,
+      "samples": 86454
+    },
+    {
+      "name": "rhodes_Fs6_n090_v016_sus.pcm",
+      "start_word": 31057315,
+      "length_words": 10896,
+      "samples": 46195
+    },
+    {
+      "name": "rhodes_Fs6_n090_v048_sus.pcm",
+      "start_word": 31068211,
+      "length_words": 10880,
+      "samples": 45335
+    },
+    {
+      "name": "rhodes_Fs6_n090_v064_sus.pcm",
+      "start_word": 31079091,
+      "length_words": 14119,
+      "samples": 55708
+    },
+    {
+      "name": "rhodes_Fs6_n090_v080_sus.pcm",
+      "start_word": 31093210,
+      "length_words": 16143,
+      "samples": 60698
+    },
+    {
+      "name": "rhodes_Fs6_n090_v112_sus.pcm",
+      "start_word": 31109353,
+      "length_words": 14389,
+      "samples": 54012
+    },
+    {
+      "name": "rhodes_G6_n091_v016_sus.pcm",
+      "start_word": 31123742,
+      "length_words": 10298,
+      "samples": 45487
+    },
+    {
+      "name": "rhodes_G6_n091_v048_sus.pcm",
+      "start_word": 31134040,
+      "length_words": 17286,
+      "samples": 72589
+    },
+    {
+      "name": "rhodes_G6_n091_v064_sus.pcm",
+      "start_word": 31151326,
+      "length_words": 21464,
+      "samples": 85718
+    },
+    {
+      "name": "rhodes_G6_n091_v080_sus.pcm",
+      "start_word": 31172790,
+      "length_words": 21597,
+      "samples": 83770
+    },
+    {
+      "name": "rhodes_G6_n091_v112_sus.pcm",
+      "start_word": 31194387,
+      "length_words": 16719,
+      "samples": 64980
+    },
+    {
+      "name": "rhodes_Gs6_n092_v016_sus.pcm",
+      "start_word": 31211106,
+      "length_words": 9713,
+      "samples": 40451
+    },
+    {
+      "name": "rhodes_Gs6_n092_v048_sus.pcm",
+      "start_word": 31220819,
+      "length_words": 17932,
+      "samples": 71605
+    },
+    {
+      "name": "rhodes_Gs6_n092_v064_sus.pcm",
+      "start_word": 31238751,
+      "length_words": 21770,
+      "samples": 83047
+    },
+    {
+      "name": "rhodes_Gs6_n092_v080_sus.pcm",
+      "start_word": 31260521,
+      "length_words": 21152,
+      "samples": 79596
+    },
+    {
+      "name": "rhodes_Gs6_n092_v112_sus.pcm",
+      "start_word": 31281673,
+      "length_words": 16752,
+      "samples": 64067
+    },
+    {
+      "name": "rhodes_A6_n093_v016_sus.pcm",
+      "start_word": 31298425,
+      "length_words": 10593,
+      "samples": 43971
+    },
+    {
+      "name": "rhodes_A6_n093_v048_sus.pcm",
+      "start_word": 31309018,
+      "length_words": 20478,
+      "samples": 80076
+    },
+    {
+      "name": "rhodes_A6_n093_v064_sus.pcm",
+      "start_word": 31329496,
+      "length_words": 26069,
+      "samples": 95683
+    },
+    {
+      "name": "rhodes_A6_n093_v080_sus.pcm",
+      "start_word": 31355565,
+      "length_words": 25609,
+      "samples": 93809
+    },
+    {
+      "name": "rhodes_A6_n093_v112_sus.pcm",
+      "start_word": 31381174,
+      "length_words": 24757,
+      "samples": 89803
+    },
+    {
+      "name": "rhodes_As6_n094_v016_sus.pcm",
+      "start_word": 31405931,
+      "length_words": 10063,
+      "samples": 40059
+    },
+    {
+      "name": "rhodes_As6_n094_v048_sus.pcm",
+      "start_word": 31415994,
+      "length_words": 16361,
+      "samples": 61030
+    },
+    {
+      "name": "rhodes_As6_n094_v064_sus.pcm",
+      "start_word": 31432355,
+      "length_words": 18628,
+      "samples": 66995
+    },
+    {
+      "name": "rhodes_As6_n094_v080_sus.pcm",
+      "start_word": 31450983,
+      "length_words": 16103,
+      "samples": 59028
+    },
+    {
+      "name": "rhodes_As6_n094_v112_sus.pcm",
+      "start_word": 31467086,
+      "length_words": 13684,
+      "samples": 50359
+    },
+    {
+      "name": "rhodes_B6_n095_v016_sus.pcm",
+      "start_word": 31480770,
+      "length_words": 5022,
+      "samples": 20556
+    },
+    {
+      "name": "rhodes_B6_n095_v048_sus.pcm",
+      "start_word": 31485792,
+      "length_words": 11408,
+      "samples": 41426
+    },
+    {
+      "name": "rhodes_B6_n095_v064_sus.pcm",
+      "start_word": 31497200,
+      "length_words": 14294,
+      "samples": 50041
+    },
+    {
+      "name": "rhodes_B6_n095_v080_sus.pcm",
+      "start_word": 31511494,
+      "length_words": 13112,
+      "samples": 45409
+    },
+    {
+      "name": "rhodes_B6_n095_v112_sus.pcm",
+      "start_word": 31524606,
+      "length_words": 12163,
+      "samples": 41922
+    },
+    {
+      "name": "rhodes_C7_n096_v016_sus.pcm",
+      "start_word": 31536769,
+      "length_words": 5520,
+      "samples": 22227
+    },
+    {
+      "name": "rhodes_C7_n096_v048_sus.pcm",
+      "start_word": 31542289,
+      "length_words": 12468,
+      "samples": 43361
+    },
+    {
+      "name": "rhodes_C7_n096_v064_sus.pcm",
+      "start_word": 31554757,
+      "length_words": 12601,
+      "samples": 43130
+    },
+    {
+      "name": "rhodes_C7_n096_v080_sus.pcm",
+      "start_word": 31567358,
+      "length_words": 11724,
+      "samples": 40536
+    },
+    {
+      "name": "rhodes_C7_n096_v112_sus.pcm",
+      "start_word": 31579082,
+      "length_words": 11212,
+      "samples": 38279
+    },
+    {
+      "name": "rhodes_Cs7_n097_v016_sus.pcm",
+      "start_word": 31590294,
+      "length_words": 5698,
+      "samples": 22616
+    },
+    {
+      "name": "rhodes_Cs7_n097_v048_sus.pcm",
+      "start_word": 31595992,
+      "length_words": 13144,
+      "samples": 43976
+    },
+    {
+      "name": "rhodes_Cs7_n097_v064_sus.pcm",
+      "start_word": 31609136,
+      "length_words": 13246,
+      "samples": 43574
+    },
+    {
+      "name": "rhodes_Cs7_n097_v080_sus.pcm",
+      "start_word": 31622382,
+      "length_words": 11720,
+      "samples": 39462
+    },
+    {
+      "name": "rhodes_Cs7_n097_v112_sus.pcm",
+      "start_word": 31634102,
+      "length_words": 12478,
+      "samples": 40593
+    },
+    {
+      "name": "rhodes_D7_n098_v016_sus.pcm",
+      "start_word": 31646580,
+      "length_words": 6866,
+      "samples": 26165
+    },
+    {
+      "name": "rhodes_D7_n098_v048_sus.pcm",
+      "start_word": 31653446,
+      "length_words": 13313,
+      "samples": 43148
+    },
+    {
+      "name": "rhodes_D7_n098_v064_sus.pcm",
+      "start_word": 31666759,
+      "length_words": 14134,
+      "samples": 44333
+    },
+    {
+      "name": "rhodes_D7_n098_v080_sus.pcm",
+      "start_word": 31680893,
+      "length_words": 11884,
+      "samples": 38578
+    },
+    {
+      "name": "rhodes_D7_n098_v112_sus.pcm",
+      "start_word": 31692777,
+      "length_words": 11884,
+      "samples": 37793
+    },
+    {
+      "name": "rhodes_Ds7_n099_v016_sus.pcm",
+      "start_word": 31704661,
+      "length_words": 1526,
+      "samples": 6714
+    },
+    {
+      "name": "rhodes_Ds7_n099_v048_sus.pcm",
+      "start_word": 31706187,
+      "length_words": 8622,
+      "samples": 27431
+    },
+    {
+      "name": "rhodes_Ds7_n099_v064_sus.pcm",
+      "start_word": 31714809,
+      "length_words": 9163,
+      "samples": 28167
+    },
+    {
+      "name": "rhodes_Ds7_n099_v080_sus.pcm",
+      "start_word": 31723972,
+      "length_words": 10644,
+      "samples": 31199
+    },
+    {
+      "name": "rhodes_Ds7_n099_v112_sus.pcm",
+      "start_word": 31734616,
+      "length_words": 9189,
+      "samples": 27667
+    },
+    {
+      "name": "rhodes_E7_n100_v016_sus.pcm",
+      "start_word": 31743805,
+      "length_words": 1120,
+      "samples": 4709
+    },
+    {
+      "name": "rhodes_E7_n100_v048_sus.pcm",
+      "start_word": 31744925,
+      "length_words": 7636,
+      "samples": 24038
+    },
+    {
+      "name": "rhodes_E7_n100_v064_sus.pcm",
+      "start_word": 31752561,
+      "length_words": 9246,
+      "samples": 27398
+    },
+    {
+      "name": "rhodes_E7_n100_v080_sus.pcm",
+      "start_word": 31761807,
+      "length_words": 8873,
+      "samples": 26578
+    },
+    {
+      "name": "rhodes_E7_n100_v112_sus.pcm",
+      "start_word": 31770680,
+      "length_words": 8388,
+      "samples": 25006
+    },
+    {
+      "name": "rhodes_F7_n101_v016_sus.pcm",
+      "start_word": 31779068,
+      "length_words": 1100,
+      "samples": 3858
+    },
+    {
+      "name": "rhodes_F7_n101_v048_sus.pcm",
+      "start_word": 31780168,
+      "length_words": 9019,
+      "samples": 26659
+    },
+    {
+      "name": "rhodes_F7_n101_v064_sus.pcm",
+      "start_word": 31789187,
+      "length_words": 9896,
+      "samples": 27935
+    },
+    {
+      "name": "rhodes_F7_n101_v080_sus.pcm",
+      "start_word": 31799083,
+      "length_words": 11551,
+      "samples": 31098
+    },
+    {
+      "name": "rhodes_F7_n101_v112_sus.pcm",
+      "start_word": 31810634,
+      "length_words": 9075,
+      "samples": 26199
+    },
+    {
+      "name": "rhodes_Fs7_n102_v016_sus.pcm",
+      "start_word": 31819709,
+      "length_words": 2302,
+      "samples": 8271
+    },
+    {
+      "name": "rhodes_Fs7_n102_v048_sus.pcm",
+      "start_word": 31822011,
+      "length_words": 9405,
+      "samples": 25987
+    },
+    {
+      "name": "rhodes_Fs7_n102_v064_sus.pcm",
+      "start_word": 31831416,
+      "length_words": 10896,
+      "samples": 28921
+    },
+    {
+      "name": "rhodes_Fs7_n102_v080_sus.pcm",
+      "start_word": 31842312,
+      "length_words": 11139,
+      "samples": 29305
+    },
+    {
+      "name": "rhodes_Fs7_n102_v112_sus.pcm",
+      "start_word": 31853451,
+      "length_words": 9839,
+      "samples": 26745
+    },
+    {
+      "name": "rhodes_G7_n103_v016_sus.pcm",
+      "start_word": 31863290,
+      "length_words": 1406,
+      "samples": 5003
+    },
+    {
+      "name": "rhodes_G7_n103_v048_sus.pcm",
+      "start_word": 31864696,
+      "length_words": 8773,
+      "samples": 24509
+    },
+    {
+      "name": "rhodes_G7_n103_v064_sus.pcm",
+      "start_word": 31873469,
+      "length_words": 10314,
+      "samples": 27806
+    },
+    {
+      "name": "rhodes_G7_n103_v080_sus.pcm",
+      "start_word": 31883783,
+      "length_words": 13786,
+      "samples": 34771
+    },
+    {
+      "name": "rhodes_G7_n103_v112_sus.pcm",
+      "start_word": 31897569,
+      "length_words": 12124,
+      "samples": 32166
+    },
+    {
+      "name": "rhodes_Gs7_n104_v016_sus.pcm",
+      "start_word": 31909693,
+      "length_words": 2835,
+      "samples": 9364
+    },
+    {
+      "name": "rhodes_Gs7_n104_v048_sus.pcm",
+      "start_word": 31912528,
+      "length_words": 13232,
+      "samples": 33790
+    },
+    {
+      "name": "rhodes_Gs7_n104_v064_sus.pcm",
+      "start_word": 31925760,
+      "length_words": 13807,
+      "samples": 35088
+    },
+    {
+      "name": "rhodes_Gs7_n104_v080_sus.pcm",
+      "start_word": 31939567,
+      "length_words": 16352,
+      "samples": 39846
+    },
+    {
+      "name": "rhodes_Gs7_n104_v112_sus.pcm",
+      "start_word": 31955919,
+      "length_words": 14189,
+      "samples": 35677
+    },
+    {
+      "name": "rhodes_A7_n105_v016_sus.pcm",
+      "start_word": 31970108,
+      "length_words": 4480,
+      "samples": 13047
+    },
+    {
+      "name": "rhodes_A7_n105_v048_sus.pcm",
+      "start_word": 31974588,
+      "length_words": 13070,
+      "samples": 30920
+    },
+    {
+      "name": "rhodes_A7_n105_v064_sus.pcm",
+      "start_word": 31987658,
+      "length_words": 14406,
+      "samples": 32966
+    },
+    {
+      "name": "rhodes_A7_n105_v080_sus.pcm",
+      "start_word": 32002064,
+      "length_words": 14182,
+      "samples": 32436
+    },
+    {
+      "name": "rhodes_A7_n105_v112_sus.pcm",
+      "start_word": 32016246,
+      "length_words": 12714,
+      "samples": 30021
+    },
+    {
+      "name": "rhodes_As7_n106_v016_sus.pcm",
+      "start_word": 32028960,
+      "length_words": 2693,
+      "samples": 7810
+    },
+    {
+      "name": "rhodes_As7_n106_v048_sus.pcm",
+      "start_word": 32031653,
+      "length_words": 9583,
+      "samples": 22411
+    },
+    {
+      "name": "rhodes_As7_n106_v064_sus.pcm",
+      "start_word": 32041236,
+      "length_words": 12289,
+      "samples": 27175
+    },
+    {
+      "name": "rhodes_As7_n106_v080_sus.pcm",
+      "start_word": 32053525,
+      "length_words": 13478,
+      "samples": 29098
+    },
+    {
+      "name": "rhodes_As7_n106_v112_sus.pcm",
+      "start_word": 32067003,
+      "length_words": 10514,
+      "samples": 23799
+    },
+    {
+      "name": "rhodes_B7_n107_v016_sus.pcm",
+      "start_word": 32077517,
+      "length_words": 3123,
+      "samples": 8795
+    },
+    {
+      "name": "rhodes_B7_n107_v048_sus.pcm",
+      "start_word": 32080640,
+      "length_words": 11959,
+      "samples": 27846
+    },
+    {
+      "name": "rhodes_B7_n107_v064_sus.pcm",
+      "start_word": 32092599,
+      "length_words": 15782,
+      "samples": 35148
+    },
+    {
+      "name": "rhodes_B7_n107_v080_sus.pcm",
+      "start_word": 32108381,
+      "length_words": 14507,
+      "samples": 32088
+    },
+    {
+      "name": "rhodes_B7_n107_v112_sus.pcm",
+      "start_word": 32122888,
+      "length_words": 13007,
+      "samples": 28958
+    },
+    {
+      "name": "rhodes_C8_n108_v016_sus.pcm",
+      "start_word": 32135895,
+      "length_words": 2971,
+      "samples": 7808
+    },
+    {
+      "name": "rhodes_C8_n108_v048_sus.pcm",
+      "start_word": 32138866,
+      "length_words": 9559,
+      "samples": 20223
+    },
+    {
+      "name": "rhodes_C8_n108_v064_sus.pcm",
+      "start_word": 32148425,
+      "length_words": 11830,
+      "samples": 24084
+    },
+    {
+      "name": "rhodes_C8_n108_v080_sus.pcm",
+      "start_word": 32160255,
+      "length_words": 11495,
+      "samples": 23157
+    },
+    {
+      "name": "rhodes_C8_n108_v112_sus.pcm",
+      "start_word": 32171750,
+      "length_words": 10728,
+      "samples": 21992
+    },
+    {
+      "name": "rhodes_A0_n021_v016_rel.pcm",
+      "start_word": 32182478,
+      "length_words": 1276,
+      "samples": 14567
+    },
+    {
+      "name": "rhodes_A0_n021_v048_rel.pcm",
+      "start_word": 32183754,
+      "length_words": 1486,
+      "samples": 15667
+    },
+    {
+      "name": "rhodes_A0_n021_v064_rel.pcm",
+      "start_word": 32185240,
+      "length_words": 2112,
+      "samples": 22645
+    },
+    {
+      "name": "rhodes_A0_n021_v080_rel.pcm",
+      "start_word": 32187352,
+      "length_words": 3327,
+      "samples": 25922
+    },
+    {
+      "name": "rhodes_A0_n021_v112_rel.pcm",
+      "start_word": 32190679,
+      "length_words": 3871,
+      "samples": 29009
+    },
+    {
+      "name": "rhodes_As0_n022_v016_rel.pcm",
+      "start_word": 32194550,
+      "length_words": 1311,
+      "samples": 14037
+    },
+    {
+      "name": "rhodes_As0_n022_v048_rel.pcm",
+      "start_word": 32195861,
+      "length_words": 1717,
+      "samples": 16414
+    },
+    {
+      "name": "rhodes_As0_n022_v064_rel.pcm",
+      "start_word": 32197578,
+      "length_words": 2576,
+      "samples": 24171
+    },
+    {
+      "name": "rhodes_As0_n022_v080_rel.pcm",
+      "start_word": 32200154,
+      "length_words": 3718,
+      "samples": 30163
+    },
+    {
+      "name": "rhodes_As0_n022_v112_rel.pcm",
+      "start_word": 32203872,
+      "length_words": 3932,
+      "samples": 29553
+    },
+    {
+      "name": "rhodes_B0_n023_v016_rel.pcm",
+      "start_word": 32207804,
+      "length_words": 1497,
+      "samples": 16416
+    },
+    {
+      "name": "rhodes_B0_n023_v048_rel.pcm",
+      "start_word": 32209301,
+      "length_words": 2005,
+      "samples": 18595
+    },
+    {
+      "name": "rhodes_B0_n023_v064_rel.pcm",
+      "start_word": 32211306,
+      "length_words": 3303,
+      "samples": 30451
+    },
+    {
+      "name": "rhodes_B0_n023_v080_rel.pcm",
+      "start_word": 32214609,
+      "length_words": 4110,
+      "samples": 30088
+    },
+    {
+      "name": "rhodes_B0_n023_v112_rel.pcm",
+      "start_word": 32218719,
+      "length_words": 3717,
+      "samples": 28300
+    },
+    {
+      "name": "rhodes_C1_n024_v016_rel.pcm",
+      "start_word": 32222436,
+      "length_words": 1455,
+      "samples": 16026
+    },
+    {
+      "name": "rhodes_C1_n024_v048_rel.pcm",
+      "start_word": 32223891,
+      "length_words": 1916,
+      "samples": 16654
+    },
+    {
+      "name": "rhodes_C1_n024_v064_rel.pcm",
+      "start_word": 32225807,
+      "length_words": 3071,
+      "samples": 28546
+    },
+    {
+      "name": "rhodes_C1_n024_v080_rel.pcm",
+      "start_word": 32228878,
+      "length_words": 4048,
+      "samples": 28685
+    },
+    {
+      "name": "rhodes_C1_n024_v112_rel.pcm",
+      "start_word": 32232926,
+      "length_words": 3542,
+      "samples": 25596
+    },
+    {
+      "name": "rhodes_Cs1_n025_v016_rel.pcm",
+      "start_word": 32236468,
+      "length_words": 1472,
+      "samples": 16164
+    },
+    {
+      "name": "rhodes_Cs1_n025_v048_rel.pcm",
+      "start_word": 32237940,
+      "length_words": 2051,
+      "samples": 18199
+    },
+    {
+      "name": "rhodes_Cs1_n025_v064_rel.pcm",
+      "start_word": 32239991,
+      "length_words": 3307,
+      "samples": 30150
+    },
+    {
+      "name": "rhodes_Cs1_n025_v080_rel.pcm",
+      "start_word": 32243298,
+      "length_words": 4362,
+      "samples": 30013
+    },
+    {
+      "name": "rhodes_Cs1_n025_v112_rel.pcm",
+      "start_word": 32247660,
+      "length_words": 3745,
+      "samples": 26827
+    },
+    {
+      "name": "rhodes_D1_n026_v016_rel.pcm",
+      "start_word": 32251405,
+      "length_words": 1510,
+      "samples": 15928
+    },
+    {
+      "name": "rhodes_D1_n026_v048_rel.pcm",
+      "start_word": 32252915,
+      "length_words": 2021,
+      "samples": 17889
+    },
+    {
+      "name": "rhodes_D1_n026_v064_rel.pcm",
+      "start_word": 32254936,
+      "length_words": 3092,
+      "samples": 28740
+    },
+    {
+      "name": "rhodes_D1_n026_v080_rel.pcm",
+      "start_word": 32258028,
+      "length_words": 3846,
+      "samples": 27624
+    },
+    {
+      "name": "rhodes_D1_n026_v112_rel.pcm",
+      "start_word": 32261874,
+      "length_words": 3615,
+      "samples": 25661
+    },
+    {
+      "name": "rhodes_Ds1_n027_v016_rel.pcm",
+      "start_word": 32265489,
+      "length_words": 1253,
+      "samples": 13722
+    },
+    {
+      "name": "rhodes_Ds1_n027_v048_rel.pcm",
+      "start_word": 32266742,
+      "length_words": 1843,
+      "samples": 16733
+    },
+    {
+      "name": "rhodes_Ds1_n027_v064_rel.pcm",
+      "start_word": 32268585,
+      "length_words": 2999,
+      "samples": 28566
+    },
+    {
+      "name": "rhodes_Ds1_n027_v080_rel.pcm",
+      "start_word": 32271584,
+      "length_words": 3713,
+      "samples": 29476
+    },
+    {
+      "name": "rhodes_Ds1_n027_v112_rel.pcm",
+      "start_word": 32275297,
+      "length_words": 3804,
+      "samples": 27948
+    },
+    {
+      "name": "rhodes_E1_n028_v016_rel.pcm",
+      "start_word": 32279101,
+      "length_words": 1830,
+      "samples": 20295
+    },
+    {
+      "name": "rhodes_E1_n028_v048_rel.pcm",
+      "start_word": 32280931,
+      "length_words": 2130,
+      "samples": 20744
+    },
+    {
+      "name": "rhodes_E1_n028_v064_rel.pcm",
+      "start_word": 32283061,
+      "length_words": 3719,
+      "samples": 33365
+    },
+    {
+      "name": "rhodes_E1_n028_v080_rel.pcm",
+      "start_word": 32286780,
+      "length_words": 4464,
+      "samples": 32796
+    },
+    {
+      "name": "rhodes_E1_n028_v112_rel.pcm",
+      "start_word": 32291244,
+      "length_words": 4557,
+      "samples": 32498
+    },
+    {
+      "name": "rhodes_F1_n029_v016_rel.pcm",
+      "start_word": 32295801,
+      "length_words": 1850,
+      "samples": 19880
+    },
+    {
+      "name": "rhodes_F1_n029_v048_rel.pcm",
+      "start_word": 32297651,
+      "length_words": 2077,
+      "samples": 20417
+    },
+    {
+      "name": "rhodes_F1_n029_v064_rel.pcm",
+      "start_word": 32299728,
+      "length_words": 3684,
+      "samples": 33095
+    },
+    {
+      "name": "rhodes_F1_n029_v080_rel.pcm",
+      "start_word": 32303412,
+      "length_words": 4282,
+      "samples": 33486
+    },
+    {
+      "name": "rhodes_F1_n029_v112_rel.pcm",
+      "start_word": 32307694,
+      "length_words": 3923,
+      "samples": 32344
+    },
+    {
+      "name": "rhodes_Fs1_n030_v016_rel.pcm",
+      "start_word": 32311617,
+      "length_words": 1868,
+      "samples": 20054
+    },
+    {
+      "name": "rhodes_Fs1_n030_v048_rel.pcm",
+      "start_word": 32313485,
+      "length_words": 2030,
+      "samples": 20895
+    },
+    {
+      "name": "rhodes_Fs1_n030_v064_rel.pcm",
+      "start_word": 32315515,
+      "length_words": 3507,
+      "samples": 32724
+    },
+    {
+      "name": "rhodes_Fs1_n030_v080_rel.pcm",
+      "start_word": 32319022,
+      "length_words": 3771,
+      "samples": 33423
+    },
+    {
+      "name": "rhodes_Fs1_n030_v112_rel.pcm",
+      "start_word": 32322793,
+      "length_words": 3677,
+      "samples": 31940
+    },
+    {
+      "name": "rhodes_G1_n031_v016_rel.pcm",
+      "start_word": 32326470,
+      "length_words": 1822,
+      "samples": 20526
+    },
+    {
+      "name": "rhodes_G1_n031_v048_rel.pcm",
+      "start_word": 32328292,
+      "length_words": 2011,
+      "samples": 20454
+    },
+    {
+      "name": "rhodes_G1_n031_v064_rel.pcm",
+      "start_word": 32330303,
+      "length_words": 3659,
+      "samples": 33808
+    },
+    {
+      "name": "rhodes_G1_n031_v080_rel.pcm",
+      "start_word": 32333962,
+      "length_words": 3829,
+      "samples": 33445
+    },
+    {
+      "name": "rhodes_G1_n031_v112_rel.pcm",
+      "start_word": 32337791,
+      "length_words": 3707,
+      "samples": 33824
+    },
+    {
+      "name": "rhodes_Gs1_n032_v016_rel.pcm",
+      "start_word": 32341498,
+      "length_words": 1854,
+      "samples": 20681
+    },
+    {
+      "name": "rhodes_Gs1_n032_v048_rel.pcm",
+      "start_word": 32343352,
+      "length_words": 2083,
+      "samples": 21461
+    },
+    {
+      "name": "rhodes_Gs1_n032_v064_rel.pcm",
+      "start_word": 32345435,
+      "length_words": 3600,
+      "samples": 33224
+    },
+    {
+      "name": "rhodes_Gs1_n032_v080_rel.pcm",
+      "start_word": 32349035,
+      "length_words": 3879,
+      "samples": 32846
+    },
+    {
+      "name": "rhodes_Gs1_n032_v112_rel.pcm",
+      "start_word": 32352914,
+      "length_words": 4206,
+      "samples": 33107
+    },
+    {
+      "name": "rhodes_A1_n033_v016_rel.pcm",
+      "start_word": 32357120,
+      "length_words": 1781,
+      "samples": 19748
+    },
+    {
+      "name": "rhodes_A1_n033_v048_rel.pcm",
+      "start_word": 32358901,
+      "length_words": 2041,
+      "samples": 20890
+    },
+    {
+      "name": "rhodes_A1_n033_v064_rel.pcm",
+      "start_word": 32360942,
+      "length_words": 3560,
+      "samples": 32825
+    },
+    {
+      "name": "rhodes_A1_n033_v080_rel.pcm",
+      "start_word": 32364502,
+      "length_words": 3792,
+      "samples": 33505
+    },
+    {
+      "name": "rhodes_A1_n033_v112_rel.pcm",
+      "start_word": 32368294,
+      "length_words": 4079,
+      "samples": 32513
+    },
+    {
+      "name": "rhodes_As1_n034_v016_rel.pcm",
+      "start_word": 32372373,
+      "length_words": 1845,
+      "samples": 20017
+    },
+    {
+      "name": "rhodes_As1_n034_v048_rel.pcm",
+      "start_word": 32374218,
+      "length_words": 2054,
+      "samples": 20835
+    },
+    {
+      "name": "rhodes_As1_n034_v064_rel.pcm",
+      "start_word": 32376272,
+      "length_words": 3595,
+      "samples": 32831
+    },
+    {
+      "name": "rhodes_As1_n034_v080_rel.pcm",
+      "start_word": 32379867,
+      "length_words": 4362,
+      "samples": 32653
+    },
+    {
+      "name": "rhodes_As1_n034_v112_rel.pcm",
+      "start_word": 32384229,
+      "length_words": 5113,
+      "samples": 33200
+    },
+    {
+      "name": "rhodes_B1_n035_v016_rel.pcm",
+      "start_word": 32389342,
+      "length_words": 1831,
+      "samples": 21048
+    },
+    {
+      "name": "rhodes_B1_n035_v048_rel.pcm",
+      "start_word": 32391173,
+      "length_words": 2004,
+      "samples": 20426
+    },
+    {
+      "name": "rhodes_B1_n035_v064_rel.pcm",
+      "start_word": 32393177,
+      "length_words": 4186,
+      "samples": 33959
+    },
+    {
+      "name": "rhodes_B1_n035_v080_rel.pcm",
+      "start_word": 32397363,
+      "length_words": 5312,
+      "samples": 34158
+    },
+    {
+      "name": "rhodes_B1_n035_v112_rel.pcm",
+      "start_word": 32402675,
+      "length_words": 4917,
+      "samples": 33336
+    },
+    {
+      "name": "rhodes_C2_n036_v016_rel.pcm",
+      "start_word": 32407592,
+      "length_words": 1830,
+      "samples": 20268
+    },
+    {
+      "name": "rhodes_C2_n036_v048_rel.pcm",
+      "start_word": 32409422,
+      "length_words": 2060,
+      "samples": 20423
+    },
+    {
+      "name": "rhodes_C2_n036_v064_rel.pcm",
+      "start_word": 32411482,
+      "length_words": 4341,
+      "samples": 33652
+    },
+    {
+      "name": "rhodes_C2_n036_v080_rel.pcm",
+      "start_word": 32415823,
+      "length_words": 5410,
+      "samples": 33859
+    },
+    {
+      "name": "rhodes_C2_n036_v112_rel.pcm",
+      "start_word": 32421233,
+      "length_words": 6352,
+      "samples": 34288
+    },
+    {
+      "name": "rhodes_Cs2_n037_v016_rel.pcm",
+      "start_word": 32427585,
+      "length_words": 2039,
+      "samples": 20782
+    },
+    {
+      "name": "rhodes_Cs2_n037_v048_rel.pcm",
+      "start_word": 32429624,
+      "length_words": 2186,
+      "samples": 21172
+    },
+    {
+      "name": "rhodes_Cs2_n037_v064_rel.pcm",
+      "start_word": 32431810,
+      "length_words": 3834,
+      "samples": 33243
+    },
+    {
+      "name": "rhodes_Cs2_n037_v080_rel.pcm",
+      "start_word": 32435644,
+      "length_words": 4795,
+      "samples": 33076
+    },
+    {
+      "name": "rhodes_Cs2_n037_v112_rel.pcm",
+      "start_word": 32440439,
+      "length_words": 5061,
+      "samples": 33485
+    },
+    {
+      "name": "rhodes_D2_n038_v016_rel.pcm",
+      "start_word": 32445500,
+      "length_words": 2088,
+      "samples": 21171
+    },
+    {
+      "name": "rhodes_D2_n038_v048_rel.pcm",
+      "start_word": 32447588,
+      "length_words": 2200,
+      "samples": 20935
+    },
+    {
+      "name": "rhodes_D2_n038_v064_rel.pcm",
+      "start_word": 32449788,
+      "length_words": 3468,
+      "samples": 32492
+    },
+    {
+      "name": "rhodes_D2_n038_v080_rel.pcm",
+      "start_word": 32453256,
+      "length_words": 4683,
+      "samples": 33755
+    },
+    {
+      "name": "rhodes_D2_n038_v112_rel.pcm",
+      "start_word": 32457939,
+      "length_words": 5113,
+      "samples": 33045
+    },
+    {
+      "name": "rhodes_Ds2_n039_v016_rel.pcm",
+      "start_word": 32463052,
+      "length_words": 2053,
+      "samples": 20603
+    },
+    {
+      "name": "rhodes_Ds2_n039_v048_rel.pcm",
+      "start_word": 32465105,
+      "length_words": 2118,
+      "samples": 21306
+    },
+    {
+      "name": "rhodes_Ds2_n039_v064_rel.pcm",
+      "start_word": 32467223,
+      "length_words": 4091,
+      "samples": 33351
+    },
+    {
+      "name": "rhodes_Ds2_n039_v080_rel.pcm",
+      "start_word": 32471314,
+      "length_words": 5039,
+      "samples": 33898
+    },
+    {
+      "name": "rhodes_Ds2_n039_v112_rel.pcm",
+      "start_word": 32476353,
+      "length_words": 4724,
+      "samples": 34019
+    },
+    {
+      "name": "rhodes_E2_n040_v016_rel.pcm",
+      "start_word": 32481077,
+      "length_words": 1967,
+      "samples": 20603
+    },
+    {
+      "name": "rhodes_E2_n040_v048_rel.pcm",
+      "start_word": 32483044,
+      "length_words": 2202,
+      "samples": 21493
+    },
+    {
+      "name": "rhodes_E2_n040_v064_rel.pcm",
+      "start_word": 32485246,
+      "length_words": 3789,
+      "samples": 32894
+    },
+    {
+      "name": "rhodes_E2_n040_v080_rel.pcm",
+      "start_word": 32489035,
+      "length_words": 4634,
+      "samples": 33783
+    },
+    {
+      "name": "rhodes_E2_n040_v112_rel.pcm",
+      "start_word": 32493669,
+      "length_words": 4598,
+      "samples": 34434
+    },
+    {
+      "name": "rhodes_F2_n041_v016_rel.pcm",
+      "start_word": 32498267,
+      "length_words": 1973,
+      "samples": 20978
+    },
+    {
+      "name": "rhodes_F2_n041_v048_rel.pcm",
+      "start_word": 32500240,
+      "length_words": 2263,
+      "samples": 21497
+    },
+    {
+      "name": "rhodes_F2_n041_v064_rel.pcm",
+      "start_word": 32502503,
+      "length_words": 3673,
+      "samples": 32540
+    },
+    {
+      "name": "rhodes_F2_n041_v080_rel.pcm",
+      "start_word": 32506176,
+      "length_words": 4432,
+      "samples": 33243
+    },
+    {
+      "name": "rhodes_F2_n041_v112_rel.pcm",
+      "start_word": 32510608,
+      "length_words": 4772,
+      "samples": 33928
+    },
+    {
+      "name": "rhodes_Fs2_n042_v016_rel.pcm",
+      "start_word": 32515380,
+      "length_words": 1881,
+      "samples": 20442
+    },
+    {
+      "name": "rhodes_Fs2_n042_v048_rel.pcm",
+      "start_word": 32517261,
+      "length_words": 2065,
+      "samples": 20436
+    },
+    {
+      "name": "rhodes_Fs2_n042_v064_rel.pcm",
+      "start_word": 32519326,
+      "length_words": 3345,
+      "samples": 32540
+    },
+    {
+      "name": "rhodes_Fs2_n042_v080_rel.pcm",
+      "start_word": 32522671,
+      "length_words": 4161,
+      "samples": 33343
+    },
+    {
+      "name": "rhodes_Fs2_n042_v112_rel.pcm",
+      "start_word": 32526832,
+      "length_words": 4171,
+      "samples": 33737
+    },
+    {
+      "name": "rhodes_G2_n043_v016_rel.pcm",
+      "start_word": 32531003,
+      "length_words": 1843,
+      "samples": 20613
+    },
+    {
+      "name": "rhodes_G2_n043_v048_rel.pcm",
+      "start_word": 32532846,
+      "length_words": 1870,
+      "samples": 20071
+    },
+    {
+      "name": "rhodes_G2_n043_v064_rel.pcm",
+      "start_word": 32534716,
+      "length_words": 2923,
+      "samples": 31293
+    },
+    {
+      "name": "rhodes_G2_n043_v080_rel.pcm",
+      "start_word": 32537639,
+      "length_words": 3349,
+      "samples": 31718
+    },
+    {
+      "name": "rhodes_G2_n043_v112_rel.pcm",
+      "start_word": 32540988,
+      "length_words": 3312,
+      "samples": 30385
+    },
+    {
+      "name": "rhodes_Gs2_n044_v016_rel.pcm",
+      "start_word": 32544300,
+      "length_words": 1590,
+      "samples": 18842
+    },
+    {
+      "name": "rhodes_Gs2_n044_v048_rel.pcm",
+      "start_word": 32545890,
+      "length_words": 1626,
+      "samples": 19745
+    },
+    {
+      "name": "rhodes_Gs2_n044_v064_rel.pcm",
+      "start_word": 32547516,
+      "length_words": 2762,
+      "samples": 30983
+    },
+    {
+      "name": "rhodes_Gs2_n044_v080_rel.pcm",
+      "start_word": 32550278,
+      "length_words": 3055,
+      "samples": 31195
+    },
+    {
+      "name": "rhodes_Gs2_n044_v112_rel.pcm",
+      "start_word": 32553333,
+      "length_words": 3268,
+      "samples": 29075
+    },
+    {
+      "name": "rhodes_A2_n045_v016_rel.pcm",
+      "start_word": 32556601,
+      "length_words": 1824,
+      "samples": 20301
+    },
+    {
+      "name": "rhodes_A2_n045_v048_rel.pcm",
+      "start_word": 32558425,
+      "length_words": 1876,
+      "samples": 19487
+    },
+    {
+      "name": "rhodes_A2_n045_v064_rel.pcm",
+      "start_word": 32560301,
+      "length_words": 3343,
+      "samples": 32756
+    },
+    {
+      "name": "rhodes_A2_n045_v080_rel.pcm",
+      "start_word": 32563644,
+      "length_words": 3436,
+      "samples": 32436
+    },
+    {
+      "name": "rhodes_A2_n045_v112_rel.pcm",
+      "start_word": 32567080,
+      "length_words": 3507,
+      "samples": 31085
+    },
+    {
+      "name": "rhodes_As2_n046_v016_rel.pcm",
+      "start_word": 32570587,
+      "length_words": 1992,
+      "samples": 20545
+    },
+    {
+      "name": "rhodes_As2_n046_v048_rel.pcm",
+      "start_word": 32572579,
+      "length_words": 2165,
+      "samples": 20717
+    },
+    {
+      "name": "rhodes_As2_n046_v064_rel.pcm",
+      "start_word": 32574744,
+      "length_words": 3827,
+      "samples": 33302
+    },
+    {
+      "name": "rhodes_As2_n046_v080_rel.pcm",
+      "start_word": 32578571,
+      "length_words": 4062,
+      "samples": 31990
+    },
+    {
+      "name": "rhodes_As2_n046_v112_rel.pcm",
+      "start_word": 32582633,
+      "length_words": 4267,
+      "samples": 32477
+    },
+    {
+      "name": "rhodes_B2_n047_v016_rel.pcm",
+      "start_word": 32586900,
+      "length_words": 1976,
+      "samples": 20548
+    },
+    {
+      "name": "rhodes_B2_n047_v048_rel.pcm",
+      "start_word": 32588876,
+      "length_words": 2261,
+      "samples": 20970
+    },
+    {
+      "name": "rhodes_B2_n047_v064_rel.pcm",
+      "start_word": 32591137,
+      "length_words": 4616,
+      "samples": 34094
+    },
+    {
+      "name": "rhodes_B2_n047_v080_rel.pcm",
+      "start_word": 32595753,
+      "length_words": 4721,
+      "samples": 33660
+    },
+    {
+      "name": "rhodes_B2_n047_v112_rel.pcm",
+      "start_word": 32600474,
+      "length_words": 4557,
+      "samples": 33254
+    },
+    {
+      "name": "rhodes_C3_n048_v016_rel.pcm",
+      "start_word": 32605031,
+      "length_words": 1941,
+      "samples": 21027
+    },
+    {
+      "name": "rhodes_C3_n048_v048_rel.pcm",
+      "start_word": 32606972,
+      "length_words": 2182,
+      "samples": 21067
+    },
+    {
+      "name": "rhodes_C3_n048_v064_rel.pcm",
+      "start_word": 32609154,
+      "length_words": 3464,
+      "samples": 32086
+    },
+    {
+      "name": "rhodes_C3_n048_v080_rel.pcm",
+      "start_word": 32612618,
+      "length_words": 3979,
+      "samples": 33043
+    },
+    {
+      "name": "rhodes_C3_n048_v112_rel.pcm",
+      "start_word": 32616597,
+      "length_words": 4214,
+      "samples": 32145
+    },
+    {
+      "name": "rhodes_Cs3_n049_v016_rel.pcm",
+      "start_word": 32620811,
+      "length_words": 1977,
+      "samples": 21797
+    },
+    {
+      "name": "rhodes_Cs3_n049_v048_rel.pcm",
+      "start_word": 32622788,
+      "length_words": 2160,
+      "samples": 20724
+    },
+    {
+      "name": "rhodes_Cs3_n049_v064_rel.pcm",
+      "start_word": 32624948,
+      "length_words": 3756,
+      "samples": 33076
+    },
+    {
+      "name": "rhodes_Cs3_n049_v080_rel.pcm",
+      "start_word": 32628704,
+      "length_words": 4119,
+      "samples": 33458
+    },
+    {
+      "name": "rhodes_Cs3_n049_v112_rel.pcm",
+      "start_word": 32632823,
+      "length_words": 3881,
+      "samples": 31987
+    },
+    {
+      "name": "rhodes_D3_n050_v016_rel.pcm",
+      "start_word": 32636704,
+      "length_words": 2036,
+      "samples": 21959
+    },
+    {
+      "name": "rhodes_D3_n050_v048_rel.pcm",
+      "start_word": 32638740,
+      "length_words": 2241,
+      "samples": 21389
+    },
+    {
+      "name": "rhodes_D3_n050_v064_rel.pcm",
+      "start_word": 32640981,
+      "length_words": 3325,
+      "samples": 31928
+    },
+    {
+      "name": "rhodes_D3_n050_v080_rel.pcm",
+      "start_word": 32644306,
+      "length_words": 3732,
+      "samples": 32753
+    },
+    {
+      "name": "rhodes_D3_n050_v112_rel.pcm",
+      "start_word": 32648038,
+      "length_words": 3757,
+      "samples": 30789
+    },
+    {
+      "name": "rhodes_Ds3_n051_v016_rel.pcm",
+      "start_word": 32651795,
+      "length_words": 1988,
+      "samples": 21012
+    },
+    {
+      "name": "rhodes_Ds3_n051_v048_rel.pcm",
+      "start_word": 32653783,
+      "length_words": 2102,
+      "samples": 21178
+    },
+    {
+      "name": "rhodes_Ds3_n051_v064_rel.pcm",
+      "start_word": 32655885,
+      "length_words": 3791,
+      "samples": 33071
+    },
+    {
+      "name": "rhodes_Ds3_n051_v080_rel.pcm",
+      "start_word": 32659676,
+      "length_words": 3870,
+      "samples": 32551
+    },
+    {
+      "name": "rhodes_Ds3_n051_v112_rel.pcm",
+      "start_word": 32663546,
+      "length_words": 4001,
+      "samples": 33371
+    },
+    {
+      "name": "rhodes_E3_n052_v016_rel.pcm",
+      "start_word": 32667547,
+      "length_words": 1900,
+      "samples": 20107
+    },
+    {
+      "name": "rhodes_E3_n052_v048_rel.pcm",
+      "start_word": 32669447,
+      "length_words": 2107,
+      "samples": 20295
+    },
+    {
+      "name": "rhodes_E3_n052_v064_rel.pcm",
+      "start_word": 32671554,
+      "length_words": 3916,
+      "samples": 32968
+    },
+    {
+      "name": "rhodes_E3_n052_v080_rel.pcm",
+      "start_word": 32675470,
+      "length_words": 4115,
+      "samples": 32709
+    },
+    {
+      "name": "rhodes_E3_n052_v112_rel.pcm",
+      "start_word": 32679585,
+      "length_words": 3750,
+      "samples": 31911
+    },
+    {
+      "name": "rhodes_F3_n053_v016_rel.pcm",
+      "start_word": 32683335,
+      "length_words": 2000,
+      "samples": 21408
+    },
+    {
+      "name": "rhodes_F3_n053_v048_rel.pcm",
+      "start_word": 32685335,
+      "length_words": 2315,
+      "samples": 21005
+    },
+    {
+      "name": "rhodes_F3_n053_v064_rel.pcm",
+      "start_word": 32687650,
+      "length_words": 4158,
+      "samples": 33269
+    },
+    {
+      "name": "rhodes_F3_n053_v080_rel.pcm",
+      "start_word": 32691808,
+      "length_words": 4352,
+      "samples": 33262
+    },
+    {
+      "name": "rhodes_F3_n053_v112_rel.pcm",
+      "start_word": 32696160,
+      "length_words": 3997,
+      "samples": 32285
+    },
+    {
+      "name": "rhodes_Fs3_n054_v016_rel.pcm",
+      "start_word": 32700157,
+      "length_words": 2032,
+      "samples": 21697
+    },
+    {
+      "name": "rhodes_Fs3_n054_v048_rel.pcm",
+      "start_word": 32702189,
+      "length_words": 2131,
+      "samples": 21152
+    },
+    {
+      "name": "rhodes_Fs3_n054_v064_rel.pcm",
+      "start_word": 32704320,
+      "length_words": 3827,
+      "samples": 33297
+    },
+    {
+      "name": "rhodes_Fs3_n054_v080_rel.pcm",
+      "start_word": 32708147,
+      "length_words": 4076,
+      "samples": 32956
+    },
+    {
+      "name": "rhodes_Fs3_n054_v112_rel.pcm",
+      "start_word": 32712223,
+      "length_words": 3947,
+      "samples": 33838
+    },
+    {
+      "name": "rhodes_G3_n055_v016_rel.pcm",
+      "start_word": 32716170,
+      "length_words": 2018,
+      "samples": 21345
+    },
+    {
+      "name": "rhodes_G3_n055_v048_rel.pcm",
+      "start_word": 32718188,
+      "length_words": 2307,
+      "samples": 20594
+    },
+    {
+      "name": "rhodes_G3_n055_v064_rel.pcm",
+      "start_word": 32720495,
+      "length_words": 4143,
+      "samples": 33038
+    },
+    {
+      "name": "rhodes_G3_n055_v080_rel.pcm",
+      "start_word": 32724638,
+      "length_words": 4151,
+      "samples": 32648
+    },
+    {
+      "name": "rhodes_G3_n055_v112_rel.pcm",
+      "start_word": 32728789,
+      "length_words": 4103,
+      "samples": 32619
+    },
+    {
+      "name": "rhodes_Gs3_n056_v016_rel.pcm",
+      "start_word": 32732892,
+      "length_words": 1950,
+      "samples": 20477
+    },
+    {
+      "name": "rhodes_Gs3_n056_v048_rel.pcm",
+      "start_word": 32734842,
+      "length_words": 2095,
+      "samples": 20594
+    },
+    {
+      "name": "rhodes_Gs3_n056_v064_rel.pcm",
+      "start_word": 32736937,
+      "length_words": 3714,
+      "samples": 33131
+    },
+    {
+      "name": "rhodes_Gs3_n056_v080_rel.pcm",
+      "start_word": 32740651,
+      "length_words": 3939,
+      "samples": 33277
+    },
+    {
+      "name": "rhodes_Gs3_n056_v112_rel.pcm",
+      "start_word": 32744590,
+      "length_words": 3646,
+      "samples": 31813
+    },
+    {
+      "name": "rhodes_A3_n057_v016_rel.pcm",
+      "start_word": 32748236,
+      "length_words": 1982,
+      "samples": 21344
+    },
+    {
+      "name": "rhodes_A3_n057_v048_rel.pcm",
+      "start_word": 32750218,
+      "length_words": 2097,
+      "samples": 21354
+    },
+    {
+      "name": "rhodes_A3_n057_v064_rel.pcm",
+      "start_word": 32752315,
+      "length_words": 3680,
+      "samples": 32642
+    },
+    {
+      "name": "rhodes_A3_n057_v080_rel.pcm",
+      "start_word": 32755995,
+      "length_words": 3872,
+      "samples": 32646
+    },
+    {
+      "name": "rhodes_A3_n057_v112_rel.pcm",
+      "start_word": 32759867,
+      "length_words": 3901,
+      "samples": 32526
+    },
+    {
+      "name": "rhodes_As3_n058_v016_rel.pcm",
+      "start_word": 32763768,
+      "length_words": 1994,
+      "samples": 20941
+    },
+    {
+      "name": "rhodes_As3_n058_v048_rel.pcm",
+      "start_word": 32765762,
+      "length_words": 2172,
+      "samples": 21171
+    },
+    {
+      "name": "rhodes_As3_n058_v064_rel.pcm",
+      "start_word": 32767934,
+      "length_words": 3747,
+      "samples": 33104
+    },
+    {
+      "name": "rhodes_As3_n058_v080_rel.pcm",
+      "start_word": 32771681,
+      "length_words": 3874,
+      "samples": 33397
+    },
+    {
+      "name": "rhodes_As3_n058_v112_rel.pcm",
+      "start_word": 32775555,
+      "length_words": 3717,
+      "samples": 32717
+    },
+    {
+      "name": "rhodes_B3_n059_v016_rel.pcm",
+      "start_word": 32779272,
+      "length_words": 1953,
+      "samples": 20434
+    },
+    {
+      "name": "rhodes_B3_n059_v048_rel.pcm",
+      "start_word": 32781225,
+      "length_words": 2106,
+      "samples": 20985
+    },
+    {
+      "name": "rhodes_B3_n059_v064_rel.pcm",
+      "start_word": 32783331,
+      "length_words": 3655,
+      "samples": 32680
+    },
+    {
+      "name": "rhodes_B3_n059_v080_rel.pcm",
+      "start_word": 32786986,
+      "length_words": 3931,
+      "samples": 33130
+    },
+    {
+      "name": "rhodes_B3_n059_v112_rel.pcm",
+      "start_word": 32790917,
+      "length_words": 3913,
+      "samples": 31506
+    },
+    {
+      "name": "rhodes_C4_n060_v016_rel.pcm",
+      "start_word": 32794830,
+      "length_words": 1907,
+      "samples": 20251
+    },
+    {
+      "name": "rhodes_C4_n060_v048_rel.pcm",
+      "start_word": 32796737,
+      "length_words": 2181,
+      "samples": 21608
+    },
+    {
+      "name": "rhodes_C4_n060_v064_rel.pcm",
+      "start_word": 32798918,
+      "length_words": 3645,
+      "samples": 32649
+    },
+    {
+      "name": "rhodes_C4_n060_v080_rel.pcm",
+      "start_word": 32802563,
+      "length_words": 3825,
+      "samples": 32504
+    },
+    {
+      "name": "rhodes_C4_n060_v112_rel.pcm",
+      "start_word": 32806388,
+      "length_words": 3814,
+      "samples": 31597
+    },
+    {
+      "name": "rhodes_Cs4_n061_v016_rel.pcm",
+      "start_word": 32810202,
+      "length_words": 1984,
+      "samples": 20845
+    },
+    {
+      "name": "rhodes_Cs4_n061_v048_rel.pcm",
+      "start_word": 32812186,
+      "length_words": 2121,
+      "samples": 20734
+    },
+    {
+      "name": "rhodes_Cs4_n061_v064_rel.pcm",
+      "start_word": 32814307,
+      "length_words": 3681,
+      "samples": 33038
+    },
+    {
+      "name": "rhodes_Cs4_n061_v080_rel.pcm",
+      "start_word": 32817988,
+      "length_words": 3700,
+      "samples": 33270
+    },
+    {
+      "name": "rhodes_Cs4_n061_v112_rel.pcm",
+      "start_word": 32821688,
+      "length_words": 3463,
+      "samples": 32848
+    },
+    {
+      "name": "rhodes_D4_n062_v016_rel.pcm",
+      "start_word": 32825151,
+      "length_words": 1928,
+      "samples": 20543
+    },
+    {
+      "name": "rhodes_D4_n062_v048_rel.pcm",
+      "start_word": 32827079,
+      "length_words": 2029,
+      "samples": 19967
+    },
+    {
+      "name": "rhodes_D4_n062_v064_rel.pcm",
+      "start_word": 32829108,
+      "length_words": 3449,
+      "samples": 32640
+    },
+    {
+      "name": "rhodes_D4_n062_v080_rel.pcm",
+      "start_word": 32832557,
+      "length_words": 3418,
+      "samples": 32239
+    },
+    {
+      "name": "rhodes_D4_n062_v112_rel.pcm",
+      "start_word": 32835975,
+      "length_words": 3572,
+      "samples": 32728
+    },
+    {
+      "name": "rhodes_Ds4_n063_v016_rel.pcm",
+      "start_word": 32839547,
+      "length_words": 1944,
+      "samples": 20735
+    },
+    {
+      "name": "rhodes_Ds4_n063_v048_rel.pcm",
+      "start_word": 32841491,
+      "length_words": 2036,
+      "samples": 20852
+    },
+    {
+      "name": "rhodes_Ds4_n063_v064_rel.pcm",
+      "start_word": 32843527,
+      "length_words": 3768,
+      "samples": 32865
+    },
+    {
+      "name": "rhodes_Ds4_n063_v080_rel.pcm",
+      "start_word": 32847295,
+      "length_words": 3884,
+      "samples": 33214
+    },
+    {
+      "name": "rhodes_Ds4_n063_v112_rel.pcm",
+      "start_word": 32851179,
+      "length_words": 3681,
+      "samples": 32780
+    },
+    {
+      "name": "rhodes_E4_n064_v016_rel.pcm",
+      "start_word": 32854860,
+      "length_words": 1833,
+      "samples": 20447
+    },
+    {
+      "name": "rhodes_E4_n064_v048_rel.pcm",
+      "start_word": 32856693,
+      "length_words": 2018,
+      "samples": 20429
+    },
+    {
+      "name": "rhodes_E4_n064_v064_rel.pcm",
+      "start_word": 32858711,
+      "length_words": 4051,
+      "samples": 33531
+    },
+    {
+      "name": "rhodes_E4_n064_v080_rel.pcm",
+      "start_word": 32862762,
+      "length_words": 3795,
+      "samples": 33468
+    },
+    {
+      "name": "rhodes_E4_n064_v112_rel.pcm",
+      "start_word": 32866557,
+      "length_words": 3716,
+      "samples": 32944
+    },
+    {
+      "name": "rhodes_F4_n065_v016_rel.pcm",
+      "start_word": 32870273,
+      "length_words": 2003,
+      "samples": 21270
+    },
+    {
+      "name": "rhodes_F4_n065_v048_rel.pcm",
+      "start_word": 32872276,
+      "length_words": 2097,
+      "samples": 21112
+    },
+    {
+      "name": "rhodes_F4_n065_v064_rel.pcm",
+      "start_word": 32874373,
+      "length_words": 3796,
+      "samples": 33197
+    },
+    {
+      "name": "rhodes_F4_n065_v080_rel.pcm",
+      "start_word": 32878169,
+      "length_words": 3484,
+      "samples": 32888
+    },
+    {
+      "name": "rhodes_F4_n065_v112_rel.pcm",
+      "start_word": 32881653,
+      "length_words": 3436,
+      "samples": 32581
+    },
+    {
+      "name": "rhodes_Fs4_n066_v016_rel.pcm",
+      "start_word": 32885089,
+      "length_words": 1993,
+      "samples": 20995
+    },
+    {
+      "name": "rhodes_Fs4_n066_v048_rel.pcm",
+      "start_word": 32887082,
+      "length_words": 2136,
+      "samples": 21169
+    },
+    {
+      "name": "rhodes_Fs4_n066_v064_rel.pcm",
+      "start_word": 32889218,
+      "length_words": 3868,
+      "samples": 33834
+    },
+    {
+      "name": "rhodes_Fs4_n066_v080_rel.pcm",
+      "start_word": 32893086,
+      "length_words": 4111,
+      "samples": 33256
+    },
+    {
+      "name": "rhodes_Fs4_n066_v112_rel.pcm",
+      "start_word": 32897197,
+      "length_words": 3591,
+      "samples": 32103
+    },
+    {
+      "name": "rhodes_G4_n067_v016_rel.pcm",
+      "start_word": 32900788,
+      "length_words": 1891,
+      "samples": 20164
+    },
+    {
+      "name": "rhodes_G4_n067_v048_rel.pcm",
+      "start_word": 32902679,
+      "length_words": 2050,
+      "samples": 20663
+    },
+    {
+      "name": "rhodes_G4_n067_v064_rel.pcm",
+      "start_word": 32904729,
+      "length_words": 3589,
+      "samples": 32313
+    },
+    {
+      "name": "rhodes_G4_n067_v080_rel.pcm",
+      "start_word": 32908318,
+      "length_words": 3725,
+      "samples": 32945
+    },
+    {
+      "name": "rhodes_G4_n067_v112_rel.pcm",
+      "start_word": 32912043,
+      "length_words": 3581,
+      "samples": 32204
+    },
+    {
+      "name": "rhodes_Gs4_n068_v016_rel.pcm",
+      "start_word": 32915624,
+      "length_words": 1934,
+      "samples": 20115
+    },
+    {
+      "name": "rhodes_Gs4_n068_v048_rel.pcm",
+      "start_word": 32917558,
+      "length_words": 2092,
+      "samples": 20723
+    },
+    {
+      "name": "rhodes_Gs4_n068_v064_rel.pcm",
+      "start_word": 32919650,
+      "length_words": 3581,
+      "samples": 32803
+    },
+    {
+      "name": "rhodes_Gs4_n068_v080_rel.pcm",
+      "start_word": 32923231,
+      "length_words": 3508,
+      "samples": 32278
+    },
+    {
+      "name": "rhodes_Gs4_n068_v112_rel.pcm",
+      "start_word": 32926739,
+      "length_words": 3438,
+      "samples": 31603
+    },
+    {
+      "name": "rhodes_A4_n069_v016_rel.pcm",
+      "start_word": 32930177,
+      "length_words": 1970,
+      "samples": 21217
+    },
+    {
+      "name": "rhodes_A4_n069_v048_rel.pcm",
+      "start_word": 32932147,
+      "length_words": 1980,
+      "samples": 19788
+    },
+    {
+      "name": "rhodes_A4_n069_v064_rel.pcm",
+      "start_word": 32934127,
+      "length_words": 3467,
+      "samples": 32901
+    },
+    {
+      "name": "rhodes_A4_n069_v080_rel.pcm",
+      "start_word": 32937594,
+      "length_words": 3574,
+      "samples": 32971
+    },
+    {
+      "name": "rhodes_A4_n069_v112_rel.pcm",
+      "start_word": 32941168,
+      "length_words": 3371,
+      "samples": 31639
+    },
+    {
+      "name": "rhodes_As4_n070_v016_rel.pcm",
+      "start_word": 32944539,
+      "length_words": 1954,
+      "samples": 20537
+    },
+    {
+      "name": "rhodes_As4_n070_v048_rel.pcm",
+      "start_word": 32946493,
+      "length_words": 2084,
+      "samples": 20441
+    },
+    {
+      "name": "rhodes_As4_n070_v064_rel.pcm",
+      "start_word": 32948577,
+      "length_words": 3896,
+      "samples": 33457
+    },
+    {
+      "name": "rhodes_As4_n070_v080_rel.pcm",
+      "start_word": 32952473,
+      "length_words": 3370,
+      "samples": 32589
+    },
+    {
+      "name": "rhodes_As4_n070_v112_rel.pcm",
+      "start_word": 32955843,
+      "length_words": 3356,
+      "samples": 30423
+    },
+    {
+      "name": "rhodes_B4_n071_v016_rel.pcm",
+      "start_word": 32959199,
+      "length_words": 1929,
+      "samples": 20286
+    },
+    {
+      "name": "rhodes_B4_n071_v048_rel.pcm",
+      "start_word": 32961128,
+      "length_words": 2110,
+      "samples": 20163
+    },
+    {
+      "name": "rhodes_B4_n071_v064_rel.pcm",
+      "start_word": 32963238,
+      "length_words": 3872,
+      "samples": 32704
+    },
+    {
+      "name": "rhodes_B4_n071_v080_rel.pcm",
+      "start_word": 32967110,
+      "length_words": 4089,
+      "samples": 33517
+    },
+    {
+      "name": "rhodes_B4_n071_v112_rel.pcm",
+      "start_word": 32971199,
+      "length_words": 3641,
+      "samples": 32841
+    },
+    {
+      "name": "rhodes_C5_n072_v016_rel.pcm",
+      "start_word": 32974840,
+      "length_words": 1776,
+      "samples": 18835
+    },
+    {
+      "name": "rhodes_C5_n072_v048_rel.pcm",
+      "start_word": 32976616,
+      "length_words": 2015,
+      "samples": 20266
+    },
+    {
+      "name": "rhodes_C5_n072_v064_rel.pcm",
+      "start_word": 32978631,
+      "length_words": 3832,
+      "samples": 32838
+    },
+    {
+      "name": "rhodes_C5_n072_v080_rel.pcm",
+      "start_word": 32982463,
+      "length_words": 3844,
+      "samples": 32930
+    },
+    {
+      "name": "rhodes_C5_n072_v112_rel.pcm",
+      "start_word": 32986307,
+      "length_words": 3520,
+      "samples": 32627
+    },
+    {
+      "name": "rhodes_Cs5_n073_v016_rel.pcm",
+      "start_word": 32989827,
+      "length_words": 1909,
+      "samples": 20345
+    },
+    {
+      "name": "rhodes_Cs5_n073_v048_rel.pcm",
+      "start_word": 32991736,
+      "length_words": 2076,
+      "samples": 20670
+    },
+    {
+      "name": "rhodes_Cs5_n073_v064_rel.pcm",
+      "start_word": 32993812,
+      "length_words": 3688,
+      "samples": 32704
+    },
+    {
+      "name": "rhodes_Cs5_n073_v080_rel.pcm",
+      "start_word": 32997500,
+      "length_words": 3803,
+      "samples": 33384
+    },
+    {
+      "name": "rhodes_Cs5_n073_v112_rel.pcm",
+      "start_word": 33001303,
+      "length_words": 4057,
+      "samples": 31232
+    },
+    {
+      "name": "rhodes_D5_n074_v016_rel.pcm",
+      "start_word": 33005360,
+      "length_words": 2175,
+      "samples": 21081
+    },
+    {
+      "name": "rhodes_D5_n074_v048_rel.pcm",
+      "start_word": 33007535,
+      "length_words": 2325,
+      "samples": 21161
+    },
+    {
+      "name": "rhodes_D5_n074_v064_rel.pcm",
+      "start_word": 33009860,
+      "length_words": 3762,
+      "samples": 32583
+    },
+    {
+      "name": "rhodes_D5_n074_v080_rel.pcm",
+      "start_word": 33013622,
+      "length_words": 3861,
+      "samples": 32917
+    },
+    {
+      "name": "rhodes_D5_n074_v112_rel.pcm",
+      "start_word": 33017483,
+      "length_words": 4176,
+      "samples": 32780
+    },
+    {
+      "name": "rhodes_Ds5_n075_v016_rel.pcm",
+      "start_word": 33021659,
+      "length_words": 1967,
+      "samples": 20717
+    },
+    {
+      "name": "rhodes_Ds5_n075_v048_rel.pcm",
+      "start_word": 33023626,
+      "length_words": 2100,
+      "samples": 21256
+    },
+    {
+      "name": "rhodes_Ds5_n075_v064_rel.pcm",
+      "start_word": 33025726,
+      "length_words": 3402,
+      "samples": 32530
+    },
+    {
+      "name": "rhodes_Ds5_n075_v080_rel.pcm",
+      "start_word": 33029128,
+      "length_words": 3681,
+      "samples": 32313
+    },
+    {
+      "name": "rhodes_Ds5_n075_v112_rel.pcm",
+      "start_word": 33032809,
+      "length_words": 4134,
+      "samples": 31067
+    },
+    {
+      "name": "rhodes_E5_n076_v016_rel.pcm",
+      "start_word": 33036943,
+      "length_words": 1981,
+      "samples": 20790
+    },
+    {
+      "name": "rhodes_E5_n076_v048_rel.pcm",
+      "start_word": 33038924,
+      "length_words": 2114,
+      "samples": 21165
+    },
+    {
+      "name": "rhodes_E5_n076_v064_rel.pcm",
+      "start_word": 33041038,
+      "length_words": 3142,
+      "samples": 31261
+    },
+    {
+      "name": "rhodes_E5_n076_v080_rel.pcm",
+      "start_word": 33044180,
+      "length_words": 2896,
+      "samples": 30340
+    },
+    {
+      "name": "rhodes_E5_n076_v112_rel.pcm",
+      "start_word": 33047076,
+      "length_words": 3625,
+      "samples": 30522
+    },
+    {
+      "name": "rhodes_F5_n077_v016_rel.pcm",
+      "start_word": 33050701,
+      "length_words": 2231,
+      "samples": 21132
+    },
+    {
+      "name": "rhodes_F5_n077_v048_rel.pcm",
+      "start_word": 33052932,
+      "length_words": 2381,
+      "samples": 20911
+    },
+    {
+      "name": "rhodes_F5_n077_v064_rel.pcm",
+      "start_word": 33055313,
+      "length_words": 3287,
+      "samples": 32727
+    },
+    {
+      "name": "rhodes_F5_n077_v080_rel.pcm",
+      "start_word": 33058600,
+      "length_words": 3028,
+      "samples": 30871
+    },
+    {
+      "name": "rhodes_F5_n077_v112_rel.pcm",
+      "start_word": 33061628,
+      "length_words": 3123,
+      "samples": 31721
+    },
+    {
+      "name": "rhodes_Fs5_n078_v016_rel.pcm",
+      "start_word": 33064751,
+      "length_words": 1942,
+      "samples": 20673
+    },
+    {
+      "name": "rhodes_Fs5_n078_v048_rel.pcm",
+      "start_word": 33066693,
+      "length_words": 2071,
+      "samples": 20833
+    },
+    {
+      "name": "rhodes_Fs5_n078_v064_rel.pcm",
+      "start_word": 33068764,
+      "length_words": 3105,
+      "samples": 32388
+    },
+    {
+      "name": "rhodes_Fs5_n078_v080_rel.pcm",
+      "start_word": 33071869,
+      "length_words": 2748,
+      "samples": 30288
+    },
+    {
+      "name": "rhodes_Fs5_n078_v112_rel.pcm",
+      "start_word": 33074617,
+      "length_words": 3195,
+      "samples": 31467
+    },
+    {
+      "name": "rhodes_G5_n079_v016_rel.pcm",
+      "start_word": 33077812,
+      "length_words": 1979,
+      "samples": 20742
+    },
+    {
+      "name": "rhodes_G5_n079_v048_rel.pcm",
+      "start_word": 33079791,
+      "length_words": 2113,
+      "samples": 21264
+    },
+    {
+      "name": "rhodes_G5_n079_v064_rel.pcm",
+      "start_word": 33081904,
+      "length_words": 3198,
+      "samples": 32013
+    },
+    {
+      "name": "rhodes_G5_n079_v080_rel.pcm",
+      "start_word": 33085102,
+      "length_words": 3019,
+      "samples": 31379
+    },
+    {
+      "name": "rhodes_G5_n079_v112_rel.pcm",
+      "start_word": 33088121,
+      "length_words": 3531,
+      "samples": 31647
+    },
+    {
+      "name": "rhodes_Gs5_n080_v016_rel.pcm",
+      "start_word": 33091652,
+      "length_words": 1942,
+      "samples": 20726
+    },
+    {
+      "name": "rhodes_Gs5_n080_v048_rel.pcm",
+      "start_word": 33093594,
+      "length_words": 2054,
+      "samples": 20722
+    },
+    {
+      "name": "rhodes_Gs5_n080_v064_rel.pcm",
+      "start_word": 33095648,
+      "length_words": 3150,
+      "samples": 32138
+    },
+    {
+      "name": "rhodes_Gs5_n080_v080_rel.pcm",
+      "start_word": 33098798,
+      "length_words": 2953,
+      "samples": 31455
+    },
+    {
+      "name": "rhodes_Gs5_n080_v112_rel.pcm",
+      "start_word": 33101751,
+      "length_words": 2975,
+      "samples": 31280
+    },
+    {
+      "name": "rhodes_A5_n081_v016_rel.pcm",
+      "start_word": 33104726,
+      "length_words": 1942,
+      "samples": 20693
+    },
+    {
+      "name": "rhodes_A5_n081_v048_rel.pcm",
+      "start_word": 33106668,
+      "length_words": 2090,
+      "samples": 20856
+    },
+    {
+      "name": "rhodes_A5_n081_v064_rel.pcm",
+      "start_word": 33108758,
+      "length_words": 3195,
+      "samples": 32669
+    },
+    {
+      "name": "rhodes_A5_n081_v080_rel.pcm",
+      "start_word": 33111953,
+      "length_words": 2877,
+      "samples": 31313
+    },
+    {
+      "name": "rhodes_A5_n081_v112_rel.pcm",
+      "start_word": 33114830,
+      "length_words": 3287,
+      "samples": 31766
+    },
+    {
+      "name": "rhodes_As5_n082_v016_rel.pcm",
+      "start_word": 33118117,
+      "length_words": 2354,
+      "samples": 21377
+    },
+    {
+      "name": "rhodes_As5_n082_v048_rel.pcm",
+      "start_word": 33120471,
+      "length_words": 2538,
+      "samples": 21369
+    },
+    {
+      "name": "rhodes_As5_n082_v064_rel.pcm",
+      "start_word": 33123009,
+      "length_words": 3861,
+      "samples": 32867
+    },
+    {
+      "name": "rhodes_As5_n082_v080_rel.pcm",
+      "start_word": 33126870,
+      "length_words": 3348,
+      "samples": 32331
+    },
+    {
+      "name": "rhodes_As5_n082_v112_rel.pcm",
+      "start_word": 33130218,
+      "length_words": 3315,
+      "samples": 32359
+    },
+    {
+      "name": "rhodes_B5_n083_v016_rel.pcm",
+      "start_word": 33133533,
+      "length_words": 1989,
+      "samples": 20646
+    },
+    {
+      "name": "rhodes_B5_n083_v048_rel.pcm",
+      "start_word": 33135522,
+      "length_words": 2097,
+      "samples": 20862
+    },
+    {
+      "name": "rhodes_B5_n083_v064_rel.pcm",
+      "start_word": 33137619,
+      "length_words": 4027,
+      "samples": 33622
+    },
+    {
+      "name": "rhodes_B5_n083_v080_rel.pcm",
+      "start_word": 33141646,
+      "length_words": 3556,
+      "samples": 32457
+    },
+    {
+      "name": "rhodes_B5_n083_v112_rel.pcm",
+      "start_word": 33145202,
+      "length_words": 3602,
+      "samples": 32900
+    },
+    {
+      "name": "rhodes_C6_n084_v016_rel.pcm",
+      "start_word": 33148804,
+      "length_words": 1631,
+      "samples": 19386
+    },
+    {
+      "name": "rhodes_C6_n084_v048_rel.pcm",
+      "start_word": 33150435,
+      "length_words": 1761,
+      "samples": 20417
+    },
+    {
+      "name": "rhodes_C6_n084_v064_rel.pcm",
+      "start_word": 33152196,
+      "length_words": 2589,
+      "samples": 30194
+    },
+    {
+      "name": "rhodes_C6_n084_v080_rel.pcm",
+      "start_word": 33154785,
+      "length_words": 2426,
+      "samples": 28647
+    },
+    {
+      "name": "rhodes_C6_n084_v112_rel.pcm",
+      "start_word": 33157211,
+      "length_words": 2599,
+      "samples": 28442
+    },
+    {
+      "name": "rhodes_Cs6_n085_v016_rel.pcm",
+      "start_word": 33159810,
+      "length_words": 1695,
+      "samples": 20123
+    },
+    {
+      "name": "rhodes_Cs6_n085_v048_rel.pcm",
+      "start_word": 33161505,
+      "length_words": 1753,
+      "samples": 19212
+    },
+    {
+      "name": "rhodes_Cs6_n085_v064_rel.pcm",
+      "start_word": 33163258,
+      "length_words": 3189,
+      "samples": 31361
+    },
+    {
+      "name": "rhodes_Cs6_n085_v080_rel.pcm",
+      "start_word": 33166447,
+      "length_words": 2697,
+      "samples": 30639
+    },
+    {
+      "name": "rhodes_Cs6_n085_v112_rel.pcm",
+      "start_word": 33169144,
+      "length_words": 2638,
+      "samples": 29810
+    },
+    {
+      "name": "rhodes_D6_n086_v016_rel.pcm",
+      "start_word": 33171782,
+      "length_words": 1586,
+      "samples": 19231
+    },
+    {
+      "name": "rhodes_D6_n086_v048_rel.pcm",
+      "start_word": 33173368,
+      "length_words": 1716,
+      "samples": 20060
+    },
+    {
+      "name": "rhodes_D6_n086_v064_rel.pcm",
+      "start_word": 33175084,
+      "length_words": 2564,
+      "samples": 30105
+    },
+    {
+      "name": "rhodes_D6_n086_v080_rel.pcm",
+      "start_word": 33177648,
+      "length_words": 2479,
+      "samples": 28795
+    },
+    {
+      "name": "rhodes_D6_n086_v112_rel.pcm",
+      "start_word": 33180127,
+      "length_words": 2391,
+      "samples": 26652
+    },
+    {
+      "name": "rhodes_Ds6_n087_v016_rel.pcm",
+      "start_word": 33182518,
+      "length_words": 1578,
+      "samples": 19008
+    },
+    {
+      "name": "rhodes_Ds6_n087_v048_rel.pcm",
+      "start_word": 33184096,
+      "length_words": 1665,
+      "samples": 19045
+    },
+    {
+      "name": "rhodes_Ds6_n087_v064_rel.pcm",
+      "start_word": 33185761,
+      "length_words": 2530,
+      "samples": 29230
+    },
+    {
+      "name": "rhodes_Ds6_n087_v080_rel.pcm",
+      "start_word": 33188291,
+      "length_words": 2502,
+      "samples": 28533
+    },
+    {
+      "name": "rhodes_Ds6_n087_v112_rel.pcm",
+      "start_word": 33190793,
+      "length_words": 2641,
+      "samples": 29444
+    },
+    {
+      "name": "rhodes_E6_n088_v016_rel.pcm",
+      "start_word": 33193434,
+      "length_words": 1782,
+      "samples": 19581
+    },
+    {
+      "name": "rhodes_E6_n088_v048_rel.pcm",
+      "start_word": 33195216,
+      "length_words": 1894,
+      "samples": 20154
+    },
+    {
+      "name": "rhodes_E6_n088_v064_rel.pcm",
+      "start_word": 33197110,
+      "length_words": 2761,
+      "samples": 29981
+    },
+    {
+      "name": "rhodes_E6_n088_v080_rel.pcm",
+      "start_word": 33199871,
+      "length_words": 2566,
+      "samples": 29545
+    },
+    {
+      "name": "rhodes_E6_n088_v112_rel.pcm",
+      "start_word": 33202437,
+      "length_words": 2669,
+      "samples": 29441
+    },
+    {
+      "name": "rhodes_F6_n089_v016_rel.pcm",
+      "start_word": 33205106,
+      "length_words": 1564,
+      "samples": 18944
+    },
+    {
+      "name": "rhodes_F6_n089_v048_rel.pcm",
+      "start_word": 33206670,
+      "length_words": 1683,
+      "samples": 18837
+    },
+    {
+      "name": "rhodes_F6_n089_v064_rel.pcm",
+      "start_word": 33208353,
+      "length_words": 2651,
+      "samples": 29453
+    },
+    {
+      "name": "rhodes_F6_n089_v080_rel.pcm",
+      "start_word": 33211004,
+      "length_words": 2955,
+      "samples": 29359
+    },
+    {
+      "name": "rhodes_F6_n089_v112_rel.pcm",
+      "start_word": 33213959,
+      "length_words": 2550,
+      "samples": 28250
+    },
+    {
+      "name": "rhodes_Fs6_n090_v016_rel.pcm",
+      "start_word": 33216509,
+      "length_words": 1840,
+      "samples": 20765
+    },
+    {
+      "name": "rhodes_Fs6_n090_v048_rel.pcm",
+      "start_word": 33218349,
+      "length_words": 1900,
+      "samples": 20290
+    },
+    {
+      "name": "rhodes_Fs6_n090_v064_rel.pcm",
+      "start_word": 33220249,
+      "length_words": 2580,
+      "samples": 29566
+    },
+    {
+      "name": "rhodes_Fs6_n090_v080_rel.pcm",
+      "start_word": 33222829,
+      "length_words": 2526,
+      "samples": 28782
+    },
+    {
+      "name": "rhodes_Fs6_n090_v112_rel.pcm",
+      "start_word": 33225355,
+      "length_words": 2577,
+      "samples": 28876
+    },
+    {
+      "name": "rhodes_G6_n091_v016_rel.pcm",
+      "start_word": 33227932,
+      "length_words": 1703,
+      "samples": 19725
+    },
+    {
+      "name": "rhodes_G6_n091_v048_rel.pcm",
+      "start_word": 33229635,
+      "length_words": 1842,
+      "samples": 20116
+    },
+    {
+      "name": "rhodes_G6_n091_v064_rel.pcm",
+      "start_word": 33231477,
+      "length_words": 2724,
+      "samples": 30116
+    },
+    {
+      "name": "rhodes_G6_n091_v080_rel.pcm",
+      "start_word": 33234201,
+      "length_words": 2578,
+      "samples": 28563
+    },
+    {
+      "name": "rhodes_G6_n091_v112_rel.pcm",
+      "start_word": 33236779,
+      "length_words": 2601,
+      "samples": 26880
+    },
+    {
+      "name": "rhodes_Gs6_n092_v016_rel.pcm",
+      "start_word": 33239380,
+      "length_words": 1560,
+      "samples": 18542
+    },
+    {
+      "name": "rhodes_Gs6_n092_v048_rel.pcm",
+      "start_word": 33240940,
+      "length_words": 1787,
+      "samples": 19698
+    },
+    {
+      "name": "rhodes_Gs6_n092_v064_rel.pcm",
+      "start_word": 33242727,
+      "length_words": 2477,
+      "samples": 27957
+    },
+    {
+      "name": "rhodes_Gs6_n092_v080_rel.pcm",
+      "start_word": 33245204,
+      "length_words": 2588,
+      "samples": 29640
+    },
+    {
+      "name": "rhodes_Gs6_n092_v112_rel.pcm",
+      "start_word": 33247792,
+      "length_words": 2648,
+      "samples": 28855
+    },
+    {
+      "name": "rhodes_A6_n093_v016_rel.pcm",
+      "start_word": 33250440,
+      "length_words": 1371,
+      "samples": 17094
+    },
+    {
+      "name": "rhodes_A6_n093_v048_rel.pcm",
+      "start_word": 33251811,
+      "length_words": 1505,
+      "samples": 18165
+    },
+    {
+      "name": "rhodes_A6_n093_v064_rel.pcm",
+      "start_word": 33253316,
+      "length_words": 2359,
+      "samples": 27748
+    },
+    {
+      "name": "rhodes_A6_n093_v080_rel.pcm",
+      "start_word": 33255675,
+      "length_words": 2357,
+      "samples": 28342
+    },
+    {
+      "name": "rhodes_A6_n093_v112_rel.pcm",
+      "start_word": 33258032,
+      "length_words": 2525,
+      "samples": 27860
+    },
+    {
+      "name": "rhodes_As6_n094_v016_rel.pcm",
+      "start_word": 33260557,
+      "length_words": 1649,
+      "samples": 19638
+    },
+    {
+      "name": "rhodes_As6_n094_v048_rel.pcm",
+      "start_word": 33262206,
+      "length_words": 1734,
+      "samples": 19762
+    },
+    {
+      "name": "rhodes_As6_n094_v064_rel.pcm",
+      "start_word": 33263940,
+      "length_words": 2372,
+      "samples": 28194
+    },
+    {
+      "name": "rhodes_As6_n094_v080_rel.pcm",
+      "start_word": 33266312,
+      "length_words": 2544,
+      "samples": 28932
+    },
+    {
+      "name": "rhodes_As6_n094_v112_rel.pcm",
+      "start_word": 33268856,
+      "length_words": 2713,
+      "samples": 29951
+    },
+    {
+      "name": "rhodes_B6_n095_v016_rel.pcm",
+      "start_word": 33271569,
+      "length_words": 1813,
+      "samples": 20100
+    },
+    {
+      "name": "rhodes_B6_n095_v048_rel.pcm",
+      "start_word": 33273382,
+      "length_words": 1916,
+      "samples": 20508
+    },
+    {
+      "name": "rhodes_B6_n095_v064_rel.pcm",
+      "start_word": 33275298,
+      "length_words": 2532,
+      "samples": 28808
+    },
+    {
+      "name": "rhodes_B6_n095_v080_rel.pcm",
+      "start_word": 33277830,
+      "length_words": 2338,
+      "samples": 27528
+    },
+    {
+      "name": "rhodes_B6_n095_v112_rel.pcm",
+      "start_word": 33280168,
+      "length_words": 2507,
+      "samples": 28436
+    },
+    {
+      "name": "rhodes_C7_n096_v016_rel.pcm",
+      "start_word": 33282675,
+      "length_words": 1881,
+      "samples": 20711
+    },
+    {
+      "name": "rhodes_C7_n096_v048_rel.pcm",
+      "start_word": 33284556,
+      "length_words": 1990,
+      "samples": 20586
+    },
+    {
+      "name": "rhodes_C7_n096_v064_rel.pcm",
+      "start_word": 33286546,
+      "length_words": 2293,
+      "samples": 27383
+    },
+    {
+      "name": "rhodes_C7_n096_v080_rel.pcm",
+      "start_word": 33288839,
+      "length_words": 2473,
+      "samples": 28148
+    },
+    {
+      "name": "rhodes_C7_n096_v112_rel.pcm",
+      "start_word": 33291312,
+      "length_words": 2624,
+      "samples": 28668
+    },
+    {
+      "name": "rhodes_Cs7_n097_v016_rel.pcm",
+      "start_word": 33293936,
+      "length_words": 1766,
+      "samples": 19734
+    },
+    {
+      "name": "rhodes_Cs7_n097_v048_rel.pcm",
+      "start_word": 33295702,
+      "length_words": 1895,
+      "samples": 20105
+    },
+    {
+      "name": "rhodes_Cs7_n097_v064_rel.pcm",
+      "start_word": 33297597,
+      "length_words": 2555,
+      "samples": 29903
+    },
+    {
+      "name": "rhodes_Cs7_n097_v080_rel.pcm",
+      "start_word": 33300152,
+      "length_words": 3008,
+      "samples": 32072
+    },
+    {
+      "name": "rhodes_Cs7_n097_v112_rel.pcm",
+      "start_word": 33303160,
+      "length_words": 2903,
+      "samples": 30753
+    },
+    {
+      "name": "rhodes_D7_n098_v016_rel.pcm",
+      "start_word": 33306063,
+      "length_words": 1814,
+      "samples": 20128
+    },
+    {
+      "name": "rhodes_D7_n098_v048_rel.pcm",
+      "start_word": 33307877,
+      "length_words": 1912,
+      "samples": 19623
+    },
+    {
+      "name": "rhodes_D7_n098_v064_rel.pcm",
+      "start_word": 33309789,
+      "length_words": 2347,
+      "samples": 27749
+    },
+    {
+      "name": "rhodes_D7_n098_v080_rel.pcm",
+      "start_word": 33312136,
+      "length_words": 2419,
+      "samples": 28306
+    },
+    {
+      "name": "rhodes_D7_n098_v112_rel.pcm",
+      "start_word": 33314555,
+      "length_words": 2435,
+      "samples": 27537
+    },
+    {
+      "name": "rhodes_Ds7_n099_v016_rel.pcm",
+      "start_word": 33316990,
+      "length_words": 1663,
+      "samples": 19312
+    },
+    {
+      "name": "rhodes_Ds7_n099_v048_rel.pcm",
+      "start_word": 33318653,
+      "length_words": 1912,
+      "samples": 20246
+    },
+    {
+      "name": "rhodes_Ds7_n099_v064_rel.pcm",
+      "start_word": 33320565,
+      "length_words": 2319,
+      "samples": 27839
+    },
+    {
+      "name": "rhodes_Ds7_n099_v080_rel.pcm",
+      "start_word": 33322884,
+      "length_words": 2594,
+      "samples": 29974
+    },
+    {
+      "name": "rhodes_Ds7_n099_v112_rel.pcm",
+      "start_word": 33325478,
+      "length_words": 2342,
+      "samples": 27523
+    },
+    {
+      "name": "rhodes_E7_n100_v016_rel.pcm",
+      "start_word": 33327820,
+      "length_words": 1775,
+      "samples": 20000
+    },
+    {
+      "name": "rhodes_E7_n100_v048_rel.pcm",
+      "start_word": 33329595,
+      "length_words": 1731,
+      "samples": 19531
+    },
+    {
+      "name": "rhodes_E7_n100_v064_rel.pcm",
+      "start_word": 33331326,
+      "length_words": 2280,
+      "samples": 27287
+    },
+    {
+      "name": "rhodes_E7_n100_v080_rel.pcm",
+      "start_word": 33333606,
+      "length_words": 2160,
+      "samples": 26387
+    },
+    {
+      "name": "rhodes_E7_n100_v112_rel.pcm",
+      "start_word": 33335766,
+      "length_words": 1896,
+      "samples": 22996
+    },
+    {
+      "name": "rhodes_F7_n101_v016_rel.pcm",
+      "start_word": 33337662,
+      "length_words": 947,
+      "samples": 12582
+    },
+    {
+      "name": "rhodes_F7_n101_v048_rel.pcm",
+      "start_word": 33338609,
+      "length_words": 1111,
+      "samples": 13732
+    },
+    {
+      "name": "rhodes_F7_n101_v064_rel.pcm",
+      "start_word": 33339720,
+      "length_words": 2047,
+      "samples": 21238
+    },
+    {
+      "name": "rhodes_F7_n101_v080_rel.pcm",
+      "start_word": 33341767,
+      "length_words": 2899,
+      "samples": 24316
+    },
+    {
+      "name": "rhodes_F7_n101_v112_rel.pcm",
+      "start_word": 33344666,
+      "length_words": 3684,
+      "samples": 28681
+    },
+    {
+      "name": "rhodes_Fs7_n102_v016_rel.pcm",
+      "start_word": 33348350,
+      "length_words": 936,
+      "samples": 11757
+    },
+    {
+      "name": "rhodes_Fs7_n102_v048_rel.pcm",
+      "start_word": 33349286,
+      "length_words": 1089,
+      "samples": 11418
+    },
+    {
+      "name": "rhodes_Fs7_n102_v064_rel.pcm",
+      "start_word": 33350375,
+      "length_words": 1968,
+      "samples": 20334
+    },
+    {
+      "name": "rhodes_Fs7_n102_v080_rel.pcm",
+      "start_word": 33352343,
+      "length_words": 2840,
+      "samples": 23908
+    },
+    {
+      "name": "rhodes_Fs7_n102_v112_rel.pcm",
+      "start_word": 33355183,
+      "length_words": 3708,
+      "samples": 29153
+    },
+    {
+      "name": "rhodes_G7_n103_v016_rel.pcm",
+      "start_word": 33358891,
+      "length_words": 968,
+      "samples": 12645
+    },
+    {
+      "name": "rhodes_G7_n103_v048_rel.pcm",
+      "start_word": 33359859,
+      "length_words": 1055,
+      "samples": 13146
+    },
+    {
+      "name": "rhodes_G7_n103_v064_rel.pcm",
+      "start_word": 33360914,
+      "length_words": 2018,
+      "samples": 21787
+    },
+    {
+      "name": "rhodes_G7_n103_v080_rel.pcm",
+      "start_word": 33362932,
+      "length_words": 2825,
+      "samples": 23710
+    },
+    {
+      "name": "rhodes_G7_n103_v112_rel.pcm",
+      "start_word": 33365757,
+      "length_words": 3330,
+      "samples": 28047
+    },
+    {
+      "name": "rhodes_Gs7_n104_v016_rel.pcm",
+      "start_word": 33369087,
+      "length_words": 1049,
+      "samples": 13664
+    },
+    {
+      "name": "rhodes_Gs7_n104_v048_rel.pcm",
+      "start_word": 33370136,
+      "length_words": 1074,
+      "samples": 13812
+    },
+    {
+      "name": "rhodes_Gs7_n104_v064_rel.pcm",
+      "start_word": 33371210,
+      "length_words": 1829,
+      "samples": 20292
+    },
+    {
+      "name": "rhodes_Gs7_n104_v080_rel.pcm",
+      "start_word": 33373039,
+      "length_words": 2817,
+      "samples": 23607
+    },
+    {
+      "name": "rhodes_Gs7_n104_v112_rel.pcm",
+      "start_word": 33375856,
+      "length_words": 3396,
+      "samples": 28715
+    },
+    {
+      "name": "rhodes_A7_n105_v016_rel.pcm",
+      "start_word": 33379252,
+      "length_words": 1161,
+      "samples": 14156
+    },
+    {
+      "name": "rhodes_A7_n105_v048_rel.pcm",
+      "start_word": 33380413,
+      "length_words": 910,
+      "samples": 11977
+    },
+    {
+      "name": "rhodes_A7_n105_v064_rel.pcm",
+      "start_word": 33381323,
+      "length_words": 2095,
+      "samples": 20792
+    },
+    {
+      "name": "rhodes_A7_n105_v080_rel.pcm",
+      "start_word": 33383418,
+      "length_words": 2802,
+      "samples": 23748
+    },
+    {
+      "name": "rhodes_A7_n105_v112_rel.pcm",
+      "start_word": 33386220,
+      "length_words": 3487,
+      "samples": 28045
+    },
+    {
+      "name": "rhodes_As7_n106_v016_rel.pcm",
+      "start_word": 33389707,
+      "length_words": 1046,
+      "samples": 13564
+    },
+    {
+      "name": "rhodes_As7_n106_v048_rel.pcm",
+      "start_word": 33390753,
+      "length_words": 1116,
+      "samples": 13994
+    },
+    {
+      "name": "rhodes_As7_n106_v064_rel.pcm",
+      "start_word": 33391869,
+      "length_words": 1985,
+      "samples": 21086
+    },
+    {
+      "name": "rhodes_As7_n106_v080_rel.pcm",
+      "start_word": 33393854,
+      "length_words": 3014,
+      "samples": 24471
+    },
+    {
+      "name": "rhodes_As7_n106_v112_rel.pcm",
+      "start_word": 33396868,
+      "length_words": 3507,
+      "samples": 28442
+    },
+    {
+      "name": "rhodes_B7_n107_v016_rel.pcm",
+      "start_word": 33400375,
+      "length_words": 977,
+      "samples": 11959
+    },
+    {
+      "name": "rhodes_B7_n107_v048_rel.pcm",
+      "start_word": 33401352,
+      "length_words": 1083,
+      "samples": 14230
+    },
+    {
+      "name": "rhodes_B7_n107_v064_rel.pcm",
+      "start_word": 33402435,
+      "length_words": 1905,
+      "samples": 21848
+    },
+    {
+      "name": "rhodes_B7_n107_v080_rel.pcm",
+      "start_word": 33404340,
+      "length_words": 2776,
+      "samples": 23404
+    },
+    {
+      "name": "rhodes_B7_n107_v112_rel.pcm",
+      "start_word": 33407116,
+      "length_words": 3511,
+      "samples": 28815
+    },
+    {
+      "name": "rhodes_C8_n108_v016_rel.pcm",
+      "start_word": 33410627,
+      "length_words": 913,
+      "samples": 12131
+    },
+    {
+      "name": "rhodes_C8_n108_v048_rel.pcm",
+      "start_word": 33411540,
+      "length_words": 948,
+      "samples": 12598
+    },
+    {
+      "name": "rhodes_C8_n108_v064_rel.pcm",
+      "start_word": 33412488,
+      "length_words": 2135,
+      "samples": 22532
+    },
+    {
+      "name": "rhodes_C8_n108_v080_rel.pcm",
+      "start_word": 33414623,
+      "length_words": 3117,
+      "samples": 24001
+    },
+    {
+      "name": "rhodes_C8_n108_v112_rel.pcm",
+      "start_word": 33417740,
+      "length_words": 3038,
+      "samples": 25353
+    }
+  ]
+}

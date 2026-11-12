@@ -1,0 +1,22 @@
+idx  start_word  words  samples  name
+  0           0  83726   457737  real, WHOLE FILE (written to .wav by the testbench): rhodes_C4_n060_v080_sus.pcm frames 0..447
+  1       83726   1080     3799  real, whole smallest file (short last frame): rhodes_F7_n101_v016_sus.pcm frames 0..3
+  2       84806   2181     6144  real, attack of the largest file: rhodes_D1_n026_v112_sus.pcm frames 0..5
+  3       86987    901     4096  real, mid-file window (starts on an inner frame): rhodes_D6_n086_v016_sus.pcm frames 49..52
+  4       87888    364     1024  real, longest unary run in attacks (q=91): rhodes_D2_n038_v112_sus.pcm frames 0..0
+  5       88252   2351     2348  syn, white noise (RAW frames) + short last frame
+  6       90603     69     1041  syn, silence (k=0, 1-bit codes)
+  7       90672    269     1624  syn, full-scale wrap-around patterns
+  8       90941   1331     3072  syn, low noise + spikes (very long unary runs)
+  9       92272   6102    12288  syn, noise amplitude sweep 2^0..2^11 (k sweep up to RAW)
+ 10       98374   1793     3072  syn, decaying sine sweep, order forced to 1
+ 11      100167    595     3072  syn, decaying sine sweep, order forced to 2
+ 12      100762    520     3072  syn, decaying sine sweep, order forced to 3
+ 13      101282    690     3072  syn, decaying sine sweep, order forced to 4
+ 14      101972    495     3072  syn, decaying sine sweep, free order choice
+ 15      102467      2        1  syn, tiny file of 1 samples
+ 16      102469      3        2  syn, tiny file of 2 samples
+ 17      102472      4        3  syn, tiny file of 3 samples
+ 18      102476      5        4  syn, tiny file of 4 samples
+ 19      102481      5        5  syn, tiny file of 5 samples
+ 20      102486      8        9  syn, tiny file of 9 samples

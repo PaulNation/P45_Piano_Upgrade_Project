@@ -1,0 +1,10523 @@
+{
+ "source": "Keyscape 'Classic Rhodes' mapping XML (Release Combo/Direct.xml + Mechanical Noise Release r01/Microphone.xml), metadata only",
+ "library_layers": [
+  "v016",
+  "v048",
+  "v064",
+  "v080",
+  "v112"
+ ],
+ "distinct_releases": 327,
+ "keys": [
+  {
+   "note": 21,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_21-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_21-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_21-68",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_21-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_21-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_21-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_21-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_21-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_21-118",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_21-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 22,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_22-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_22-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_22-68",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_22-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_22-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_22-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_22-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_22-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_22-118",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_22-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 23,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_23-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_23-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_23-68",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_23-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_23-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_23-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_23-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_23-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_23-118",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_23-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 24,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_24-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_24-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_24-68",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_24-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_24-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_24-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_24-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_24-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_24-118",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_24-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 25,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_25-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_25-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_25-68",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_25-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_25-96",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_25-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_25-96",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_25-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_25-118",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_25-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 26,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_26-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_26-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_26-68",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_26-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_26-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_26-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_26-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_26-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_26-118",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_26-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 27,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_27-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_27-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_27-68",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_27-57",
+      "trim_db": -2.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_27-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_27-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_27-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_27-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_27-118",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_27-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 28,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_28-43",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_28-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_28-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_28-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_28-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_28-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_28-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_28-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_28-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_28-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 29,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_29-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_29-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_29-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_29-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_29-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_29-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_29-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_29-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_29-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_29-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 30,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_30-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_30-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_30-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_30-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_30-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_30-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_30-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_30-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_30-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_30-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 31,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_31-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_31-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_31-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_31-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_31-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_31-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_31-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_31-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_31-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_31-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 32,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_32-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_32-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_32-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_32-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_32-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_32-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_32-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_32-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_32-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_32-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 33,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_33-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_33-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_33-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_33-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_33-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_33-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_33-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_33-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_33-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_33-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 34,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_34-43",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_34-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_34-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_34-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_34-96",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_34-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_34-96",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_34-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_34-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_34-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 35,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_35-43",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_35-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_35-68",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_35-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_35-96",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_35-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_35-96",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_35-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_35-118",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_35-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 36,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_36-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_36-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_36-68",
+      "trim_db": 7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_36-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_36-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_36-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_36-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_36-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_36-118",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_36-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 37,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_37-43",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_37-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_37-68",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_37-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_37-96",
+      "trim_db": 7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_37-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_37-96",
+      "trim_db": 7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_37-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_37-118",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_37-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 38,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_38-43",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_38-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_38-68",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_38-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_38-96",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_38-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_38-96",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_38-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_38-118",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_38-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 39,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_39-43",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_39-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_39-68",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_39-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_39-96",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_39-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_39-96",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_39-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_39-118",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_39-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 40,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_40-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_40-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_40-68",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_40-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_40-96",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_40-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_40-96",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_40-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_40-118",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_40-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 41,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_41-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_41-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_41-68",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_41-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_41-96",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_41-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_41-96",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_41-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_41-118",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_41-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 42,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_42-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_42-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_42-68",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_42-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_42-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_42-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_42-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_42-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_42-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_42-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 43,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_43-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_43-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_43-68",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_43-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_43-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_43-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_43-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_43-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_43-118",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_43-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 44,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_44-43",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_44-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_44-68",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_44-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_44-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_44-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_44-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_44-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_44-118",
+      "trim_db": -9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_44-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 45,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_45-43",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_45-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_45-68",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_45-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_45-96",
+      "trim_db": -0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_45-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_45-96",
+      "trim_db": -0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_45-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_45-118",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_45-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 46,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_46-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_46-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_46-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_46-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_46-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_46-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_46-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_46-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_46-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_46-127",
+      "trim_db": -10.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 47,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_47-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_47-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_47-68",
+      "trim_db": 7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_47-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_47-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_47-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_47-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_47-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_47-118",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_47-127",
+      "trim_db": -9.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 48,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_48-43",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_48-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_48-68",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_48-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_48-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_48-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_48-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_48-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_48-118",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_48-127",
+      "trim_db": -10.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 49,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_49-43",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_49-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_49-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_49-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_49-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_49-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_49-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_49-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_49-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_49-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 50,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_50-43",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_50-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_50-68",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_50-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_50-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_50-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_50-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_50-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_50-118",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_50-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 51,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_51-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_51-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_51-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_51-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_51-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_51-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_51-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_51-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_51-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_51-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 52,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_52-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_52-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_52-68",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_52-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_52-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_52-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_52-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_52-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_52-118",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_52-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 53,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_53-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_53-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_53-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_53-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_53-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_53-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_53-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_53-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_53-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_53-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 54,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_54-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_54-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_54-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_54-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_54-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_54-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_54-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_54-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_54-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_54-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 55,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_55-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_55-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_55-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_55-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_55-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_55-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_55-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_55-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_55-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_55-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 56,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_56-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_56-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_56-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_56-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_56-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_56-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_56-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_56-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_56-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_56-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 57,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_57-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_57-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_57-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_57-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_57-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_57-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_57-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_57-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_57-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_57-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 58,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_58-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_58-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_58-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_58-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_58-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_58-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_58-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_58-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_58-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_58-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 59,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_59-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_59-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_59-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_59-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_59-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_59-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_59-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_59-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_59-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_59-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 60,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_60-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_60-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_60-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_60-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_60-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_60-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_60-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_60-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_60-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_60-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 61,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_61-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_61-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_61-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_61-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_61-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_61-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_61-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_61-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_61-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_61-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 62,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_62-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_62-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_62-68",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_62-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_62-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_62-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_62-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_62-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_62-118",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_62-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 63,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_63-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_63-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_63-68",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_63-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_63-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_63-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_63-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_63-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_63-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_63-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 64,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_64-43",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_64-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_64-68",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_64-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_64-96",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_64-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_64-96",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_64-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_64-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_64-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 65,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_65-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_65-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_65-68",
+      "trim_db": 6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_65-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_65-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_65-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_65-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_65-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_65-118",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_65-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 66,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_66-43",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_66-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_66-68",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_66-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_66-96",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_66-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_66-96",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_66-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_66-118",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_66-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 67,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_67-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_67-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_67-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_67-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_67-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_67-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_67-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_67-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_67-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_67-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 68,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_68-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_68-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_68-68",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_68-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_68-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_68-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_68-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_68-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_68-118",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_68-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 69,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_69-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_69-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_69-68",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_69-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_69-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_69-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_69-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_69-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_69-118",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_69-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 70,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_70-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_70-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_70-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_70-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_70-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_70-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_70-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_70-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_70-118",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_70-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 71,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_71-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_71-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_71-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_71-57",
+      "trim_db": -0.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_71-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_71-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_71-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_71-100",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_71-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_71-127",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 72,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_72-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_72-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_72-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_72-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_72-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_72-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_72-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_72-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_72-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_72-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 73,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_73-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_73-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_73-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_73-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_73-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_73-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_73-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_73-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_73-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_73-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 74,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_74-43",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_74-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_74-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_74-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_74-96",
+      "trim_db": 6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_74-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_74-96",
+      "trim_db": 6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_74-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_74-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_74-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 75,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_75-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_75-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_75-68",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_75-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_75-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_75-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_75-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_75-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_75-118",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_75-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 76,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_76-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_76-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_76-68",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_76-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_76-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_76-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_76-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_76-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_76-118",
+      "trim_db": -9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_76-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 77,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_77-43",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_77-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_77-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_77-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_77-96",
+      "trim_db": 6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_77-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_77-96",
+      "trim_db": 6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_77-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_77-118",
+      "trim_db": -7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_77-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 78,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_78-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_78-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_78-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_78-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_78-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_78-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_78-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_78-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_78-118",
+      "trim_db": -7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_78-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 79,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_79-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_79-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_79-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_79-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_79-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_79-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_79-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_79-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_79-118",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_79-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 80,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_80-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_80-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_80-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_80-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_80-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_80-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_80-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_80-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_80-118",
+      "trim_db": -7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_80-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 81,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_81-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_81-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_81-68",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_81-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_81-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_81-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_81-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_81-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_81-118",
+      "trim_db": -7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_81-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 82,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_82-43",
+      "trim_db": 5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_82-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_82-68",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_82-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_82-96",
+      "trim_db": 9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_82-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_82-96",
+      "trim_db": 9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_82-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_82-118",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_82-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 83,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       19
+      ],
+      "sample": "SL01 CLRRelMr3_83-43",
+      "trim_db": 0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_83-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       35,
+       48
+      ],
+      "sample": "SL01 CLR RelF_83-68",
+      "trim_db": 4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_83-57",
+      "trim_db": -5.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_83-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_83-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_83-96",
+      "trim_db": 3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_83-100",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_83-118",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_83-127",
+      "trim_db": -12.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016"
+    ],
+    [
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 84,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_84-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_84-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_84-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_84-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_84-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_84-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_84-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_84-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_84-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_84-127",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 85,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_85-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_85-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_85-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_85-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_85-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_85-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_85-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_85-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_85-118",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_85-127",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 86,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_86-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_86-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_86-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_86-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_86-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_86-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_86-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_86-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_86-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_86-127",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 87,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_87-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_87-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_87-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_87-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_87-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_87-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_87-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_87-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_87-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_87-127",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 88,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_88-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_88-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_88-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_88-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_88-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_88-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_88-96",
+      "trim_db": 1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_88-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_88-118",
+      "trim_db": -10.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_88-127",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 89,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_89-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_89-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_89-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_89-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_89-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_89-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_89-96",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_89-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_89-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_89-127",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 90,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_90-43",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_90-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_90-43",
+      "trim_db": -3.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_90-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_90-96",
+      "trim_db": -0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_90-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_90-96",
+      "trim_db": -0.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_90-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_90-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_90-127",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 91,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_91-43",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_91-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_91-43",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_91-57",
+      "trim_db": -7.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_91-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_91-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_91-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_91-100",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_91-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_91-127",
+      "trim_db": -14.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 92,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_92-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_92-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_92-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_92-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_92-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_92-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_92-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_92-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_92-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_92-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 93,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_93-43",
+      "trim_db": -11.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_93-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_93-43",
+      "trim_db": -11.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_93-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_93-96",
+      "trim_db": -7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_93-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_93-96",
+      "trim_db": -7.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_93-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_93-118",
+      "trim_db": -14.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_93-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 94,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_94-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_94-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_94-43",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_94-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_94-96",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_94-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_94-96",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_94-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_94-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_94-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 95,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_95-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_95-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_95-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_95-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_95-96",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_95-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_95-96",
+      "trim_db": 2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_95-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_95-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_95-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 96,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_96-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_96-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_96-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_96-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_96-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_96-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_96-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_96-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_96-118",
+      "trim_db": -15.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_96-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 97,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_97-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_97-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_97-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_97-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_97-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_97-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_97-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_97-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_97-118",
+      "trim_db": -6.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_97-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 98,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_98-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_98-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_98-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_98-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_98-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_98-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_98-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_98-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_98-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_98-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 99,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_99-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_99-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_99-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_99-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_99-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_99-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_99-96",
+      "trim_db": -1.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_99-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_99-118",
+      "trim_db": -12.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_99-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 100,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_100-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_100-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_100-43",
+      "trim_db": -2.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_100-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_100-96",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_100-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_100-96",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_100-100",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_100-118",
+      "trim_db": -18.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_100-127",
+      "trim_db": -15.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 101,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_101-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_101-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_101-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_101-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_101-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_101-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_101-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_101-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_101-118",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_101-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 102,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_102-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_102-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_102-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_102-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_102-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_102-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_102-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_102-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_102-118",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_102-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 103,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_103-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_103-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_103-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_103-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_103-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_103-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_103-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_103-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_103-118",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_103-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 104,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_104-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_104-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_104-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_104-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_104-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_104-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_104-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_104-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_104-118",
+      "trim_db": -9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_104-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 105,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_105-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_105-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_105-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_105-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_105-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_105-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_105-96",
+      "trim_db": -8.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_105-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_105-118",
+      "trim_db": -9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_105-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 106,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_106-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_106-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_106-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_106-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_106-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_106-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_106-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_106-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_106-118",
+      "trim_db": -9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_106-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 107,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_107-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_107-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_107-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_107-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_107-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_107-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_107-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_107-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_107-118",
+      "trim_db": -9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_107-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  },
+  {
+   "note": 108,
+   "layers": {
+    "v016": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_108-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_108-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v048": {
+     "release_combo": {
+      "zone": [
+       0,
+       48
+      ],
+      "sample": "SL01 CLRRelMr3_108-43",
+      "trim_db": -4.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       0,
+       57
+      ],
+      "sample": "SL02 CLRMchRel_108-57",
+      "trim_db": -8.0,
+      "round_robins": 4
+     }
+    },
+    "v064": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_108-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_108-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v080": {
+     "release_combo": {
+      "zone": [
+       64,
+       80
+      ],
+      "sample": "SL01 CLRRelMr3_108-96",
+      "trim_db": -5.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       58,
+       100
+      ],
+      "sample": "SL02 CLRMchRel_108-100",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    },
+    "v112": {
+     "release_combo": {
+      "zone": [
+       109,
+       120
+      ],
+      "sample": "SL01 CLR RelF_108-118",
+      "trim_db": -9.0,
+      "round_robins": 4
+     },
+     "mechanical_release": {
+      "zone": [
+       101,
+       127
+      ],
+      "sample": "SL02 CLRMchRel_108-127",
+      "trim_db": -13.0,
+      "round_robins": 4
+     }
+    }
+   },
+   "layers_sharing_same_release": [
+    [
+     "v016",
+     "v048"
+    ],
+    [
+     "v064",
+     "v080"
+    ],
+    [
+     "v112"
+    ]
+   ]
+  }
+ ]
+}

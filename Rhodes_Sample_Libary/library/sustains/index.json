@@ -1,0 +1,3529 @@
+{
+ "sample_rate": 44100,
+ "preroll_samples": 103,
+ "end_fade_samples": 176,
+ "source": "keyscape_rebounce_sustains.wav",
+ "files": [
+  {
+   "file": "rhodes_A0_n021_v016_sus.pcm",
+   "note": 21,
+   "velocity": 16,
+   "samples": 293056,
+   "latency_ms": 0.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A0_n021_v048_sus.pcm",
+   "note": 21,
+   "velocity": 48,
+   "samples": 489681,
+   "latency_ms": 0.14,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A0_n021_v064_sus.pcm",
+   "note": 21,
+   "velocity": 64,
+   "samples": 645476,
+   "latency_ms": 0.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A0_n021_v080_sus.pcm",
+   "note": 21,
+   "velocity": 80,
+   "samples": 799683,
+   "latency_ms": 2.65,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A0_n021_v112_sus.pcm",
+   "note": 21,
+   "velocity": 112,
+   "samples": 790544,
+   "latency_ms": 0.48,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As0_n022_v016_sus.pcm",
+   "note": 22,
+   "velocity": 16,
+   "samples": 106409,
+   "latency_ms": -1.38,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As0_n022_v048_sus.pcm",
+   "note": 22,
+   "velocity": 48,
+   "samples": 139967,
+   "latency_ms": -0.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As0_n022_v064_sus.pcm",
+   "note": 22,
+   "velocity": 64,
+   "samples": 220683,
+   "latency_ms": -1.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As0_n022_v080_sus.pcm",
+   "note": 22,
+   "velocity": 80,
+   "samples": 265898,
+   "latency_ms": 0.86,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As0_n022_v112_sus.pcm",
+   "note": 22,
+   "velocity": 112,
+   "samples": 272259,
+   "latency_ms": -0.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B0_n023_v016_sus.pcm",
+   "note": 23,
+   "velocity": 16,
+   "samples": 133564,
+   "latency_ms": 1.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B0_n023_v048_sus.pcm",
+   "note": 23,
+   "velocity": 48,
+   "samples": 326371,
+   "latency_ms": -1.16,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B0_n023_v064_sus.pcm",
+   "note": 23,
+   "velocity": 64,
+   "samples": 430752,
+   "latency_ms": -1.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B0_n023_v080_sus.pcm",
+   "note": 23,
+   "velocity": 80,
+   "samples": 542242,
+   "latency_ms": 0.98,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B0_n023_v112_sus.pcm",
+   "note": 23,
+   "velocity": 112,
+   "samples": 519630,
+   "latency_ms": 0.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C1_n024_v016_sus.pcm",
+   "note": 24,
+   "velocity": 16,
+   "samples": 395608,
+   "latency_ms": 1.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C1_n024_v048_sus.pcm",
+   "note": 24,
+   "velocity": 48,
+   "samples": 761737,
+   "latency_ms": 2.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C1_n024_v064_sus.pcm",
+   "note": 24,
+   "velocity": 64,
+   "samples": 818400,
+   "latency_ms": -0.93,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C1_n024_v080_sus.pcm",
+   "note": 24,
+   "velocity": 80,
+   "samples": 827830,
+   "latency_ms": -0.98,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C1_n024_v112_sus.pcm",
+   "note": 24,
+   "velocity": 112,
+   "samples": 810344,
+   "latency_ms": 0.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs1_n025_v016_sus.pcm",
+   "note": 25,
+   "velocity": 16,
+   "samples": 359409,
+   "latency_ms": 1.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs1_n025_v048_sus.pcm",
+   "note": 25,
+   "velocity": 48,
+   "samples": 910126,
+   "latency_ms": -0.16,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs1_n025_v064_sus.pcm",
+   "note": 25,
+   "velocity": 64,
+   "samples": 929210,
+   "latency_ms": 1.81,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs1_n025_v080_sus.pcm",
+   "note": 25,
+   "velocity": 80,
+   "samples": 1072314,
+   "latency_ms": 1.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs1_n025_v112_sus.pcm",
+   "note": 25,
+   "velocity": 112,
+   "samples": 1204556,
+   "latency_ms": -0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D1_n026_v016_sus.pcm",
+   "note": 26,
+   "velocity": 16,
+   "samples": 608116,
+   "latency_ms": 1.72,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D1_n026_v048_sus.pcm",
+   "note": 26,
+   "velocity": 48,
+   "samples": 919575,
+   "latency_ms": 2.54,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D1_n026_v064_sus.pcm",
+   "note": 26,
+   "velocity": 64,
+   "samples": 992291,
+   "latency_ms": 1.13,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D1_n026_v080_sus.pcm",
+   "note": 26,
+   "velocity": 80,
+   "samples": 1064614,
+   "latency_ms": 2.24,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D1_n026_v112_sus.pcm",
+   "note": 26,
+   "velocity": 112,
+   "samples": 1209486,
+   "latency_ms": 1.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds1_n027_v016_sus.pcm",
+   "note": 27,
+   "velocity": 16,
+   "samples": 735627,
+   "latency_ms": 1.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds1_n027_v048_sus.pcm",
+   "note": 27,
+   "velocity": 48,
+   "samples": 913302,
+   "latency_ms": -0.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds1_n027_v064_sus.pcm",
+   "note": 27,
+   "velocity": 64,
+   "samples": 985204,
+   "latency_ms": 1.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds1_n027_v080_sus.pcm",
+   "note": 27,
+   "velocity": 80,
+   "samples": 1057105,
+   "latency_ms": 2.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds1_n027_v112_sus.pcm",
+   "note": 27,
+   "velocity": 112,
+   "samples": 1200907,
+   "latency_ms": -0.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E1_n028_v016_sus.pcm",
+   "note": 28,
+   "velocity": 16,
+   "samples": 708521,
+   "latency_ms": -0.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E1_n028_v048_sus.pcm",
+   "note": 28,
+   "velocity": 48,
+   "samples": 906494,
+   "latency_ms": -0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E1_n028_v064_sus.pcm",
+   "note": 28,
+   "velocity": 64,
+   "samples": 978116,
+   "latency_ms": -0.82,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E1_n028_v080_sus.pcm",
+   "note": 28,
+   "velocity": 80,
+   "samples": 1049500,
+   "latency_ms": 0.75,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E1_n028_v112_sus.pcm",
+   "note": 28,
+   "velocity": 112,
+   "samples": 1192268,
+   "latency_ms": 1.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F1_n029_v016_sus.pcm",
+   "note": 29,
+   "velocity": 16,
+   "samples": 750723,
+   "latency_ms": -1.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F1_n029_v048_sus.pcm",
+   "note": 29,
+   "velocity": 48,
+   "samples": 900162,
+   "latency_ms": 0.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F1_n029_v064_sus.pcm",
+   "note": 29,
+   "velocity": 64,
+   "samples": 970947,
+   "latency_ms": 0.39,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F1_n029_v080_sus.pcm",
+   "note": 29,
+   "velocity": 80,
+   "samples": 1041896,
+   "latency_ms": -0.39,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F1_n029_v112_sus.pcm",
+   "note": 29,
+   "velocity": 112,
+   "samples": 1183629,
+   "latency_ms": -0.82,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs1_n030_v016_sus.pcm",
+   "note": 30,
+   "velocity": 16,
+   "samples": 750983,
+   "latency_ms": -1.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs1_n030_v048_sus.pcm",
+   "note": 30,
+   "velocity": 48,
+   "samples": 893427,
+   "latency_ms": -1.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs1_n030_v064_sus.pcm",
+   "note": 30,
+   "velocity": 64,
+   "samples": 963850,
+   "latency_ms": -1.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs1_n030_v080_sus.pcm",
+   "note": 30,
+   "velocity": 80,
+   "samples": 1034290,
+   "latency_ms": -1.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs1_n030_v112_sus.pcm",
+   "note": 30,
+   "velocity": 112,
+   "samples": 1174990,
+   "latency_ms": 1.93,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G1_n031_v016_sus.pcm",
+   "note": 31,
+   "velocity": 16,
+   "samples": 747159,
+   "latency_ms": -1.22,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G1_n031_v048_sus.pcm",
+   "note": 31,
+   "velocity": 48,
+   "samples": 886977,
+   "latency_ms": 0.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G1_n031_v064_sus.pcm",
+   "note": 31,
+   "velocity": 64,
+   "samples": 956854,
+   "latency_ms": -0.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G1_n031_v080_sus.pcm",
+   "note": 31,
+   "velocity": 80,
+   "samples": 1026687,
+   "latency_ms": 2.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G1_n031_v112_sus.pcm",
+   "note": 31,
+   "velocity": 112,
+   "samples": 1166350,
+   "latency_ms": 0.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs1_n032_v016_sus.pcm",
+   "note": 32,
+   "velocity": 16,
+   "samples": 741823,
+   "latency_ms": -0.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs1_n032_v048_sus.pcm",
+   "note": 32,
+   "velocity": 48,
+   "samples": 880453,
+   "latency_ms": -0.48,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs1_n032_v064_sus.pcm",
+   "note": 32,
+   "velocity": 64,
+   "samples": 949764,
+   "latency_ms": -1.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs1_n032_v080_sus.pcm",
+   "note": 32,
+   "velocity": 80,
+   "samples": 1019082,
+   "latency_ms": 1.16,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs1_n032_v112_sus.pcm",
+   "note": 32,
+   "velocity": 112,
+   "samples": 1157711,
+   "latency_ms": -1.38,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A1_n033_v016_sus.pcm",
+   "note": 33,
+   "velocity": 16,
+   "samples": 736287,
+   "latency_ms": -1.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A1_n033_v048_sus.pcm",
+   "note": 33,
+   "velocity": 48,
+   "samples": 873882,
+   "latency_ms": 2.49,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A1_n033_v064_sus.pcm",
+   "note": 33,
+   "velocity": 64,
+   "samples": 942680,
+   "latency_ms": -1.47,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A1_n033_v080_sus.pcm",
+   "note": 33,
+   "velocity": 80,
+   "samples": 1011477,
+   "latency_ms": 1.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A1_n033_v112_sus.pcm",
+   "note": 33,
+   "velocity": 112,
+   "samples": 1149014,
+   "latency_ms": 2.24,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As1_n034_v016_sus.pcm",
+   "note": 34,
+   "velocity": 16,
+   "samples": 730564,
+   "latency_ms": 1.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As1_n034_v048_sus.pcm",
+   "note": 34,
+   "velocity": 48,
+   "samples": 867312,
+   "latency_ms": -0.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As1_n034_v064_sus.pcm",
+   "note": 34,
+   "velocity": 64,
+   "samples": 935592,
+   "latency_ms": 1.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As1_n034_v080_sus.pcm",
+   "note": 34,
+   "velocity": 80,
+   "samples": 1003872,
+   "latency_ms": -0.29,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As1_n034_v112_sus.pcm",
+   "note": 34,
+   "velocity": 112,
+   "samples": 1140432,
+   "latency_ms": 0.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B1_n035_v016_sus.pcm",
+   "note": 35,
+   "velocity": 16,
+   "samples": 725216,
+   "latency_ms": -0.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B1_n035_v048_sus.pcm",
+   "note": 35,
+   "velocity": 48,
+   "samples": 860741,
+   "latency_ms": 0.63,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B1_n035_v064_sus.pcm",
+   "note": 35,
+   "velocity": 64,
+   "samples": 928464,
+   "latency_ms": -0.93,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B1_n035_v080_sus.pcm",
+   "note": 35,
+   "velocity": 80,
+   "samples": 996268,
+   "latency_ms": -1.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B1_n035_v112_sus.pcm",
+   "note": 35,
+   "velocity": 112,
+   "samples": 1131793,
+   "latency_ms": -1.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C2_n036_v016_sus.pcm",
+   "note": 36,
+   "velocity": 16,
+   "samples": 719671,
+   "latency_ms": -0.63,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C2_n036_v048_sus.pcm",
+   "note": 36,
+   "velocity": 48,
+   "samples": 854154,
+   "latency_ms": -0.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C2_n036_v064_sus.pcm",
+   "note": 36,
+   "velocity": 64,
+   "samples": 921417,
+   "latency_ms": -0.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C2_n036_v080_sus.pcm",
+   "note": 36,
+   "velocity": 80,
+   "samples": 988663,
+   "latency_ms": -0.91,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C2_n036_v112_sus.pcm",
+   "note": 36,
+   "velocity": 112,
+   "samples": 1123154,
+   "latency_ms": 2.24,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs2_n037_v016_sus.pcm",
+   "note": 37,
+   "velocity": 16,
+   "samples": 714076,
+   "latency_ms": 0.54,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs2_n037_v048_sus.pcm",
+   "note": 37,
+   "velocity": 48,
+   "samples": 847602,
+   "latency_ms": 1.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs2_n037_v064_sus.pcm",
+   "note": 37,
+   "velocity": 64,
+   "samples": 914330,
+   "latency_ms": 1.97,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs2_n037_v080_sus.pcm",
+   "note": 37,
+   "velocity": 80,
+   "samples": 981058,
+   "latency_ms": 1.38,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs2_n037_v112_sus.pcm",
+   "note": 37,
+   "velocity": 112,
+   "samples": 1114515,
+   "latency_ms": -0.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D2_n038_v016_sus.pcm",
+   "note": 38,
+   "velocity": 16,
+   "samples": 708610,
+   "latency_ms": -0.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D2_n038_v048_sus.pcm",
+   "note": 38,
+   "velocity": 48,
+   "samples": 841032,
+   "latency_ms": 1.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D2_n038_v064_sus.pcm",
+   "note": 38,
+   "velocity": 64,
+   "samples": 907242,
+   "latency_ms": -0.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D2_n038_v080_sus.pcm",
+   "note": 38,
+   "velocity": 80,
+   "samples": 973454,
+   "latency_ms": -1.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D2_n038_v112_sus.pcm",
+   "note": 38,
+   "velocity": 112,
+   "samples": 1105876,
+   "latency_ms": 0.7,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds2_n039_v016_sus.pcm",
+   "note": 39,
+   "velocity": 16,
+   "samples": 703074,
+   "latency_ms": 2.24,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds2_n039_v048_sus.pcm",
+   "note": 39,
+   "velocity": 48,
+   "samples": 834461,
+   "latency_ms": -1.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds2_n039_v064_sus.pcm",
+   "note": 39,
+   "velocity": 64,
+   "samples": 900155,
+   "latency_ms": 2.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds2_n039_v080_sus.pcm",
+   "note": 39,
+   "velocity": 80,
+   "samples": 965849,
+   "latency_ms": 2.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds2_n039_v112_sus.pcm",
+   "note": 39,
+   "velocity": 112,
+   "samples": 1097196,
+   "latency_ms": -1.13,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E2_n040_v016_sus.pcm",
+   "note": 40,
+   "velocity": 16,
+   "samples": 618984,
+   "latency_ms": -1.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E2_n040_v048_sus.pcm",
+   "note": 40,
+   "velocity": 48,
+   "samples": 827811,
+   "latency_ms": 2.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E2_n040_v064_sus.pcm",
+   "note": 40,
+   "velocity": 64,
+   "samples": 892967,
+   "latency_ms": -0.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E2_n040_v080_sus.pcm",
+   "note": 40,
+   "velocity": 80,
+   "samples": 958244,
+   "latency_ms": 2.15,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E2_n040_v112_sus.pcm",
+   "note": 40,
+   "velocity": 112,
+   "samples": 1040093,
+   "latency_ms": 2.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F2_n041_v016_sus.pcm",
+   "note": 41,
+   "velocity": 16,
+   "samples": 692003,
+   "latency_ms": 0.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F2_n041_v048_sus.pcm",
+   "note": 41,
+   "velocity": 48,
+   "samples": 821287,
+   "latency_ms": -0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F2_n041_v064_sus.pcm",
+   "note": 41,
+   "velocity": 64,
+   "samples": 885964,
+   "latency_ms": 1.38,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F2_n041_v080_sus.pcm",
+   "note": 41,
+   "velocity": 80,
+   "samples": 950640,
+   "latency_ms": 2.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F2_n041_v112_sus.pcm",
+   "note": 41,
+   "velocity": 112,
+   "samples": 1079958,
+   "latency_ms": 1.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs2_n042_v016_sus.pcm",
+   "note": 42,
+   "velocity": 16,
+   "samples": 686447,
+   "latency_ms": -0.16,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs2_n042_v048_sus.pcm",
+   "note": 42,
+   "velocity": 48,
+   "samples": 814726,
+   "latency_ms": 2.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs2_n042_v064_sus.pcm",
+   "note": 42,
+   "velocity": 64,
+   "samples": 878893,
+   "latency_ms": 0.75,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs2_n042_v080_sus.pcm",
+   "note": 42,
+   "velocity": 80,
+   "samples": 943035,
+   "latency_ms": 1.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs2_n042_v112_sus.pcm",
+   "note": 42,
+   "velocity": 112,
+   "samples": 1071254,
+   "latency_ms": 0.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G2_n043_v016_sus.pcm",
+   "note": 43,
+   "velocity": 16,
+   "samples": 669114,
+   "latency_ms": 1.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G2_n043_v048_sus.pcm",
+   "note": 43,
+   "velocity": 48,
+   "samples": 774152,
+   "latency_ms": -0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G2_n043_v064_sus.pcm",
+   "note": 43,
+   "velocity": 64,
+   "samples": 871755,
+   "latency_ms": 2.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G2_n043_v080_sus.pcm",
+   "note": 43,
+   "velocity": 80,
+   "samples": 935342,
+   "latency_ms": -0.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G2_n043_v112_sus.pcm",
+   "note": 43,
+   "velocity": 112,
+   "samples": 901537,
+   "latency_ms": 0.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs2_n044_v016_sus.pcm",
+   "note": 44,
+   "velocity": 16,
+   "samples": 675396,
+   "latency_ms": 2.65,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs2_n044_v048_sus.pcm",
+   "note": 44,
+   "velocity": 48,
+   "samples": 801611,
+   "latency_ms": 2.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs2_n044_v064_sus.pcm",
+   "note": 44,
+   "velocity": 64,
+   "samples": 864718,
+   "latency_ms": 2.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs2_n044_v080_sus.pcm",
+   "note": 44,
+   "velocity": 80,
+   "samples": 927826,
+   "latency_ms": -0.48,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs2_n044_v112_sus.pcm",
+   "note": 44,
+   "velocity": 112,
+   "samples": 1054041,
+   "latency_ms": 1.22,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A2_n045_v016_sus.pcm",
+   "note": 45,
+   "velocity": 16,
+   "samples": 626119,
+   "latency_ms": -0.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A2_n045_v048_sus.pcm",
+   "note": 45,
+   "velocity": 48,
+   "samples": 677299,
+   "latency_ms": 1.88,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A2_n045_v064_sus.pcm",
+   "note": 45,
+   "velocity": 64,
+   "samples": 776264,
+   "latency_ms": 0.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A2_n045_v080_sus.pcm",
+   "note": 45,
+   "velocity": 80,
+   "samples": 849406,
+   "latency_ms": 1.38,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A2_n045_v112_sus.pcm",
+   "note": 45,
+   "velocity": 112,
+   "samples": 707554,
+   "latency_ms": -0.82,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As2_n046_v016_sus.pcm",
+   "note": 46,
+   "velocity": 16,
+   "samples": 663730,
+   "latency_ms": 0.05,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As2_n046_v048_sus.pcm",
+   "note": 46,
+   "velocity": 48,
+   "samples": 761926,
+   "latency_ms": 2.15,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As2_n046_v064_sus.pcm",
+   "note": 46,
+   "velocity": 64,
+   "samples": 850125,
+   "latency_ms": -1.16,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As2_n046_v080_sus.pcm",
+   "note": 46,
+   "velocity": 80,
+   "samples": 912617,
+   "latency_ms": 1.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As2_n046_v112_sus.pcm",
+   "note": 46,
+   "velocity": 112,
+   "samples": 971418,
+   "latency_ms": 1.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B2_n047_v016_sus.pcm",
+   "note": 47,
+   "velocity": 16,
+   "samples": 658505,
+   "latency_ms": -0.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B2_n047_v048_sus.pcm",
+   "note": 47,
+   "velocity": 48,
+   "samples": 781842,
+   "latency_ms": 1.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B2_n047_v064_sus.pcm",
+   "note": 47,
+   "velocity": 64,
+   "samples": 843456,
+   "latency_ms": 2.65,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B2_n047_v080_sus.pcm",
+   "note": 47,
+   "velocity": 80,
+   "samples": 905012,
+   "latency_ms": 0.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B2_n047_v112_sus.pcm",
+   "note": 47,
+   "velocity": 112,
+   "samples": 995401,
+   "latency_ms": -0.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C3_n048_v016_sus.pcm",
+   "note": 48,
+   "velocity": 16,
+   "samples": 506712,
+   "latency_ms": 2.34,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C3_n048_v048_sus.pcm",
+   "note": 48,
+   "velocity": 48,
+   "samples": 775331,
+   "latency_ms": 0.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C3_n048_v064_sus.pcm",
+   "note": 48,
+   "velocity": 64,
+   "samples": 836297,
+   "latency_ms": 1.75,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C3_n048_v080_sus.pcm",
+   "note": 48,
+   "velocity": 80,
+   "samples": 896645,
+   "latency_ms": 1.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C3_n048_v112_sus.pcm",
+   "note": 48,
+   "velocity": 112,
+   "samples": 859347,
+   "latency_ms": 0.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs3_n049_v016_sus.pcm",
+   "note": 49,
+   "velocity": 16,
+   "samples": 424659,
+   "latency_ms": 1.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs3_n049_v048_sus.pcm",
+   "note": 49,
+   "velocity": 48,
+   "samples": 648808,
+   "latency_ms": 1.97,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs3_n049_v064_sus.pcm",
+   "note": 49,
+   "velocity": 64,
+   "samples": 724690,
+   "latency_ms": 0.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs3_n049_v080_sus.pcm",
+   "note": 49,
+   "velocity": 80,
+   "samples": 752777,
+   "latency_ms": 1.13,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs3_n049_v112_sus.pcm",
+   "note": 49,
+   "velocity": 112,
+   "samples": 688221,
+   "latency_ms": 2.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D3_n050_v016_sus.pcm",
+   "note": 50,
+   "velocity": 16,
+   "samples": 196299,
+   "latency_ms": 2.65,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D3_n050_v048_sus.pcm",
+   "note": 50,
+   "velocity": 48,
+   "samples": 632886,
+   "latency_ms": 0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D3_n050_v064_sus.pcm",
+   "note": 50,
+   "velocity": 64,
+   "samples": 452995,
+   "latency_ms": 0.79,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D3_n050_v080_sus.pcm",
+   "note": 50,
+   "velocity": 80,
+   "samples": 568715,
+   "latency_ms": 0.98,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D3_n050_v112_sus.pcm",
+   "note": 50,
+   "velocity": 112,
+   "samples": 575832,
+   "latency_ms": -0.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds3_n051_v016_sus.pcm",
+   "note": 51,
+   "velocity": 16,
+   "samples": 345167,
+   "latency_ms": 1.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds3_n051_v048_sus.pcm",
+   "note": 51,
+   "velocity": 48,
+   "samples": 421891,
+   "latency_ms": 2.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds3_n051_v064_sus.pcm",
+   "note": 51,
+   "velocity": 64,
+   "samples": 497199,
+   "latency_ms": 2.4,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds3_n051_v080_sus.pcm",
+   "note": 51,
+   "velocity": 80,
+   "samples": 525468,
+   "latency_ms": 1.13,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds3_n051_v112_sus.pcm",
+   "note": 51,
+   "velocity": 112,
+   "samples": 523689,
+   "latency_ms": 0.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E3_n052_v016_sus.pcm",
+   "note": 52,
+   "velocity": 16,
+   "samples": 543171,
+   "latency_ms": -1.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E3_n052_v048_sus.pcm",
+   "note": 52,
+   "velocity": 48,
+   "samples": 748705,
+   "latency_ms": 2.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E3_n052_v064_sus.pcm",
+   "note": 52,
+   "velocity": 64,
+   "samples": 808020,
+   "latency_ms": -1.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E3_n052_v080_sus.pcm",
+   "note": 52,
+   "velocity": 80,
+   "samples": 866938,
+   "latency_ms": 1.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E3_n052_v112_sus.pcm",
+   "note": 52,
+   "velocity": 112,
+   "samples": 796006,
+   "latency_ms": -0.79,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F3_n053_v016_sus.pcm",
+   "note": 53,
+   "velocity": 16,
+   "samples": 456904,
+   "latency_ms": 0.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F3_n053_v048_sus.pcm",
+   "note": 53,
+   "velocity": 48,
+   "samples": 635658,
+   "latency_ms": 0.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F3_n053_v064_sus.pcm",
+   "note": 53,
+   "velocity": 64,
+   "samples": 738852,
+   "latency_ms": 1.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F3_n053_v080_sus.pcm",
+   "note": 53,
+   "velocity": 80,
+   "samples": 735337,
+   "latency_ms": 2.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F3_n053_v112_sus.pcm",
+   "note": 53,
+   "velocity": 112,
+   "samples": 677362,
+   "latency_ms": 2.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs3_n054_v016_sus.pcm",
+   "note": 54,
+   "velocity": 16,
+   "samples": 421605,
+   "latency_ms": -0.86,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs3_n054_v048_sus.pcm",
+   "note": 54,
+   "velocity": 48,
+   "samples": 578731,
+   "latency_ms": 1.75,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs3_n054_v064_sus.pcm",
+   "note": 54,
+   "velocity": 64,
+   "samples": 637203,
+   "latency_ms": 1.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs3_n054_v080_sus.pcm",
+   "note": 54,
+   "velocity": 80,
+   "samples": 691804,
+   "latency_ms": 1.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs3_n054_v112_sus.pcm",
+   "note": 54,
+   "velocity": 112,
+   "samples": 630327,
+   "latency_ms": 0.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G3_n055_v016_sus.pcm",
+   "note": 55,
+   "velocity": 16,
+   "samples": 418247,
+   "latency_ms": -0.48,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G3_n055_v048_sus.pcm",
+   "note": 55,
+   "velocity": 48,
+   "samples": 560853,
+   "latency_ms": 2.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G3_n055_v064_sus.pcm",
+   "note": 55,
+   "velocity": 64,
+   "samples": 623243,
+   "latency_ms": 1.9,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G3_n055_v080_sus.pcm",
+   "note": 55,
+   "velocity": 80,
+   "samples": 689419,
+   "latency_ms": 1.47,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G3_n055_v112_sus.pcm",
+   "note": 55,
+   "velocity": 112,
+   "samples": 573964,
+   "latency_ms": -0.39,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs3_n056_v016_sus.pcm",
+   "note": 56,
+   "velocity": 16,
+   "samples": 430024,
+   "latency_ms": 1.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs3_n056_v048_sus.pcm",
+   "note": 56,
+   "velocity": 48,
+   "samples": 570102,
+   "latency_ms": -0.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs3_n056_v064_sus.pcm",
+   "note": 56,
+   "velocity": 64,
+   "samples": 629221,
+   "latency_ms": 0.39,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs3_n056_v080_sus.pcm",
+   "note": 56,
+   "velocity": 80,
+   "samples": 643622,
+   "latency_ms": -0.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs3_n056_v112_sus.pcm",
+   "note": 56,
+   "velocity": 112,
+   "samples": 602643,
+   "latency_ms": 1.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A3_n057_v016_sus.pcm",
+   "note": 57,
+   "velocity": 16,
+   "samples": 377955,
+   "latency_ms": -0.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A3_n057_v048_sus.pcm",
+   "note": 57,
+   "velocity": 48,
+   "samples": 512404,
+   "latency_ms": -0.48,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A3_n057_v064_sus.pcm",
+   "note": 57,
+   "velocity": 64,
+   "samples": 574450,
+   "latency_ms": -0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A3_n057_v080_sus.pcm",
+   "note": 57,
+   "velocity": 80,
+   "samples": 596612,
+   "latency_ms": -0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A3_n057_v112_sus.pcm",
+   "note": 57,
+   "velocity": 112,
+   "samples": 492443,
+   "latency_ms": -1.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As3_n058_v016_sus.pcm",
+   "note": 58,
+   "velocity": 16,
+   "samples": 386278,
+   "latency_ms": 0.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As3_n058_v048_sus.pcm",
+   "note": 58,
+   "velocity": 48,
+   "samples": 529490,
+   "latency_ms": 1.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As3_n058_v064_sus.pcm",
+   "note": 58,
+   "velocity": 64,
+   "samples": 582039,
+   "latency_ms": 2.7,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As3_n058_v080_sus.pcm",
+   "note": 58,
+   "velocity": 80,
+   "samples": 603088,
+   "latency_ms": -0.91,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As3_n058_v112_sus.pcm",
+   "note": 58,
+   "velocity": 112,
+   "samples": 536952,
+   "latency_ms": -0.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B3_n059_v016_sus.pcm",
+   "note": 59,
+   "velocity": 16,
+   "samples": 337586,
+   "latency_ms": 0.7,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B3_n059_v048_sus.pcm",
+   "note": 59,
+   "velocity": 48,
+   "samples": 466174,
+   "latency_ms": -0.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B3_n059_v064_sus.pcm",
+   "note": 59,
+   "velocity": 64,
+   "samples": 515277,
+   "latency_ms": 1.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B3_n059_v080_sus.pcm",
+   "note": 59,
+   "velocity": 80,
+   "samples": 544836,
+   "latency_ms": -0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B3_n059_v112_sus.pcm",
+   "note": 59,
+   "velocity": 112,
+   "samples": 427454,
+   "latency_ms": -0.91,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C4_n060_v016_sus.pcm",
+   "note": 60,
+   "velocity": 16,
+   "samples": 298729,
+   "latency_ms": 0.05,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C4_n060_v048_sus.pcm",
+   "note": 60,
+   "velocity": 48,
+   "samples": 396483,
+   "latency_ms": 1.79,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C4_n060_v064_sus.pcm",
+   "note": 60,
+   "velocity": 64,
+   "samples": 437324,
+   "latency_ms": -0.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C4_n060_v080_sus.pcm",
+   "note": 60,
+   "velocity": 80,
+   "samples": 457796,
+   "latency_ms": 0.66,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C4_n060_v112_sus.pcm",
+   "note": 60,
+   "velocity": 112,
+   "samples": 386097,
+   "latency_ms": 1.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs4_n061_v016_sus.pcm",
+   "note": 61,
+   "velocity": 16,
+   "samples": 288985,
+   "latency_ms": -1.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs4_n061_v048_sus.pcm",
+   "note": 61,
+   "velocity": 48,
+   "samples": 423983,
+   "latency_ms": 2.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs4_n061_v064_sus.pcm",
+   "note": 61,
+   "velocity": 64,
+   "samples": 470546,
+   "latency_ms": 1.34,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs4_n061_v080_sus.pcm",
+   "note": 61,
+   "velocity": 80,
+   "samples": 481732,
+   "latency_ms": 0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs4_n061_v112_sus.pcm",
+   "note": 61,
+   "velocity": 112,
+   "samples": 402731,
+   "latency_ms": -0.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D4_n062_v016_sus.pcm",
+   "note": 62,
+   "velocity": 16,
+   "samples": 237794,
+   "latency_ms": -0.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D4_n062_v048_sus.pcm",
+   "note": 62,
+   "velocity": 48,
+   "samples": 357796,
+   "latency_ms": 2.31,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D4_n062_v064_sus.pcm",
+   "note": 62,
+   "velocity": 64,
+   "samples": 388084,
+   "latency_ms": -1.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D4_n062_v080_sus.pcm",
+   "note": 62,
+   "velocity": 80,
+   "samples": 414941,
+   "latency_ms": 1.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D4_n062_v112_sus.pcm",
+   "note": 62,
+   "velocity": 112,
+   "samples": 356227,
+   "latency_ms": -1.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds4_n063_v016_sus.pcm",
+   "note": 63,
+   "velocity": 16,
+   "samples": 240988,
+   "latency_ms": 1.81,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds4_n063_v048_sus.pcm",
+   "note": 63,
+   "velocity": 48,
+   "samples": 327678,
+   "latency_ms": -0.39,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds4_n063_v064_sus.pcm",
+   "note": 63,
+   "velocity": 64,
+   "samples": 362718,
+   "latency_ms": -0.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds4_n063_v080_sus.pcm",
+   "note": 63,
+   "velocity": 80,
+   "samples": 376885,
+   "latency_ms": -1.34,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds4_n063_v112_sus.pcm",
+   "note": 63,
+   "velocity": 112,
+   "samples": 314522,
+   "latency_ms": 1.88,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E4_n064_v016_sus.pcm",
+   "note": 64,
+   "velocity": 16,
+   "samples": 213454,
+   "latency_ms": 0.34,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E4_n064_v048_sus.pcm",
+   "note": 64,
+   "velocity": 48,
+   "samples": 302796,
+   "latency_ms": 1.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E4_n064_v064_sus.pcm",
+   "note": 64,
+   "velocity": 64,
+   "samples": 335369,
+   "latency_ms": -0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E4_n064_v080_sus.pcm",
+   "note": 64,
+   "velocity": 80,
+   "samples": 349640,
+   "latency_ms": 2.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E4_n064_v112_sus.pcm",
+   "note": 64,
+   "velocity": 112,
+   "samples": 295738,
+   "latency_ms": -1.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F4_n065_v016_sus.pcm",
+   "note": 65,
+   "velocity": 16,
+   "samples": 237539,
+   "latency_ms": 0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F4_n065_v048_sus.pcm",
+   "note": 65,
+   "velocity": 48,
+   "samples": 357683,
+   "latency_ms": 0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F4_n065_v064_sus.pcm",
+   "note": 65,
+   "velocity": 64,
+   "samples": 396039,
+   "latency_ms": -0.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F4_n065_v080_sus.pcm",
+   "note": 65,
+   "velocity": 80,
+   "samples": 422052,
+   "latency_ms": -0.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F4_n065_v112_sus.pcm",
+   "note": 65,
+   "velocity": 112,
+   "samples": 365381,
+   "latency_ms": 0.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs4_n066_v016_sus.pcm",
+   "note": 66,
+   "velocity": 16,
+   "samples": 190715,
+   "latency_ms": 2.7,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs4_n066_v048_sus.pcm",
+   "note": 66,
+   "velocity": 48,
+   "samples": 314370,
+   "latency_ms": 0.34,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs4_n066_v064_sus.pcm",
+   "note": 66,
+   "velocity": 64,
+   "samples": 348778,
+   "latency_ms": 2.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs4_n066_v080_sus.pcm",
+   "note": 66,
+   "velocity": 80,
+   "samples": 372465,
+   "latency_ms": 0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs4_n066_v112_sus.pcm",
+   "note": 66,
+   "velocity": 112,
+   "samples": 310805,
+   "latency_ms": 2.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G4_n067_v016_sus.pcm",
+   "note": 67,
+   "velocity": 16,
+   "samples": 186393,
+   "latency_ms": 1.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G4_n067_v048_sus.pcm",
+   "note": 67,
+   "velocity": 48,
+   "samples": 293291,
+   "latency_ms": -0.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G4_n067_v064_sus.pcm",
+   "note": 67,
+   "velocity": 64,
+   "samples": 333659,
+   "latency_ms": 2.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G4_n067_v080_sus.pcm",
+   "note": 67,
+   "velocity": 80,
+   "samples": 354322,
+   "latency_ms": 1.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G4_n067_v112_sus.pcm",
+   "note": 67,
+   "velocity": 112,
+   "samples": 309713,
+   "latency_ms": 0.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs4_n068_v016_sus.pcm",
+   "note": 68,
+   "velocity": 16,
+   "samples": 163539,
+   "latency_ms": 2.72,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs4_n068_v048_sus.pcm",
+   "note": 68,
+   "velocity": 48,
+   "samples": 258135,
+   "latency_ms": -0.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs4_n068_v064_sus.pcm",
+   "note": 68,
+   "velocity": 64,
+   "samples": 299031,
+   "latency_ms": 1.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs4_n068_v080_sus.pcm",
+   "note": 68,
+   "velocity": 80,
+   "samples": 320000,
+   "latency_ms": 0.63,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs4_n068_v112_sus.pcm",
+   "note": 68,
+   "velocity": 112,
+   "samples": 253662,
+   "latency_ms": 1.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A4_n069_v016_sus.pcm",
+   "note": 69,
+   "velocity": 16,
+   "samples": 142599,
+   "latency_ms": -1.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A4_n069_v048_sus.pcm",
+   "note": 69,
+   "velocity": 48,
+   "samples": 231246,
+   "latency_ms": 2.29,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A4_n069_v064_sus.pcm",
+   "note": 69,
+   "velocity": 64,
+   "samples": 261801,
+   "latency_ms": 1.29,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A4_n069_v080_sus.pcm",
+   "note": 69,
+   "velocity": 80,
+   "samples": 275313,
+   "latency_ms": 0.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A4_n069_v112_sus.pcm",
+   "note": 69,
+   "velocity": 112,
+   "samples": 239680,
+   "latency_ms": 0.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As4_n070_v016_sus.pcm",
+   "note": 70,
+   "velocity": 16,
+   "samples": 138163,
+   "latency_ms": -1.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As4_n070_v048_sus.pcm",
+   "note": 70,
+   "velocity": 48,
+   "samples": 232376,
+   "latency_ms": 1.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As4_n070_v064_sus.pcm",
+   "note": 70,
+   "velocity": 64,
+   "samples": 261512,
+   "latency_ms": -0.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As4_n070_v080_sus.pcm",
+   "note": 70,
+   "velocity": 80,
+   "samples": 281119,
+   "latency_ms": 0.93,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As4_n070_v112_sus.pcm",
+   "note": 70,
+   "velocity": 112,
+   "samples": 263705,
+   "latency_ms": 0.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B4_n071_v016_sus.pcm",
+   "note": 71,
+   "velocity": 16,
+   "samples": 168478,
+   "latency_ms": -1.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B4_n071_v048_sus.pcm",
+   "note": 71,
+   "velocity": 48,
+   "samples": 263469,
+   "latency_ms": 2.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B4_n071_v064_sus.pcm",
+   "note": 71,
+   "velocity": 64,
+   "samples": 308105,
+   "latency_ms": 1.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B4_n071_v080_sus.pcm",
+   "note": 71,
+   "velocity": 80,
+   "samples": 323890,
+   "latency_ms": 1.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B4_n071_v112_sus.pcm",
+   "note": 71,
+   "velocity": 112,
+   "samples": 279672,
+   "latency_ms": 2.63,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C5_n072_v016_sus.pcm",
+   "note": 72,
+   "velocity": 16,
+   "samples": 138308,
+   "latency_ms": 1.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C5_n072_v048_sus.pcm",
+   "note": 72,
+   "velocity": 48,
+   "samples": 213756,
+   "latency_ms": 0.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C5_n072_v064_sus.pcm",
+   "note": 72,
+   "velocity": 64,
+   "samples": 246394,
+   "latency_ms": -0.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C5_n072_v080_sus.pcm",
+   "note": 72,
+   "velocity": 80,
+   "samples": 265036,
+   "latency_ms": 1.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C5_n072_v112_sus.pcm",
+   "note": 72,
+   "velocity": 112,
+   "samples": 228305,
+   "latency_ms": -1.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs5_n073_v016_sus.pcm",
+   "note": 73,
+   "velocity": 16,
+   "samples": 143626,
+   "latency_ms": 1.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs5_n073_v048_sus.pcm",
+   "note": 73,
+   "velocity": 48,
+   "samples": 237361,
+   "latency_ms": 2.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs5_n073_v064_sus.pcm",
+   "note": 73,
+   "velocity": 64,
+   "samples": 266064,
+   "latency_ms": 1.86,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs5_n073_v080_sus.pcm",
+   "note": 73,
+   "velocity": 80,
+   "samples": 283241,
+   "latency_ms": 1.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs5_n073_v112_sus.pcm",
+   "note": 73,
+   "velocity": 112,
+   "samples": 217799,
+   "latency_ms": -0.79,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D5_n074_v016_sus.pcm",
+   "note": 74,
+   "velocity": 16,
+   "samples": 94175,
+   "latency_ms": -0.82,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D5_n074_v048_sus.pcm",
+   "note": 74,
+   "velocity": 48,
+   "samples": 146184,
+   "latency_ms": 2.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D5_n074_v064_sus.pcm",
+   "note": 74,
+   "velocity": 64,
+   "samples": 175937,
+   "latency_ms": 0.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D5_n074_v080_sus.pcm",
+   "note": 74,
+   "velocity": 80,
+   "samples": 184810,
+   "latency_ms": -0.54,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D5_n074_v112_sus.pcm",
+   "note": 74,
+   "velocity": 112,
+   "samples": 138226,
+   "latency_ms": 0.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds5_n075_v016_sus.pcm",
+   "note": 75,
+   "velocity": 16,
+   "samples": 107500,
+   "latency_ms": 1.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds5_n075_v048_sus.pcm",
+   "note": 75,
+   "velocity": 48,
+   "samples": 178040,
+   "latency_ms": 2.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds5_n075_v064_sus.pcm",
+   "note": 75,
+   "velocity": 64,
+   "samples": 212490,
+   "latency_ms": -0.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds5_n075_v080_sus.pcm",
+   "note": 75,
+   "velocity": 80,
+   "samples": 214567,
+   "latency_ms": 1.9,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds5_n075_v112_sus.pcm",
+   "note": 75,
+   "velocity": 112,
+   "samples": 161008,
+   "latency_ms": -0.86,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E5_n076_v016_sus.pcm",
+   "note": 76,
+   "velocity": 16,
+   "samples": 119258,
+   "latency_ms": -1.22,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E5_n076_v048_sus.pcm",
+   "note": 76,
+   "velocity": 48,
+   "samples": 209535,
+   "latency_ms": -0.63,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E5_n076_v064_sus.pcm",
+   "note": 76,
+   "velocity": 64,
+   "samples": 233444,
+   "latency_ms": 0.79,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E5_n076_v080_sus.pcm",
+   "note": 76,
+   "velocity": 80,
+   "samples": 252690,
+   "latency_ms": 0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E5_n076_v112_sus.pcm",
+   "note": 76,
+   "velocity": 112,
+   "samples": 188462,
+   "latency_ms": -0.98,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F5_n077_v016_sus.pcm",
+   "note": 77,
+   "velocity": 16,
+   "samples": 54775,
+   "latency_ms": 1.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F5_n077_v048_sus.pcm",
+   "note": 77,
+   "velocity": 48,
+   "samples": 102941,
+   "latency_ms": -1.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F5_n077_v064_sus.pcm",
+   "note": 77,
+   "velocity": 64,
+   "samples": 115732,
+   "latency_ms": 1.56,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F5_n077_v080_sus.pcm",
+   "note": 77,
+   "velocity": 80,
+   "samples": 131313,
+   "latency_ms": 1.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F5_n077_v112_sus.pcm",
+   "note": 77,
+   "velocity": 112,
+   "samples": 119048,
+   "latency_ms": -0.98,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs5_n078_v016_sus.pcm",
+   "note": 78,
+   "velocity": 16,
+   "samples": 73949,
+   "latency_ms": 0.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs5_n078_v048_sus.pcm",
+   "note": 78,
+   "velocity": 48,
+   "samples": 137108,
+   "latency_ms": 1.81,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs5_n078_v064_sus.pcm",
+   "note": 78,
+   "velocity": 64,
+   "samples": 148461,
+   "latency_ms": -1.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs5_n078_v080_sus.pcm",
+   "note": 78,
+   "velocity": 80,
+   "samples": 164848,
+   "latency_ms": -0.14,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs5_n078_v112_sus.pcm",
+   "note": 78,
+   "velocity": 112,
+   "samples": 138833,
+   "latency_ms": 1.13,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G5_n079_v016_sus.pcm",
+   "note": 79,
+   "velocity": 16,
+   "samples": 103184,
+   "latency_ms": 1.29,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G5_n079_v048_sus.pcm",
+   "note": 79,
+   "velocity": 48,
+   "samples": 166675,
+   "latency_ms": -1.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G5_n079_v064_sus.pcm",
+   "note": 79,
+   "velocity": 64,
+   "samples": 183534,
+   "latency_ms": 0.86,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G5_n079_v080_sus.pcm",
+   "note": 79,
+   "velocity": 80,
+   "samples": 195274,
+   "latency_ms": 0.73,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G5_n079_v112_sus.pcm",
+   "note": 79,
+   "velocity": 112,
+   "samples": 156682,
+   "latency_ms": 0.39,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs5_n080_v016_sus.pcm",
+   "note": 80,
+   "velocity": 16,
+   "samples": 65257,
+   "latency_ms": 1.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs5_n080_v048_sus.pcm",
+   "note": 80,
+   "velocity": 48,
+   "samples": 140021,
+   "latency_ms": 1.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs5_n080_v064_sus.pcm",
+   "note": 80,
+   "velocity": 64,
+   "samples": 161815,
+   "latency_ms": -0.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs5_n080_v080_sus.pcm",
+   "note": 80,
+   "velocity": 80,
+   "samples": 160332,
+   "latency_ms": 2.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs5_n080_v112_sus.pcm",
+   "note": 80,
+   "velocity": 112,
+   "samples": 121918,
+   "latency_ms": 0.34,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A5_n081_v016_sus.pcm",
+   "note": 81,
+   "velocity": 16,
+   "samples": 108858,
+   "latency_ms": -0.34,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A5_n081_v048_sus.pcm",
+   "note": 81,
+   "velocity": 48,
+   "samples": 169779,
+   "latency_ms": -0.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A5_n081_v064_sus.pcm",
+   "note": 81,
+   "velocity": 64,
+   "samples": 186721,
+   "latency_ms": -1.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A5_n081_v080_sus.pcm",
+   "note": 81,
+   "velocity": 80,
+   "samples": 195834,
+   "latency_ms": 2.31,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A5_n081_v112_sus.pcm",
+   "note": 81,
+   "velocity": 112,
+   "samples": 144000,
+   "latency_ms": 1.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As5_n082_v016_sus.pcm",
+   "note": 82,
+   "velocity": 16,
+   "samples": 69212,
+   "latency_ms": -1.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As5_n082_v048_sus.pcm",
+   "note": 82,
+   "velocity": 48,
+   "samples": 113348,
+   "latency_ms": 2.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As5_n082_v064_sus.pcm",
+   "note": 82,
+   "velocity": 64,
+   "samples": 124160,
+   "latency_ms": 1.93,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As5_n082_v080_sus.pcm",
+   "note": 82,
+   "velocity": 80,
+   "samples": 122282,
+   "latency_ms": 0.82,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As5_n082_v112_sus.pcm",
+   "note": 82,
+   "velocity": 112,
+   "samples": 104472,
+   "latency_ms": 0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B5_n083_v016_sus.pcm",
+   "note": 83,
+   "velocity": 16,
+   "samples": 90898,
+   "latency_ms": 2.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B5_n083_v048_sus.pcm",
+   "note": 83,
+   "velocity": 48,
+   "samples": 155737,
+   "latency_ms": -0.16,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B5_n083_v064_sus.pcm",
+   "note": 83,
+   "velocity": 64,
+   "samples": 170014,
+   "latency_ms": 0.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B5_n083_v080_sus.pcm",
+   "note": 83,
+   "velocity": 80,
+   "samples": 173814,
+   "latency_ms": -1.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B5_n083_v112_sus.pcm",
+   "note": 83,
+   "velocity": 112,
+   "samples": 144426,
+   "latency_ms": -0.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C6_n084_v016_sus.pcm",
+   "note": 84,
+   "velocity": 16,
+   "samples": 55229,
+   "latency_ms": -0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C6_n084_v048_sus.pcm",
+   "note": 84,
+   "velocity": 48,
+   "samples": 93723,
+   "latency_ms": -0.66,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C6_n084_v064_sus.pcm",
+   "note": 84,
+   "velocity": 64,
+   "samples": 109067,
+   "latency_ms": 0.05,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C6_n084_v080_sus.pcm",
+   "note": 84,
+   "velocity": 80,
+   "samples": 116934,
+   "latency_ms": -0.63,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C6_n084_v112_sus.pcm",
+   "note": 84,
+   "velocity": 112,
+   "samples": 99499,
+   "latency_ms": 1.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs6_n085_v016_sus.pcm",
+   "note": 85,
+   "velocity": 16,
+   "samples": 35441,
+   "latency_ms": 2.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs6_n085_v048_sus.pcm",
+   "note": 85,
+   "velocity": 48,
+   "samples": 60558,
+   "latency_ms": -0.82,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs6_n085_v064_sus.pcm",
+   "note": 85,
+   "velocity": 64,
+   "samples": 69926,
+   "latency_ms": 0.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs6_n085_v080_sus.pcm",
+   "note": 85,
+   "velocity": 80,
+   "samples": 74706,
+   "latency_ms": 0.66,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs6_n085_v112_sus.pcm",
+   "note": 85,
+   "velocity": 112,
+   "samples": 85896,
+   "latency_ms": 1.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D6_n086_v016_sus.pcm",
+   "note": 86,
+   "velocity": 16,
+   "samples": 99397,
+   "latency_ms": -1.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D6_n086_v048_sus.pcm",
+   "note": 86,
+   "velocity": 48,
+   "samples": 150595,
+   "latency_ms": 2.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D6_n086_v064_sus.pcm",
+   "note": 86,
+   "velocity": 64,
+   "samples": 164790,
+   "latency_ms": 1.29,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D6_n086_v080_sus.pcm",
+   "note": 86,
+   "velocity": 80,
+   "samples": 173432,
+   "latency_ms": -0.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D6_n086_v112_sus.pcm",
+   "note": 86,
+   "velocity": 112,
+   "samples": 143807,
+   "latency_ms": 0.48,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds6_n087_v016_sus.pcm",
+   "note": 87,
+   "velocity": 16,
+   "samples": 76165,
+   "latency_ms": 1.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds6_n087_v048_sus.pcm",
+   "note": 87,
+   "velocity": 48,
+   "samples": 114710,
+   "latency_ms": -0.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds6_n087_v064_sus.pcm",
+   "note": 87,
+   "velocity": 64,
+   "samples": 129865,
+   "latency_ms": 1.88,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds6_n087_v080_sus.pcm",
+   "note": 87,
+   "velocity": 80,
+   "samples": 136997,
+   "latency_ms": 2.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds6_n087_v112_sus.pcm",
+   "note": 87,
+   "velocity": 112,
+   "samples": 115880,
+   "latency_ms": 1.86,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E6_n088_v016_sus.pcm",
+   "note": 88,
+   "velocity": 16,
+   "samples": 72674,
+   "latency_ms": -1.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E6_n088_v048_sus.pcm",
+   "note": 88,
+   "velocity": 48,
+   "samples": 83675,
+   "latency_ms": -0.32,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E6_n088_v064_sus.pcm",
+   "note": 88,
+   "velocity": 64,
+   "samples": 97351,
+   "latency_ms": 0.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E6_n088_v080_sus.pcm",
+   "note": 88,
+   "velocity": 80,
+   "samples": 91775,
+   "latency_ms": -0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E6_n088_v112_sus.pcm",
+   "note": 88,
+   "velocity": 112,
+   "samples": 70820,
+   "latency_ms": 2.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F6_n089_v016_sus.pcm",
+   "note": 89,
+   "velocity": 16,
+   "samples": 42304,
+   "latency_ms": -1.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F6_n089_v048_sus.pcm",
+   "note": 89,
+   "velocity": 48,
+   "samples": 77235,
+   "latency_ms": 0.23,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F6_n089_v064_sus.pcm",
+   "note": 89,
+   "velocity": 64,
+   "samples": 88576,
+   "latency_ms": -0.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F6_n089_v080_sus.pcm",
+   "note": 89,
+   "velocity": 80,
+   "samples": 93383,
+   "latency_ms": -1.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F6_n089_v112_sus.pcm",
+   "note": 89,
+   "velocity": 112,
+   "samples": 86454,
+   "latency_ms": -1.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs6_n090_v016_sus.pcm",
+   "note": 90,
+   "velocity": 16,
+   "samples": 46195,
+   "latency_ms": -0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs6_n090_v048_sus.pcm",
+   "note": 90,
+   "velocity": 48,
+   "samples": 45335,
+   "latency_ms": 1.7,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs6_n090_v064_sus.pcm",
+   "note": 90,
+   "velocity": 64,
+   "samples": 55708,
+   "latency_ms": 1.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs6_n090_v080_sus.pcm",
+   "note": 90,
+   "velocity": 80,
+   "samples": 60698,
+   "latency_ms": -0.91,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs6_n090_v112_sus.pcm",
+   "note": 90,
+   "velocity": 112,
+   "samples": 54012,
+   "latency_ms": 1.36,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G6_n091_v016_sus.pcm",
+   "note": 91,
+   "velocity": 16,
+   "samples": 45487,
+   "latency_ms": -0.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G6_n091_v048_sus.pcm",
+   "note": 91,
+   "velocity": 48,
+   "samples": 72589,
+   "latency_ms": 0.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G6_n091_v064_sus.pcm",
+   "note": 91,
+   "velocity": 64,
+   "samples": 85718,
+   "latency_ms": -1.22,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G6_n091_v080_sus.pcm",
+   "note": 91,
+   "velocity": 80,
+   "samples": 83770,
+   "latency_ms": -0.34,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G6_n091_v112_sus.pcm",
+   "note": 91,
+   "velocity": 112,
+   "samples": 64980,
+   "latency_ms": 2.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs6_n092_v016_sus.pcm",
+   "note": 92,
+   "velocity": 16,
+   "samples": 40451,
+   "latency_ms": 0.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs6_n092_v048_sus.pcm",
+   "note": 92,
+   "velocity": 48,
+   "samples": 71605,
+   "latency_ms": 1.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs6_n092_v064_sus.pcm",
+   "note": 92,
+   "velocity": 64,
+   "samples": 83047,
+   "latency_ms": 1.7,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs6_n092_v080_sus.pcm",
+   "note": 92,
+   "velocity": 80,
+   "samples": 79596,
+   "latency_ms": -0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs6_n092_v112_sus.pcm",
+   "note": 92,
+   "velocity": 112,
+   "samples": 64067,
+   "latency_ms": 0.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A6_n093_v016_sus.pcm",
+   "note": 93,
+   "velocity": 16,
+   "samples": 43971,
+   "latency_ms": 2.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A6_n093_v048_sus.pcm",
+   "note": 93,
+   "velocity": 48,
+   "samples": 80076,
+   "latency_ms": -0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A6_n093_v064_sus.pcm",
+   "note": 93,
+   "velocity": 64,
+   "samples": 95683,
+   "latency_ms": 1.77,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A6_n093_v080_sus.pcm",
+   "note": 93,
+   "velocity": 80,
+   "samples": 93809,
+   "latency_ms": 0.23,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A6_n093_v112_sus.pcm",
+   "note": 93,
+   "velocity": 112,
+   "samples": 89803,
+   "latency_ms": -0.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As6_n094_v016_sus.pcm",
+   "note": 94,
+   "velocity": 16,
+   "samples": 40059,
+   "latency_ms": 0.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As6_n094_v048_sus.pcm",
+   "note": 94,
+   "velocity": 48,
+   "samples": 61030,
+   "latency_ms": 1.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As6_n094_v064_sus.pcm",
+   "note": 94,
+   "velocity": 64,
+   "samples": 66995,
+   "latency_ms": 1.16,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As6_n094_v080_sus.pcm",
+   "note": 94,
+   "velocity": 80,
+   "samples": 59028,
+   "latency_ms": -0.11,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As6_n094_v112_sus.pcm",
+   "note": 94,
+   "velocity": 112,
+   "samples": 50359,
+   "latency_ms": 2.0,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B6_n095_v016_sus.pcm",
+   "note": 95,
+   "velocity": 16,
+   "samples": 20556,
+   "latency_ms": 2.43,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B6_n095_v048_sus.pcm",
+   "note": 95,
+   "velocity": 48,
+   "samples": 41426,
+   "latency_ms": -1.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B6_n095_v064_sus.pcm",
+   "note": 95,
+   "velocity": 64,
+   "samples": 50041,
+   "latency_ms": -1.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B6_n095_v080_sus.pcm",
+   "note": 95,
+   "velocity": 80,
+   "samples": 45409,
+   "latency_ms": 1.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B6_n095_v112_sus.pcm",
+   "note": 95,
+   "velocity": 112,
+   "samples": 41922,
+   "latency_ms": 0.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C7_n096_v016_sus.pcm",
+   "note": 96,
+   "velocity": 16,
+   "samples": 22227,
+   "latency_ms": 2.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C7_n096_v048_sus.pcm",
+   "note": 96,
+   "velocity": 48,
+   "samples": 43361,
+   "latency_ms": 2.56,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C7_n096_v064_sus.pcm",
+   "note": 96,
+   "velocity": 64,
+   "samples": 43130,
+   "latency_ms": 1.07,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C7_n096_v080_sus.pcm",
+   "note": 96,
+   "velocity": 80,
+   "samples": 40536,
+   "latency_ms": 0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C7_n096_v112_sus.pcm",
+   "note": 96,
+   "velocity": 112,
+   "samples": 38279,
+   "latency_ms": -0.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs7_n097_v016_sus.pcm",
+   "note": 97,
+   "velocity": 16,
+   "samples": 22616,
+   "latency_ms": -0.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs7_n097_v048_sus.pcm",
+   "note": 97,
+   "velocity": 48,
+   "samples": 43976,
+   "latency_ms": -0.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs7_n097_v064_sus.pcm",
+   "note": 97,
+   "velocity": 64,
+   "samples": 43574,
+   "latency_ms": 1.18,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs7_n097_v080_sus.pcm",
+   "note": 97,
+   "velocity": 80,
+   "samples": 39462,
+   "latency_ms": -0.98,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Cs7_n097_v112_sus.pcm",
+   "note": 97,
+   "velocity": 112,
+   "samples": 40593,
+   "latency_ms": 1.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D7_n098_v016_sus.pcm",
+   "note": 98,
+   "velocity": 16,
+   "samples": 26165,
+   "latency_ms": -0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D7_n098_v048_sus.pcm",
+   "note": 98,
+   "velocity": 48,
+   "samples": 43148,
+   "latency_ms": -0.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D7_n098_v064_sus.pcm",
+   "note": 98,
+   "velocity": 64,
+   "samples": 44333,
+   "latency_ms": 2.65,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D7_n098_v080_sus.pcm",
+   "note": 98,
+   "velocity": 80,
+   "samples": 38578,
+   "latency_ms": 0.2,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_D7_n098_v112_sus.pcm",
+   "note": 98,
+   "velocity": 112,
+   "samples": 37793,
+   "latency_ms": 1.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds7_n099_v016_sus.pcm",
+   "note": 99,
+   "velocity": 16,
+   "samples": 6714,
+   "latency_ms": -0.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds7_n099_v048_sus.pcm",
+   "note": 99,
+   "velocity": 48,
+   "samples": 27431,
+   "latency_ms": 1.56,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds7_n099_v064_sus.pcm",
+   "note": 99,
+   "velocity": 64,
+   "samples": 28167,
+   "latency_ms": 2.22,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds7_n099_v080_sus.pcm",
+   "note": 99,
+   "velocity": 80,
+   "samples": 31199,
+   "latency_ms": -0.95,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Ds7_n099_v112_sus.pcm",
+   "note": 99,
+   "velocity": 112,
+   "samples": 27667,
+   "latency_ms": -1.25,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E7_n100_v016_sus.pcm",
+   "note": 100,
+   "velocity": 16,
+   "samples": 4709,
+   "latency_ms": 2.65,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E7_n100_v048_sus.pcm",
+   "note": 100,
+   "velocity": 48,
+   "samples": 24038,
+   "latency_ms": -0.7,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E7_n100_v064_sus.pcm",
+   "note": 100,
+   "velocity": 64,
+   "samples": 27398,
+   "latency_ms": 0.93,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E7_n100_v080_sus.pcm",
+   "note": 100,
+   "velocity": 80,
+   "samples": 26578,
+   "latency_ms": 2.47,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_E7_n100_v112_sus.pcm",
+   "note": 100,
+   "velocity": 112,
+   "samples": 25006,
+   "latency_ms": 1.41,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F7_n101_v016_sus.pcm",
+   "note": 101,
+   "velocity": 16,
+   "samples": 3858,
+   "latency_ms": 2.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F7_n101_v048_sus.pcm",
+   "note": 101,
+   "velocity": 48,
+   "samples": 26659,
+   "latency_ms": 1.45,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F7_n101_v064_sus.pcm",
+   "note": 101,
+   "velocity": 64,
+   "samples": 27935,
+   "latency_ms": 2.88,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F7_n101_v080_sus.pcm",
+   "note": 101,
+   "velocity": 80,
+   "samples": 31098,
+   "latency_ms": 0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_F7_n101_v112_sus.pcm",
+   "note": 101,
+   "velocity": 112,
+   "samples": 26199,
+   "latency_ms": 2.7,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs7_n102_v016_sus.pcm",
+   "note": 102,
+   "velocity": 16,
+   "samples": 8271,
+   "latency_ms": 1.97,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs7_n102_v048_sus.pcm",
+   "note": 102,
+   "velocity": 48,
+   "samples": 25987,
+   "latency_ms": 2.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs7_n102_v064_sus.pcm",
+   "note": 102,
+   "velocity": 64,
+   "samples": 28921,
+   "latency_ms": 1.86,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs7_n102_v080_sus.pcm",
+   "note": 102,
+   "velocity": 80,
+   "samples": 29305,
+   "latency_ms": 2.59,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Fs7_n102_v112_sus.pcm",
+   "note": 102,
+   "velocity": 112,
+   "samples": 26745,
+   "latency_ms": -1.04,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G7_n103_v016_sus.pcm",
+   "note": 103,
+   "velocity": 16,
+   "samples": 5003,
+   "latency_ms": 2.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G7_n103_v048_sus.pcm",
+   "note": 103,
+   "velocity": 48,
+   "samples": 24509,
+   "latency_ms": 1.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G7_n103_v064_sus.pcm",
+   "note": 103,
+   "velocity": 64,
+   "samples": 27806,
+   "latency_ms": 0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G7_n103_v080_sus.pcm",
+   "note": 103,
+   "velocity": 80,
+   "samples": 34771,
+   "latency_ms": 1.13,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_G7_n103_v112_sus.pcm",
+   "note": 103,
+   "velocity": 112,
+   "samples": 32166,
+   "latency_ms": 0.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs7_n104_v016_sus.pcm",
+   "note": 104,
+   "velocity": 16,
+   "samples": 9364,
+   "latency_ms": -0.91,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs7_n104_v048_sus.pcm",
+   "note": 104,
+   "velocity": 48,
+   "samples": 33790,
+   "latency_ms": -0.05,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs7_n104_v064_sus.pcm",
+   "note": 104,
+   "velocity": 64,
+   "samples": 35088,
+   "latency_ms": -0.02,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs7_n104_v080_sus.pcm",
+   "note": 104,
+   "velocity": 80,
+   "samples": 39846,
+   "latency_ms": 0.5,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_Gs7_n104_v112_sus.pcm",
+   "note": 104,
+   "velocity": 112,
+   "samples": 35677,
+   "latency_ms": 2.72,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A7_n105_v016_sus.pcm",
+   "note": 105,
+   "velocity": 16,
+   "samples": 13047,
+   "latency_ms": 2.15,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A7_n105_v048_sus.pcm",
+   "note": 105,
+   "velocity": 48,
+   "samples": 30920,
+   "latency_ms": -0.16,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A7_n105_v064_sus.pcm",
+   "note": 105,
+   "velocity": 64,
+   "samples": 32966,
+   "latency_ms": 1.52,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A7_n105_v080_sus.pcm",
+   "note": 105,
+   "velocity": 80,
+   "samples": 32436,
+   "latency_ms": -0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_A7_n105_v112_sus.pcm",
+   "note": 105,
+   "velocity": 112,
+   "samples": 30021,
+   "latency_ms": 0.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As7_n106_v016_sus.pcm",
+   "note": 106,
+   "velocity": 16,
+   "samples": 7810,
+   "latency_ms": 1.84,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As7_n106_v048_sus.pcm",
+   "note": 106,
+   "velocity": 48,
+   "samples": 22411,
+   "latency_ms": -0.23,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As7_n106_v064_sus.pcm",
+   "note": 106,
+   "velocity": 64,
+   "samples": 27175,
+   "latency_ms": 0.48,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As7_n106_v080_sus.pcm",
+   "note": 106,
+   "velocity": 80,
+   "samples": 29098,
+   "latency_ms": 2.93,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_As7_n106_v112_sus.pcm",
+   "note": 106,
+   "velocity": 112,
+   "samples": 23799,
+   "latency_ms": -0.57,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B7_n107_v016_sus.pcm",
+   "note": 107,
+   "velocity": 16,
+   "samples": 8795,
+   "latency_ms": 2.65,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B7_n107_v048_sus.pcm",
+   "note": 107,
+   "velocity": 48,
+   "samples": 27846,
+   "latency_ms": -0.61,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B7_n107_v064_sus.pcm",
+   "note": 107,
+   "velocity": 64,
+   "samples": 35148,
+   "latency_ms": -0.93,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B7_n107_v080_sus.pcm",
+   "note": 107,
+   "velocity": 80,
+   "samples": 32088,
+   "latency_ms": 2.22,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_B7_n107_v112_sus.pcm",
+   "note": 107,
+   "velocity": 112,
+   "samples": 28958,
+   "latency_ms": -1.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C8_n108_v016_sus.pcm",
+   "note": 108,
+   "velocity": 16,
+   "samples": 7808,
+   "latency_ms": -1.09,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C8_n108_v048_sus.pcm",
+   "note": 108,
+   "velocity": 48,
+   "samples": 20223,
+   "latency_ms": 1.27,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C8_n108_v064_sus.pcm",
+   "note": 108,
+   "velocity": 64,
+   "samples": 24084,
+   "latency_ms": 0.68,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C8_n108_v080_sus.pcm",
+   "note": 108,
+   "velocity": 80,
+   "samples": 23157,
+   "latency_ms": 1.29,
+   "first_sample": 0
+  },
+  {
+   "file": "rhodes_C8_n108_v112_sus.pcm",
+   "note": 108,
+   "velocity": 112,
+   "samples": 21992,
+   "latency_ms": 1.68,
+   "first_sample": 0
+  }
+ ],
+ "problems": []
+}

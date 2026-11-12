@@ -1,0 +1,2662 @@
+{
+ "sample_rate": 44100,
+ "tempo_bpm": 120.0,
+ "hold_s": 1.0,
+ "tail_s": 1.5,
+ "velocity_layers": [
+  16,
+  48,
+  64,
+  80,
+  112
+ ],
+ "total_seconds": 1655.2,
+ "slots": [
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 22050,
+   "off_sample": 33075,
+   "end_sample": 99225
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 112455,
+   "off_sample": 134505,
+   "end_sample": 200655
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 213885,
+   "off_sample": 257985,
+   "end_sample": 324135
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 337365,
+   "off_sample": 425565,
+   "end_sample": 491715
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 504945,
+   "off_sample": 681345,
+   "end_sample": 747495
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 760725,
+   "off_sample": 1113525,
+   "end_sample": 1179675
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 1192905,
+   "off_sample": 1898505,
+   "end_sample": 1964655
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 1977885,
+   "off_sample": 1988910,
+   "end_sample": 2055060
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 2068290,
+   "off_sample": 2090340,
+   "end_sample": 2156490
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 2169720,
+   "off_sample": 2213820,
+   "end_sample": 2279970
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 2293200,
+   "off_sample": 2381400,
+   "end_sample": 2447550
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 2460780,
+   "off_sample": 2637180,
+   "end_sample": 2703330
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 2716560,
+   "off_sample": 3069360,
+   "end_sample": 3135510
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 3148740,
+   "off_sample": 3854340,
+   "end_sample": 3920490
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 3933720,
+   "off_sample": 3944745,
+   "end_sample": 4010895
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 4024125,
+   "off_sample": 4046175,
+   "end_sample": 4112325
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 4125555,
+   "off_sample": 4169655,
+   "end_sample": 4235805
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 4249035,
+   "off_sample": 4337235,
+   "end_sample": 4403385
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 4416615,
+   "off_sample": 4593015,
+   "end_sample": 4659165
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 4672395,
+   "off_sample": 5025195,
+   "end_sample": 5091345
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 5104575,
+   "off_sample": 5810175,
+   "end_sample": 5876325
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 5889555,
+   "off_sample": 5900580,
+   "end_sample": 5966730
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 5979960,
+   "off_sample": 6002010,
+   "end_sample": 6068160
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 6081390,
+   "off_sample": 6125490,
+   "end_sample": 6191640
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 6204870,
+   "off_sample": 6293070,
+   "end_sample": 6359220
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 6372450,
+   "off_sample": 6548850,
+   "end_sample": 6615000
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 6628230,
+   "off_sample": 6981030,
+   "end_sample": 7047180
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 7060410,
+   "off_sample": 7766010,
+   "end_sample": 7832160
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 7845390,
+   "off_sample": 7856415,
+   "end_sample": 7922565
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 7935795,
+   "off_sample": 7957845,
+   "end_sample": 8023995
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 8037225,
+   "off_sample": 8081325,
+   "end_sample": 8147475
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 8160705,
+   "off_sample": 8248905,
+   "end_sample": 8315055
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 8328285,
+   "off_sample": 8504685,
+   "end_sample": 8570835
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 8584065,
+   "off_sample": 8936865,
+   "end_sample": 9003015
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 9016245,
+   "off_sample": 9721845,
+   "end_sample": 9787995
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 9801225,
+   "off_sample": 9812250,
+   "end_sample": 9878400
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 9891630,
+   "off_sample": 9913680,
+   "end_sample": 9979830
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 9993060,
+   "off_sample": 10037160,
+   "end_sample": 10103310
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 10116540,
+   "off_sample": 10204740,
+   "end_sample": 10270890
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 10284120,
+   "off_sample": 10460520,
+   "end_sample": 10526670
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 10539900,
+   "off_sample": 10892700,
+   "end_sample": 10958850
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 10972080,
+   "off_sample": 11677680,
+   "end_sample": 11743830
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 11757060,
+   "off_sample": 11768085,
+   "end_sample": 11834235
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 11847465,
+   "off_sample": 11869515,
+   "end_sample": 11935665
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 11948895,
+   "off_sample": 11992995,
+   "end_sample": 12059145
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 12072375,
+   "off_sample": 12160575,
+   "end_sample": 12226725
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 12239955,
+   "off_sample": 12416355,
+   "end_sample": 12482505
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 12495735,
+   "off_sample": 12848535,
+   "end_sample": 12914685
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 12927915,
+   "off_sample": 13633515,
+   "end_sample": 13699665
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 13712895,
+   "off_sample": 13723920,
+   "end_sample": 13790070
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 13803300,
+   "off_sample": 13825350,
+   "end_sample": 13891500
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 13904730,
+   "off_sample": 13948830,
+   "end_sample": 14014980
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 14028210,
+   "off_sample": 14116410,
+   "end_sample": 14182560
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 14195790,
+   "off_sample": 14372190,
+   "end_sample": 14438340
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 14451570,
+   "off_sample": 14804370,
+   "end_sample": 14870520
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 14883750,
+   "off_sample": 15589350,
+   "end_sample": 15655500
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 15668730,
+   "off_sample": 15679755,
+   "end_sample": 15745905
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 15759135,
+   "off_sample": 15781185,
+   "end_sample": 15847335
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 15860565,
+   "off_sample": 15904665,
+   "end_sample": 15970815
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 15984045,
+   "off_sample": 16072245,
+   "end_sample": 16138395
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 16151625,
+   "off_sample": 16328025,
+   "end_sample": 16394175
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 16407405,
+   "off_sample": 16760205,
+   "end_sample": 16826355
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 16839585,
+   "off_sample": 17545185,
+   "end_sample": 17611335
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 17624565,
+   "off_sample": 17635590,
+   "end_sample": 17701740
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 17714970,
+   "off_sample": 17737020,
+   "end_sample": 17803170
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 17816400,
+   "off_sample": 17860500,
+   "end_sample": 17926650
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 17939880,
+   "off_sample": 18028080,
+   "end_sample": 18094230
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 18107460,
+   "off_sample": 18283860,
+   "end_sample": 18350010
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 18363240,
+   "off_sample": 18716040,
+   "end_sample": 18782190
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 18795420,
+   "off_sample": 19501020,
+   "end_sample": 19567170
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 19580400,
+   "off_sample": 19591425,
+   "end_sample": 19657575
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 19670805,
+   "off_sample": 19692855,
+   "end_sample": 19759005
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 19772235,
+   "off_sample": 19816335,
+   "end_sample": 19882485
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 19895715,
+   "off_sample": 19983915,
+   "end_sample": 20050065
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 20063295,
+   "off_sample": 20239695,
+   "end_sample": 20305845
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 20319075,
+   "off_sample": 20671875,
+   "end_sample": 20738025
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 20751255,
+   "off_sample": 21456855,
+   "end_sample": 21523005
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 21536235,
+   "off_sample": 21547260,
+   "end_sample": 21613410
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 21626640,
+   "off_sample": 21648690,
+   "end_sample": 21714840
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 21728070,
+   "off_sample": 21772170,
+   "end_sample": 21838320
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 21851550,
+   "off_sample": 21939750,
+   "end_sample": 22005900
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 22019130,
+   "off_sample": 22195530,
+   "end_sample": 22261680
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 22274910,
+   "off_sample": 22627710,
+   "end_sample": 22693860
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 22707090,
+   "off_sample": 23412690,
+   "end_sample": 23478840
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 23492070,
+   "off_sample": 23503095,
+   "end_sample": 23569245
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 23582475,
+   "off_sample": 23604525,
+   "end_sample": 23670675
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 23683905,
+   "off_sample": 23728005,
+   "end_sample": 23794155
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 23807385,
+   "off_sample": 23895585,
+   "end_sample": 23961735
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 23974965,
+   "off_sample": 24151365,
+   "end_sample": 24217515
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 24230745,
+   "off_sample": 24583545,
+   "end_sample": 24649695
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 24662925,
+   "off_sample": 25368525,
+   "end_sample": 25434675
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 25447905,
+   "off_sample": 25458930,
+   "end_sample": 25525080
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 25538310,
+   "off_sample": 25560360,
+   "end_sample": 25626510
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 25639740,
+   "off_sample": 25683840,
+   "end_sample": 25749990
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 25763220,
+   "off_sample": 25851420,
+   "end_sample": 25917570
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 25930800,
+   "off_sample": 26107200,
+   "end_sample": 26173350
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 26186580,
+   "off_sample": 26539380,
+   "end_sample": 26605530
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 26618760,
+   "off_sample": 27324360,
+   "end_sample": 27390510
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 27403740,
+   "off_sample": 27414765,
+   "end_sample": 27480915
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 27494145,
+   "off_sample": 27516195,
+   "end_sample": 27582345
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 27595575,
+   "off_sample": 27639675,
+   "end_sample": 27705825
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 27719055,
+   "off_sample": 27807255,
+   "end_sample": 27873405
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 27886635,
+   "off_sample": 28063035,
+   "end_sample": 28129185
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 28142415,
+   "off_sample": 28495215,
+   "end_sample": 28561365
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 28574595,
+   "off_sample": 29280195,
+   "end_sample": 29346345
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 29359575,
+   "off_sample": 29370600,
+   "end_sample": 29436750
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 29449980,
+   "off_sample": 29472030,
+   "end_sample": 29538180
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 29551410,
+   "off_sample": 29595510,
+   "end_sample": 29661660
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 29674890,
+   "off_sample": 29763090,
+   "end_sample": 29829240
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 29842470,
+   "off_sample": 30018870,
+   "end_sample": 30085020
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 30098250,
+   "off_sample": 30451050,
+   "end_sample": 30517200
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 30530430,
+   "off_sample": 31236030,
+   "end_sample": 31302180
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 31315410,
+   "off_sample": 31326435,
+   "end_sample": 31392585
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 31405815,
+   "off_sample": 31427865,
+   "end_sample": 31494015
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 31507245,
+   "off_sample": 31551345,
+   "end_sample": 31617495
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 31630725,
+   "off_sample": 31718925,
+   "end_sample": 31785075
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 31798305,
+   "off_sample": 31974705,
+   "end_sample": 32040855
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 32054085,
+   "off_sample": 32406885,
+   "end_sample": 32473035
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 32486265,
+   "off_sample": 33191865,
+   "end_sample": 33258015
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 33271245,
+   "off_sample": 33282270,
+   "end_sample": 33348420
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 33361650,
+   "off_sample": 33383700,
+   "end_sample": 33449850
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 33463080,
+   "off_sample": 33507180,
+   "end_sample": 33573330
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 33586560,
+   "off_sample": 33674760,
+   "end_sample": 33740910
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 33754140,
+   "off_sample": 33930540,
+   "end_sample": 33996690
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 34009920,
+   "off_sample": 34362720,
+   "end_sample": 34428870
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 34442100,
+   "off_sample": 35147700,
+   "end_sample": 35213850
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 35227080,
+   "off_sample": 35238105,
+   "end_sample": 35304255
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 35317485,
+   "off_sample": 35339535,
+   "end_sample": 35405685
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 35418915,
+   "off_sample": 35463015,
+   "end_sample": 35529165
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 35542395,
+   "off_sample": 35630595,
+   "end_sample": 35696745
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 35709975,
+   "off_sample": 35886375,
+   "end_sample": 35952525
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 35965755,
+   "off_sample": 36318555,
+   "end_sample": 36384705
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 36397935,
+   "off_sample": 37103535,
+   "end_sample": 37169685
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 37182915,
+   "off_sample": 37193940,
+   "end_sample": 37260090
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 37273320,
+   "off_sample": 37295370,
+   "end_sample": 37361520
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 37374750,
+   "off_sample": 37418850,
+   "end_sample": 37485000
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 37498230,
+   "off_sample": 37586430,
+   "end_sample": 37652580
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 37665810,
+   "off_sample": 37842210,
+   "end_sample": 37908360
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 37921590,
+   "off_sample": 38274390,
+   "end_sample": 38340540
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 38353770,
+   "off_sample": 39059370,
+   "end_sample": 39125520
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 39138750,
+   "off_sample": 39149775,
+   "end_sample": 39215925
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 39229155,
+   "off_sample": 39251205,
+   "end_sample": 39317355
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 39330585,
+   "off_sample": 39374685,
+   "end_sample": 39440835
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 39454065,
+   "off_sample": 39542265,
+   "end_sample": 39608415
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 39621645,
+   "off_sample": 39798045,
+   "end_sample": 39864195
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 39877425,
+   "off_sample": 40230225,
+   "end_sample": 40296375
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 40309605,
+   "off_sample": 41015205,
+   "end_sample": 41081355
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 41094585,
+   "off_sample": 41105610,
+   "end_sample": 41171760
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 41184990,
+   "off_sample": 41207040,
+   "end_sample": 41273190
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 41286420,
+   "off_sample": 41330520,
+   "end_sample": 41396670
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 41409900,
+   "off_sample": 41498100,
+   "end_sample": 41564250
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 41577480,
+   "off_sample": 41753880,
+   "end_sample": 41820030
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 41833260,
+   "off_sample": 42186060,
+   "end_sample": 42252210
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 42265440,
+   "off_sample": 42971040,
+   "end_sample": 43037190
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 43050420,
+   "off_sample": 43061445,
+   "end_sample": 43127595
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 43140825,
+   "off_sample": 43162875,
+   "end_sample": 43229025
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 43242255,
+   "off_sample": 43286355,
+   "end_sample": 43352505
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 43365735,
+   "off_sample": 43453935,
+   "end_sample": 43520085
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 43533315,
+   "off_sample": 43709715,
+   "end_sample": 43775865
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 43789095,
+   "off_sample": 44141895,
+   "end_sample": 44208045
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 44221275,
+   "off_sample": 44926875,
+   "end_sample": 44993025
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 45006255,
+   "off_sample": 45017280,
+   "end_sample": 45083430
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 45096660,
+   "off_sample": 45118710,
+   "end_sample": 45184860
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 45198090,
+   "off_sample": 45242190,
+   "end_sample": 45308340
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 45321570,
+   "off_sample": 45409770,
+   "end_sample": 45475920
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 45489150,
+   "off_sample": 45665550,
+   "end_sample": 45731700
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 45744930,
+   "off_sample": 46097730,
+   "end_sample": 46163880
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 46177110,
+   "off_sample": 46882710,
+   "end_sample": 46948860
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 46962090,
+   "off_sample": 46973115,
+   "end_sample": 47039265
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 47052495,
+   "off_sample": 47074545,
+   "end_sample": 47140695
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 47153925,
+   "off_sample": 47198025,
+   "end_sample": 47264175
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 47277405,
+   "off_sample": 47365605,
+   "end_sample": 47431755
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 47444985,
+   "off_sample": 47621385,
+   "end_sample": 47687535
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 47700765,
+   "off_sample": 48053565,
+   "end_sample": 48119715
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 48132945,
+   "off_sample": 48838545,
+   "end_sample": 48904695
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 48917925,
+   "off_sample": 48928950,
+   "end_sample": 48995100
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 49008330,
+   "off_sample": 49030380,
+   "end_sample": 49096530
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 49109760,
+   "off_sample": 49153860,
+   "end_sample": 49220010
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 49233240,
+   "off_sample": 49321440,
+   "end_sample": 49387590
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 49400820,
+   "off_sample": 49577220,
+   "end_sample": 49643370
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 49656600,
+   "off_sample": 50009400,
+   "end_sample": 50075550
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 50088780,
+   "off_sample": 50794380,
+   "end_sample": 50860530
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 50873760,
+   "off_sample": 50884785,
+   "end_sample": 50950935
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 50964165,
+   "off_sample": 50986215,
+   "end_sample": 51052365
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 51065595,
+   "off_sample": 51109695,
+   "end_sample": 51175845
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 51189075,
+   "off_sample": 51277275,
+   "end_sample": 51343425
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 51356655,
+   "off_sample": 51533055,
+   "end_sample": 51599205
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 51612435,
+   "off_sample": 51965235,
+   "end_sample": 52031385
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 52044615,
+   "off_sample": 52750215,
+   "end_sample": 52816365
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 52829595,
+   "off_sample": 52840620,
+   "end_sample": 52906770
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 52920000,
+   "off_sample": 52942050,
+   "end_sample": 53008200
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 53021430,
+   "off_sample": 53065530,
+   "end_sample": 53131680
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 53144910,
+   "off_sample": 53233110,
+   "end_sample": 53299260
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 53312490,
+   "off_sample": 53488890,
+   "end_sample": 53555040
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 53568270,
+   "off_sample": 53921070,
+   "end_sample": 53987220
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 54000450,
+   "off_sample": 54706050,
+   "end_sample": 54772200
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 54785430,
+   "off_sample": 54796455,
+   "end_sample": 54862605
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 54875835,
+   "off_sample": 54897885,
+   "end_sample": 54964035
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 54977265,
+   "off_sample": 55021365,
+   "end_sample": 55087515
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 55100745,
+   "off_sample": 55188945,
+   "end_sample": 55255095
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 55268325,
+   "off_sample": 55444725,
+   "end_sample": 55510875
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 55524105,
+   "off_sample": 55876905,
+   "end_sample": 55943055
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 55956285,
+   "off_sample": 56661885,
+   "end_sample": 56728035
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 56741265,
+   "off_sample": 56752290,
+   "end_sample": 56818440
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 56831670,
+   "off_sample": 56853720,
+   "end_sample": 56919870
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 56933100,
+   "off_sample": 56977200,
+   "end_sample": 57043350
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 57056580,
+   "off_sample": 57144780,
+   "end_sample": 57210930
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 57224160,
+   "off_sample": 57400560,
+   "end_sample": 57466710
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 57479940,
+   "off_sample": 57832740,
+   "end_sample": 57898890
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 57912120,
+   "off_sample": 58617720,
+   "end_sample": 58683870
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 58697100,
+   "off_sample": 58708125,
+   "end_sample": 58774275
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 58787505,
+   "off_sample": 58809555,
+   "end_sample": 58875705
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 58888935,
+   "off_sample": 58933035,
+   "end_sample": 58999185
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 59012415,
+   "off_sample": 59100615,
+   "end_sample": 59166765
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 59179995,
+   "off_sample": 59356395,
+   "end_sample": 59422545
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 48,
+   "hold_s": 8.0,
+   "on_sample": 59435775,
+   "off_sample": 59788575,
+   "end_sample": 59854725
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 48,
+   "hold_s": 16.0,
+   "on_sample": 59867955,
+   "off_sample": 60573555,
+   "end_sample": 60639705
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 60652935,
+   "off_sample": 60663960,
+   "end_sample": 60730110
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 60743340,
+   "off_sample": 60765390,
+   "end_sample": 60831540
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 60844770,
+   "off_sample": 60888870,
+   "end_sample": 60955020
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 60968250,
+   "off_sample": 61056450,
+   "end_sample": 61122600
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 61135830,
+   "off_sample": 61312230,
+   "end_sample": 61378380
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 112,
+   "hold_s": 8.0,
+   "on_sample": 61391610,
+   "off_sample": 61744410,
+   "end_sample": 61810560
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 61823790,
+   "off_sample": 62529390,
+   "end_sample": 62595540
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 62608770,
+   "off_sample": 62619795,
+   "end_sample": 62685945
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 62699175,
+   "off_sample": 62721225,
+   "end_sample": 62787375
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 62800605,
+   "off_sample": 62844705,
+   "end_sample": 62910855
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 62924085,
+   "off_sample": 63012285,
+   "end_sample": 63078435
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 63091665,
+   "off_sample": 63268065,
+   "end_sample": 63334215
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 63347445,
+   "off_sample": 63358470,
+   "end_sample": 63424620
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 63437850,
+   "off_sample": 63459900,
+   "end_sample": 63526050
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 63539280,
+   "off_sample": 63583380,
+   "end_sample": 63649530
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 63662760,
+   "off_sample": 63750960,
+   "end_sample": 63817110
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 63830340,
+   "off_sample": 64006740,
+   "end_sample": 64072890
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 64086120,
+   "off_sample": 64097145,
+   "end_sample": 64163295
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 64176525,
+   "off_sample": 64198575,
+   "end_sample": 64264725
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 64277955,
+   "off_sample": 64322055,
+   "end_sample": 64388205
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 64401435,
+   "off_sample": 64489635,
+   "end_sample": 64555785
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 64569015,
+   "off_sample": 64745415,
+   "end_sample": 64811565
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 64824795,
+   "off_sample": 64835820,
+   "end_sample": 64901970
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 64915200,
+   "off_sample": 64937250,
+   "end_sample": 65003400
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 65016630,
+   "off_sample": 65060730,
+   "end_sample": 65126880
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 65140110,
+   "off_sample": 65228310,
+   "end_sample": 65294460
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 65307690,
+   "off_sample": 65484090,
+   "end_sample": 65550240
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 65563470,
+   "off_sample": 65574495,
+   "end_sample": 65640645
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 65653875,
+   "off_sample": 65675925,
+   "end_sample": 65742075
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 65755305,
+   "off_sample": 65799405,
+   "end_sample": 65865555
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 65878785,
+   "off_sample": 65966985,
+   "end_sample": 66033135
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 66046365,
+   "off_sample": 66222765,
+   "end_sample": 66288915
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 66302145,
+   "off_sample": 66313170,
+   "end_sample": 66379320
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 66392550,
+   "off_sample": 66414600,
+   "end_sample": 66480750
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 66493980,
+   "off_sample": 66538080,
+   "end_sample": 66604230
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 66617460,
+   "off_sample": 66705660,
+   "end_sample": 66771810
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 66785040,
+   "off_sample": 66961440,
+   "end_sample": 67027590
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 67040820,
+   "off_sample": 67051845,
+   "end_sample": 67117995
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 67131225,
+   "off_sample": 67153275,
+   "end_sample": 67219425
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 67232655,
+   "off_sample": 67276755,
+   "end_sample": 67342905
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 67356135,
+   "off_sample": 67444335,
+   "end_sample": 67510485
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 67523715,
+   "off_sample": 67700115,
+   "end_sample": 67766265
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 67779495,
+   "off_sample": 67790520,
+   "end_sample": 67856670
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 67869900,
+   "off_sample": 67891950,
+   "end_sample": 67958100
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 67971330,
+   "off_sample": 68015430,
+   "end_sample": 68081580
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 68094810,
+   "off_sample": 68183010,
+   "end_sample": 68249160
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 68262390,
+   "off_sample": 68438790,
+   "end_sample": 68504940
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 68518170,
+   "off_sample": 68529195,
+   "end_sample": 68595345
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 68608575,
+   "off_sample": 68630625,
+   "end_sample": 68696775
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 68710005,
+   "off_sample": 68754105,
+   "end_sample": 68820255
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 68833485,
+   "off_sample": 68921685,
+   "end_sample": 68987835
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 69001065,
+   "off_sample": 69177465,
+   "end_sample": 69243615
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 69256845,
+   "off_sample": 69267870,
+   "end_sample": 69334020
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 69347250,
+   "off_sample": 69369300,
+   "end_sample": 69435450
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 69448680,
+   "off_sample": 69492780,
+   "end_sample": 69558930
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 69572160,
+   "off_sample": 69660360,
+   "end_sample": 69726510
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 69739740,
+   "off_sample": 69916140,
+   "end_sample": 69982290
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 69995520,
+   "off_sample": 70006545,
+   "end_sample": 70072695
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 70085925,
+   "off_sample": 70107975,
+   "end_sample": 70174125
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 70187355,
+   "off_sample": 70231455,
+   "end_sample": 70297605
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 70310835,
+   "off_sample": 70399035,
+   "end_sample": 70465185
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 70478415,
+   "off_sample": 70654815,
+   "end_sample": 70720965
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 70734195,
+   "off_sample": 70745220,
+   "end_sample": 70811370
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 70824600,
+   "off_sample": 70846650,
+   "end_sample": 70912800
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 70926030,
+   "off_sample": 70970130,
+   "end_sample": 71036280
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 71049510,
+   "off_sample": 71137710,
+   "end_sample": 71203860
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 71217090,
+   "off_sample": 71393490,
+   "end_sample": 71459640
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 48,
+   "hold_s": 0.25,
+   "on_sample": 71472870,
+   "off_sample": 71483895,
+   "end_sample": 71550045
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 48,
+   "hold_s": 0.5,
+   "on_sample": 71563275,
+   "off_sample": 71585325,
+   "end_sample": 71651475
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 48,
+   "hold_s": 1.0,
+   "on_sample": 71664705,
+   "off_sample": 71708805,
+   "end_sample": 71774955
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 48,
+   "hold_s": 2.0,
+   "on_sample": 71788185,
+   "off_sample": 71876385,
+   "end_sample": 71942535
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 48,
+   "hold_s": 4.0,
+   "on_sample": 71955765,
+   "off_sample": 72132165,
+   "end_sample": 72198315
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 112,
+   "hold_s": 0.25,
+   "on_sample": 72211545,
+   "off_sample": 72222570,
+   "end_sample": 72288720
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 112,
+   "hold_s": 0.5,
+   "on_sample": 72301950,
+   "off_sample": 72324000,
+   "end_sample": 72390150
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 112,
+   "hold_s": 1.0,
+   "on_sample": 72403380,
+   "off_sample": 72447480,
+   "end_sample": 72513630
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 112,
+   "hold_s": 2.0,
+   "on_sample": 72526860,
+   "off_sample": 72615060,
+   "end_sample": 72681210
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 112,
+   "hold_s": 4.0,
+   "on_sample": 72694440,
+   "off_sample": 72870840,
+   "end_sample": 72936990
+  }
+ ]
+}

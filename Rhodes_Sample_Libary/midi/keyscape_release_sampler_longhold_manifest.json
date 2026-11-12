@@ -1,0 +1,898 @@
+{
+ "sample_rate": 44100,
+ "tempo_bpm": 120.0,
+ "hold_s": 1.0,
+ "tail_s": 1.5,
+ "velocity_layers": [
+  16,
+  48,
+  64,
+  80,
+  112
+ ],
+ "total_seconds": 2921.9,
+ "slots": [
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 80,
+   "hold_s": 16.0,
+   "on_sample": 22050,
+   "off_sample": 727650,
+   "end_sample": 793800
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 80,
+   "hold_s": 20.0,
+   "on_sample": 807030,
+   "off_sample": 1689030,
+   "end_sample": 1755180
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 80,
+   "hold_s": 24.0,
+   "on_sample": 1768410,
+   "off_sample": 2826810,
+   "end_sample": 2892960
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 80,
+   "hold_s": 28.0,
+   "on_sample": 2906190,
+   "off_sample": 4140990,
+   "end_sample": 4207140
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 80,
+   "hold_s": 32.0,
+   "on_sample": 4220370,
+   "off_sample": 5631570,
+   "end_sample": 5697720
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 80,
+   "hold_s": 36.0,
+   "on_sample": 5710950,
+   "off_sample": 7298550,
+   "end_sample": 7364700
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 80,
+   "hold_s": 40.0,
+   "on_sample": 7377930,
+   "off_sample": 9141930,
+   "end_sample": 9208080
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 9221310,
+   "off_sample": 9926910,
+   "end_sample": 9993060
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 112,
+   "hold_s": 20.0,
+   "on_sample": 10006290,
+   "off_sample": 10888290,
+   "end_sample": 10954440
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 112,
+   "hold_s": 24.0,
+   "on_sample": 10967670,
+   "off_sample": 12026070,
+   "end_sample": 12092220
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 112,
+   "hold_s": 28.0,
+   "on_sample": 12105450,
+   "off_sample": 13340250,
+   "end_sample": 13406400
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 112,
+   "hold_s": 32.0,
+   "on_sample": 13419630,
+   "off_sample": 14830830,
+   "end_sample": 14896980
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 112,
+   "hold_s": 36.0,
+   "on_sample": 14910210,
+   "off_sample": 16497810,
+   "end_sample": 16563960
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 112,
+   "hold_s": 40.0,
+   "on_sample": 16577190,
+   "off_sample": 18341190,
+   "end_sample": 18407340
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 80,
+   "hold_s": 16.0,
+   "on_sample": 18420570,
+   "off_sample": 19126170,
+   "end_sample": 19192320
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 80,
+   "hold_s": 20.0,
+   "on_sample": 19205550,
+   "off_sample": 20087550,
+   "end_sample": 20153700
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 80,
+   "hold_s": 24.0,
+   "on_sample": 20166930,
+   "off_sample": 21225330,
+   "end_sample": 21291480
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 80,
+   "hold_s": 28.0,
+   "on_sample": 21304710,
+   "off_sample": 22539510,
+   "end_sample": 22605660
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 80,
+   "hold_s": 32.0,
+   "on_sample": 22618890,
+   "off_sample": 24030090,
+   "end_sample": 24096240
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 80,
+   "hold_s": 36.0,
+   "on_sample": 24109470,
+   "off_sample": 25697070,
+   "end_sample": 25763220
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 80,
+   "hold_s": 40.0,
+   "on_sample": 25776450,
+   "off_sample": 27540450,
+   "end_sample": 27606600
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 27619830,
+   "off_sample": 28325430,
+   "end_sample": 28391580
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 112,
+   "hold_s": 20.0,
+   "on_sample": 28404810,
+   "off_sample": 29286810,
+   "end_sample": 29352960
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 112,
+   "hold_s": 24.0,
+   "on_sample": 29366190,
+   "off_sample": 30424590,
+   "end_sample": 30490740
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 112,
+   "hold_s": 28.0,
+   "on_sample": 30503970,
+   "off_sample": 31738770,
+   "end_sample": 31804920
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 112,
+   "hold_s": 32.0,
+   "on_sample": 31818150,
+   "off_sample": 33229350,
+   "end_sample": 33295500
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 112,
+   "hold_s": 36.0,
+   "on_sample": 33308730,
+   "off_sample": 34896330,
+   "end_sample": 34962480
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 112,
+   "hold_s": 40.0,
+   "on_sample": 34975710,
+   "off_sample": 36739710,
+   "end_sample": 36805860
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 80,
+   "hold_s": 16.0,
+   "on_sample": 36819090,
+   "off_sample": 37524690,
+   "end_sample": 37590840
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 80,
+   "hold_s": 20.0,
+   "on_sample": 37604070,
+   "off_sample": 38486070,
+   "end_sample": 38552220
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 80,
+   "hold_s": 24.0,
+   "on_sample": 38565450,
+   "off_sample": 39623850,
+   "end_sample": 39690000
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 80,
+   "hold_s": 28.0,
+   "on_sample": 39703230,
+   "off_sample": 40938030,
+   "end_sample": 41004180
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 80,
+   "hold_s": 32.0,
+   "on_sample": 41017410,
+   "off_sample": 42428610,
+   "end_sample": 42494760
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 80,
+   "hold_s": 36.0,
+   "on_sample": 42507990,
+   "off_sample": 44095590,
+   "end_sample": 44161740
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 80,
+   "hold_s": 40.0,
+   "on_sample": 44174970,
+   "off_sample": 45938970,
+   "end_sample": 46005120
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 46018350,
+   "off_sample": 46723950,
+   "end_sample": 46790100
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 20.0,
+   "on_sample": 46803330,
+   "off_sample": 47685330,
+   "end_sample": 47751480
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 24.0,
+   "on_sample": 47764710,
+   "off_sample": 48823110,
+   "end_sample": 48889260
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 28.0,
+   "on_sample": 48902490,
+   "off_sample": 50137290,
+   "end_sample": 50203440
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 32.0,
+   "on_sample": 50216670,
+   "off_sample": 51627870,
+   "end_sample": 51694020
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 36.0,
+   "on_sample": 51707250,
+   "off_sample": 53294850,
+   "end_sample": 53361000
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "hold_s": 40.0,
+   "on_sample": 53374230,
+   "off_sample": 55138230,
+   "end_sample": 55204380
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 80,
+   "hold_s": 16.0,
+   "on_sample": 55217610,
+   "off_sample": 55923210,
+   "end_sample": 55989360
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 80,
+   "hold_s": 20.0,
+   "on_sample": 56002590,
+   "off_sample": 56884590,
+   "end_sample": 56950740
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 80,
+   "hold_s": 24.0,
+   "on_sample": 56963970,
+   "off_sample": 58022370,
+   "end_sample": 58088520
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 80,
+   "hold_s": 28.0,
+   "on_sample": 58101750,
+   "off_sample": 59336550,
+   "end_sample": 59402700
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 80,
+   "hold_s": 32.0,
+   "on_sample": 59415930,
+   "off_sample": 60827130,
+   "end_sample": 60893280
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 80,
+   "hold_s": 36.0,
+   "on_sample": 60906510,
+   "off_sample": 62494110,
+   "end_sample": 62560260
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 80,
+   "hold_s": 40.0,
+   "on_sample": 62573490,
+   "off_sample": 64337490,
+   "end_sample": 64403640
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 64416870,
+   "off_sample": 65122470,
+   "end_sample": 65188620
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 112,
+   "hold_s": 20.0,
+   "on_sample": 65201850,
+   "off_sample": 66083850,
+   "end_sample": 66150000
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 112,
+   "hold_s": 24.0,
+   "on_sample": 66163230,
+   "off_sample": 67221630,
+   "end_sample": 67287780
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 112,
+   "hold_s": 28.0,
+   "on_sample": 67301010,
+   "off_sample": 68535810,
+   "end_sample": 68601960
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 112,
+   "hold_s": 32.0,
+   "on_sample": 68615190,
+   "off_sample": 70026390,
+   "end_sample": 70092540
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 112,
+   "hold_s": 36.0,
+   "on_sample": 70105770,
+   "off_sample": 71693370,
+   "end_sample": 71759520
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 112,
+   "hold_s": 40.0,
+   "on_sample": 71772750,
+   "off_sample": 73536750,
+   "end_sample": 73602900
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 80,
+   "hold_s": 16.0,
+   "on_sample": 73616130,
+   "off_sample": 74321730,
+   "end_sample": 74387880
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 80,
+   "hold_s": 20.0,
+   "on_sample": 74401110,
+   "off_sample": 75283110,
+   "end_sample": 75349260
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 80,
+   "hold_s": 24.0,
+   "on_sample": 75362490,
+   "off_sample": 76420890,
+   "end_sample": 76487040
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 80,
+   "hold_s": 28.0,
+   "on_sample": 76500270,
+   "off_sample": 77735070,
+   "end_sample": 77801220
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 80,
+   "hold_s": 32.0,
+   "on_sample": 77814450,
+   "off_sample": 79225650,
+   "end_sample": 79291800
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 80,
+   "hold_s": 36.0,
+   "on_sample": 79305030,
+   "off_sample": 80892630,
+   "end_sample": 80958780
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 80,
+   "hold_s": 40.0,
+   "on_sample": 80972010,
+   "off_sample": 82736010,
+   "end_sample": 82802160
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 82815390,
+   "off_sample": 83520990,
+   "end_sample": 83587140
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 112,
+   "hold_s": 20.0,
+   "on_sample": 83600370,
+   "off_sample": 84482370,
+   "end_sample": 84548520
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 112,
+   "hold_s": 24.0,
+   "on_sample": 84561750,
+   "off_sample": 85620150,
+   "end_sample": 85686300
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 112,
+   "hold_s": 28.0,
+   "on_sample": 85699530,
+   "off_sample": 86934330,
+   "end_sample": 87000480
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 112,
+   "hold_s": 32.0,
+   "on_sample": 87013710,
+   "off_sample": 88424910,
+   "end_sample": 88491060
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 112,
+   "hold_s": 36.0,
+   "on_sample": 88504290,
+   "off_sample": 90091890,
+   "end_sample": 90158040
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 112,
+   "hold_s": 40.0,
+   "on_sample": 90171270,
+   "off_sample": 91935270,
+   "end_sample": 92001420
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 80,
+   "hold_s": 16.0,
+   "on_sample": 92014650,
+   "off_sample": 92720250,
+   "end_sample": 92786400
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 80,
+   "hold_s": 20.0,
+   "on_sample": 92799630,
+   "off_sample": 93681630,
+   "end_sample": 93747780
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 80,
+   "hold_s": 24.0,
+   "on_sample": 93761010,
+   "off_sample": 94819410,
+   "end_sample": 94885560
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 80,
+   "hold_s": 28.0,
+   "on_sample": 94898790,
+   "off_sample": 96133590,
+   "end_sample": 96199740
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 80,
+   "hold_s": 32.0,
+   "on_sample": 96212970,
+   "off_sample": 97624170,
+   "end_sample": 97690320
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 80,
+   "hold_s": 36.0,
+   "on_sample": 97703550,
+   "off_sample": 99291150,
+   "end_sample": 99357300
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 80,
+   "hold_s": 40.0,
+   "on_sample": 99370530,
+   "off_sample": 101134530,
+   "end_sample": 101200680
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 101213910,
+   "off_sample": 101919510,
+   "end_sample": 101985660
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 112,
+   "hold_s": 20.0,
+   "on_sample": 101998890,
+   "off_sample": 102880890,
+   "end_sample": 102947040
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 112,
+   "hold_s": 24.0,
+   "on_sample": 102960270,
+   "off_sample": 104018670,
+   "end_sample": 104084820
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 112,
+   "hold_s": 28.0,
+   "on_sample": 104098050,
+   "off_sample": 105332850,
+   "end_sample": 105399000
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 112,
+   "hold_s": 32.0,
+   "on_sample": 105412230,
+   "off_sample": 106823430,
+   "end_sample": 106889580
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 112,
+   "hold_s": 36.0,
+   "on_sample": 106902810,
+   "off_sample": 108490410,
+   "end_sample": 108556560
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 112,
+   "hold_s": 40.0,
+   "on_sample": 108569790,
+   "off_sample": 110333790,
+   "end_sample": 110399940
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 80,
+   "hold_s": 16.0,
+   "on_sample": 110413170,
+   "off_sample": 111118770,
+   "end_sample": 111184920
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 80,
+   "hold_s": 20.0,
+   "on_sample": 111198150,
+   "off_sample": 112080150,
+   "end_sample": 112146300
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 80,
+   "hold_s": 24.0,
+   "on_sample": 112159530,
+   "off_sample": 113217930,
+   "end_sample": 113284080
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 80,
+   "hold_s": 28.0,
+   "on_sample": 113297310,
+   "off_sample": 114532110,
+   "end_sample": 114598260
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 80,
+   "hold_s": 32.0,
+   "on_sample": 114611490,
+   "off_sample": 116022690,
+   "end_sample": 116088840
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 80,
+   "hold_s": 36.0,
+   "on_sample": 116102070,
+   "off_sample": 117689670,
+   "end_sample": 117755820
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 80,
+   "hold_s": 40.0,
+   "on_sample": 117769050,
+   "off_sample": 119533050,
+   "end_sample": 119599200
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 112,
+   "hold_s": 16.0,
+   "on_sample": 119612430,
+   "off_sample": 120318030,
+   "end_sample": 120384180
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 112,
+   "hold_s": 20.0,
+   "on_sample": 120397410,
+   "off_sample": 121279410,
+   "end_sample": 121345560
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 112,
+   "hold_s": 24.0,
+   "on_sample": 121358790,
+   "off_sample": 122417190,
+   "end_sample": 122483340
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 112,
+   "hold_s": 28.0,
+   "on_sample": 122496570,
+   "off_sample": 123731370,
+   "end_sample": 123797520
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 112,
+   "hold_s": 32.0,
+   "on_sample": 123810750,
+   "off_sample": 125221950,
+   "end_sample": 125288100
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 112,
+   "hold_s": 36.0,
+   "on_sample": 125301330,
+   "off_sample": 126888930,
+   "end_sample": 126955080
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 112,
+   "hold_s": 40.0,
+   "on_sample": 126968310,
+   "off_sample": 128732310,
+   "end_sample": 128798460
+  }
+ ]
+}

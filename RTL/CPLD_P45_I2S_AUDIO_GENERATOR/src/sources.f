@@ -12,3 +12,4 @@ src/Velocity/key_event_detect.v
 src/Velocity/velocity_calc.v
 src/Velocity/velocity_timer_controller.v
 src/cpld_p45_i2s_audio_generator_top.v
+src/Sample_Decoder/lpc_rice_decoder.v

@@ -1,0 +1,4415 @@
+{
+ "sample_rate": 44100,
+ "tempo_bpm": 120.0,
+ "intended_tempo_bpm": 148.0,
+ "velocity_layers": [
+  16,
+  48,
+  64,
+  80,
+  112
+ ],
+ "total_seconds": 5837.691,
+ "slots": [
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 16,
+   "old_file": "rhodes_A0_n021_v016_sus.pcm",
+   "old_samples": 292997,
+   "on_sample": 27195,
+   "off_sample": 421192,
+   "end_sample": 442948
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 48,
+   "old_file": "rhodes_A0_n021_v048_sus.pcm",
+   "old_samples": 489622,
+   "on_sample": 459265,
+   "off_sample": 1095766,
+   "end_sample": 1117522
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 64,
+   "old_file": "rhodes_A0_n021_v064_sus.pcm",
+   "old_samples": 645417,
+   "on_sample": 1133839,
+   "off_sample": 1962487,
+   "end_sample": 1984243
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 80,
+   "old_file": "rhodes_A0_n021_v080_sus.pcm",
+   "old_samples": 799624,
+   "on_sample": 2000560,
+   "off_sample": 3019397,
+   "end_sample": 3041153
+  },
+  {
+   "note": 21,
+   "name": "A0",
+   "velocity": 112,
+   "old_file": "rhodes_A0_n021_v112_sus.pcm",
+   "old_samples": 790485,
+   "on_sample": 3057470,
+   "off_sample": 4065036,
+   "end_sample": 4086792
+  },
+  {
+   "note": 22,
+   "name": "As0",
+   "velocity": 16,
+   "old_file": "rhodes_As0_n022_v016_sus.pcm",
+   "old_samples": 106350,
+   "on_sample": 4103109,
+   "off_sample": 4266908,
+   "end_sample": 4288664
+  },
+  {
+   "note": 22,
+   "name": "As0",
+   "velocity": 48,
+   "old_file": "rhodes_As0_n022_v048_sus.pcm",
+   "old_samples": 139908,
+   "on_sample": 4304981,
+   "off_sample": 4510168,
+   "end_sample": 4531924
+  },
+  {
+   "note": 22,
+   "name": "As0",
+   "velocity": 64,
+   "old_file": "rhodes_As0_n022_v064_sus.pcm",
+   "old_samples": 220624,
+   "on_sample": 4548241,
+   "off_sample": 4852978,
+   "end_sample": 4874734
+  },
+  {
+   "note": 22,
+   "name": "As0",
+   "velocity": 80,
+   "old_file": "rhodes_As0_n022_v080_sus.pcm",
+   "old_samples": 265839,
+   "on_sample": 4891051,
+   "off_sample": 5251553,
+   "end_sample": 5273309
+  },
+  {
+   "note": 22,
+   "name": "As0",
+   "velocity": 112,
+   "old_file": "rhodes_As0_n022_v112_sus.pcm",
+   "old_samples": 272200,
+   "on_sample": 5289626,
+   "off_sample": 5657973,
+   "end_sample": 5679729
+  },
+  {
+   "note": 23,
+   "name": "B0",
+   "velocity": 16,
+   "old_file": "rhodes_B0_n023_v016_sus.pcm",
+   "old_samples": 133505,
+   "on_sample": 5696046,
+   "off_sample": 5893337,
+   "end_sample": 5915093
+  },
+  {
+   "note": 23,
+   "name": "B0",
+   "velocity": 48,
+   "old_file": "rhodes_B0_n023_v048_sus.pcm",
+   "old_samples": 326312,
+   "on_sample": 5931410,
+   "off_sample": 6366495,
+   "end_sample": 6388251
+  },
+  {
+   "note": 23,
+   "name": "B0",
+   "velocity": 64,
+   "old_file": "rhodes_B0_n023_v064_sus.pcm",
+   "old_samples": 430693,
+   "on_sample": 6404568,
+   "off_sample": 6968390,
+   "end_sample": 6990146
+  },
+  {
+   "note": 23,
+   "name": "B0",
+   "velocity": 80,
+   "old_file": "rhodes_B0_n023_v080_sus.pcm",
+   "old_samples": 542183,
+   "on_sample": 7006463,
+   "off_sample": 7707789,
+   "end_sample": 7729545
+  },
+  {
+   "note": 23,
+   "name": "B0",
+   "velocity": 112,
+   "old_file": "rhodes_B0_n023_v112_sus.pcm",
+   "old_samples": 519571,
+   "on_sample": 7745862,
+   "off_sample": 8419301,
+   "end_sample": 8441057
+  },
+  {
+   "note": 24,
+   "name": "C1",
+   "velocity": 16,
+   "old_file": "rhodes_C1_n024_v016_sus.pcm",
+   "old_samples": 395549,
+   "on_sample": 8457374,
+   "off_sample": 8977851,
+   "end_sample": 8999607
+  },
+  {
+   "note": 24,
+   "name": "C1",
+   "velocity": 48,
+   "old_file": "rhodes_C1_n024_v048_sus.pcm",
+   "old_samples": 761678,
+   "on_sample": 9015924,
+   "off_sample": 9987961,
+   "end_sample": 10009717
+  },
+  {
+   "note": 24,
+   "name": "C1",
+   "velocity": 64,
+   "old_file": "rhodes_C1_n024_v064_sus.pcm",
+   "old_samples": 818341,
+   "on_sample": 10026034,
+   "off_sample": 11067956,
+   "end_sample": 11089712
+  },
+  {
+   "note": 24,
+   "name": "C1",
+   "velocity": 80,
+   "old_file": "rhodes_C1_n024_v080_sus.pcm",
+   "old_samples": 827771,
+   "on_sample": 11106029,
+   "off_sample": 12159580,
+   "end_sample": 12181336
+  },
+  {
+   "note": 24,
+   "name": "C1",
+   "velocity": 112,
+   "old_file": "rhodes_C1_n024_v112_sus.pcm",
+   "old_samples": 810285,
+   "on_sample": 12197653,
+   "off_sample": 13229639,
+   "end_sample": 13251395
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 16,
+   "old_file": "rhodes_Cs1_n025_v016_sus.pcm",
+   "old_samples": 359350,
+   "on_sample": 13267712,
+   "off_sample": 13743544,
+   "end_sample": 13765300
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 48,
+   "old_file": "rhodes_Cs1_n025_v048_sus.pcm",
+   "old_samples": 910067,
+   "on_sample": 13781617,
+   "off_sample": 14936667,
+   "end_sample": 14958423
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 64,
+   "old_file": "rhodes_Cs1_n025_v064_sus.pcm",
+   "old_samples": 929151,
+   "on_sample": 14974740,
+   "off_sample": 16153327,
+   "end_sample": 16175083
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 80,
+   "old_file": "rhodes_Cs1_n025_v080_sus.pcm",
+   "old_samples": 1072255,
+   "on_sample": 16191400,
+   "off_sample": 17546482,
+   "end_sample": 17568238
+  },
+  {
+   "note": 25,
+   "name": "Cs1",
+   "velocity": 112,
+   "old_file": "rhodes_Cs1_n025_v112_sus.pcm",
+   "old_samples": 1204497,
+   "on_sample": 17584555,
+   "off_sample": 19102735,
+   "end_sample": 19124491
+  },
+  {
+   "note": 26,
+   "name": "D1",
+   "velocity": 16,
+   "old_file": "rhodes_D1_n026_v016_sus.pcm",
+   "old_samples": 608057,
+   "on_sample": 19140808,
+   "off_sample": 19923379,
+   "end_sample": 19945135
+  },
+  {
+   "note": 26,
+   "name": "D1",
+   "velocity": 48,
+   "old_file": "rhodes_D1_n026_v048_sus.pcm",
+   "old_samples": 919516,
+   "on_sample": 19961452,
+   "off_sample": 21128156,
+   "end_sample": 21149912
+  },
+  {
+   "note": 26,
+   "name": "D1",
+   "velocity": 64,
+   "old_file": "rhodes_D1_n026_v064_sus.pcm",
+   "old_samples": 992232,
+   "on_sample": 21166229,
+   "off_sample": 22422615,
+   "end_sample": 22444371
+  },
+  {
+   "note": 26,
+   "name": "D1",
+   "velocity": 80,
+   "old_file": "rhodes_D1_n026_v080_sus.pcm",
+   "old_samples": 1064555,
+   "on_sample": 22460688,
+   "off_sample": 23806274,
+   "end_sample": 23828030
+  },
+  {
+   "note": 26,
+   "name": "D1",
+   "velocity": 112,
+   "old_file": "rhodes_D1_n026_v112_sus.pcm",
+   "old_samples": 1209427,
+   "on_sample": 23844347,
+   "off_sample": 25368607,
+   "end_sample": 25390363
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 16,
+   "old_file": "rhodes_Ds1_n027_v016_sus.pcm",
+   "old_samples": 735568,
+   "on_sample": 25406680,
+   "off_sample": 26346515,
+   "end_sample": 26368271
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 48,
+   "old_file": "rhodes_Ds1_n027_v048_sus.pcm",
+   "old_samples": 913243,
+   "on_sample": 26384588,
+   "off_sample": 27543555,
+   "end_sample": 27565311
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 64,
+   "old_file": "rhodes_Ds1_n027_v064_sus.pcm",
+   "old_samples": 985145,
+   "on_sample": 27581628,
+   "off_sample": 28829274,
+   "end_sample": 28851030
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 80,
+   "old_file": "rhodes_Ds1_n027_v080_sus.pcm",
+   "old_samples": 1057046,
+   "on_sample": 28867347,
+   "off_sample": 30203671,
+   "end_sample": 30225427
+  },
+  {
+   "note": 27,
+   "name": "Ds1",
+   "velocity": 112,
+   "old_file": "rhodes_Ds1_n027_v112_sus.pcm",
+   "old_samples": 1200848,
+   "on_sample": 30241744,
+   "off_sample": 31755424,
+   "end_sample": 31777180
+  },
+  {
+   "note": 28,
+   "name": "E1",
+   "velocity": 16,
+   "old_file": "rhodes_E1_n028_v016_sus.pcm",
+   "old_samples": 708462,
+   "on_sample": 31793497,
+   "off_sample": 32699901,
+   "end_sample": 32721657
+  },
+  {
+   "note": 28,
+   "name": "E1",
+   "velocity": 48,
+   "old_file": "rhodes_E1_n028_v048_sus.pcm",
+   "old_samples": 906435,
+   "on_sample": 32737974,
+   "off_sample": 33888544,
+   "end_sample": 33910300
+  },
+  {
+   "note": 28,
+   "name": "E1",
+   "velocity": 64,
+   "old_file": "rhodes_E1_n028_v064_sus.pcm",
+   "old_samples": 978057,
+   "on_sample": 33926617,
+   "off_sample": 35165522,
+   "end_sample": 35187278
+  },
+  {
+   "note": 28,
+   "name": "E1",
+   "velocity": 80,
+   "old_file": "rhodes_E1_n028_v080_sus.pcm",
+   "old_samples": 1049441,
+   "on_sample": 35203595,
+   "off_sample": 36530539,
+   "end_sample": 36552295
+  },
+  {
+   "note": 28,
+   "name": "E1",
+   "velocity": 112,
+   "old_file": "rhodes_E1_n028_v112_sus.pcm",
+   "old_samples": 1192209,
+   "on_sample": 36568612,
+   "off_sample": 38071637,
+   "end_sample": 38093393
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 16,
+   "old_file": "rhodes_F1_n029_v016_sus.pcm",
+   "old_samples": 750664,
+   "on_sample": 38109710,
+   "off_sample": 39068163,
+   "end_sample": 39089919
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 48,
+   "old_file": "rhodes_F1_n029_v048_sus.pcm",
+   "old_samples": 900103,
+   "on_sample": 39106236,
+   "off_sample": 40248997,
+   "end_sample": 40270753
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 64,
+   "old_file": "rhodes_F1_n029_v064_sus.pcm",
+   "old_samples": 970888,
+   "on_sample": 40287070,
+   "off_sample": 41517133,
+   "end_sample": 41538889
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 80,
+   "old_file": "rhodes_F1_n029_v080_sus.pcm",
+   "old_samples": 1041837,
+   "on_sample": 41555206,
+   "off_sample": 42872772,
+   "end_sample": 42894528
+  },
+  {
+   "note": 29,
+   "name": "F1",
+   "velocity": 112,
+   "old_file": "rhodes_F1_n029_v112_sus.pcm",
+   "old_samples": 1183570,
+   "on_sample": 42910845,
+   "off_sample": 44403215,
+   "end_sample": 44424971
+  },
+  {
+   "note": 30,
+   "name": "Fs1",
+   "velocity": 16,
+   "old_file": "rhodes_Fs1_n030_v016_sus.pcm",
+   "old_samples": 750924,
+   "on_sample": 44441288,
+   "off_sample": 45400062,
+   "end_sample": 45421818
+  },
+  {
+   "note": 30,
+   "name": "Fs1",
+   "velocity": 48,
+   "old_file": "rhodes_Fs1_n030_v048_sus.pcm",
+   "old_samples": 893368,
+   "on_sample": 45438135,
+   "off_sample": 46572589,
+   "end_sample": 46594345
+  },
+  {
+   "note": 30,
+   "name": "Fs1",
+   "velocity": 64,
+   "old_file": "rhodes_Fs1_n030_v064_sus.pcm",
+   "old_samples": 963791,
+   "on_sample": 46610662,
+   "off_sample": 47831972,
+   "end_sample": 47853728
+  },
+  {
+   "note": 30,
+   "name": "Fs1",
+   "velocity": 80,
+   "old_file": "rhodes_Fs1_n030_v080_sus.pcm",
+   "old_samples": 1034231,
+   "on_sample": 47870045,
+   "off_sample": 49178231,
+   "end_sample": 49199987
+  },
+  {
+   "note": 30,
+   "name": "Fs1",
+   "velocity": 112,
+   "old_file": "rhodes_Fs1_n030_v112_sus.pcm",
+   "old_samples": 1174931,
+   "on_sample": 49216304,
+   "off_sample": 50698019,
+   "end_sample": 50719775
+  },
+  {
+   "note": 31,
+   "name": "G1",
+   "velocity": 16,
+   "old_file": "rhodes_G1_n031_v016_sus.pcm",
+   "old_samples": 747100,
+   "on_sample": 50736092,
+   "off_sample": 51690149,
+   "end_sample": 51711905
+  },
+  {
+   "note": 31,
+   "name": "G1",
+   "velocity": 48,
+   "old_file": "rhodes_G1_n031_v048_sus.pcm",
+   "old_samples": 886918,
+   "on_sample": 51728222,
+   "off_sample": 52854722,
+   "end_sample": 52876478
+  },
+  {
+   "note": 31,
+   "name": "G1",
+   "velocity": 64,
+   "old_file": "rhodes_G1_n031_v064_sus.pcm",
+   "old_samples": 956795,
+   "on_sample": 52892795,
+   "off_sample": 54105476,
+   "end_sample": 54127232
+  },
+  {
+   "note": 31,
+   "name": "G1",
+   "velocity": 80,
+   "old_file": "rhodes_G1_n031_v080_sus.pcm",
+   "old_samples": 1026628,
+   "on_sample": 54143549,
+   "off_sample": 55442358,
+   "end_sample": 55464114
+  },
+  {
+   "note": 31,
+   "name": "G1",
+   "velocity": 112,
+   "old_file": "rhodes_G1_n031_v112_sus.pcm",
+   "old_samples": 1166291,
+   "on_sample": 55480431,
+   "off_sample": 56951490,
+   "end_sample": 56973246
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 16,
+   "old_file": "rhodes_Gs1_n032_v016_sus.pcm",
+   "old_samples": 741764,
+   "on_sample": 56989563,
+   "off_sample": 57937040,
+   "end_sample": 57958796
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 48,
+   "old_file": "rhodes_Gs1_n032_v048_sus.pcm",
+   "old_samples": 880394,
+   "on_sample": 57975113,
+   "off_sample": 59093566,
+   "end_sample": 59115322
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 64,
+   "old_file": "rhodes_Gs1_n032_v064_sus.pcm",
+   "old_samples": 949705,
+   "on_sample": 59131639,
+   "off_sample": 60335576,
+   "end_sample": 60357332
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 80,
+   "old_file": "rhodes_Gs1_n032_v080_sus.pcm",
+   "old_samples": 1019023,
+   "on_sample": 60373649,
+   "off_sample": 61663078,
+   "end_sample": 61684834
+  },
+  {
+   "note": 32,
+   "name": "Gs1",
+   "velocity": 112,
+   "old_file": "rhodes_Gs1_n032_v112_sus.pcm",
+   "old_samples": 1157652,
+   "on_sample": 61701151,
+   "off_sample": 63161555,
+   "end_sample": 63183311
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 16,
+   "old_file": "rhodes_A1_n033_v016_sus.pcm",
+   "old_samples": 736228,
+   "on_sample": 63199628,
+   "off_sample": 64140277,
+   "end_sample": 64162033
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 48,
+   "old_file": "rhodes_A1_n033_v048_sus.pcm",
+   "old_samples": 873823,
+   "on_sample": 64178350,
+   "off_sample": 65288699,
+   "end_sample": 65310455
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 64,
+   "old_file": "rhodes_A1_n033_v064_sus.pcm",
+   "old_samples": 942621,
+   "on_sample": 65326772,
+   "off_sample": 66521972,
+   "end_sample": 66543728
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 80,
+   "old_file": "rhodes_A1_n033_v080_sus.pcm",
+   "old_samples": 1011418,
+   "on_sample": 66560045,
+   "off_sample": 67840094,
+   "end_sample": 67861850
+  },
+  {
+   "note": 33,
+   "name": "A1",
+   "velocity": 112,
+   "old_file": "rhodes_A1_n033_v112_sus.pcm",
+   "old_samples": 1148955,
+   "on_sample": 67878167,
+   "off_sample": 69327846,
+   "end_sample": 69349602
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 16,
+   "old_file": "rhodes_As1_n034_v016_sus.pcm",
+   "old_samples": 730505,
+   "on_sample": 69365919,
+   "off_sample": 70299509,
+   "end_sample": 70321265
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 48,
+   "old_file": "rhodes_As1_n034_v048_sus.pcm",
+   "old_samples": 867253,
+   "on_sample": 70337582,
+   "off_sample": 71439828,
+   "end_sample": 71461584
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 64,
+   "old_file": "rhodes_As1_n034_v064_sus.pcm",
+   "old_samples": 935533,
+   "on_sample": 71477901,
+   "off_sample": 72664359,
+   "end_sample": 72686115
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 80,
+   "old_file": "rhodes_As1_n034_v080_sus.pcm",
+   "old_samples": 1003813,
+   "on_sample": 72702432,
+   "off_sample": 73973102,
+   "end_sample": 73994858
+  },
+  {
+   "note": 34,
+   "name": "As1",
+   "velocity": 112,
+   "old_file": "rhodes_As1_n034_v112_sus.pcm",
+   "old_samples": 1140373,
+   "on_sample": 74011175,
+   "off_sample": 75450269,
+   "end_sample": 75472025
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 16,
+   "old_file": "rhodes_B1_n035_v016_sus.pcm",
+   "old_samples": 725157,
+   "on_sample": 75488342,
+   "off_sample": 76415337,
+   "end_sample": 76437093
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 48,
+   "old_file": "rhodes_B1_n035_v048_sus.pcm",
+   "old_samples": 860682,
+   "on_sample": 76453410,
+   "off_sample": 77547551,
+   "end_sample": 77569307
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 64,
+   "old_file": "rhodes_B1_n035_v064_sus.pcm",
+   "old_samples": 928405,
+   "on_sample": 77585624,
+   "off_sample": 78763291,
+   "end_sample": 78785047
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 80,
+   "old_file": "rhodes_B1_n035_v080_sus.pcm",
+   "old_samples": 996209,
+   "on_sample": 78801364,
+   "off_sample": 80062656,
+   "end_sample": 80084412
+  },
+  {
+   "note": 35,
+   "name": "B1",
+   "velocity": 112,
+   "old_file": "rhodes_B1_n035_v112_sus.pcm",
+   "old_samples": 1131734,
+   "on_sample": 80100729,
+   "off_sample": 81529168,
+   "end_sample": 81550924
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 16,
+   "old_file": "rhodes_C2_n036_v016_sus.pcm",
+   "old_samples": 719612,
+   "on_sample": 81567241,
+   "off_sample": 82487397,
+   "end_sample": 82509153
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 48,
+   "old_file": "rhodes_C2_n036_v048_sus.pcm",
+   "old_samples": 854095,
+   "on_sample": 82525470,
+   "off_sample": 83611488,
+   "end_sample": 83633244
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 64,
+   "old_file": "rhodes_C2_n036_v064_sus.pcm",
+   "old_samples": 921358,
+   "on_sample": 83649561,
+   "off_sample": 84818536,
+   "end_sample": 84840292
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 80,
+   "old_file": "rhodes_C2_n036_v080_sus.pcm",
+   "old_samples": 988604,
+   "on_sample": 84856609,
+   "off_sample": 86108521,
+   "end_sample": 86130277
+  },
+  {
+   "note": 36,
+   "name": "C2",
+   "velocity": 112,
+   "old_file": "rhodes_C2_n036_v112_sus.pcm",
+   "old_samples": 1123095,
+   "on_sample": 86146594,
+   "off_sample": 87564379,
+   "end_sample": 87586135
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 16,
+   "old_file": "rhodes_Cs2_n037_v016_sus.pcm",
+   "old_samples": 714017,
+   "on_sample": 87602452,
+   "off_sample": 88515707,
+   "end_sample": 88537463
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 48,
+   "old_file": "rhodes_Cs2_n037_v048_sus.pcm",
+   "old_samples": 847543,
+   "on_sample": 88553780,
+   "off_sample": 89631717,
+   "end_sample": 89653473
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 64,
+   "old_file": "rhodes_Cs2_n037_v064_sus.pcm",
+   "old_samples": 914271,
+   "on_sample": 89669790,
+   "off_sample": 90830025,
+   "end_sample": 90851781
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 80,
+   "old_file": "rhodes_Cs2_n037_v080_sus.pcm",
+   "old_samples": 980999,
+   "on_sample": 90868098,
+   "off_sample": 92110630,
+   "end_sample": 92132386
+  },
+  {
+   "note": 37,
+   "name": "Cs2",
+   "velocity": 112,
+   "old_file": "rhodes_Cs2_n037_v112_sus.pcm",
+   "old_samples": 1114456,
+   "on_sample": 92148703,
+   "off_sample": 93555833,
+   "end_sample": 93577589
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 16,
+   "old_file": "rhodes_D2_n038_v016_sus.pcm",
+   "old_samples": 708551,
+   "on_sample": 93593906,
+   "off_sample": 94500420,
+   "end_sample": 94522176
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 48,
+   "old_file": "rhodes_D2_n038_v048_sus.pcm",
+   "old_samples": 840973,
+   "on_sample": 94538493,
+   "off_sample": 95608327,
+   "end_sample": 95630083
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 64,
+   "old_file": "rhodes_D2_n038_v064_sus.pcm",
+   "old_samples": 907183,
+   "on_sample": 95646400,
+   "off_sample": 96797893,
+   "end_sample": 96819649
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 80,
+   "old_file": "rhodes_D2_n038_v080_sus.pcm",
+   "old_samples": 973395,
+   "on_sample": 96835966,
+   "off_sample": 98069120,
+   "end_sample": 98090876
+  },
+  {
+   "note": 38,
+   "name": "D2",
+   "velocity": 112,
+   "old_file": "rhodes_D2_n038_v112_sus.pcm",
+   "old_samples": 1105817,
+   "on_sample": 98107193,
+   "off_sample": 99503668,
+   "end_sample": 99525424
+  },
+  {
+   "note": 39,
+   "name": "Ds2",
+   "velocity": 16,
+   "old_file": "rhodes_Ds2_n039_v016_sus.pcm",
+   "old_samples": 703015,
+   "on_sample": 99541741,
+   "off_sample": 100441427,
+   "end_sample": 100463183
+  },
+  {
+   "note": 39,
+   "name": "Ds2",
+   "velocity": 48,
+   "old_file": "rhodes_Ds2_n039_v048_sus.pcm",
+   "old_samples": 834402,
+   "on_sample": 100479500,
+   "off_sample": 101541230,
+   "end_sample": 101562986
+  },
+  {
+   "note": 39,
+   "name": "Ds2",
+   "velocity": 64,
+   "old_file": "rhodes_Ds2_n039_v064_sus.pcm",
+   "old_samples": 900096,
+   "on_sample": 101579303,
+   "off_sample": 102722055,
+   "end_sample": 102743811
+  },
+  {
+   "note": 39,
+   "name": "Ds2",
+   "velocity": 80,
+   "old_file": "rhodes_Ds2_n039_v080_sus.pcm",
+   "old_samples": 965790,
+   "on_sample": 102760128,
+   "off_sample": 103983903,
+   "end_sample": 104005659
+  },
+  {
+   "note": 39,
+   "name": "Ds2",
+   "velocity": 112,
+   "old_file": "rhodes_Ds2_n039_v112_sus.pcm",
+   "old_samples": 1097137,
+   "on_sample": 104021976,
+   "off_sample": 105407746,
+   "end_sample": 105429502
+  },
+  {
+   "note": 40,
+   "name": "E2",
+   "velocity": 16,
+   "old_file": "rhodes_E2_n040_v016_sus.pcm",
+   "old_samples": 618925,
+   "on_sample": 105445819,
+   "off_sample": 106241794,
+   "end_sample": 106263550
+  },
+  {
+   "note": 40,
+   "name": "E2",
+   "velocity": 48,
+   "old_file": "rhodes_E2_n040_v048_sus.pcm",
+   "old_samples": 827752,
+   "on_sample": 106279867,
+   "off_sample": 107333395,
+   "end_sample": 107355151
+  },
+  {
+   "note": 40,
+   "name": "E2",
+   "velocity": 64,
+   "old_file": "rhodes_E2_n040_v064_sus.pcm",
+   "old_samples": 892908,
+   "on_sample": 107371468,
+   "off_sample": 108505355,
+   "end_sample": 108527111
+  },
+  {
+   "note": 40,
+   "name": "E2",
+   "velocity": 80,
+   "old_file": "rhodes_E2_n040_v080_sus.pcm",
+   "old_samples": 958185,
+   "on_sample": 108543428,
+   "off_sample": 109757824,
+   "end_sample": 109779580
+  },
+  {
+   "note": 40,
+   "name": "E2",
+   "velocity": 112,
+   "old_file": "rhodes_E2_n040_v112_sus.pcm",
+   "old_samples": 1040034,
+   "on_sample": 109795897,
+   "off_sample": 111111239,
+   "end_sample": 111132995
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 16,
+   "old_file": "rhodes_F2_n041_v016_sus.pcm",
+   "old_samples": 691944,
+   "on_sample": 111149312,
+   "off_sample": 112035344,
+   "end_sample": 112057100
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 48,
+   "old_file": "rhodes_F2_n041_v048_sus.pcm",
+   "old_samples": 821228,
+   "on_sample": 112073417,
+   "off_sample": 113118899,
+   "end_sample": 113140655
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 64,
+   "old_file": "rhodes_F2_n041_v064_sus.pcm",
+   "old_samples": 885905,
+   "on_sample": 113156972,
+   "off_sample": 114282222,
+   "end_sample": 114303978
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 80,
+   "old_file": "rhodes_F2_n041_v080_sus.pcm",
+   "old_samples": 950581,
+   "on_sample": 114320295,
+   "off_sample": 115525312,
+   "end_sample": 115547068
+  },
+  {
+   "note": 41,
+   "name": "F2",
+   "velocity": 112,
+   "old_file": "rhodes_F2_n041_v112_sus.pcm",
+   "old_samples": 1079899,
+   "on_sample": 115563385,
+   "off_sample": 116927895,
+   "end_sample": 116949651
+  },
+  {
+   "note": 42,
+   "name": "Fs2",
+   "velocity": 16,
+   "old_file": "rhodes_Fs2_n042_v016_sus.pcm",
+   "old_samples": 686388,
+   "on_sample": 116965968,
+   "off_sample": 117845147,
+   "end_sample": 117866903
+  },
+  {
+   "note": 42,
+   "name": "Fs2",
+   "velocity": 48,
+   "old_file": "rhodes_Fs2_n042_v048_sus.pcm",
+   "old_samples": 814667,
+   "on_sample": 117883220,
+   "off_sample": 118920610,
+   "end_sample": 118942366
+  },
+  {
+   "note": 42,
+   "name": "Fs2",
+   "velocity": 64,
+   "old_file": "rhodes_Fs2_n042_v064_sus.pcm",
+   "old_samples": 878834,
+   "on_sample": 118958683,
+   "off_sample": 120075212,
+   "end_sample": 120096968
+  },
+  {
+   "note": 42,
+   "name": "Fs2",
+   "velocity": 80,
+   "old_file": "rhodes_Fs2_n042_v080_sus.pcm",
+   "old_samples": 942976,
+   "on_sample": 120113285,
+   "off_sample": 121308923,
+   "end_sample": 121330679
+  },
+  {
+   "note": 42,
+   "name": "Fs2",
+   "velocity": 112,
+   "old_file": "rhodes_Fs2_n042_v112_sus.pcm",
+   "old_samples": 1071195,
+   "on_sample": 121346996,
+   "off_sample": 122700770,
+   "end_sample": 122722526
+  },
+  {
+   "note": 43,
+   "name": "G2",
+   "velocity": 16,
+   "old_file": "rhodes_G2_n043_v016_sus.pcm",
+   "old_samples": 669055,
+   "on_sample": 122738843,
+   "off_sample": 123596645,
+   "end_sample": 123618401
+  },
+  {
+   "note": 43,
+   "name": "G2",
+   "velocity": 48,
+   "old_file": "rhodes_G2_n043_v048_sus.pcm",
+   "old_samples": 774093,
+   "on_sample": 123634718,
+   "off_sample": 124622067,
+   "end_sample": 124643823
+  },
+  {
+   "note": 43,
+   "name": "G2",
+   "velocity": 64,
+   "old_file": "rhodes_G2_n043_v064_sus.pcm",
+   "old_samples": 871696,
+   "on_sample": 124660140,
+   "off_sample": 125767865,
+   "end_sample": 125789621
+  },
+  {
+   "note": 43,
+   "name": "G2",
+   "velocity": 80,
+   "old_file": "rhodes_G2_n043_v080_sus.pcm",
+   "old_samples": 935283,
+   "on_sample": 125805938,
+   "off_sample": 126992088,
+   "end_sample": 127013844
+  },
+  {
+   "note": 43,
+   "name": "G2",
+   "velocity": 112,
+   "old_file": "rhodes_G2_n043_v112_sus.pcm",
+   "old_samples": 901478,
+   "on_sample": 127030161,
+   "off_sample": 128174618,
+   "end_sample": 128196374
+  },
+  {
+   "note": 44,
+   "name": "Gs2",
+   "velocity": 16,
+   "old_file": "rhodes_Gs2_n044_v016_sus.pcm",
+   "old_samples": 675337,
+   "on_sample": 128212691,
+   "off_sample": 129078241,
+   "end_sample": 129099997
+  },
+  {
+   "note": 44,
+   "name": "Gs2",
+   "velocity": 48,
+   "old_file": "rhodes_Gs2_n044_v048_sus.pcm",
+   "old_samples": 801552,
+   "on_sample": 129116314,
+   "off_sample": 130137528,
+   "end_sample": 130159284
+  },
+  {
+   "note": 44,
+   "name": "Gs2",
+   "velocity": 64,
+   "old_file": "rhodes_Gs2_n044_v064_sus.pcm",
+   "old_samples": 864659,
+   "on_sample": 130175601,
+   "off_sample": 131274648,
+   "end_sample": 131296404
+  },
+  {
+   "note": 44,
+   "name": "Gs2",
+   "velocity": 80,
+   "old_file": "rhodes_Gs2_n044_v080_sus.pcm",
+   "old_samples": 927767,
+   "on_sample": 131312721,
+   "off_sample": 132489601,
+   "end_sample": 132511357
+  },
+  {
+   "note": 44,
+   "name": "Gs2",
+   "velocity": 112,
+   "old_file": "rhodes_Gs2_n044_v112_sus.pcm",
+   "old_samples": 1053982,
+   "on_sample": 132527674,
+   "off_sample": 133860219,
+   "end_sample": 133881975
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 16,
+   "old_file": "rhodes_A2_n045_v016_sus.pcm",
+   "old_samples": 626060,
+   "on_sample": 133898292,
+   "off_sample": 134703067,
+   "end_sample": 134724823
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 48,
+   "old_file": "rhodes_A2_n045_v048_sus.pcm",
+   "old_samples": 677240,
+   "on_sample": 134741140,
+   "off_sample": 135609037,
+   "end_sample": 135630793
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 64,
+   "old_file": "rhodes_A2_n045_v064_sus.pcm",
+   "old_samples": 776205,
+   "on_sample": 135647110,
+   "off_sample": 136637063,
+   "end_sample": 136658819
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 80,
+   "old_file": "rhodes_A2_n045_v080_sus.pcm",
+   "old_samples": 849347,
+   "on_sample": 136675136,
+   "off_sample": 137755298,
+   "end_sample": 137777054
+  },
+  {
+   "note": 45,
+   "name": "A2",
+   "velocity": 112,
+   "old_file": "rhodes_A2_n045_v112_sus.pcm",
+   "old_samples": 707495,
+   "on_sample": 137793371,
+   "off_sample": 138698582,
+   "end_sample": 138720338
+  },
+  {
+   "note": 46,
+   "name": "As2",
+   "velocity": 16,
+   "old_file": "rhodes_As2_n046_v016_sus.pcm",
+   "old_samples": 663671,
+   "on_sample": 138736655,
+   "off_sample": 139587817,
+   "end_sample": 139609573
+  },
+  {
+   "note": 46,
+   "name": "As2",
+   "velocity": 48,
+   "old_file": "rhodes_As2_n046_v048_sus.pcm",
+   "old_samples": 761867,
+   "on_sample": 139625890,
+   "off_sample": 140598160,
+   "end_sample": 140619916
+  },
+  {
+   "note": 46,
+   "name": "As2",
+   "velocity": 64,
+   "old_file": "rhodes_As2_n046_v064_sus.pcm",
+   "old_samples": 850066,
+   "on_sample": 140636233,
+   "off_sample": 141717282,
+   "end_sample": 141739038
+  },
+  {
+   "note": 46,
+   "name": "As2",
+   "velocity": 80,
+   "old_file": "rhodes_As2_n046_v080_sus.pcm",
+   "old_samples": 912558,
+   "on_sample": 141755355,
+   "off_sample": 142913477,
+   "end_sample": 142935233
+  },
+  {
+   "note": 46,
+   "name": "As2",
+   "velocity": 112,
+   "old_file": "rhodes_As2_n046_v112_sus.pcm",
+   "old_samples": 971359,
+   "on_sample": 142951550,
+   "off_sample": 144182193,
+   "end_sample": 144203949
+  },
+  {
+   "note": 47,
+   "name": "B2",
+   "velocity": 16,
+   "old_file": "rhodes_B2_n047_v016_sus.pcm",
+   "old_samples": 658446,
+   "on_sample": 144220266,
+   "off_sample": 145064984,
+   "end_sample": 145086740
+  },
+  {
+   "note": 47,
+   "name": "B2",
+   "velocity": 48,
+   "old_file": "rhodes_B2_n047_v048_sus.pcm",
+   "old_samples": 781783,
+   "on_sample": 145103057,
+   "off_sample": 146099890,
+   "end_sample": 146121646
+  },
+  {
+   "note": 47,
+   "name": "B2",
+   "velocity": 64,
+   "old_file": "rhodes_B2_n047_v064_sus.pcm",
+   "old_samples": 843397,
+   "on_sample": 146137963,
+   "off_sample": 147210786,
+   "end_sample": 147232542
+  },
+  {
+   "note": 47,
+   "name": "B2",
+   "velocity": 80,
+   "old_file": "rhodes_B2_n047_v080_sus.pcm",
+   "old_samples": 904953,
+   "on_sample": 147248859,
+   "off_sample": 148397602,
+   "end_sample": 148419358
+  },
+  {
+   "note": 47,
+   "name": "B2",
+   "velocity": 112,
+   "old_file": "rhodes_B2_n047_v112_sus.pcm",
+   "old_samples": 995342,
+   "on_sample": 148435675,
+   "off_sample": 149695897,
+   "end_sample": 149717653
+  },
+  {
+   "note": 48,
+   "name": "C3",
+   "velocity": 16,
+   "old_file": "rhodes_C3_n048_v016_sus.pcm",
+   "old_samples": 506653,
+   "on_sample": 149733970,
+   "off_sample": 150391476,
+   "end_sample": 150413232
+  },
+  {
+   "note": 48,
+   "name": "C3",
+   "velocity": 48,
+   "old_file": "rhodes_C3_n048_v048_sus.pcm",
+   "old_samples": 775272,
+   "on_sample": 150429549,
+   "off_sample": 151418352,
+   "end_sample": 151440108
+  },
+  {
+   "note": 48,
+   "name": "C3",
+   "velocity": 64,
+   "old_file": "rhodes_C3_n048_v064_sus.pcm",
+   "old_samples": 836238,
+   "on_sample": 151456425,
+   "off_sample": 152520419,
+   "end_sample": 152542175
+  },
+  {
+   "note": 48,
+   "name": "C3",
+   "velocity": 80,
+   "old_file": "rhodes_C3_n048_v080_sus.pcm",
+   "old_samples": 896586,
+   "on_sample": 152558492,
+   "off_sample": 153696916,
+   "end_sample": 153718672
+  },
+  {
+   "note": 48,
+   "name": "C3",
+   "velocity": 112,
+   "old_file": "rhodes_C3_n048_v112_sus.pcm",
+   "old_samples": 859288,
+   "on_sample": 153734989,
+   "off_sample": 154827411,
+   "end_sample": 154849167
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 16,
+   "old_file": "rhodes_Cs3_n049_v016_sus.pcm",
+   "old_samples": 424600,
+   "on_sample": 154865484,
+   "off_sample": 155421792,
+   "end_sample": 155443548
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 48,
+   "old_file": "rhodes_Cs3_n049_v048_sus.pcm",
+   "old_samples": 648749,
+   "on_sample": 155459865,
+   "off_sample": 156292623,
+   "end_sample": 156314379
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 64,
+   "old_file": "rhodes_Cs3_n049_v064_sus.pcm",
+   "old_samples": 724631,
+   "on_sample": 156330696,
+   "off_sample": 157257041,
+   "end_sample": 157278797
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 80,
+   "old_file": "rhodes_Cs3_n049_v080_sus.pcm",
+   "old_samples": 752718,
+   "on_sample": 157295114,
+   "off_sample": 158256100,
+   "end_sample": 158277856
+  },
+  {
+   "note": 49,
+   "name": "Cs3",
+   "velocity": 112,
+   "old_file": "rhodes_Cs3_n049_v112_sus.pcm",
+   "old_samples": 688162,
+   "on_sample": 158294173,
+   "off_sample": 159175540,
+   "end_sample": 159197296
+  },
+  {
+   "note": 50,
+   "name": "D3",
+   "velocity": 16,
+   "old_file": "rhodes_D3_n050_v016_sus.pcm",
+   "old_samples": 196240,
+   "on_sample": 159213613,
+   "off_sample": 159488277,
+   "end_sample": 159510033
+  },
+  {
+   "note": 50,
+   "name": "D3",
+   "velocity": 48,
+   "old_file": "rhodes_D3_n050_v048_sus.pcm",
+   "old_samples": 632827,
+   "on_sample": 159526350,
+   "off_sample": 160339470,
+   "end_sample": 160361226
+  },
+  {
+   "note": 50,
+   "name": "D3",
+   "velocity": 64,
+   "old_file": "rhodes_D3_n050_v064_sus.pcm",
+   "old_samples": 452936,
+   "on_sample": 160377543,
+   "off_sample": 160968798,
+   "end_sample": 160990554
+  },
+  {
+   "note": 50,
+   "name": "D3",
+   "velocity": 80,
+   "old_file": "rhodes_D3_n050_v080_sus.pcm",
+   "old_samples": 568656,
+   "on_sample": 161006871,
+   "off_sample": 161740848,
+   "end_sample": 161762604
+  },
+  {
+   "note": 50,
+   "name": "D3",
+   "velocity": 112,
+   "old_file": "rhodes_D3_n050_v112_sus.pcm",
+   "old_samples": 575773,
+   "on_sample": 161778921,
+   "off_sample": 162521675,
+   "end_sample": 162543431
+  },
+  {
+   "note": 51,
+   "name": "Ds3",
+   "velocity": 16,
+   "old_file": "rhodes_Ds3_n051_v016_sus.pcm",
+   "old_samples": 345108,
+   "on_sample": 162559748,
+   "off_sample": 163018015,
+   "end_sample": 163039771
+  },
+  {
+   "note": 51,
+   "name": "Ds3",
+   "velocity": 48,
+   "old_file": "rhodes_Ds3_n051_v048_sus.pcm",
+   "old_samples": 421832,
+   "on_sample": 163056088,
+   "off_sample": 163608982,
+   "end_sample": 163630738
+  },
+  {
+   "note": 51,
+   "name": "Ds3",
+   "velocity": 64,
+   "old_file": "rhodes_Ds3_n051_v064_sus.pcm",
+   "old_samples": 497140,
+   "on_sample": 163647055,
+   "off_sample": 164292828,
+   "end_sample": 164314584
+  },
+  {
+   "note": 51,
+   "name": "Ds3",
+   "velocity": 80,
+   "old_file": "rhodes_Ds3_n051_v080_sus.pcm",
+   "old_samples": 525409,
+   "on_sample": 164330901,
+   "off_sample": 165011539,
+   "end_sample": 165033295
+  },
+  {
+   "note": 51,
+   "name": "Ds3",
+   "velocity": 112,
+   "old_file": "rhodes_Ds3_n051_v112_sus.pcm",
+   "old_samples": 523630,
+   "on_sample": 165049612,
+   "off_sample": 165728057,
+   "end_sample": 165749813
+  },
+  {
+   "note": 52,
+   "name": "E3",
+   "velocity": 16,
+   "old_file": "rhodes_E3_n052_v016_sus.pcm",
+   "old_samples": 543112,
+   "on_sample": 165766130,
+   "off_sample": 166468602,
+   "end_sample": 166490358
+  },
+  {
+   "note": 52,
+   "name": "E3",
+   "velocity": 48,
+   "old_file": "rhodes_E3_n052_v048_sus.pcm",
+   "old_samples": 748646,
+   "on_sample": 166506675,
+   "off_sample": 167462639,
+   "end_sample": 167484395
+  },
+  {
+   "note": 52,
+   "name": "E3",
+   "velocity": 64,
+   "old_file": "rhodes_E3_n052_v064_sus.pcm",
+   "old_samples": 807961,
+   "on_sample": 167500712,
+   "off_sample": 168529831,
+   "end_sample": 168551587
+  },
+  {
+   "note": 52,
+   "name": "E3",
+   "velocity": 80,
+   "old_file": "rhodes_E3_n052_v080_sus.pcm",
+   "old_samples": 866879,
+   "on_sample": 168567904,
+   "off_sample": 169669689,
+   "end_sample": 169691445
+  },
+  {
+   "note": 52,
+   "name": "E3",
+   "velocity": 112,
+   "old_file": "rhodes_E3_n052_v112_sus.pcm",
+   "old_samples": 795947,
+   "on_sample": 169707762,
+   "off_sample": 170722064,
+   "end_sample": 170743820
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 16,
+   "old_file": "rhodes_F3_n053_v016_sus.pcm",
+   "old_samples": 456845,
+   "on_sample": 170760137,
+   "off_sample": 171356213,
+   "end_sample": 171377969
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 48,
+   "old_file": "rhodes_F3_n053_v048_sus.pcm",
+   "old_samples": 635599,
+   "on_sample": 171394286,
+   "off_sample": 172210825,
+   "end_sample": 172232581
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 64,
+   "old_file": "rhodes_F3_n053_v064_sus.pcm",
+   "old_samples": 738793,
+   "on_sample": 172248898,
+   "off_sample": 173192710,
+   "end_sample": 173214466
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 80,
+   "old_file": "rhodes_F3_n053_v080_sus.pcm",
+   "old_samples": 735278,
+   "on_sample": 173230783,
+   "off_sample": 174170260,
+   "end_sample": 174192016
+  },
+  {
+   "note": 53,
+   "name": "F3",
+   "velocity": 112,
+   "old_file": "rhodes_F3_n053_v112_sus.pcm",
+   "old_samples": 677303,
+   "on_sample": 174208333,
+   "off_sample": 175076308,
+   "end_sample": 175098064
+  },
+  {
+   "note": 54,
+   "name": "Fs3",
+   "velocity": 16,
+   "old_file": "rhodes_Fs3_n054_v016_sus.pcm",
+   "old_samples": 421546,
+   "on_sample": 175114381,
+   "off_sample": 175666921,
+   "end_sample": 175688677
+  },
+  {
+   "note": 54,
+   "name": "Fs3",
+   "velocity": 48,
+   "old_file": "rhodes_Fs3_n054_v048_sus.pcm",
+   "old_samples": 578672,
+   "on_sample": 175704994,
+   "off_sample": 176451324,
+   "end_sample": 176473080
+  },
+  {
+   "note": 54,
+   "name": "Fs3",
+   "velocity": 64,
+   "old_file": "rhodes_Fs3_n054_v064_sus.pcm",
+   "old_samples": 637144,
+   "on_sample": 176489397,
+   "off_sample": 177307842,
+   "end_sample": 177329598
+  },
+  {
+   "note": 54,
+   "name": "Fs3",
+   "velocity": 80,
+   "old_file": "rhodes_Fs3_n054_v080_sus.pcm",
+   "old_samples": 691745,
+   "on_sample": 177345915,
+   "off_sample": 178231701,
+   "end_sample": 178253457
+  },
+  {
+   "note": 54,
+   "name": "Fs3",
+   "velocity": 112,
+   "old_file": "rhodes_Fs3_n054_v112_sus.pcm",
+   "old_samples": 630268,
+   "on_sample": 178269774,
+   "off_sample": 179079739,
+   "end_sample": 179101495
+  },
+  {
+   "note": 55,
+   "name": "G3",
+   "velocity": 16,
+   "old_file": "rhodes_G3_n055_v016_sus.pcm",
+   "old_samples": 418188,
+   "on_sample": 179117812,
+   "off_sample": 179666211,
+   "end_sample": 179687967
+  },
+  {
+   "note": 55,
+   "name": "G3",
+   "velocity": 48,
+   "old_file": "rhodes_G3_n055_v048_sus.pcm",
+   "old_samples": 560794,
+   "on_sample": 179704284,
+   "off_sample": 180428564,
+   "end_sample": 180450320
+  },
+  {
+   "note": 55,
+   "name": "G3",
+   "velocity": 64,
+   "old_file": "rhodes_G3_n055_v064_sus.pcm",
+   "old_samples": 623184,
+   "on_sample": 180466637,
+   "off_sample": 181267864,
+   "end_sample": 181289620
+  },
+  {
+   "note": 55,
+   "name": "G3",
+   "velocity": 80,
+   "old_file": "rhodes_G3_n055_v080_sus.pcm",
+   "old_samples": 689360,
+   "on_sample": 181305937,
+   "off_sample": 182188782,
+   "end_sample": 182210538
+  },
+  {
+   "note": 55,
+   "name": "G3",
+   "velocity": 112,
+   "old_file": "rhodes_G3_n055_v112_sus.pcm",
+   "old_samples": 573905,
+   "on_sample": 182226855,
+   "off_sample": 182967305,
+   "end_sample": 182989061
+  },
+  {
+   "note": 56,
+   "name": "Gs3",
+   "velocity": 16,
+   "old_file": "rhodes_Gs3_n056_v016_sus.pcm",
+   "old_samples": 429965,
+   "on_sample": 183005378,
+   "off_sample": 183568302,
+   "end_sample": 183590058
+  },
+  {
+   "note": 56,
+   "name": "Gs3",
+   "velocity": 48,
+   "old_file": "rhodes_Gs3_n056_v048_sus.pcm",
+   "old_samples": 570043,
+   "on_sample": 183606375,
+   "off_sample": 184342062,
+   "end_sample": 184363818
+  },
+  {
+   "note": 56,
+   "name": "Gs3",
+   "velocity": 64,
+   "old_file": "rhodes_Gs3_n056_v064_sus.pcm",
+   "old_samples": 629162,
+   "on_sample": 184380135,
+   "off_sample": 185188736,
+   "end_sample": 185210492
+  },
+  {
+   "note": 56,
+   "name": "Gs3",
+   "velocity": 80,
+   "old_file": "rhodes_Gs3_n056_v080_sus.pcm",
+   "old_samples": 643563,
+   "on_sample": 185226809,
+   "off_sample": 186053170,
+   "end_sample": 186074926
+  },
+  {
+   "note": 56,
+   "name": "Gs3",
+   "velocity": 112,
+   "old_file": "rhodes_Gs3_n056_v112_sus.pcm",
+   "old_samples": 602584,
+   "on_sample": 186091243,
+   "off_sample": 186867064,
+   "end_sample": 186888820
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 16,
+   "old_file": "rhodes_A3_n057_v016_sus.pcm",
+   "old_samples": 377896,
+   "on_sample": 186905137,
+   "off_sample": 187403843,
+   "end_sample": 187425599
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 48,
+   "old_file": "rhodes_A3_n057_v048_sus.pcm",
+   "old_samples": 512345,
+   "on_sample": 187441916,
+   "off_sample": 188106442,
+   "end_sample": 188128198
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 64,
+   "old_file": "rhodes_A3_n057_v064_sus.pcm",
+   "old_samples": 574391,
+   "on_sample": 188144515,
+   "off_sample": 188885565,
+   "end_sample": 188907321
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 80,
+   "old_file": "rhodes_A3_n057_v080_sus.pcm",
+   "old_samples": 596553,
+   "on_sample": 188923638,
+   "off_sample": 189692021,
+   "end_sample": 189713777
+  },
+  {
+   "note": 57,
+   "name": "A3",
+   "velocity": 112,
+   "old_file": "rhodes_A3_n057_v112_sus.pcm",
+   "old_samples": 492384,
+   "on_sample": 189730094,
+   "off_sample": 190370001,
+   "end_sample": 190391757
+  },
+  {
+   "note": 58,
+   "name": "As3",
+   "velocity": 16,
+   "old_file": "rhodes_As3_n058_v016_sus.pcm",
+   "old_samples": 386219,
+   "on_sample": 190408074,
+   "off_sample": 190917045,
+   "end_sample": 190938801
+  },
+  {
+   "note": 58,
+   "name": "As3",
+   "velocity": 48,
+   "old_file": "rhodes_As3_n058_v048_sus.pcm",
+   "old_samples": 529431,
+   "on_sample": 190955118,
+   "off_sample": 191640717,
+   "end_sample": 191662473
+  },
+  {
+   "note": 58,
+   "name": "As3",
+   "velocity": 64,
+   "old_file": "rhodes_As3_n058_v064_sus.pcm",
+   "old_samples": 581980,
+   "on_sample": 191678790,
+   "off_sample": 192429199,
+   "end_sample": 192450955
+  },
+  {
+   "note": 58,
+   "name": "As3",
+   "velocity": 80,
+   "old_file": "rhodes_As3_n058_v080_sus.pcm",
+   "old_samples": 603029,
+   "on_sample": 192467272,
+   "off_sample": 193243642,
+   "end_sample": 193265398
+  },
+  {
+   "note": 58,
+   "name": "As3",
+   "velocity": 112,
+   "old_file": "rhodes_As3_n058_v112_sus.pcm",
+   "old_samples": 536893,
+   "on_sample": 193281715,
+   "off_sample": 193976517,
+   "end_sample": 193998273
+  },
+  {
+   "note": 59,
+   "name": "B3",
+   "velocity": 16,
+   "old_file": "rhodes_B3_n059_v016_sus.pcm",
+   "old_samples": 337527,
+   "on_sample": 194014590,
+   "off_sample": 194463507,
+   "end_sample": 194485263
+  },
+  {
+   "note": 59,
+   "name": "B3",
+   "velocity": 48,
+   "old_file": "rhodes_B3_n059_v048_sus.pcm",
+   "old_samples": 466115,
+   "on_sample": 194501580,
+   "off_sample": 195109089,
+   "end_sample": 195130845
+  },
+  {
+   "note": 59,
+   "name": "B3",
+   "velocity": 64,
+   "old_file": "rhodes_B3_n059_v064_sus.pcm",
+   "old_samples": 515218,
+   "on_sample": 195147162,
+   "off_sample": 195815232,
+   "end_sample": 195836988
+  },
+  {
+   "note": 59,
+   "name": "B3",
+   "velocity": 80,
+   "old_file": "rhodes_B3_n059_v080_sus.pcm",
+   "old_samples": 544777,
+   "on_sample": 195853305,
+   "off_sample": 196557831,
+   "end_sample": 196579587
+  },
+  {
+   "note": 59,
+   "name": "B3",
+   "velocity": 112,
+   "old_file": "rhodes_B3_n059_v112_sus.pcm",
+   "old_samples": 427395,
+   "on_sample": 196595904,
+   "off_sample": 197155658,
+   "end_sample": 197177414
+  },
+  {
+   "note": 60,
+   "name": "C4",
+   "velocity": 16,
+   "old_file": "rhodes_C4_n060_v016_sus.pcm",
+   "old_samples": 298670,
+   "on_sample": 197193731,
+   "off_sample": 197594725,
+   "end_sample": 197616481
+  },
+  {
+   "note": 60,
+   "name": "C4",
+   "velocity": 48,
+   "old_file": "rhodes_C4_n060_v048_sus.pcm",
+   "old_samples": 396424,
+   "on_sample": 197632798,
+   "off_sample": 198154355,
+   "end_sample": 198176111
+  },
+  {
+   "note": 60,
+   "name": "C4",
+   "velocity": 64,
+   "old_file": "rhodes_C4_n060_v064_sus.pcm",
+   "old_samples": 437265,
+   "on_sample": 198192428,
+   "off_sample": 198764355,
+   "end_sample": 198786111
+  },
+  {
+   "note": 60,
+   "name": "C4",
+   "velocity": 80,
+   "old_file": "rhodes_C4_n060_v080_sus.pcm",
+   "old_samples": 457737,
+   "on_sample": 198802428,
+   "off_sample": 199399604,
+   "end_sample": 199421360
+  },
+  {
+   "note": 60,
+   "name": "C4",
+   "velocity": 112,
+   "old_file": "rhodes_C4_n060_v112_sus.pcm",
+   "old_samples": 386038,
+   "on_sample": 199437677,
+   "off_sample": 199946425,
+   "end_sample": 199968181
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 16,
+   "old_file": "rhodes_Cs4_n061_v016_sus.pcm",
+   "old_samples": 288926,
+   "on_sample": 199984498,
+   "off_sample": 200373474,
+   "end_sample": 200395230
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 48,
+   "old_file": "rhodes_Cs4_n061_v048_sus.pcm",
+   "old_samples": 423924,
+   "on_sample": 200411547,
+   "off_sample": 200967021,
+   "end_sample": 200988777
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 64,
+   "old_file": "rhodes_Cs4_n061_v064_sus.pcm",
+   "old_samples": 470487,
+   "on_sample": 201005094,
+   "off_sample": 201617995,
+   "end_sample": 201639751
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 80,
+   "old_file": "rhodes_Cs4_n061_v080_sus.pcm",
+   "old_samples": 481673,
+   "on_sample": 201656068,
+   "off_sample": 202282765,
+   "end_sample": 202304521
+  },
+  {
+   "note": 61,
+   "name": "Cs4",
+   "velocity": 112,
+   "old_file": "rhodes_Cs4_n061_v112_sus.pcm",
+   "old_samples": 402672,
+   "on_sample": 202320838,
+   "off_sample": 202850101,
+   "end_sample": 202871857
+  },
+  {
+   "note": 62,
+   "name": "D4",
+   "velocity": 16,
+   "old_file": "rhodes_D4_n062_v016_sus.pcm",
+   "old_samples": 237735,
+   "on_sample": 202888174,
+   "off_sample": 203214015,
+   "end_sample": 203235771
+  },
+  {
+   "note": 62,
+   "name": "D4",
+   "velocity": 48,
+   "old_file": "rhodes_D4_n062_v048_sus.pcm",
+   "old_samples": 357737,
+   "on_sample": 203252088,
+   "off_sample": 203725931,
+   "end_sample": 203747687
+  },
+  {
+   "note": 62,
+   "name": "D4",
+   "velocity": 64,
+   "old_file": "rhodes_D4_n062_v064_sus.pcm",
+   "old_samples": 388025,
+   "on_sample": 203764004,
+   "off_sample": 204275202,
+   "end_sample": 204296958
+  },
+  {
+   "note": 62,
+   "name": "D4",
+   "velocity": 80,
+   "old_file": "rhodes_D4_n062_v080_sus.pcm",
+   "old_samples": 414882,
+   "on_sample": 204313275,
+   "off_sample": 204857597,
+   "end_sample": 204879353
+  },
+  {
+   "note": 62,
+   "name": "D4",
+   "velocity": 112,
+   "old_file": "rhodes_D4_n062_v112_sus.pcm",
+   "old_samples": 356168,
+   "on_sample": 204895670,
+   "off_sample": 205367577,
+   "end_sample": 205389333
+  },
+  {
+   "note": 63,
+   "name": "Ds4",
+   "velocity": 16,
+   "old_file": "rhodes_Ds4_n063_v016_sus.pcm",
+   "old_samples": 240929,
+   "on_sample": 205405650,
+   "off_sample": 205735430,
+   "end_sample": 205757186
+  },
+  {
+   "note": 63,
+   "name": "Ds4",
+   "velocity": 48,
+   "old_file": "rhodes_Ds4_n063_v048_sus.pcm",
+   "old_samples": 327619,
+   "on_sample": 205773503,
+   "off_sample": 206210201,
+   "end_sample": 206231957
+  },
+  {
+   "note": 63,
+   "name": "Ds4",
+   "velocity": 64,
+   "old_file": "rhodes_Ds4_n063_v064_sus.pcm",
+   "old_samples": 362659,
+   "on_sample": 206248274,
+   "off_sample": 206728187,
+   "end_sample": 206749943
+  },
+  {
+   "note": 63,
+   "name": "Ds4",
+   "velocity": 80,
+   "old_file": "rhodes_Ds4_n063_v080_sus.pcm",
+   "old_samples": 376826,
+   "on_sample": 206766260,
+   "off_sample": 207263646,
+   "end_sample": 207285402
+  },
+  {
+   "note": 63,
+   "name": "Ds4",
+   "velocity": 112,
+   "old_file": "rhodes_Ds4_n063_v112_sus.pcm",
+   "old_samples": 314463,
+   "on_sample": 207301719,
+   "off_sample": 207722191,
+   "end_sample": 207743947
+  },
+  {
+   "note": 64,
+   "name": "E4",
+   "velocity": 16,
+   "old_file": "rhodes_E4_n064_v016_sus.pcm",
+   "old_samples": 213395,
+   "on_sample": 207760264,
+   "off_sample": 208056085,
+   "end_sample": 208077841
+  },
+  {
+   "note": 64,
+   "name": "E4",
+   "velocity": 48,
+   "old_file": "rhodes_E4_n064_v048_sus.pcm",
+   "old_samples": 302737,
+   "on_sample": 208094158,
+   "off_sample": 208500168,
+   "end_sample": 208521924
+  },
+  {
+   "note": 64,
+   "name": "E4",
+   "velocity": 64,
+   "old_file": "rhodes_E4_n064_v064_sus.pcm",
+   "old_samples": 335310,
+   "on_sample": 208538241,
+   "off_sample": 208984424,
+   "end_sample": 209006180
+  },
+  {
+   "note": 64,
+   "name": "E4",
+   "velocity": 80,
+   "old_file": "rhodes_E4_n064_v080_sus.pcm",
+   "old_samples": 349581,
+   "on_sample": 209022497,
+   "off_sample": 209486281,
+   "end_sample": 209508037
+  },
+  {
+   "note": 64,
+   "name": "E4",
+   "velocity": 112,
+   "old_file": "rhodes_E4_n064_v112_sus.pcm",
+   "old_samples": 295679,
+   "on_sample": 209524354,
+   "off_sample": 209921658,
+   "end_sample": 209943414
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 16,
+   "old_file": "rhodes_F4_n065_v016_sus.pcm",
+   "old_samples": 237480,
+   "on_sample": 209959731,
+   "off_sample": 210285257,
+   "end_sample": 210307013
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 48,
+   "old_file": "rhodes_F4_n065_v048_sus.pcm",
+   "old_samples": 357624,
+   "on_sample": 210323330,
+   "off_sample": 210797034,
+   "end_sample": 210818790
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 64,
+   "old_file": "rhodes_F4_n065_v064_sus.pcm",
+   "old_samples": 395980,
+   "on_sample": 210835107,
+   "off_sample": 211356116,
+   "end_sample": 211377872
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 80,
+   "old_file": "rhodes_F4_n065_v080_sus.pcm",
+   "old_samples": 421993,
+   "on_sample": 211394189,
+   "off_sample": 211947281,
+   "end_sample": 211969037
+  },
+  {
+   "note": 65,
+   "name": "F4",
+   "velocity": 112,
+   "old_file": "rhodes_F4_n065_v112_sus.pcm",
+   "old_samples": 365322,
+   "on_sample": 211985354,
+   "off_sample": 212468552,
+   "end_sample": 212490308
+  },
+  {
+   "note": 66,
+   "name": "Fs4",
+   "velocity": 16,
+   "old_file": "rhodes_Fs4_n066_v016_sus.pcm",
+   "old_samples": 190656,
+   "on_sample": 212506625,
+   "off_sample": 212774401,
+   "end_sample": 212796157
+  },
+  {
+   "note": 66,
+   "name": "Fs4",
+   "velocity": 48,
+   "old_file": "rhodes_Fs4_n066_v048_sus.pcm",
+   "old_samples": 314311,
+   "on_sample": 212812474,
+   "off_sample": 213232759,
+   "end_sample": 213254515
+  },
+  {
+   "note": 66,
+   "name": "Fs4",
+   "velocity": 64,
+   "old_file": "rhodes_Fs4_n066_v064_sus.pcm",
+   "old_samples": 348719,
+   "on_sample": 213270832,
+   "off_sample": 213733552,
+   "end_sample": 213755308
+  },
+  {
+   "note": 66,
+   "name": "Fs4",
+   "velocity": 80,
+   "old_file": "rhodes_Fs4_n066_v080_sus.pcm",
+   "old_samples": 372406,
+   "on_sample": 213771625,
+   "off_sample": 214263560,
+   "end_sample": 214285316
+  },
+  {
+   "note": 66,
+   "name": "Fs4",
+   "velocity": 112,
+   "old_file": "rhodes_Fs4_n066_v112_sus.pcm",
+   "old_samples": 310746,
+   "on_sample": 214301633,
+   "off_sample": 214717521,
+   "end_sample": 214739277
+  },
+  {
+   "note": 67,
+   "name": "G4",
+   "velocity": 16,
+   "old_file": "rhodes_G4_n067_v016_sus.pcm",
+   "old_samples": 186334,
+   "on_sample": 214755594,
+   "off_sample": 215018040,
+   "end_sample": 215039796
+  },
+  {
+   "note": 67,
+   "name": "G4",
+   "velocity": 48,
+   "old_file": "rhodes_G4_n067_v048_sus.pcm",
+   "old_samples": 293232,
+   "on_sample": 215056113,
+   "off_sample": 215450399,
+   "end_sample": 215472155
+  },
+  {
+   "note": 67,
+   "name": "G4",
+   "velocity": 64,
+   "old_file": "rhodes_G4_n067_v064_sus.pcm",
+   "old_samples": 333600,
+   "on_sample": 215488472,
+   "off_sample": 215932546,
+   "end_sample": 215954302
+  },
+  {
+   "note": 67,
+   "name": "G4",
+   "velocity": 80,
+   "old_file": "rhodes_G4_n067_v080_sus.pcm",
+   "old_samples": 354263,
+   "on_sample": 215970619,
+   "off_sample": 216440178,
+   "end_sample": 216461934
+  },
+  {
+   "note": 67,
+   "name": "G4",
+   "velocity": 112,
+   "old_file": "rhodes_G4_n067_v112_sus.pcm",
+   "old_samples": 309654,
+   "on_sample": 216478251,
+   "off_sample": 216892791,
+   "end_sample": 216914547
+  },
+  {
+   "note": 68,
+   "name": "Gs4",
+   "velocity": 16,
+   "old_file": "rhodes_Gs4_n068_v016_sus.pcm",
+   "old_samples": 163480,
+   "on_sample": 216930864,
+   "off_sample": 217165124,
+   "end_sample": 217186880
+  },
+  {
+   "note": 68,
+   "name": "Gs4",
+   "velocity": 48,
+   "old_file": "rhodes_Gs4_n068_v048_sus.pcm",
+   "old_samples": 258076,
+   "on_sample": 217203197,
+   "off_sample": 217554124,
+   "end_sample": 217575880
+  },
+  {
+   "note": 68,
+   "name": "Gs4",
+   "velocity": 64,
+   "old_file": "rhodes_Gs4_n068_v064_sus.pcm",
+   "old_samples": 298972,
+   "on_sample": 217592197,
+   "off_sample": 217993564,
+   "end_sample": 218015320
+  },
+  {
+   "note": 68,
+   "name": "Gs4",
+   "velocity": 80,
+   "old_file": "rhodes_Gs4_n068_v080_sus.pcm",
+   "old_samples": 319941,
+   "on_sample": 218031637,
+   "off_sample": 218458864,
+   "end_sample": 218480620
+  },
+  {
+   "note": 68,
+   "name": "Gs4",
+   "velocity": 112,
+   "old_file": "rhodes_Gs4_n068_v112_sus.pcm",
+   "old_samples": 253603,
+   "on_sample": 218496937,
+   "off_sample": 218842348,
+   "end_sample": 218864104
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 16,
+   "old_file": "rhodes_A4_n069_v016_sus.pcm",
+   "old_samples": 142540,
+   "on_sample": 218880421,
+   "off_sample": 219088855,
+   "end_sample": 219110611
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 48,
+   "old_file": "rhodes_A4_n069_v048_sus.pcm",
+   "old_samples": 231187,
+   "on_sample": 219126928,
+   "off_sample": 219444692,
+   "end_sample": 219466448
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 64,
+   "old_file": "rhodes_A4_n069_v064_sus.pcm",
+   "old_samples": 261742,
+   "on_sample": 219482765,
+   "off_sample": 219838215,
+   "end_sample": 219859971
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 80,
+   "old_file": "rhodes_A4_n069_v080_sus.pcm",
+   "old_samples": 275254,
+   "on_sample": 219876288,
+   "off_sample": 220248401,
+   "end_sample": 220270157
+  },
+  {
+   "note": 69,
+   "name": "A4",
+   "velocity": 112,
+   "old_file": "rhodes_A4_n069_v112_sus.pcm",
+   "old_samples": 239621,
+   "on_sample": 220286474,
+   "off_sample": 220614641,
+   "end_sample": 220636397
+  },
+  {
+   "note": 70,
+   "name": "As4",
+   "velocity": 16,
+   "old_file": "rhodes_As4_n070_v016_sus.pcm",
+   "old_samples": 138104,
+   "on_sample": 220652714,
+   "off_sample": 220855676,
+   "end_sample": 220877432
+  },
+  {
+   "note": 70,
+   "name": "As4",
+   "velocity": 48,
+   "old_file": "rhodes_As4_n070_v048_sus.pcm",
+   "old_samples": 232317,
+   "on_sample": 220893749,
+   "off_sample": 221212908,
+   "end_sample": 221234664
+  },
+  {
+   "note": 70,
+   "name": "As4",
+   "velocity": 64,
+   "old_file": "rhodes_As4_n070_v064_sus.pcm",
+   "old_samples": 261453,
+   "on_sample": 221250981,
+   "off_sample": 221606073,
+   "end_sample": 221627829
+  },
+  {
+   "note": 70,
+   "name": "As4",
+   "velocity": 80,
+   "old_file": "rhodes_As4_n070_v080_sus.pcm",
+   "old_samples": 281060,
+   "on_sample": 221644146,
+   "off_sample": 222023421,
+   "end_sample": 222045177
+  },
+  {
+   "note": 70,
+   "name": "As4",
+   "velocity": 112,
+   "old_file": "rhodes_As4_n070_v112_sus.pcm",
+   "old_samples": 263646,
+   "on_sample": 222061494,
+   "off_sample": 222419291,
+   "end_sample": 222441047
+  },
+  {
+   "note": 71,
+   "name": "B4",
+   "velocity": 16,
+   "old_file": "rhodes_B4_n071_v016_sus.pcm",
+   "old_samples": 168419,
+   "on_sample": 222457364,
+   "off_sample": 222697715,
+   "end_sample": 222719471
+  },
+  {
+   "note": 71,
+   "name": "B4",
+   "velocity": 48,
+   "old_file": "rhodes_B4_n071_v048_sus.pcm",
+   "old_samples": 263410,
+   "on_sample": 222735788,
+   "off_sample": 223093294,
+   "end_sample": 223115050
+  },
+  {
+   "note": 71,
+   "name": "B4",
+   "velocity": 64,
+   "old_file": "rhodes_B4_n071_v064_sus.pcm",
+   "old_samples": 308046,
+   "on_sample": 223131367,
+   "off_sample": 223543925,
+   "end_sample": 223565681
+  },
+  {
+   "note": 71,
+   "name": "B4",
+   "velocity": 80,
+   "old_file": "rhodes_B4_n071_v080_sus.pcm",
+   "old_samples": 323831,
+   "on_sample": 223581998,
+   "off_sample": 224014023,
+   "end_sample": 224035779
+  },
+  {
+   "note": 71,
+   "name": "B4",
+   "velocity": 112,
+   "old_file": "rhodes_B4_n071_v112_sus.pcm",
+   "old_samples": 279613,
+   "on_sample": 224052096,
+   "off_sample": 224429586,
+   "end_sample": 224451342
+  },
+  {
+   "note": 72,
+   "name": "C5",
+   "velocity": 16,
+   "old_file": "rhodes_C5_n072_v016_sus.pcm",
+   "old_samples": 138249,
+   "on_sample": 224467659,
+   "off_sample": 224670801,
+   "end_sample": 224692557
+  },
+  {
+   "note": 72,
+   "name": "C5",
+   "velocity": 48,
+   "old_file": "rhodes_C5_n072_v048_sus.pcm",
+   "old_samples": 213697,
+   "on_sample": 224708874,
+   "off_sample": 225005067,
+   "end_sample": 225026823
+  },
+  {
+   "note": 72,
+   "name": "C5",
+   "velocity": 64,
+   "old_file": "rhodes_C5_n072_v064_sus.pcm",
+   "old_samples": 246335,
+   "on_sample": 225043140,
+   "off_sample": 225379587,
+   "end_sample": 225401343
+  },
+  {
+   "note": 72,
+   "name": "C5",
+   "velocity": 80,
+   "old_file": "rhodes_C5_n072_v080_sus.pcm",
+   "old_samples": 264977,
+   "on_sample": 225417660,
+   "off_sample": 225777099,
+   "end_sample": 225798855
+  },
+  {
+   "note": 72,
+   "name": "C5",
+   "velocity": 112,
+   "old_file": "rhodes_C5_n072_v112_sus.pcm",
+   "old_samples": 228246,
+   "on_sample": 225815172,
+   "off_sample": 226129310,
+   "end_sample": 226151066
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 16,
+   "old_file": "rhodes_Cs5_n073_v016_sus.pcm",
+   "old_samples": 143567,
+   "on_sample": 226167383,
+   "off_sample": 226377083,
+   "end_sample": 226398839
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 48,
+   "old_file": "rhodes_Cs5_n073_v048_sus.pcm",
+   "old_samples": 237302,
+   "on_sample": 226415156,
+   "off_sample": 226740462,
+   "end_sample": 226762218
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 64,
+   "old_file": "rhodes_Cs5_n073_v064_sus.pcm",
+   "old_samples": 266005,
+   "on_sample": 226778535,
+   "off_sample": 227139242,
+   "end_sample": 227160998
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 80,
+   "old_file": "rhodes_Cs5_n073_v080_sus.pcm",
+   "old_samples": 283182,
+   "on_sample": 227177315,
+   "off_sample": 227559207,
+   "end_sample": 227580963
+  },
+  {
+   "note": 73,
+   "name": "Cs5",
+   "velocity": 112,
+   "old_file": "rhodes_Cs5_n073_v112_sus.pcm",
+   "old_samples": 217740,
+   "on_sample": 227597280,
+   "off_sample": 227898460,
+   "end_sample": 227920216
+  },
+  {
+   "note": 74,
+   "name": "D5",
+   "velocity": 16,
+   "old_file": "rhodes_D5_n074_v016_sus.pcm",
+   "old_samples": 94116,
+   "on_sample": 227936533,
+   "off_sample": 228085243,
+   "end_sample": 228106999
+  },
+  {
+   "note": 74,
+   "name": "D5",
+   "velocity": 48,
+   "old_file": "rhodes_D5_n074_v048_sus.pcm",
+   "old_samples": 146125,
+   "on_sample": 228123316,
+   "off_sample": 228336171,
+   "end_sample": 228357927
+  },
+  {
+   "note": 74,
+   "name": "D5",
+   "velocity": 64,
+   "old_file": "rhodes_D5_n074_v064_sus.pcm",
+   "old_samples": 175878,
+   "on_sample": 228374244,
+   "off_sample": 228623794,
+   "end_sample": 228645550
+  },
+  {
+   "note": 74,
+   "name": "D5",
+   "velocity": 80,
+   "old_file": "rhodes_D5_n074_v080_sus.pcm",
+   "old_samples": 184751,
+   "on_sample": 228661867,
+   "off_sample": 228922361,
+   "end_sample": 228944117
+  },
+  {
+   "note": 74,
+   "name": "D5",
+   "velocity": 112,
+   "old_file": "rhodes_D5_n074_v112_sus.pcm",
+   "old_samples": 138167,
+   "on_sample": 228960434,
+   "off_sample": 229163474,
+   "end_sample": 229185230
+  },
+  {
+   "note": 75,
+   "name": "Ds5",
+   "velocity": 16,
+   "old_file": "rhodes_Ds5_n075_v016_sus.pcm",
+   "old_samples": 107441,
+   "on_sample": 229201547,
+   "off_sample": 229366691,
+   "end_sample": 229388447
+  },
+  {
+   "note": 75,
+   "name": "Ds5",
+   "velocity": 48,
+   "old_file": "rhodes_Ds5_n075_v048_sus.pcm",
+   "old_samples": 177981,
+   "on_sample": 229404764,
+   "off_sample": 229656908,
+   "end_sample": 229678664
+  },
+  {
+   "note": 75,
+   "name": "Ds5",
+   "velocity": 64,
+   "old_file": "rhodes_Ds5_n075_v064_sus.pcm",
+   "old_samples": 212431,
+   "on_sample": 229694981,
+   "off_sample": 229989613,
+   "end_sample": 230011369
+  },
+  {
+   "note": 75,
+   "name": "Ds5",
+   "velocity": 80,
+   "old_file": "rhodes_Ds5_n075_v080_sus.pcm",
+   "old_samples": 214508,
+   "on_sample": 230027686,
+   "off_sample": 230324880,
+   "end_sample": 230346636
+  },
+  {
+   "note": 75,
+   "name": "Ds5",
+   "velocity": 112,
+   "old_file": "rhodes_Ds5_n075_v112_sus.pcm",
+   "old_samples": 160949,
+   "on_sample": 230362953,
+   "off_sample": 230594091,
+   "end_sample": 230615847
+  },
+  {
+   "note": 76,
+   "name": "E5",
+   "velocity": 16,
+   "old_file": "rhodes_E5_n076_v016_sus.pcm",
+   "old_samples": 119199,
+   "on_sample": 230632164,
+   "off_sample": 230811810,
+   "end_sample": 230833566
+  },
+  {
+   "note": 76,
+   "name": "E5",
+   "velocity": 48,
+   "old_file": "rhodes_E5_n076_v048_sus.pcm",
+   "old_samples": 209476,
+   "on_sample": 230849883,
+   "off_sample": 231140871,
+   "end_sample": 231162627
+  },
+  {
+   "note": 76,
+   "name": "E5",
+   "velocity": 64,
+   "old_file": "rhodes_E5_n076_v064_sus.pcm",
+   "old_samples": 233385,
+   "on_sample": 231178944,
+   "off_sample": 231499419,
+   "end_sample": 231521175
+  },
+  {
+   "note": 76,
+   "name": "E5",
+   "velocity": 80,
+   "old_file": "rhodes_E5_n076_v080_sus.pcm",
+   "old_samples": 252631,
+   "on_sample": 231537492,
+   "off_sample": 231881705,
+   "end_sample": 231903461
+  },
+  {
+   "note": 76,
+   "name": "E5",
+   "velocity": 112,
+   "old_file": "rhodes_E5_n076_v112_sus.pcm",
+   "old_samples": 188403,
+   "on_sample": 231919778,
+   "off_sample": 232184775,
+   "end_sample": 232206531
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 16,
+   "old_file": "rhodes_F5_n077_v016_sus.pcm",
+   "old_samples": 54716,
+   "on_sample": 232222848,
+   "off_sample": 232322965,
+   "end_sample": 232344721
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 48,
+   "old_file": "rhodes_F5_n077_v048_sus.pcm",
+   "old_samples": 102882,
+   "on_sample": 232361038,
+   "off_sample": 232520560,
+   "end_sample": 232542316
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 64,
+   "old_file": "rhodes_F5_n077_v064_sus.pcm",
+   "old_samples": 115673,
+   "on_sample": 232558633,
+   "off_sample": 232733931,
+   "end_sample": 232755687
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 80,
+   "old_file": "rhodes_F5_n077_v080_sus.pcm",
+   "old_samples": 131254,
+   "on_sample": 232772004,
+   "off_sample": 232966518,
+   "end_sample": 232988274
+  },
+  {
+   "note": 77,
+   "name": "F5",
+   "velocity": 112,
+   "old_file": "rhodes_F5_n077_v112_sus.pcm",
+   "old_samples": 118989,
+   "on_sample": 233004591,
+   "off_sample": 233183978,
+   "end_sample": 233205734
+  },
+  {
+   "note": 78,
+   "name": "Fs5",
+   "velocity": 16,
+   "old_file": "rhodes_Fs5_n078_v016_sus.pcm",
+   "old_samples": 73890,
+   "on_sample": 233222051,
+   "off_sample": 233345816,
+   "end_sample": 233367572
+  },
+  {
+   "note": 78,
+   "name": "Fs5",
+   "velocity": 48,
+   "old_file": "rhodes_Fs5_n078_v048_sus.pcm",
+   "old_samples": 137049,
+   "on_sample": 233383889,
+   "off_sample": 233585550,
+   "end_sample": 233607306
+  },
+  {
+   "note": 78,
+   "name": "Fs5",
+   "velocity": 64,
+   "old_file": "rhodes_Fs5_n078_v064_sus.pcm",
+   "old_samples": 148402,
+   "on_sample": 233623623,
+   "off_sample": 233839286,
+   "end_sample": 233861042
+  },
+  {
+   "note": 78,
+   "name": "Fs5",
+   "velocity": 80,
+   "old_file": "rhodes_Fs5_n078_v080_sus.pcm",
+   "old_samples": 164789,
+   "on_sample": 233877359,
+   "off_sample": 234113233,
+   "end_sample": 234134989
+  },
+  {
+   "note": 78,
+   "name": "Fs5",
+   "velocity": 112,
+   "old_file": "rhodes_Fs5_n078_v112_sus.pcm",
+   "old_samples": 138774,
+   "on_sample": 234151306,
+   "off_sample": 234355094,
+   "end_sample": 234376850
+  },
+  {
+   "note": 79,
+   "name": "G5",
+   "velocity": 16,
+   "old_file": "rhodes_G5_n079_v016_sus.pcm",
+   "old_samples": 103125,
+   "on_sample": 234393167,
+   "off_sample": 234552989,
+   "end_sample": 234574745
+  },
+  {
+   "note": 79,
+   "name": "G5",
+   "velocity": 48,
+   "old_file": "rhodes_G5_n079_v048_sus.pcm",
+   "old_samples": 166616,
+   "on_sample": 234591062,
+   "off_sample": 234829189,
+   "end_sample": 234850945
+  },
+  {
+   "note": 79,
+   "name": "G5",
+   "velocity": 64,
+   "old_file": "rhodes_G5_n079_v064_sus.pcm",
+   "old_samples": 183475,
+   "on_sample": 234867262,
+   "off_sample": 235126182,
+   "end_sample": 235147938
+  },
+  {
+   "note": 79,
+   "name": "G5",
+   "velocity": 80,
+   "old_file": "rhodes_G5_n079_v080_sus.pcm",
+   "old_samples": 195215,
+   "on_sample": 235164255,
+   "off_sample": 235437654,
+   "end_sample": 235459410
+  },
+  {
+   "note": 79,
+   "name": "G5",
+   "velocity": 112,
+   "old_file": "rhodes_G5_n079_v112_sus.pcm",
+   "old_samples": 156623,
+   "on_sample": 235475727,
+   "off_sample": 235701529,
+   "end_sample": 235723285
+  },
+  {
+   "note": 80,
+   "name": "Gs5",
+   "velocity": 16,
+   "old_file": "rhodes_Gs5_n080_v016_sus.pcm",
+   "old_samples": 65198,
+   "on_sample": 235739602,
+   "off_sample": 235852647,
+   "end_sample": 235874403
+  },
+  {
+   "note": 80,
+   "name": "Gs5",
+   "velocity": 48,
+   "old_file": "rhodes_Gs5_n080_v048_sus.pcm",
+   "old_samples": 139962,
+   "on_sample": 235890720,
+   "off_sample": 236095974,
+   "end_sample": 236117730
+  },
+  {
+   "note": 80,
+   "name": "Gs5",
+   "velocity": 64,
+   "old_file": "rhodes_Gs5_n080_v064_sus.pcm",
+   "old_samples": 161756,
+   "on_sample": 236134047,
+   "off_sample": 236366180,
+   "end_sample": 236387936
+  },
+  {
+   "note": 80,
+   "name": "Gs5",
+   "velocity": 80,
+   "old_file": "rhodes_Gs5_n080_v080_sus.pcm",
+   "old_samples": 160273,
+   "on_sample": 236404253,
+   "off_sample": 236634557,
+   "end_sample": 236656313
+  },
+  {
+   "note": 80,
+   "name": "Gs5",
+   "velocity": 112,
+   "old_file": "rhodes_Gs5_n080_v112_sus.pcm",
+   "old_samples": 121859,
+   "on_sample": 236672630,
+   "off_sample": 236855557,
+   "end_sample": 236877313
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 16,
+   "old_file": "rhodes_A5_n081_v016_sus.pcm",
+   "old_samples": 108799,
+   "on_sample": 236893630,
+   "off_sample": 237060449,
+   "end_sample": 237082205
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 48,
+   "old_file": "rhodes_A5_n081_v048_sus.pcm",
+   "old_samples": 169720,
+   "on_sample": 237098522,
+   "off_sample": 237340477,
+   "end_sample": 237362233
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 64,
+   "old_file": "rhodes_A5_n081_v064_sus.pcm",
+   "old_samples": 186662,
+   "on_sample": 237378550,
+   "off_sample": 237641401,
+   "end_sample": 237663157
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 80,
+   "old_file": "rhodes_A5_n081_v080_sus.pcm",
+   "old_samples": 195775,
+   "on_sample": 237679474,
+   "off_sample": 237953564,
+   "end_sample": 237975320
+  },
+  {
+   "note": 81,
+   "name": "A5",
+   "velocity": 112,
+   "old_file": "rhodes_A5_n081_v112_sus.pcm",
+   "old_samples": 143941,
+   "on_sample": 237991637,
+   "off_sample": 238201798,
+   "end_sample": 238223554
+  },
+  {
+   "note": 82,
+   "name": "As5",
+   "velocity": 16,
+   "old_file": "rhodes_As5_n082_v016_sus.pcm",
+   "old_samples": 69153,
+   "on_sample": 238239871,
+   "off_sample": 238357794,
+   "end_sample": 238379550
+  },
+  {
+   "note": 82,
+   "name": "As5",
+   "velocity": 48,
+   "old_file": "rhodes_As5_n082_v048_sus.pcm",
+   "old_samples": 113289,
+   "on_sample": 238395867,
+   "off_sample": 238568224,
+   "end_sample": 238589980
+  },
+  {
+   "note": 82,
+   "name": "As5",
+   "velocity": 64,
+   "old_file": "rhodes_As5_n082_v064_sus.pcm",
+   "old_samples": 124101,
+   "on_sample": 238606297,
+   "off_sample": 238791989,
+   "end_sample": 238813745
+  },
+  {
+   "note": 82,
+   "name": "As5",
+   "velocity": 80,
+   "old_file": "rhodes_As5_n082_v080_sus.pcm",
+   "old_samples": 122223,
+   "on_sample": 238830062,
+   "off_sample": 239013437,
+   "end_sample": 239035193
+  },
+  {
+   "note": 82,
+   "name": "As5",
+   "velocity": 112,
+   "old_file": "rhodes_As5_n082_v112_sus.pcm",
+   "old_samples": 104413,
+   "on_sample": 239051510,
+   "off_sample": 239212920,
+   "end_sample": 239234676
+  },
+  {
+   "note": 83,
+   "name": "B5",
+   "velocity": 16,
+   "old_file": "rhodes_B5_n083_v016_sus.pcm",
+   "old_samples": 90839,
+   "on_sample": 239250993,
+   "off_sample": 239395662,
+   "end_sample": 239417418
+  },
+  {
+   "note": 83,
+   "name": "B5",
+   "velocity": 48,
+   "old_file": "rhodes_B5_n083_v048_sus.pcm",
+   "old_samples": 155678,
+   "on_sample": 239433735,
+   "off_sample": 239658372,
+   "end_sample": 239680128
+  },
+  {
+   "note": 83,
+   "name": "B5",
+   "velocity": 64,
+   "old_file": "rhodes_B5_n083_v064_sus.pcm",
+   "old_samples": 169955,
+   "on_sample": 239696445,
+   "off_sample": 239938690,
+   "end_sample": 239960446
+  },
+  {
+   "note": 83,
+   "name": "B5",
+   "velocity": 80,
+   "old_file": "rhodes_B5_n083_v080_sus.pcm",
+   "old_samples": 173755,
+   "on_sample": 239976763,
+   "off_sample": 240223695,
+   "end_sample": 240245451
+  },
+  {
+   "note": 83,
+   "name": "B5",
+   "velocity": 112,
+   "old_file": "rhodes_B5_n083_v112_sus.pcm",
+   "old_samples": 144367,
+   "on_sample": 240261768,
+   "off_sample": 240472455,
+   "end_sample": 240494211
+  },
+  {
+   "note": 84,
+   "name": "C6",
+   "velocity": 16,
+   "old_file": "rhodes_C6_n084_v016_sus.pcm",
+   "old_samples": 55170,
+   "on_sample": 240510528,
+   "off_sample": 240611205,
+   "end_sample": 240632961
+  },
+  {
+   "note": 84,
+   "name": "C6",
+   "velocity": 48,
+   "old_file": "rhodes_C6_n084_v048_sus.pcm",
+   "old_samples": 93664,
+   "on_sample": 240649278,
+   "off_sample": 240797431,
+   "end_sample": 240819187
+  },
+  {
+   "note": 84,
+   "name": "C6",
+   "velocity": 64,
+   "old_file": "rhodes_C6_n084_v064_sus.pcm",
+   "old_samples": 109008,
+   "on_sample": 240835504,
+   "off_sample": 241002581,
+   "end_sample": 241024337
+  },
+  {
+   "note": 84,
+   "name": "C6",
+   "velocity": 80,
+   "old_file": "rhodes_C6_n084_v080_sus.pcm",
+   "old_samples": 116875,
+   "on_sample": 241040654,
+   "off_sample": 241217434,
+   "end_sample": 241239190
+  },
+  {
+   "note": 84,
+   "name": "C6",
+   "velocity": 112,
+   "old_file": "rhodes_C6_n084_v112_sus.pcm",
+   "old_samples": 99440,
+   "on_sample": 241255507,
+   "off_sample": 241410783,
+   "end_sample": 241432539
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 16,
+   "old_file": "rhodes_Cs6_n085_v016_sus.pcm",
+   "old_samples": 35382,
+   "on_sample": 241448856,
+   "off_sample": 241525128,
+   "end_sample": 241546884
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 48,
+   "old_file": "rhodes_Cs6_n085_v048_sus.pcm",
+   "old_samples": 60499,
+   "on_sample": 241563201,
+   "off_sample": 241670451,
+   "end_sample": 241692207
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 64,
+   "old_file": "rhodes_Cs6_n085_v064_sus.pcm",
+   "old_samples": 69867,
+   "on_sample": 241708524,
+   "off_sample": 241827327,
+   "end_sample": 241849083
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 80,
+   "old_file": "rhodes_Cs6_n085_v080_sus.pcm",
+   "old_samples": 74647,
+   "on_sample": 241865400,
+   "off_sample": 241990099,
+   "end_sample": 242011855
+  },
+  {
+   "note": 85,
+   "name": "Cs6",
+   "velocity": 112,
+   "old_file": "rhodes_Cs6_n085_v112_sus.pcm",
+   "old_samples": 85837,
+   "on_sample": 242028172,
+   "off_sample": 242166671,
+   "end_sample": 242188427
+  },
+  {
+   "note": 86,
+   "name": "D6",
+   "velocity": 16,
+   "old_file": "rhodes_D6_n086_v016_sus.pcm",
+   "old_samples": 99338,
+   "on_sample": 242204744,
+   "off_sample": 242359895,
+   "end_sample": 242381651
+  },
+  {
+   "note": 86,
+   "name": "D6",
+   "velocity": 48,
+   "old_file": "rhodes_D6_n086_v048_sus.pcm",
+   "old_samples": 150536,
+   "on_sample": 242397968,
+   "off_sample": 242616263,
+   "end_sample": 242638019
+  },
+  {
+   "note": 86,
+   "name": "D6",
+   "velocity": 64,
+   "old_file": "rhodes_D6_n086_v064_sus.pcm",
+   "old_samples": 164731,
+   "on_sample": 242654336,
+   "off_sample": 242890138,
+   "end_sample": 242911894
+  },
+  {
+   "note": 86,
+   "name": "D6",
+   "velocity": 80,
+   "old_file": "rhodes_D6_n086_v080_sus.pcm",
+   "old_samples": 173373,
+   "on_sample": 242928211,
+   "off_sample": 243174672,
+   "end_sample": 243196428
+  },
+  {
+   "note": 86,
+   "name": "D6",
+   "velocity": 112,
+   "old_file": "rhodes_D6_n086_v112_sus.pcm",
+   "old_samples": 143748,
+   "on_sample": 243212745,
+   "off_sample": 243422668,
+   "end_sample": 243444424
+  },
+  {
+   "note": 87,
+   "name": "Ds6",
+   "velocity": 16,
+   "old_file": "rhodes_Ds6_n087_v016_sus.pcm",
+   "old_samples": 76106,
+   "on_sample": 243460741,
+   "off_sample": 243587239,
+   "end_sample": 243608995
+  },
+  {
+   "note": 87,
+   "name": "Ds6",
+   "velocity": 48,
+   "old_file": "rhodes_Ds6_n087_v048_sus.pcm",
+   "old_samples": 114651,
+   "on_sample": 243625312,
+   "off_sample": 243799349,
+   "end_sample": 243821105
+  },
+  {
+   "note": 87,
+   "name": "Ds6",
+   "velocity": 64,
+   "old_file": "rhodes_Ds6_n087_v064_sus.pcm",
+   "old_samples": 129806,
+   "on_sample": 243837422,
+   "off_sample": 244030150,
+   "end_sample": 244051906
+  },
+  {
+   "note": 87,
+   "name": "Ds6",
+   "velocity": 80,
+   "old_file": "rhodes_Ds6_n087_v080_sus.pcm",
+   "old_samples": 136938,
+   "on_sample": 244068223,
+   "off_sample": 244269747,
+   "end_sample": 244291503
+  },
+  {
+   "note": 87,
+   "name": "Ds6",
+   "velocity": 112,
+   "old_file": "rhodes_Ds6_n087_v112_sus.pcm",
+   "old_samples": 115821,
+   "on_sample": 244307820,
+   "off_sample": 244483300,
+   "end_sample": 244505056
+  },
+  {
+   "note": 88,
+   "name": "E6",
+   "velocity": 16,
+   "old_file": "rhodes_E6_n088_v016_sus.pcm",
+   "old_samples": 72615,
+   "on_sample": 244521373,
+   "off_sample": 244643566,
+   "end_sample": 244665322
+  },
+  {
+   "note": 88,
+   "name": "E6",
+   "velocity": 48,
+   "old_file": "rhodes_E6_n088_v048_sus.pcm",
+   "old_samples": 83616,
+   "on_sample": 244681639,
+   "off_sample": 244817399,
+   "end_sample": 244839155
+  },
+  {
+   "note": 88,
+   "name": "E6",
+   "velocity": 64,
+   "old_file": "rhodes_E6_n088_v064_sus.pcm",
+   "old_samples": 97292,
+   "on_sample": 244855472,
+   "off_sample": 245008100,
+   "end_sample": 245029856
+  },
+  {
+   "note": 88,
+   "name": "E6",
+   "velocity": 80,
+   "old_file": "rhodes_E6_n088_v080_sus.pcm",
+   "old_samples": 91716,
+   "on_sample": 245046173,
+   "off_sample": 245191923,
+   "end_sample": 245213679
+  },
+  {
+   "note": 88,
+   "name": "E6",
+   "velocity": 112,
+   "old_file": "rhodes_E6_n088_v112_sus.pcm",
+   "old_samples": 70761,
+   "on_sample": 245229996,
+   "off_sample": 245349902,
+   "end_sample": 245371658
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 16,
+   "old_file": "rhodes_F6_n089_v016_sus.pcm",
+   "old_samples": 42245,
+   "on_sample": 245387975,
+   "off_sample": 245472711,
+   "end_sample": 245494467
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 48,
+   "old_file": "rhodes_F6_n089_v048_sus.pcm",
+   "old_samples": 77176,
+   "on_sample": 245510784,
+   "off_sample": 245638602,
+   "end_sample": 245660358
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 64,
+   "old_file": "rhodes_F6_n089_v064_sus.pcm",
+   "old_samples": 88517,
+   "on_sample": 245676675,
+   "off_sample": 245818480,
+   "end_sample": 245840236
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 80,
+   "old_file": "rhodes_F6_n089_v080_sus.pcm",
+   "old_samples": 93324,
+   "on_sample": 245856553,
+   "off_sample": 246004286,
+   "end_sample": 246026042
+  },
+  {
+   "note": 89,
+   "name": "F6",
+   "velocity": 112,
+   "old_file": "rhodes_F6_n089_v112_sus.pcm",
+   "old_samples": 86395,
+   "on_sample": 246042359,
+   "off_sample": 246181547,
+   "end_sample": 246203303
+  },
+  {
+   "note": 90,
+   "name": "Fs6",
+   "velocity": 16,
+   "old_file": "rhodes_Fs6_n090_v016_sus.pcm",
+   "old_samples": 46136,
+   "on_sample": 246219620,
+   "off_sample": 246309155,
+   "end_sample": 246330911
+  },
+  {
+   "note": 90,
+   "name": "Fs6",
+   "velocity": 48,
+   "old_file": "rhodes_Fs6_n090_v048_sus.pcm",
+   "old_samples": 45276,
+   "on_sample": 246347228,
+   "off_sample": 246435703,
+   "end_sample": 246457459
+  },
+  {
+   "note": 90,
+   "name": "Fs6",
+   "velocity": 64,
+   "old_file": "rhodes_Fs6_n090_v064_sus.pcm",
+   "old_samples": 55649,
+   "on_sample": 246473776,
+   "off_sample": 246575044,
+   "end_sample": 246596800
+  },
+  {
+   "note": 90,
+   "name": "Fs6",
+   "velocity": 80,
+   "old_file": "rhodes_Fs6_n090_v080_sus.pcm",
+   "old_samples": 60639,
+   "on_sample": 246613117,
+   "off_sample": 246720539,
+   "end_sample": 246742295
+  },
+  {
+   "note": 90,
+   "name": "Fs6",
+   "velocity": 112,
+   "old_file": "rhodes_Fs6_n090_v112_sus.pcm",
+   "old_samples": 53953,
+   "on_sample": 246758612,
+   "off_sample": 246857788,
+   "end_sample": 246879544
+  },
+  {
+   "note": 91,
+   "name": "G6",
+   "velocity": 16,
+   "old_file": "rhodes_G6_n091_v016_sus.pcm",
+   "old_samples": 45428,
+   "on_sample": 246895861,
+   "off_sample": 246984523,
+   "end_sample": 247006279
+  },
+  {
+   "note": 91,
+   "name": "G6",
+   "velocity": 48,
+   "old_file": "rhodes_G6_n091_v048_sus.pcm",
+   "old_samples": 72530,
+   "on_sample": 247022596,
+   "off_sample": 247144683,
+   "end_sample": 247166439
+  },
+  {
+   "note": 91,
+   "name": "G6",
+   "velocity": 64,
+   "old_file": "rhodes_G6_n091_v064_sus.pcm",
+   "old_samples": 85659,
+   "on_sample": 247182756,
+   "off_sample": 247321036,
+   "end_sample": 247342792
+  },
+  {
+   "note": 91,
+   "name": "G6",
+   "velocity": 80,
+   "old_file": "rhodes_G6_n091_v080_sus.pcm",
+   "old_samples": 83711,
+   "on_sample": 247359109,
+   "off_sample": 247494987,
+   "end_sample": 247516743
+  },
+  {
+   "note": 91,
+   "name": "G6",
+   "velocity": 112,
+   "old_file": "rhodes_G6_n091_v112_sus.pcm",
+   "old_samples": 64921,
+   "on_sample": 247533060,
+   "off_sample": 247645763,
+   "end_sample": 247667519
+  },
+  {
+   "note": 92,
+   "name": "Gs6",
+   "velocity": 16,
+   "old_file": "rhodes_Gs6_n092_v016_sus.pcm",
+   "old_samples": 40392,
+   "on_sample": 247683836,
+   "off_sample": 247766287,
+   "end_sample": 247788043
+  },
+  {
+   "note": 92,
+   "name": "Gs6",
+   "velocity": 48,
+   "old_file": "rhodes_Gs6_n092_v048_sus.pcm",
+   "old_samples": 71546,
+   "on_sample": 247804360,
+   "off_sample": 247925234,
+   "end_sample": 247946990
+  },
+  {
+   "note": 92,
+   "name": "Gs6",
+   "velocity": 64,
+   "old_file": "rhodes_Gs6_n092_v064_sus.pcm",
+   "old_samples": 82988,
+   "on_sample": 247963307,
+   "off_sample": 248098293,
+   "end_sample": 248120049
+  },
+  {
+   "note": 92,
+   "name": "Gs6",
+   "velocity": 80,
+   "old_file": "rhodes_Gs6_n092_v080_sus.pcm",
+   "old_samples": 79537,
+   "on_sample": 248136366,
+   "off_sample": 248267095,
+   "end_sample": 248288851
+  },
+  {
+   "note": 92,
+   "name": "Gs6",
+   "velocity": 112,
+   "old_file": "rhodes_Gs6_n092_v112_sus.pcm",
+   "old_samples": 64008,
+   "on_sample": 248305168,
+   "off_sample": 248416746,
+   "end_sample": 248438502
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 16,
+   "old_file": "rhodes_A6_n093_v016_sus.pcm",
+   "old_samples": 43912,
+   "on_sample": 248454819,
+   "off_sample": 248541611,
+   "end_sample": 248563367
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 48,
+   "old_file": "rhodes_A6_n093_v048_sus.pcm",
+   "old_samples": 80017,
+   "on_sample": 248579684,
+   "off_sample": 248711005,
+   "end_sample": 248732761
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 64,
+   "old_file": "rhodes_A6_n093_v064_sus.pcm",
+   "old_samples": 95624,
+   "on_sample": 248749078,
+   "off_sample": 248899649,
+   "end_sample": 248921405
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 80,
+   "old_file": "rhodes_A6_n093_v080_sus.pcm",
+   "old_samples": 93750,
+   "on_sample": 248937722,
+   "off_sample": 249085981,
+   "end_sample": 249107737
+  },
+  {
+   "note": 93,
+   "name": "A6",
+   "velocity": 112,
+   "old_file": "rhodes_A6_n093_v112_sus.pcm",
+   "old_samples": 89744,
+   "on_sample": 249124054,
+   "off_sample": 249267372,
+   "end_sample": 249289128
+  },
+  {
+   "note": 94,
+   "name": "As6",
+   "velocity": 16,
+   "old_file": "rhodes_As6_n094_v016_sus.pcm",
+   "old_samples": 40000,
+   "on_sample": 249305445,
+   "off_sample": 249387412,
+   "end_sample": 249409168
+  },
+  {
+   "note": 94,
+   "name": "As6",
+   "velocity": 48,
+   "old_file": "rhodes_As6_n094_v048_sus.pcm",
+   "old_samples": 60971,
+   "on_sample": 249425485,
+   "off_sample": 249533317,
+   "end_sample": 249555073
+  },
+  {
+   "note": 94,
+   "name": "As6",
+   "velocity": 64,
+   "old_file": "rhodes_As6_n094_v064_sus.pcm",
+   "old_samples": 66936,
+   "on_sample": 249571390,
+   "off_sample": 249686578,
+   "end_sample": 249708334
+  },
+  {
+   "note": 94,
+   "name": "As6",
+   "velocity": 80,
+   "old_file": "rhodes_As6_n094_v080_sus.pcm",
+   "old_samples": 58969,
+   "on_sample": 249724651,
+   "off_sample": 249830014,
+   "end_sample": 249851770
+  },
+  {
+   "note": 94,
+   "name": "As6",
+   "velocity": 112,
+   "old_file": "rhodes_As6_n094_v112_sus.pcm",
+   "old_samples": 50300,
+   "on_sample": 249868087,
+   "off_sample": 249962757,
+   "end_sample": 249984513
+  },
+  {
+   "note": 95,
+   "name": "B6",
+   "velocity": 16,
+   "old_file": "rhodes_B6_n095_v016_sus.pcm",
+   "old_samples": 20497,
+   "on_sample": 250000830,
+   "off_sample": 250058744,
+   "end_sample": 250080500
+  },
+  {
+   "note": 95,
+   "name": "B6",
+   "velocity": 48,
+   "old_file": "rhodes_B6_n095_v048_sus.pcm",
+   "old_samples": 41367,
+   "on_sample": 250096817,
+   "off_sample": 250180470,
+   "end_sample": 250202226
+  },
+  {
+   "note": 95,
+   "name": "B6",
+   "velocity": 64,
+   "old_file": "rhodes_B6_n095_v064_sus.pcm",
+   "old_samples": 49982,
+   "on_sample": 250218543,
+   "off_sample": 250312822,
+   "end_sample": 250334578
+  },
+  {
+   "note": 95,
+   "name": "B6",
+   "velocity": 80,
+   "old_file": "rhodes_B6_n095_v080_sus.pcm",
+   "old_samples": 45350,
+   "on_sample": 250350895,
+   "off_sample": 250439460,
+   "end_sample": 250461216
+  },
+  {
+   "note": 95,
+   "name": "B6",
+   "velocity": 112,
+   "old_file": "rhodes_B6_n095_v112_sus.pcm",
+   "old_samples": 41863,
+   "on_sample": 250477533,
+   "off_sample": 250561798,
+   "end_sample": 250583554
+  },
+  {
+   "note": 96,
+   "name": "C7",
+   "velocity": 16,
+   "old_file": "rhodes_C7_n096_v016_sus.pcm",
+   "old_samples": 22168,
+   "on_sample": 250599871,
+   "off_sample": 250659846,
+   "end_sample": 250681602
+  },
+  {
+   "note": 96,
+   "name": "C7",
+   "velocity": 48,
+   "old_file": "rhodes_C7_n096_v048_sus.pcm",
+   "old_samples": 43302,
+   "on_sample": 250697919,
+   "off_sample": 250783959,
+   "end_sample": 250805715
+  },
+  {
+   "note": 96,
+   "name": "C7",
+   "velocity": 64,
+   "old_file": "rhodes_C7_n096_v064_sus.pcm",
+   "old_samples": 43071,
+   "on_sample": 250822032,
+   "off_sample": 250907787,
+   "end_sample": 250929543
+  },
+  {
+   "note": 96,
+   "name": "C7",
+   "velocity": 80,
+   "old_file": "rhodes_C7_n096_v080_sus.pcm",
+   "old_samples": 40477,
+   "on_sample": 250945860,
+   "off_sample": 251028415,
+   "end_sample": 251050171
+  },
+  {
+   "note": 96,
+   "name": "C7",
+   "velocity": 112,
+   "old_file": "rhodes_C7_n096_v112_sus.pcm",
+   "old_samples": 38220,
+   "on_sample": 251066488,
+   "off_sample": 251146260,
+   "end_sample": 251168016
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 16,
+   "old_file": "rhodes_Cs7_n097_v016_sus.pcm",
+   "old_samples": 22557,
+   "on_sample": 251184333,
+   "off_sample": 251244788,
+   "end_sample": 251266544
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 48,
+   "old_file": "rhodes_Cs7_n097_v048_sus.pcm",
+   "old_samples": 43917,
+   "on_sample": 251282861,
+   "off_sample": 251369659,
+   "end_sample": 251391415
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 64,
+   "old_file": "rhodes_Cs7_n097_v064_sus.pcm",
+   "old_samples": 43515,
+   "on_sample": 251407732,
+   "off_sample": 251494034,
+   "end_sample": 251515790
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 80,
+   "old_file": "rhodes_Cs7_n097_v080_sus.pcm",
+   "old_samples": 39403,
+   "on_sample": 251532107,
+   "off_sample": 251613338,
+   "end_sample": 251635094
+  },
+  {
+   "note": 97,
+   "name": "Cs7",
+   "velocity": 112,
+   "old_file": "rhodes_Cs7_n097_v112_sus.pcm",
+   "old_samples": 40534,
+   "on_sample": 251651411,
+   "off_sample": 251734037,
+   "end_sample": 251755793
+  },
+  {
+   "note": 98,
+   "name": "D7",
+   "velocity": 16,
+   "old_file": "rhodes_D7_n098_v016_sus.pcm",
+   "old_samples": 26106,
+   "on_sample": 251772110,
+   "off_sample": 251836942,
+   "end_sample": 251858698
+  },
+  {
+   "note": 98,
+   "name": "D7",
+   "velocity": 48,
+   "old_file": "rhodes_D7_n098_v048_sus.pcm",
+   "old_samples": 43089,
+   "on_sample": 251875015,
+   "off_sample": 251960792,
+   "end_sample": 251982548
+  },
+  {
+   "note": 98,
+   "name": "D7",
+   "velocity": 64,
+   "old_file": "rhodes_D7_n098_v064_sus.pcm",
+   "old_samples": 44274,
+   "on_sample": 251998865,
+   "off_sample": 252086104,
+   "end_sample": 252107860
+  },
+  {
+   "note": 98,
+   "name": "D7",
+   "velocity": 80,
+   "old_file": "rhodes_D7_n098_v080_sus.pcm",
+   "old_samples": 38519,
+   "on_sample": 252124177,
+   "off_sample": 252204317,
+   "end_sample": 252226073
+  },
+  {
+   "note": 98,
+   "name": "D7",
+   "velocity": 112,
+   "old_file": "rhodes_D7_n098_v112_sus.pcm",
+   "old_samples": 37734,
+   "on_sample": 252242390,
+   "off_sample": 252321563,
+   "end_sample": 252343319
+  },
+  {
+   "note": 99,
+   "name": "Ds7",
+   "velocity": 16,
+   "old_file": "rhodes_Ds7_n099_v016_sus.pcm",
+   "old_samples": 6655,
+   "on_sample": 252359636,
+   "off_sample": 252400478,
+   "end_sample": 252422234
+  },
+  {
+   "note": 99,
+   "name": "Ds7",
+   "velocity": 48,
+   "old_file": "rhodes_Ds7_n099_v048_sus.pcm",
+   "old_samples": 27372,
+   "on_sample": 252438551,
+   "off_sample": 252504944,
+   "end_sample": 252526700
+  },
+  {
+   "note": 99,
+   "name": "Ds7",
+   "velocity": 64,
+   "old_file": "rhodes_Ds7_n099_v064_sus.pcm",
+   "old_samples": 28108,
+   "on_sample": 252543017,
+   "off_sample": 252610317,
+   "end_sample": 252632073
+  },
+  {
+   "note": 99,
+   "name": "Ds7",
+   "velocity": 80,
+   "old_file": "rhodes_Ds7_n099_v080_sus.pcm",
+   "old_samples": 31140,
+   "on_sample": 252648390,
+   "off_sample": 252719430,
+   "end_sample": 252741186
+  },
+  {
+   "note": 99,
+   "name": "Ds7",
+   "velocity": 112,
+   "old_file": "rhodes_Ds7_n099_v112_sus.pcm",
+   "old_samples": 27608,
+   "on_sample": 252757503,
+   "off_sample": 252824187,
+   "end_sample": 252845943
+  },
+  {
+   "note": 100,
+   "name": "E7",
+   "velocity": 16,
+   "old_file": "rhodes_E7_n100_v016_sus.pcm",
+   "old_samples": 4650,
+   "on_sample": 252862260,
+   "off_sample": 252900629,
+   "end_sample": 252922385
+  },
+  {
+   "note": 100,
+   "name": "E7",
+   "velocity": 48,
+   "old_file": "rhodes_E7_n100_v048_sus.pcm",
+   "old_samples": 23979,
+   "on_sample": 252938702,
+   "off_sample": 253000910,
+   "end_sample": 253022666
+  },
+  {
+   "note": 100,
+   "name": "E7",
+   "velocity": 64,
+   "old_file": "rhodes_E7_n100_v064_sus.pcm",
+   "old_samples": 27339,
+   "on_sample": 253038983,
+   "off_sample": 253105335,
+   "end_sample": 253127091
+  },
+  {
+   "note": 100,
+   "name": "E7",
+   "velocity": 80,
+   "old_file": "rhodes_E7_n100_v080_sus.pcm",
+   "old_samples": 26519,
+   "on_sample": 253143408,
+   "off_sample": 253208749,
+   "end_sample": 253230505
+  },
+  {
+   "note": 100,
+   "name": "E7",
+   "velocity": 112,
+   "old_file": "rhodes_E7_n100_v112_sus.pcm",
+   "old_samples": 24947,
+   "on_sample": 253246822,
+   "off_sample": 253310224,
+   "end_sample": 253331980
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 16,
+   "old_file": "rhodes_F7_n101_v016_sus.pcm",
+   "old_samples": 3799,
+   "on_sample": 253348297,
+   "off_sample": 253385616,
+   "end_sample": 253407372
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 48,
+   "old_file": "rhodes_F7_n101_v048_sus.pcm",
+   "old_samples": 26600,
+   "on_sample": 253423689,
+   "off_sample": 253489130,
+   "end_sample": 253510886
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 64,
+   "old_file": "rhodes_F7_n101_v064_sus.pcm",
+   "old_samples": 27876,
+   "on_sample": 253527203,
+   "off_sample": 253594217,
+   "end_sample": 253615973
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 80,
+   "old_file": "rhodes_F7_n101_v080_sus.pcm",
+   "old_samples": 31039,
+   "on_sample": 253632290,
+   "off_sample": 253703206,
+   "end_sample": 253724962
+  },
+  {
+   "note": 101,
+   "name": "F7",
+   "velocity": 112,
+   "old_file": "rhodes_F7_n101_v112_sus.pcm",
+   "old_samples": 26140,
+   "on_sample": 253741279,
+   "off_sample": 253806152,
+   "end_sample": 253827908
+  },
+  {
+   "note": 102,
+   "name": "Fs7",
+   "velocity": 16,
+   "old_file": "rhodes_Fs7_n102_v016_sus.pcm",
+   "old_samples": 8212,
+   "on_sample": 253844225,
+   "off_sample": 253886987,
+   "end_sample": 253908743
+  },
+  {
+   "note": 102,
+   "name": "Fs7",
+   "velocity": 48,
+   "old_file": "rhodes_Fs7_n102_v048_sus.pcm",
+   "old_samples": 25928,
+   "on_sample": 253925060,
+   "off_sample": 253989672,
+   "end_sample": 254011428
+  },
+  {
+   "note": 102,
+   "name": "Fs7",
+   "velocity": 64,
+   "old_file": "rhodes_Fs7_n102_v064_sus.pcm",
+   "old_samples": 28862,
+   "on_sample": 254027745,
+   "off_sample": 254095976,
+   "end_sample": 254117732
+  },
+  {
+   "note": 102,
+   "name": "Fs7",
+   "velocity": 80,
+   "old_file": "rhodes_Fs7_n102_v080_sus.pcm",
+   "old_samples": 29246,
+   "on_sample": 254134049,
+   "off_sample": 254202753,
+   "end_sample": 254224509
+  },
+  {
+   "note": 102,
+   "name": "Fs7",
+   "velocity": 112,
+   "old_file": "rhodes_Fs7_n102_v112_sus.pcm",
+   "old_samples": 26686,
+   "on_sample": 254240826,
+   "off_sample": 254306372,
+   "end_sample": 254328128
+  },
+  {
+   "note": 103,
+   "name": "G7",
+   "velocity": 16,
+   "old_file": "rhodes_G7_n103_v016_sus.pcm",
+   "old_samples": 4944,
+   "on_sample": 254344445,
+   "off_sample": 254383177,
+   "end_sample": 254404933
+  },
+  {
+   "note": 103,
+   "name": "G7",
+   "velocity": 48,
+   "old_file": "rhodes_G7_n103_v048_sus.pcm",
+   "old_samples": 24450,
+   "on_sample": 254421250,
+   "off_sample": 254484039,
+   "end_sample": 254505795
+  },
+  {
+   "note": 103,
+   "name": "G7",
+   "velocity": 64,
+   "old_file": "rhodes_G7_n103_v064_sus.pcm",
+   "old_samples": 27747,
+   "on_sample": 254522112,
+   "off_sample": 254588967,
+   "end_sample": 254610723
+  },
+  {
+   "note": 103,
+   "name": "G7",
+   "velocity": 80,
+   "old_file": "rhodes_G7_n103_v080_sus.pcm",
+   "old_samples": 34712,
+   "on_sample": 254627040,
+   "off_sample": 254702486,
+   "end_sample": 254724242
+  },
+  {
+   "note": 103,
+   "name": "G7",
+   "velocity": 112,
+   "old_file": "rhodes_G7_n103_v112_sus.pcm",
+   "old_samples": 32107,
+   "on_sample": 254740559,
+   "off_sample": 254812791,
+   "end_sample": 254834547
+  },
+  {
+   "note": 104,
+   "name": "Gs7",
+   "velocity": 16,
+   "old_file": "rhodes_Gs7_n104_v016_sus.pcm",
+   "old_samples": 9305,
+   "on_sample": 254850864,
+   "off_sample": 254894975,
+   "end_sample": 254916731
+  },
+  {
+   "note": 104,
+   "name": "Gs7",
+   "velocity": 48,
+   "old_file": "rhodes_Gs7_n104_v048_sus.pcm",
+   "old_samples": 33731,
+   "on_sample": 254933048,
+   "off_sample": 255007283,
+   "end_sample": 255029039
+  },
+  {
+   "note": 104,
+   "name": "Gs7",
+   "velocity": 64,
+   "old_file": "rhodes_Gs7_n104_v064_sus.pcm",
+   "old_samples": 35029,
+   "on_sample": 255045356,
+   "off_sample": 255121193,
+   "end_sample": 255142949
+  },
+  {
+   "note": 104,
+   "name": "Gs7",
+   "velocity": 80,
+   "old_file": "rhodes_Gs7_n104_v080_sus.pcm",
+   "old_samples": 39787,
+   "on_sample": 255159266,
+   "off_sample": 255240970,
+   "end_sample": 255262726
+  },
+  {
+   "note": 104,
+   "name": "Gs7",
+   "velocity": 112,
+   "old_file": "rhodes_Gs7_n104_v112_sus.pcm",
+   "old_samples": 35618,
+   "on_sample": 255279043,
+   "off_sample": 255355606,
+   "end_sample": 255377362
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 16,
+   "old_file": "rhodes_A7_n105_v016_sus.pcm",
+   "old_samples": 12988,
+   "on_sample": 255393679,
+   "off_sample": 255442332,
+   "end_sample": 255464088
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 48,
+   "old_file": "rhodes_A7_n105_v048_sus.pcm",
+   "old_samples": 30861,
+   "on_sample": 255480405,
+   "off_sample": 255551100,
+   "end_sample": 255572856
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 64,
+   "old_file": "rhodes_A7_n105_v064_sus.pcm",
+   "old_samples": 32907,
+   "on_sample": 255589173,
+   "off_sample": 255662393,
+   "end_sample": 255684149
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 80,
+   "old_file": "rhodes_A7_n105_v080_sus.pcm",
+   "old_samples": 32377,
+   "on_sample": 255700466,
+   "off_sample": 255773031,
+   "end_sample": 255794787
+  },
+  {
+   "note": 105,
+   "name": "A7",
+   "velocity": 112,
+   "old_file": "rhodes_A7_n105_v112_sus.pcm",
+   "old_samples": 29962,
+   "on_sample": 255811104,
+   "off_sample": 255880692,
+   "end_sample": 255902448
+  },
+  {
+   "note": 106,
+   "name": "As7",
+   "velocity": 16,
+   "old_file": "rhodes_As7_n106_v016_sus.pcm",
+   "old_samples": 7751,
+   "on_sample": 255918765,
+   "off_sample": 255960958,
+   "end_sample": 255982714
+  },
+  {
+   "note": 106,
+   "name": "As7",
+   "velocity": 48,
+   "old_file": "rhodes_As7_n106_v048_sus.pcm",
+   "old_samples": 22352,
+   "on_sample": 255999031,
+   "off_sample": 256059233,
+   "end_sample": 256080989
+  },
+  {
+   "note": 106,
+   "name": "As7",
+   "velocity": 64,
+   "old_file": "rhodes_As7_n106_v064_sus.pcm",
+   "old_samples": 27116,
+   "on_sample": 256097306,
+   "off_sample": 256163383,
+   "end_sample": 256185139
+  },
+  {
+   "note": 106,
+   "name": "As7",
+   "velocity": 80,
+   "old_file": "rhodes_As7_n106_v080_sus.pcm",
+   "old_samples": 29039,
+   "on_sample": 256201456,
+   "off_sample": 256269904,
+   "end_sample": 256291660
+  },
+  {
+   "note": 106,
+   "name": "As7",
+   "velocity": 112,
+   "old_file": "rhodes_As7_n106_v112_sus.pcm",
+   "old_samples": 23740,
+   "on_sample": 256307977,
+   "off_sample": 256369891,
+   "end_sample": 256391647
+  },
+  {
+   "note": 107,
+   "name": "B7",
+   "velocity": 16,
+   "old_file": "rhodes_B7_n107_v016_sus.pcm",
+   "old_samples": 8736,
+   "on_sample": 256407964,
+   "off_sample": 256451372,
+   "end_sample": 256473128
+  },
+  {
+   "note": 107,
+   "name": "B7",
+   "velocity": 48,
+   "old_file": "rhodes_B7_n107_v048_sus.pcm",
+   "old_samples": 27787,
+   "on_sample": 256489445,
+   "off_sample": 256556350,
+   "end_sample": 256578106
+  },
+  {
+   "note": 107,
+   "name": "B7",
+   "velocity": 64,
+   "old_file": "rhodes_B7_n107_v064_sus.pcm",
+   "old_samples": 35089,
+   "on_sample": 256594423,
+   "off_sample": 256670333,
+   "end_sample": 256692089
+  },
+  {
+   "note": 107,
+   "name": "B7",
+   "velocity": 80,
+   "old_file": "rhodes_B7_n107_v080_sus.pcm",
+   "old_samples": 32029,
+   "on_sample": 256708406,
+   "off_sample": 256780543,
+   "end_sample": 256802299
+  },
+  {
+   "note": 107,
+   "name": "B7",
+   "velocity": 112,
+   "old_file": "rhodes_B7_n107_v112_sus.pcm",
+   "old_samples": 28899,
+   "on_sample": 256818616,
+   "off_sample": 256886892,
+   "end_sample": 256908648
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 16,
+   "old_file": "rhodes_C8_n108_v016_sus.pcm",
+   "old_samples": 7749,
+   "on_sample": 256924965,
+   "off_sample": 256967156,
+   "end_sample": 256988912
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 48,
+   "old_file": "rhodes_C8_n108_v048_sus.pcm",
+   "old_samples": 20164,
+   "on_sample": 257005229,
+   "off_sample": 257062732,
+   "end_sample": 257084488
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 64,
+   "old_file": "rhodes_C8_n108_v064_sus.pcm",
+   "old_samples": 24025,
+   "on_sample": 257100805,
+   "off_sample": 257163070,
+   "end_sample": 257184826
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 80,
+   "old_file": "rhodes_C8_n108_v080_sus.pcm",
+   "old_samples": 23098,
+   "on_sample": 257201143,
+   "off_sample": 257262264,
+   "end_sample": 257284020
+  },
+  {
+   "note": 108,
+   "name": "C8",
+   "velocity": 112,
+   "old_file": "rhodes_C8_n108_v112_sus.pcm",
+   "old_samples": 21933,
+   "on_sample": 257300337,
+   "off_sample": 257360022,
+   "end_sample": 257381778
+  }
+ ]
+}
