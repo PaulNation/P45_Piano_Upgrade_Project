@@ -43,3 +43,9 @@ modelsim.ini
 questa.ini
 *_fast.vcd
 *.vcd
+sim/iverilog/
+sim/verilator/
+tb/vectors/engine_*.hex
+tb/vectors/vm_*
+tb/vectors/flash_head.hex
+tb/vectors/flash_table_expected.hex

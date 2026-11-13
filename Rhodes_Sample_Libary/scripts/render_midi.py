@@ -137,7 +137,7 @@ def main() -> int:
             cache[k] = np.fromfile(f, "<i2").astype(np.float64) if os.path.exists(f) else np.zeros(0)
         return cache[k]
 
-    def hold_code(key, li, held):                    # make_fpga_tables.py player lookup
+    def hold_code(key, li, held):                    # = voice_manager.v (bit-exact)
         base = (key * 5 + li) * 8
         if held < 2 ** 13:
             return rel_tab[base]
@@ -145,11 +145,10 @@ def main() -> int:
         slot = top - 13
         if slot >= 8:
             return MUTE
-        frac = (held - 2 ** top) / 2 ** top
-        c0 = rel_tab[base + slot]
-        c1 = rel_tab[base + slot + 1] if slot < 7 else MUTE
-        c0, c1 = min(c0, MUTE - 1), min(c1, MUTE - 1)
-        return int(round(c0 + frac * (c1 - c0)))
+        c0 = min(rel_tab[base + slot], MUTE - 1)
+        c1 = min(rel_tab[base + slot + 1], MUTE - 1) if slot < 7 else MUTE - 1
+        frac8 = ((held - (1 << top)) << 8) >> top           # same integer math as voice_manager.v
+        return c0 + ((frac8 * (c1 - c0) + 128) >> 8)
 
     events = read_midi(args.midi)
     end_s = (events[-1][0] if events else 0) + 2.0

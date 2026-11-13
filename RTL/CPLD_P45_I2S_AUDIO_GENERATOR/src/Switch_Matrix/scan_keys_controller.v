@@ -1,13 +1,15 @@
 module scan_keys_controller #(
     parameter NUM_ROWS          = 15,
     parameter NUM_COLS          = 6,
-    parameter NUM_KEYS          = 90, // The matrix has NUM_ROWS*NUM_COLS = 90 addressable slots but there are actually only 88 keys,
-                                      // so this gates the RAM write guard to valid addresses 0..87. The first key is in row = 0 and col_in_m1[2] and col_in_m2[2]
-                                      // No switches: row = 0 and col_in_m1[1:0] and col_in_m2[1:0] are not being used.
-                                      // The first key is A-1 (the dash is minus 1) -> row = 0 and col_in_m1[2] and col_in_m2[2], then A#-1, then B-1, then C0 -> row = 0 and col_in_m1[5] and col_in_m2[5]
-                                      // Then C#0 -> row = 1 and col_in_m1[0] and col_in_m2[0]
+    // The matrix has NUM_ROWS*NUM_COLS = 90 slots (slot = row*6 + col) for 88 keys.
+    // Row 0 cols 0..1 have no switches; the lowest key A0 (MIDI 21) is row 0, column index 2
+    // (the 3rd column), then A#0, B0, C1 (row 0 col 5), C#1 (row 1 col 0) ... C8 (row 14 col 5).
+    // Only that start gives 88 keys (4 in row 0 + 14 rows x 6).
+    parameter NUM_KEYS          = 88,
+    parameter FIRST_KEY_SLOT    = 2,
     parameter ADDR_WIDTH        = 7,
-    parameter ROW_SETTLE_CYCLES = 4   // >= 2 (2FF sync latency) + margin for row driver settle
+    parameter ROW_SETTLE_CYCLES = 48  // row driver + pull-up settle before reading the columns:
+                                      // >= 2 (2FF sync) + RC settle; 48 clocks = 4 us at 12 MHz
 ) (
     input  wire                    clk,
     input  wire                    rst,
@@ -17,10 +19,10 @@ module scan_keys_controller #(
     input  wire [NUM_COLS-1:0]     col_in_m1,
     input  wire [NUM_COLS-1:0]     col_in_m2,
 
-    // RAM write port
-    output reg                     wea,
-    output reg  [ADDR_WIDTH-1:0]   addra,
-    output reg  [1:0]              dia
+    // One key per clock while a row is read out (every key once per scan pass)
+    output reg                     wea,        // key_valid
+    output reg  [ADDR_WIDTH-1:0]   addra,      // key index 0..87 (0 = A0 = MIDI 21)
+    output reg  [1:0]              dia         // {M2, M1} contacts, 1 = closed
 );
 
     localparam ROW_IDX_W = $clog2(NUM_ROWS);
@@ -135,10 +137,11 @@ module scan_keys_controller #(
             addra <= {ADDR_WIDTH{1'b0}};
             dia   <= 2'b00;
         end else begin
-            addra <= key_addr;
+            addra <= key_addr - FIRST_KEY_SLOT;
             dia   <= key_data;
-            // Guard against the unused row*col intersections beyond NUM_KEYS
-            wea   <= (state == STATE_SCAN_COL) && (key_addr < NUM_KEYS);
+            // Only matrix slots that hold a key
+            wea   <= (state == STATE_SCAN_COL) && (key_addr >= FIRST_KEY_SLOT) &&
+                     (key_addr < FIRST_KEY_SLOT + NUM_KEYS);
         end
     end
 

@@ -521,7 +521,7 @@ Biggest notes (all 5 layers ≈1.6–1.75 MB each): B2, Cs1, G1, Gs1, E1, F1 …
 | 3 (bottom, HPIO) | 32 | 1.8 V | Flash A[24:0] + 50 MHz clock on a GPLL ref pin (LRC_GPLL) | 26 |
 | 4 (bottom, HPIO) | 32 | 1.8 V | Flash DQ[15:0] + 6 control + DAC/audio amp (6, DVDD = 1.8 V) | 28 |
 | 5 (bottom, HPIO) | 10 | 1.8 V | spare | 0 |
-| 6 (left, WRIO) | 28 | 3.3 V | Key matrix: COL_M1_N[5:0], COL_M2_N[5:0] (open-drain out), ROW_N[14:0] (in) | 27 |
+| 6 (left, WRIO) | 28 | 3.3 V | Key matrix: ROW_N[14:0] (out, one low at a time), COL_M1_N[5:0], COL_M2_N[5:0] (in, pulled up) | 27 |
 | 7 (left, WRIO) | 22 | 3.3 V | PSWI, PSWO, Headphone_in, MIDI UART TX, power LED, sustain pedal, reset | 7 |
 | 2 (right, WRIO) | 28 | 3.3 V | spare | 0 |
 | 1 (right, WRIO) | 21 | 3.3 V | JTAG (+ hard I2C if the DAC needs control) | 4 |
@@ -532,18 +532,107 @@ Parallel flash runs with V_IO = 1.8 V (HPIO banks can't exceed 1.8 V). If it is 
 off-board, WE#/WP#/BYTE#/RY-BY# can be strapped on the PCB to free 4 pins.
 
 ### Key matrix (88 keys, dual-contact velocity)
-- 15 rows × 6 columns × 2 contact sets (M1/M2) = 180 contacts. Open-drain, 3.3 V, no level shifting.
-- COL_M1_N / COL_M2_N: FPGA open-drain outputs (`assign col = drive ? 1'b0 : 1'bz;`), one low at a time; optional ~10 kΩ pull-ups.
-- ROW_N[14:0]: FPGA inputs, LVCMOS33 with hysteresis, **external 4.7–10 kΩ pull-ups to 3.3 V**.
-- Scan: ~3–5 µs settle per column → full scan ≈ 60 µs; velocity = M1→M2 close time (fast strikes ≈ 1 ms).
+- 15 rows × 6 columns × 2 contact sets (M1/M2) = 180 contacts, 3.3 V, no level shifting.
+- **Confirmed by the user 2026-11-12: the FPGA drives the 15 ROW_N lines (one low at a time) and reads
+  the 6+6 COL lines** (COL_M1_N / COL_M2_N inputs, LVCMOS33, **external 4.7–10 kΩ pull-ups to 3.3 V**).
+- Slot = row·6 + column index; A0 is row 0, **column index 2 (the 3rd column)**, C8 row 14 col 5
+  (only that start gives 88 keys). `FIRST_KEY_SLOT` parameter in scan_keys_controller.v.
+- Scan at 12 MHz: 48-clock (4 µs) row settle + 6 column reads → one full pass = 68.75 µs = the
+  velocity timing resolution.
 
 ### Other I/O notes
 - Power LED on 3.3 V bank (red LED Vf ≈ 1.8–2 V won't light from 1.8 V).
 - Sustain pedal: pull-up, debounce in logic, ESD protection on the jack.
 - PSWO (soft-power hold) needs a pull resistor so it's in a safe state before configuration completes.
-- MIDI: opto output pulled up to 3.3 V, UART RX at 31,250 baud.
+- **MIDI OUT** (corrected 2026-11-12: there is no MIDI in): UART **TX** at 31,250 baud, channel 1,
+  note-off sent as note-on velocity 0 with running status, sustain pedal = CC64, volume pot = CC7.
 - User reset is a GPIO; PROGRAMN reconfigures the FPGA (not a logic reset).
 - The ADC clock is hardwired to the lower-right PLL CLKOS4, so that PLL must be used.
+
+## Clocks / oscillators to buy (decided 2026-11-12)
+
+| # | Frequency | Feeds | Spec |
+|---|---|---|---|
+| OSC1 | **45.1584 MHz** | audio domain directly: voice engine, flash, mixer, I2S (MCLK = /4 = 11.2896 MHz, BCLK = /16 = 2.8224 MHz, LRCLK = 44.1 kHz) | CMOS (LVCMOS) output, ±50 ppm or better, low jitter (audio grade). Output voltage = VCCIO of the bank its pin is on (1.8 V on bank 3/4/5, 3.3 V on a WRIO bank) |
+| OSC2 | **12.000 MHz** | control domain: key scan, velocity timer (12 clocks = 1 µs), debounce, MIDI out (12 MHz / 31,250 = 384 exactly); also the reference of the lower-right PLL that must make the ADC clock | CMOS, 3.3 V (or match its bank), ±50 ppm |
+
+- Both must land on **clock-capable pins** (PCLK / PLL reference inputs) — check the LFD2NX-28 caBGA256
+  pinout in Radiant before the PCB is fixed.
+- Alternative for OSC1: **22.5792 MHz** (more common) × 2 in a PLL = 45.1584 MHz. Using 45.1584 MHz
+  directly keeps PLL jitter out of the I2S clocks, so it is the first choice.
+- A programmable oscillator family (any frequency, 1.8/2.5/3.3 V) covers both if a fixed part is hard to find.
+
+## Front end RTL (done 2026-11-12) — `RTL/CPLD_P45_I2S_AUDIO_GENERATOR`
+
+```
+ CLK_CTRL 12 MHz                                                         │ CLK_AUDIO 45.1584 MHz
+ ROW_N/COL ─► scan_keys_controller ─► key_event_gen ──┐                   │
+              (key 0..87, {M2,M1})    (µs timer,      ├► event_merge ─┬─► async_fifo ─┼─► (voice_manager; now EVT_* debug pins)
+ SUS_PEDAL ─► debounce (5 ms) ─► CC64 ───────────────┘               └─► midi_tx ─► MIDI_TX
+ FUNC_BTN  ─► debounce (synchronized, unused)
+```
+- **Event word (16 bit):** `[15:14]` 00 note-off / 01 note-on / 10 controller; `[13:7]` key 0..87
+  (MIDI note = key + 21) or CC number; `[6:0]` velocity / value.
+- **key_event_gen:** per-key RAM {note_on, timing, M2/M1 prev, t_start (17-bit µs)}. M1 closes → start
+  timing; M2 closes → note-on with velocity = curve(M1→M2 time); M1 and M2 in the same pass → 127;
+  M2 after the 100 ms timeout → 1; M1 opens → note-off.
+- **Velocity curve:** `src/Key_Events/velocity_curve.mem` (512 × 7 bit, log-time index, 16 steps per
+  doubling) from `tools/make_velocity_curve.py --fast-ms --slow-ms --gamma`. **Current values are
+  placeholders (127 at ≤ 1.5 ms, 1 at ≥ 60 ms) until the user measures the P45 action.**
+- **MIDI out:** sync FIFO (64 events) → 9n kk vv / Bn cc vv, running status, status resent after 300 ms idle.
+- **Removed:** Velocity/ (velocity_timer_controller, velocity_calc, key_event_detect, ms_tick_gen,
+  velocity_addr_gen; `git rm`, restorable) and the pressed_keys/velocity RAMs.
+- **Tests:** `tb/run_tests.sh` — async_fifo (12 → 45 MHz, fills and recovers), midi_tx (bytes, running
+  status, resend), front end (matrix model: 18 events incl. chord, fast/slow/timeout, pedal bounce;
+  MIDI out decoded and matched). All PASS. yosys synth_nexus: ~340 LUT4, ~290 FF, 1 EBR.
+- **Open:** pedal polarity (`PEDAL_ACTIVE_LOW` in the top, default active low) and PSWO polarity
+  (tied 1 = "keep power on" as a placeholder) need the user's measurements; CC7 waits for the ADC.
+
+### Measuring the key action (for the velocity curve) — Analog Discovery
+- P45 key bed disconnected from its original controller and unpowered.
+- Pick one key: tie its **row** line to GND; pull its **M1 column** and **M2 column** lines up to 3.3 V
+  (AD supply V+) through **~10 kΩ resistors each** — never 3.3 V straight onto a column: pressing the
+  key would short the supply to the grounded row.
+- Scope CH1 = M1 column, CH2 = M2 column; trigger on CH1 falling edge, single shot.
+- M1→M2 time = CH1 fall to CH2 fall. Record ~10 of the hardest strikes and ~10 of the softest that
+  still sound, plus a few medium. If nothing falls, the matrix diodes face the other way: swap
+  (pull the row up, ground through the column) and tell me.
+- Sustain pedal: meter across the jack contacts, pressed vs released (open or closed when pressed).
+
+## Audio engine — voice manager + flash boot (2026-11-12)
+- **Voices: 208 slots, chosen by the user** (over an 88-voice pool): 2 sustain slots per key
+  (key*2+p, ping-pong so a re-struck key's old note fades while the new one starts) + a ring of 32
+  release voices (dense jazz test peak: 16 sustains + 16 releases). No stealing; only active voices
+  cost decode time.
+- `src/Flash/flash_reader.v` (async NOR read, ACCESS_CLKS=6 = 133 ns at 45.1584 MHz, 1 recovery clock),
+  `src/Flash/flash_boot.v` (header check magic/version 4, file table → 1024×49-bit RAM, ~1 ms boot),
+  `src/Voice/voice_manager.v` (events → voice RAM records {active, gen, fading, file, gain Q2.14};
+  velocity_layer / release_gain / db_to_lin ROMs; pedal; re-strike = off+on).
+- Tests: `tb/flash_boot_tb.sv` (real image header/table, 100 ns tACC model; PASS, and FAILS with
+  ACCESS_CLKS=4 as it should), `tb/voice_manager_tb.sv` vs `tools/voice_manager_ref.py` (707 events,
+  991 voice-RAM writes bit-exact; all hold slots, mute, pedal releases, re-strikes, ring wraps 9×).
+- `render_midi.py` hold-code math changed to the same integer formula (previews = hardware).
+- **Voice engine done 2026-11-12** (`src/Voice/voice_engine.v`, `i2s_tx.v`, `audio_core.v` = whole audio domain):
+  - Sequencer: every 1024 clocks walks 208 slots (idle 1 clock; active: load context + voice record,
+    decode ONE sample with lpc_rice_decoder's logic on per-voice state from a 189-bit context RAM,
+    store); restart on a new gen (file table lookup); fade.mem while fading; voice stops at file end
+    or fade end.
+  - Refill: 64-word buffer per voice (16384×16 RAM), 16-word flash bursts when ≥ 16 free;
+    restart resets the buffer to the file start. Write-first bypass on the buffer RAM.
+  - Mixer: y = ((s·gain) >>> 14)·fade >>> 15, summed, saturated to 16 bit (MIX_SHIFT = 0).
+  - I2S: MCLK clk/4, BCLK clk/16, LRCLK clk/1024, Philips format, 16-bit in 32-bit slots, L = R.
+  - Tests (`tb/audio_core_tb.sv` + `tools/engine_ref.py`): real flash image, every decoded sample vs the
+    library files, gains, fade steps, mix and I2S frames bit-exact; normal 0.6 s performance PASS;
+    **stress** (pedal + all 88 keys at v127 + 32 re-strikes: 152 voices at once) PASS, longest walk
+    **830 / 1024 clocks**, no underrun/overrun. `tb/run_tests.sh --stress` runs all 7 tests (~25 s).
+  - yosys synth_nexus (whole chip): ~11k LUT4 + 1.7k WIDEFN9, 5.1k FF, **42 of 58 EBR**, 3 multipliers,
+    LRAM unused. (Lesson: a RAM written inside an async-reset always block becomes flip-flops —
+    flash_boot's table RAM did, 50k FFs, fixed.)
+  - Open: master volume (ADC) + limiter before I2S; the 88-keys-at-v127 stress clips (peak 32768);
+    208 slots all active would exceed 1024 clocks (~5 per voice) — not reachable in practice.
+- **Pedal-up plays the releases** (user confirmed 2026-11-12: Keyscape does too), each scaled by the
+  hold table for the time since its note-on. The engine already does this. (`make_release_midi.py
+  --pedal-test` remains for a null test if ever needed; its MIDI was not rendered.)
 
 ## 88-voice top-level plan (discussed 2026-11-02, not yet coded)
 
@@ -551,7 +640,7 @@ off-board, WE#/WP#/BYTE#/RY-BY# can be strapped on the PCB to free 4 pins.
 | Topic | Decision |
 |---|---|
 | Device | LFD2NX-28 (project files stay MachXO3D until Radiant is installed) |
-| Clock | **Open** — crystal not chosen. Preferred: run everything at 45.1584 MHz (1024 × 44.1 kHz) from an audio crystal (22.5792/45.1584 MHz) or a Certus-NX fractional PLL from 50 MHz. Gives 1024 clocks per output sample, MCLK = clk/4 = 11.2896 MHz, no CDC in the audio path |
+| Clock | **Decided 2026-11-12: two oscillators, two clock domains** (see "Clocks / oscillators to buy"): 45.1584 MHz audio (1024 clocks per 44.1 kHz sample, MCLK = clk/4 = 11.2896 MHz) and 12.000 MHz control. Events cross through an async FIFO |
 | Voices | One voice per key (voice = key 0–87); no voice stealing |
 | Re-strike | Match Keyscape (analysed 2026-11-03): new note starts at once; note-off fades the sustain voice in ~6–8 ms and starts a ~0.7 s release sample; the re-strike adds the new voice on top. Needs spare voices for release samples (see open item 7) |
 | Key release | Envelope fade for now (length/curve TBD, ~100–300 ms); real release samples later |
@@ -562,7 +651,6 @@ off-board, WE#/WP#/BYTE#/RY-BY# can be strapped on the PCB to free 4 pins.
 ### Block diagram
 ```
  KEYS ─► scan_keys_controller ─► velocity_timer_controller ─┐ (existing modules)
- MIDI ─► uart_rx ─► midi_parser ─────────────────────────────┤
  SUS_PEDAL ─► debounce ──────────────────────────────────────┤
                                                              ▼
                                    event_fifo ─► voice_manager ◄─ file_table_ram (440×48 b, loaded from flash at boot)

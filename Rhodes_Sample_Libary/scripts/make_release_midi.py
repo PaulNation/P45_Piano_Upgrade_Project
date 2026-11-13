@@ -21,6 +21,7 @@ Usage (from the Rhodes_Sample_Libary folder; files go to midi/):
                                                       # level follows the decaying note
     python3 scripts/make_release_midi.py --hold-sweep-wide    # every 4th key + C8 (23 keys) x v048/v112,
                                                       # same holds (<= 4 s from C6 up)
+    python3 scripts/make_release_midi.py --pedal-test         # release on pedal-up? (null test)
     python3 scripts/make_release_midi.py --long-hold          # 7 bass keys x v080/v112 held 16..40 s,
                                                       # before and past the end of the samples
 """
@@ -93,6 +94,10 @@ def main():
                     help="bass keys that end loudest (D#1, G#1-D2) at v080/v112, held 16, 20 ... 40 s "
                          "(13-32.4 s at 148 BPM), before and past the end of their samples, to "
                          "check for a release there")
+    ap.add_argument("--pedal-test", action="store_true",
+                    help="does Keyscape play release samples when the sustain pedal lifts? "
+                         "C2/C4/C6 at v080: plain release, pedal-held single note, pedal-held chord, "
+                         "pedal lifted while the key is still down; each at 1 s and 4 s")
     ap.add_argument("--out", default="midi/keyscape_release_sampler",
                     help="output basename (writes <out>.mid and <out>_manifest.json)")
     args = ap.parse_args()
@@ -121,6 +126,9 @@ def main():
                   for h in (16.0, 20.0, 24.0, 28.0, 32.0, 36.0, 40.0)]
         args.out += "_longhold"
 
+    if args.pedal_test:
+        return pedal_test(args)
+
     events, slots = [], []
     t = 0.5                                  # lead-in of silence
     for n, v, hold in combos:
@@ -144,6 +152,49 @@ def main():
     print(f"Wrote {args.out}.mid and {args.out}_manifest.json")
     print(f"{len(slots)} slots ({len(set(x['note'] for x in slots))} notes), "
           f"bounce length {total:.0f} s = {total / 60:.1f} min")
+
+
+def pedal_test(args):
+    """Each slot ends with the sound released at `off_s` (key-up or pedal-up), so the null
+    test (release ON - OFF render) shows whether a release sample starts there.
+      case plain      key down 0 .. hold, no pedal (reference: release plays)
+      case pedal1     pedal down, key down 0 .. 0.3, pedal up at hold (one note)
+      case chord      pedal down, 3 keys (n, n+4, n+7) down 0 .. 0.3, pedal up at hold
+      case pedal_key  pedal down, key down 0 .. hold, pedal up at hold/2 (key still down:
+                      the release comes from the key, not the pedal)"""
+    events, slots = [], []
+    t = 0.5
+    for n in (36, 60, 84):
+        for hold in (1.0, 4.0):
+            for case in ("plain", "pedal1", "chord", "pedal_key"):
+                v = 80
+                keys = [n, n + 4, n + 7] if case == "chord" else [n]
+                on_s, off_s = t + 0.2, t + 0.2 + hold
+                if case != "plain":
+                    events.append((sec_to_ticks(t), 2, 0xB0, 64, 127))          # pedal down
+                for k in keys:
+                    events.append((sec_to_ticks(on_s), 1, 0x90, k, v))
+                key_up = on_s + (0.3 if case in ("pedal1", "chord") else hold)
+                for k in keys:
+                    events.append((sec_to_ticks(key_up), 0, 0x80, k, v))
+                if case == "pedal_key":
+                    events.append((sec_to_ticks(on_s + hold / 2), 2, 0xB0, 64, 0))
+                elif case != "plain":
+                    events.append((sec_to_ticks(off_s), 2, 0xB0, 64, 0))         # pedal up
+                end_s = off_s + args.tail
+                slots.append({"note": n, "name": note_name(n), "velocity": v, "hold_s": hold,
+                              "case": case, "keys": keys,
+                              "on_sample": round(on_s * SR), "off_sample": round(off_s * SR),
+                              "end_sample": round(end_s * SR)})
+                t = end_s + args.gap
+    total = t + 1.0
+    out = args.out + "_pedal"
+    write_midi(f"{out}.mid", events, sec_to_ticks(total))
+    with open(f"{out}_manifest.json", "w") as f:
+        json.dump({"sample_rate": SR, "tempo_bpm": TEMPO_BPM, "tail_s": args.tail,
+                   "total_seconds": round(total, 3), "slots": slots}, f, indent=1)
+    print(f"Wrote {out}.mid and {out}_manifest.json: {len(slots)} slots, "
+          f"{total:.0f} s = {total / 60:.1f} min at 120 BPM ({total * 120 / 148 / 60:.1f} min at 148)")
 
 
 if __name__ == "__main__":
