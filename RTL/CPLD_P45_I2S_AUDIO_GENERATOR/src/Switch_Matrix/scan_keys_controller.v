@@ -10,6 +10,7 @@ module scan_keys_controller #(
     parameter ADDR_WIDTH        = 7,
     parameter ROW_SETTLE_CYCLES = 48  // row driver + pull-up settle before reading the columns:
                                       // >= 2 (2FF sync) + RC settle; 48 clocks = 4 us at 12 MHz
+                                      // (the top sets 96 = 4 us at 24 MHz)
 ) (
     input  wire                    clk,
     input  wire                    rst,

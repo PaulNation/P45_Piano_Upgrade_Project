@@ -1,7 +1,9 @@
 // cpld_p45_i2s_audio_generator_top.v — P45 Rhodes synth top level
 //
 // Two clock domains:
-//   CLK_CTRL  12.000 MHz   control: key matrix scan, velocity, pedal/button, MIDI out
+//   CLK_CTRL  24.000 MHz   control: key matrix scan, velocity, pedal/button, MIDI out, ADC
+//                          handshakes (fab_clk_i). Also the reference of the lower-right PLL
+//                          (pll0), whose CLKOS4 (24 MHz) is the ADC clock.
 //   CLK_AUDIO 45.1584 MHz  audio:   voice engine, flash, mixer, I2S (1024 clocks per 44.1 kHz
 //                          sample). For now a pin; later the PLL output (22.5792 MHz x 2).
 // Events cross from control to audio through an async FIFO (Gray-coded pointers).
@@ -23,7 +25,7 @@
 
 module cpld_p45_i2s_audio_generator_top (
     // System
-    input  wire        CLK_CTRL,      // 12.000 MHz oscillator
+    input  wire        CLK_CTRL,      // 24.000 MHz oscillator (PLL input >= 18 MHz)
     input  wire        CLK_AUDIO,     // 45.1584 MHz (PLL from a 22.5792 MHz oscillator)
     input  wire        RST,           // active high, asynchronous
 
@@ -35,7 +37,11 @@ module cpld_p45_i2s_audio_generator_top (
     input  wire        SUS_PEDAL,     // on/off switch; polarity set by PEDAL_ACTIVE_LOW below
     input  wire        FUNC_BTN,      // synchronized, not used yet
     output wire        ON_LED,
-    // ... ADC interface for the volume pot (CC7) comes later
+
+    // Master volume pot on the hard ADC: wiper -> ADC_DP0, ADC_DN0 -> analog ground,
+    // ADC_REFP0 = external 1.8 V reference (board)
+    input  wire        ADC_DP0,
+    input  wire        ADC_DN0,
 
     // MIDI out (UART TX, 31,250 baud)
     output wire        MIDI_TX,
@@ -59,7 +65,7 @@ module cpld_p45_i2s_audio_generator_top (
     output wire        I2S_DOUT
 );
 
-    localparam CTRL_HZ          = 12_000_000;
+    localparam CTRL_HZ          = 24_000_000;
     localparam PEDAL_ACTIVE_LOW = 1;          // TODO: confirm with the pedal measurement
 
     // ------------------------------------------------------------------ resets
@@ -71,6 +77,63 @@ module cpld_p45_i2s_audio_generator_top (
     wire tick_us;
     tick_gen #(.DIV(CTRL_HZ / 1_000_000)) u_tick_us (.clk(CLK_CTRL), .rst(rst_ctrl), .tick(tick_us));
 
+    // ---- lower-right PLL (Radiant IP, module pll0): 24 MHz in, CLKOS4 = 24 MHz ADC clock.
+    // CLKOP (50 MHz) is not used. The ADC side is held in reset until the PLL locks.
+    wire pll_clkop, adc_clk, pll_lock, rst_adc;
+    pll0 pll (
+        .clki_i   (CLK_CTRL),
+        .rstn_i   (~RST),
+        .clkop_o  (pll_clkop),               // 50 MHz, unused
+        .clkos4_o (adc_clk),                 // 24 MHz -> adc_clk_i (<= 25 MHz, ADC divide = 1)
+        .lock_o   (pll_lock)
+    );
+    
+    reset_sync u_rst_adc (.clk(CLK_CTRL), .rst_in(RST | ~pll_lock), .rst_out(rst_adc));
+
+    // ---- master volume pot: hard ADC (Radiant IP "ADC", module master_volume_pot) + controller
+    // IP settings: ADC clock divide 1 (24 MHz <= 25 MHz), straight binary, ADC0 external
+    // reference 1.8 V, unipolar. adc_clk_i comes from the lower-right PLL's CLKOS4 (guide Table 2.1).
+    wire        adc_resetn, adc_en, adc_cal, adc_soc, adc_convstop;
+    wire [3:0]  adc0_ch_sel, adc1_ch_sel;
+    wire        adc_calrdy, adc_cog, adc_eoc;
+    wire [11:0] adc0_data, adc1_data;
+    wire        vol_valid, adc_timeout;
+    wire [15:0] vol_data;
+    wire [11:0] vol_level;
+    wire [6:0]  vol_cc;
+
+    /* verilator lint_off PINCONNECTEMPTY */   // ADC1 pins left open on purpose
+    master_volume_pot adc (
+        .adc_en_i       (adc_en),
+        .adc_resetn_i   (adc_resetn),
+        .adc_clk_i      (adc_clk),
+        .fab_clk_i      (CLK_CTRL),          // <= 40 MHz
+        .adc_cal_i      (adc_cal),
+        .adc_soc_i      (adc_soc),
+        .adc_calrdy_o   (adc_calrdy),
+        .adc0_ch_sel_i  (adc0_ch_sel),
+        .adc1_ch_sel_i  (adc1_ch_sel),
+        .adc_cog_o      (adc_cog),
+        .adc_eoc_o      (adc_eoc),
+        .adc_convstop_i (adc_convstop),
+        .adc0_o         (adc0_data),
+        .adc1_o         (adc1_data),
+        .ADC_DN0        (ADC_DN0),
+        .ADC_DP0        (ADC_DP0)
+        //.ADC_DN1        (),                  // ADC1 unused
+        //.ADC_DP1        ()
+    );
+    /* verilator lint_on PINCONNECTEMPTY */
+
+    adc_ctrl u_adc_ctrl (
+        .clk(CLK_CTRL), .rst(rst_adc), .tick_us(tick_us),
+        .adc_resetn(adc_resetn), .adc_en(adc_en), .adc_cal(adc_cal), .adc_soc(adc_soc),
+        .adc_convstop(adc_convstop), .adc0_ch_sel(adc0_ch_sel), .adc1_ch_sel(adc1_ch_sel),
+        .adc_calrdy(adc_calrdy), .adc_cog(adc_cog), .adc_eoc(adc_eoc), .adc0_data(adc0_data),
+        .level(vol_level), .volume(vol_cc), .cc_valid(vol_valid), .cc_data(vol_data),
+        .timeout_seen(adc_timeout)
+    );
+
     // ---- key matrix scan (pins are active low)
     wire [14:0] row_en;
     wire        key_valid;
@@ -79,7 +142,7 @@ module cpld_p45_i2s_audio_generator_top (
 
     assign ROW_N = ~row_en;
 
-    scan_keys_controller u_scan (
+    scan_keys_controller #(.ROW_SETTLE_CYCLES(96)) u_scan (     // 96 clocks = 4 us at 24 MHz
         .clk       (CLK_CTRL),
         .rst       (rst_ctrl),
         .row_en    (row_en),
@@ -129,6 +192,8 @@ module cpld_p45_i2s_audio_generator_top (
         .key_data  (kev_data),
         .cc_valid  (pedal_chg),
         .cc_data   ({2'b10, 7'd64, pedal_down ? 7'd127 : 7'd0}),
+        .cc2_valid (vol_valid),
+        .cc2_data  (vol_data),
         .evt_valid (evt_valid),
         .evt_data  (evt_data)
     );

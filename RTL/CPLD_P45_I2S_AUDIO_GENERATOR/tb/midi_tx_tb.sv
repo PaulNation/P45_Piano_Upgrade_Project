@@ -5,15 +5,15 @@
 module midi_tx_tb;
     localparam real BIT_NS = 32000.0;          // 1 / 31,250 baud
     logic clk = 0, rst = 1;
-    always #41.667 clk = ~clk;
+    always #20.833 clk = ~clk;
 
     logic tick_us;
-    tick_gen #(.DIV(12)) u_tick (.clk(clk), .rst(rst), .tick(tick_us));
+    tick_gen #(.DIV(24)) u_tick (.clk(clk), .rst(rst), .tick(tick_us));
 
     logic        evt_valid = 0;
     logic [15:0] evt_data = 0;
     logic        tx, dropped;
-    midi_tx #(.CLK_HZ(12_000_000), .RESEND_MS(2)) dut (
+    midi_tx #(.CLK_HZ(24_000_000), .RESEND_MS(2)) dut (
         .clk(clk), .rst(rst), .tick_us(tick_us), .evt_valid(evt_valid), .evt_data(evt_data),
         .midi_out(tx), .dropped(dropped));
 

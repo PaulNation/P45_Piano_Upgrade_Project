@@ -53,6 +53,8 @@ def performance():
         (15000, ev(on, 60, 1)), (15000, ev(on, 87, 127)),                         # A5 softest, C8
         (16000, ev(cc, 64, 0)),                                                   # pedal up: G4 releases
         (17000, ev(off, 6)), (17000, ev(off, 60)), (17000, ev(off, 87)), (17500, ev(off, 39)),
+        (3000, ev(cc, 7, 100)), (5000, ev(cc, 7, 127)),                           # master volume
+        (19000, ev(cc, 7, 64)), (21000, ev(cc, 7, 0)), (23000, ev(cc, 7, 127)),
     ]
 
 
@@ -74,7 +76,7 @@ def gen():
     os.makedirs(VEC, exist_ok=True)
     open(os.path.join(VEC, "engine_flash.hex"), "w").write("\n".join(out) + "\n")
     open(os.path.join(VEC, "engine_events.hex"), "w").write(
-        "".join(f"{t:08X}{e:04X}\n" for t, e in performance()))
+        "".join(f"{t:08X}{e:04X}\n" for t, e in sorted(performance(), key=lambda x: x[0])))
     print(f"{len(performance())} events, keys {keys}, {len(used)} files in the sparse flash "
           f"({len(out)} lines)")
 
@@ -100,7 +102,7 @@ def stress():
     print(f"{len(evs)} events; full image (byte-swapped) -> {out}")
 
 
-def check(log):
+def check(log, events_file=None):
     j = json.load(open(os.path.join(LIB, "flash_image.json")))
     names = [e["name"] for e in j["files"]]
     fade = [int(l, 16) for l in open(os.path.join(TABLES, "fade.mem")) if l.strip()]
@@ -118,7 +120,7 @@ def check(log):
 
     inst = {}                       # voice -> dict(file, gain, pos, fpos)
     mix_exp = {}
-    mixes, i2s = [], []
+    mixes, i2s, gains = [], [], []
     errors, n_samples, n_inst, flags, walk = [], 0, 0, None, None
     active = {}
     for line in open(log):
@@ -156,14 +158,15 @@ def check(log):
             active[n] = active.get(n, 0) + 1
         elif f[0] == "M":
             mixes.append((int(f[1]), s16(int(f[2]))))
+            gains.append(int(f[3]))
         elif f[0] == "I":
             i2s.append(s16(int(f[1])))
         elif f[0] == "W":
             walk = int(f[1])
         elif f[0] == "F":
             flags = tuple(int(x) for x in f[1:])
-    for n, m in mixes:
-        e = max(-32768, min(32767, mix_exp.get(n, 0)))
+    for (n, m), g in zip(mixes, gains):
+        e = max(-32768, min(32767, (mix_exp.get(n, 0) * g) >> 14))
         if m != e:
             errors.append(f"mix at sample {n} = {m}, expected {e}")
     # I2S frames carry the mixes in order (frames start at reset, mixes after boot): align on the
@@ -179,6 +182,13 @@ def check(log):
         bad = sum(1 for a, b in pairs if a != b)
         if bad or k < 0:
             errors.append(f"{bad} of {len(pairs)} I2S frames differ from the mixer output (offset {k})")
+    vol = [int(l, 16) for l in open(os.path.join(ROOT, "src", "Voice", "volume_curve.mem")) if l.strip()]
+    if any(abs(b - a) > 32 for a, b in zip(gains, gains[1:])):
+        errors.append("master gain jumps by more than one ramp step")
+    played = [int(l[8:12], 16) for l in open(events_file or os.path.join(VEC, "engine_events.hex")) if l.strip()]
+    for target in sorted({vol[(e & 127)] for e in played if (e >> 7) == (2 << 7 | 7)}):
+        if target not in gains:
+            errors.append(f"master gain never reached {target}")
     if flags is None or any(flags):
         errors.append(f"underrun / overrun / I2S L!=R flags = {flags}")
     for e in errors[:15]:
@@ -187,7 +197,7 @@ def check(log):
     print(f"{'PASS' if not errors else 'FAIL'} audio_core: {n_inst} voice starts, {n_samples} decoded samples "
           f"checked against the library, {len(mixes)} mixes, {len(i2s)} I2S frames, mix peak {peak}, "
           f"max {max(active.values(), default=0)} voices in one sample, longest voice walk "
-          f"{walk} of 1024 clocks"
+          f"{walk} of 1024 clocks, master gain {min(gains, default=0)}..{max(gains, default=0)}"
           + ("" if not errors else f", {len(errors)} errors"))
     return 0 if not errors else 1
 
@@ -198,6 +208,6 @@ if __name__ == "__main__":
     elif sys.argv[1:2] == ["stress"]:
         stress()
     elif sys.argv[1:2] == ["check"]:
-        sys.exit(check(sys.argv[2]))
+        sys.exit(check(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None))
     else:
         print(__doc__)

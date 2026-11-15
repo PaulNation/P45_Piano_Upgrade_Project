@@ -12,11 +12,11 @@
 
 module cpld_p45_i2s_audio_generator_tb;
 
-    localparam real SCAN_PASS_US = 15 * (48 + 6 + 1) / 12.0;   // 68.75 us per full scan
+    localparam real SCAN_PASS_US = 15 * (96 + 6 + 1) / 24.0;   // 64.375 us per full scan
     localparam real MIDI_BIT_NS  = 32000.0;
 
     logic CLK_CTRL = 0, CLK_AUDIO = 0, RST = 1;
-    always #41.667 CLK_CTRL  = ~CLK_CTRL;    // 12 MHz
+    always #20.833 CLK_CTRL  = ~CLK_CTRL;    // 24 MHz
     always #11.072 CLK_AUDIO = ~CLK_AUDIO;   // 45.1584 MHz
 
     logic        SUS_PEDAL = 1'b1;           // active low, released
@@ -28,6 +28,7 @@ module cpld_p45_i2s_audio_generator_tb;
     cpld_p45_i2s_audio_generator_top dut (
         .CLK_CTRL(CLK_CTRL), .CLK_AUDIO(CLK_AUDIO), .RST(RST),
         .PSWI(1'b1), .PSWO(), .SUS_PEDAL(SUS_PEDAL), .FUNC_BTN(FUNC_BTN), .ON_LED(),
+        .ADC_DP0(1'b0), .ADC_DN0(1'b0),
         .MIDI_TX(MIDI_TX), .COL_M1_N(COL_M1_N), .COL_M2_N(COL_M2_N), .ROW_N(ROW_N),
         .FLASH_A(), .FLASH_DQ(16'h0000), .FLASH_CE_N(), .FLASH_OE_N(), .FLASH_WE_N(),
         .I2S_MCLK(), .I2S_BCLK(), .I2S_LRCLK(), .I2S_DOUT());
@@ -114,6 +115,7 @@ module cpld_p45_i2s_audio_generator_tb;
         #3_000_000;
 
         press(39, 5.0);    expect_on(39, 5.0);                       // C4, medium
+        expect_fixed(2, 7, 2048 >> 5);                               // volume pot after ADC calibration (model: mid-scale)
         #35_000_000;
         release_key(39);   expect_fixed(0, 39, 0);
         #20_000_000;

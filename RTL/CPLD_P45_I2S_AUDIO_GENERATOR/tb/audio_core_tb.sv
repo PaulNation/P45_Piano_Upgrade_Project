@@ -67,7 +67,7 @@ module audio_core_tb;
             $fwrite(fd, "S %0d %0d %0d %0d %0d %0d\n", now, dut.u_engine.v,
                     dut.u_engine.m_s, dut.u_engine.m_g, dut.u_engine.m_f, dut.u_engine.vrec[26]);
         if (dut.u_engine.mix_valid)
-            $fwrite(fd, "M %0d %0d\n", now, dut.u_engine.mix_out);
+            $fwrite(fd, "M %0d %0d %0d\n", now, dut.u_engine.mix_out, dut.master_gain);
     end
 
     // ---------------- I2S receiver: MSB one BCLK after each LRCLK edge, 16 bits

@@ -47,6 +47,7 @@ module voice_manager #(
     input  wire [7:0]  vb_addr,
     output reg  [29:0] vb_data,
 
+    output reg  [6:0]  volume,          // master volume from CC7 (127 at reset = 0 dB)
     output wire        vw_strobe,       // a voice record was written (tells the engine to re-read it)
     output wire [7:0]  vw_addr,
     output wire        busy             // processing an event (for tests)
@@ -202,6 +203,7 @@ module voice_manager #(
             va_we   <= 1'b0;
             k_we    <= 1'b0;
             pedal   <= 1'b0;
+            volume  <= 7'd127;
             ring    <= 5'd0;
             key <= 0; vel <= 0; krec <= 0; vl <= 0; fidx <= 0; held <= 0; top <= 0;
             c0 <= 0; hcode <= 0; code <= 0;
@@ -247,7 +249,10 @@ module voice_manager #(
                                        key   <= 7'd0;
                                        st    <= S_PED_RD;
                                    end
-                               end else st <= S_IDLE;
+                               end else begin
+                                   if (key == 7'd7) volume <= vel;      // CC7: master volume
+                                   st <= S_IDLE;
+                               end
                         default: st <= S_IDLE;
                     endcase
                 end

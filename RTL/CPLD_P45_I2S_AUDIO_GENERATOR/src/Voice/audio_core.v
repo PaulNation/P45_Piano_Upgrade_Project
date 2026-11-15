@@ -3,7 +3,13 @@
 //   voice_manager               events -> voice records (208 slots)
 //   voice_engine                decode + mix all active voices, 1024 clocks per sample
 //   i2s_tx                      the mix on I2S, same sample on L and R
-module audio_core (
+//   master volume               CC7 (volume pot) -> volume_curve.mem -> gain ramp -> mix
+`ifndef VOLUME_CURVE_FILE
+`define VOLUME_CURVE_FILE "../../src/Voice/volume_curve.mem"
+`endif
+module audio_core #(
+    parameter VOL_RAMP = 32               // Q2.14 gain step per sample: 0 -> 0 dB in ~11.6 ms
+) (
     input  wire        CLK_AUDIO,
     input  wire        rst_audio,
 
@@ -61,13 +67,29 @@ module audio_core (
     wire [7:0]  vb_addr, vw_addr;
     wire [29:0] vb_data;
     wire        vw_strobe, vm_busy;
+    wire [6:0]  volume;
 
     voice_manager u_vm (
         .clk(CLK_AUDIO), .rst(rst_audio), .enable(boot_done), .now_samples(now_samples),
         .evt_empty(fifo_empty), .evt_data(fifo_data), .evt_pop(fifo_pop),
-        .vb_addr(vb_addr), .vb_data(vb_data), .vw_strobe(vw_strobe), .vw_addr(vw_addr),
-        .busy(vm_busy)
+        .vb_addr(vb_addr), .vb_data(vb_data), .volume(volume),
+        .vw_strobe(vw_strobe), .vw_addr(vw_addr), .busy(vm_busy)
     );
+
+    // ---- master volume: curve lookup, then ramp the gain one step per sample (no zipper noise)
+    reg [15:0] vol_rom [0:127];
+    initial $readmemh(`VOLUME_CURVE_FILE, vol_rom);
+    reg  [15:0] vol_target, master_gain;
+    always @(posedge CLK_AUDIO) vol_target <= vol_rom[volume];
+    always @(posedge CLK_AUDIO or posedge rst_audio) begin
+        if (rst_audio)
+            master_gain <= 16'd16384;                     // 0 dB until the pot is read
+        else if (sample_tick) begin
+            if (master_gain + VOL_RAMP < vol_target)       master_gain <= master_gain + VOL_RAMP;
+            else if (master_gain > vol_target + VOL_RAMP)  master_gain <= master_gain - VOL_RAMP;
+            else                                           master_gain <= vol_target;
+        end
+    end
 
     // ---- decode + mix
     wire        sample_tick, mix_valid, seq_idle;
@@ -79,7 +101,7 @@ module audio_core (
     end
 
     voice_engine u_engine (
-        .clk(CLK_AUDIO), .rst(rst_audio), .enable(boot_done),
+        .clk(CLK_AUDIO), .rst(rst_audio), .enable(boot_done), .master_gain(master_gain),
         .sample_tick(sample_tick), .mix_out(mix_out), .mix_valid(mix_valid),
         .vb_addr(vb_addr), .vb_data(vb_data), .vw_strobe(vw_strobe), .vw_addr(vw_addr),
         .tab_addr(tab_addr), .tab_start(tab_start), .tab_samples(tab_samples),

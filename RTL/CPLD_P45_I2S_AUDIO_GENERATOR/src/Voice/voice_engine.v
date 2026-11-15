@@ -15,8 +15,8 @@
 // resets the voice's buffer and flash address to the file start.
 //
 // Mixer: y = ((s * gain) >>> 14) * fade >>> 15  (gain Q2.14 from the voice record, fade Q1.15 from
-// fade.mem while the voice is fading, else 32768); the sum of all voices is saturated to 16 bits
-// at the end of the period (>>> MIX_SHIFT first).
+// fade.mem while the voice is fading, else 32768); the sum of all voices (>>> MIX_SHIFT) times the
+// master volume (master_gain, Q2.14) is saturated to 16 bits at the end of the period.
 //
 // Status flags (sticky): underrun = a voice's buffer ran dry mid-sample (that voice skipped one
 // sample); overrun = the voice walk did not finish within the period.
@@ -33,6 +33,7 @@ module voice_engine #(
     input  wire        clk,
     input  wire        rst,
     input  wire        enable,          // boot done
+    input  wire [15:0] master_gain,     // Q2.14, applied to the mix before the 16-bit saturation
 
     output reg         sample_tick,     // one clock at the start of every period
     output reg  [15:0] mix_out,         // mix of the previous period, signed 16 bit
@@ -63,7 +64,8 @@ module voice_engine #(
 
     // ================================================================ period timer
     localparam PW = $clog2(PERIOD);
-    localparam [PW-1:0] PLAST = PERIOD - 1;
+    localparam integer  PLAST_I = PERIOD - 1;
+    localparam [PW-1:0] PLAST   = PLAST_I[PW-1:0];
     reg [PW-1:0] pcnt;
     always @(posedge clk or posedge rst) begin
         if (rst) begin
@@ -211,7 +213,7 @@ module voice_engine #(
     // ================================================================ sequencer
     localparam [3:0] Q_WAIT = 4'd0, Q_SCAN = 4'd1, Q_LOAD = 4'd2, Q_EVAL = 4'd3, Q_TAB = 4'd4,
                      Q_RESTART = 4'd5, Q_RUN = 4'd6, Q_STORE = 4'd7, Q_FIN1 = 4'd8, Q_FIN2 = 4'd9,
-                     Q_FIN3 = 4'd10, Q_TAB2 = 4'd11;
+                     Q_FIN3 = 4'd10, Q_TAB2 = 4'd11, Q_FIN4 = 4'd12;
     reg [3:0] q;
     reg [4:0] steps;
     reg       v_done;                    // voice finished with this sample
@@ -234,6 +236,8 @@ module voice_engine #(
     wire signed [32:0] y1_full = prod1 >>> 14;
     wire signed [35:0] y2_full = prod2 >>> 15;
     wire signed [27:0] acc_sh  = acc >>> MIX_SHIFT;
+    reg  signed [44:0] vol_prod;
+    wire signed [44:0] vol_sh  = vol_prod >>> 14;
 
     // does this decoder step produce a sample (Q_RUN)?
     reg        emit;
@@ -266,7 +270,7 @@ module voice_engine #(
             c_k <= 0; c_x1 <= 0; c_x2 <= 0; c_x3 <= 0; c_x4 <= 0; c_buf <= 0; c_nbits <= 0;
             c_q <= 0; c_gen <= 0; c_fpos <= 0; c_rd <= 0; vrec <= 0;
             m_valid <= 1'b0; m2_valid <= 1'b0; m_s <= 0; m_g <= 0; m_f <= 0; m_y1 <= 0; m2_f <= 0;
-            acc <= 0; mix_out <= 0; mix_valid <= 1'b0; underrun <= 1'b0; overrun <= 1'b0;
+            acc <= 0; vol_prod <= 0; mix_out <= 0; mix_valid <= 1'b0; underrun <= 1'b0; overrun <= 1'b0;
         end else begin
             ctx_we    <= 1'b0;
             ra_we     <= 1'b0;
@@ -424,9 +428,13 @@ module voice_engine #(
 
                 Q_FIN1: q <= Q_FIN2;                             // let the mixer pipeline drain
                 Q_FIN2: q <= Q_FIN3;
-                Q_FIN3: begin
-                    mix_out   <= (acc_sh > 28'sd32767)  ? 16'h7FFF :
-                                 (acc_sh < -28'sd32768) ? 16'h8000 : acc_sh[15:0];
+                Q_FIN3: begin                                    // master volume
+                    vol_prod <= acc_sh * $signed({1'b0, master_gain});
+                    q        <= Q_FIN4;
+                end
+                Q_FIN4: begin
+                    mix_out   <= (vol_sh > 45'sd32767)  ? 16'h7FFF :
+                                 (vol_sh < -45'sd32768) ? 16'h8000 : vol_sh[15:0];
                     mix_valid <= 1'b1;
                     q         <= Q_WAIT;
                 end

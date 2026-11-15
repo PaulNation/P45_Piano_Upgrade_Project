@@ -13,6 +13,7 @@ src/Switch_Matrix/scan_keys_controller.v
 src/Key_Events/key_event_gen.v
 src/Key_Events/event_merge.v
 src/Inputs/debounce.v
+src/Inputs/adc_ctrl.v
 src/MIDI/uart_tx.v
 src/MIDI/midi_tx.v
 # Audio domain: flash, voices, I2S

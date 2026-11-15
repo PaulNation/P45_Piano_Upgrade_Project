@@ -1,7 +1,7 @@
 // key_event_gen.v — turns the scanned {M2, M1} contacts of every key into note events.
 //
 // Input: the scan stream from scan_keys_controller (one key per clock while a row is read,
-// every key once per scan pass, ~69 us at 12 MHz). Per key it keeps
+// every key once per scan pass, ~64 us at 24 MHz). Per key it keeps
 //     {note_on, timing, M2_prev, M1_prev, t_start[16:0]}
 // in a small RAM (read one clock ahead, written back the next clock).
 //
