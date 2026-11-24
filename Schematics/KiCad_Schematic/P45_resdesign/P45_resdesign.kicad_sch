@@ -1,0 +1,157 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ee494877-7a41-4d49-a07a-c985d5645949")
+	(paper "A4")
+	(title_block
+		(title "Piano Main Board")
+		(date "2026-11-21")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 99.06 38.1)
+		(size 52.07 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "120ec635-4b17-4a01-9988-f618dc6dd115")
+		(property "Sheetname" "Regulators"
+			(at 99.06 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Regulators.kicad_sch"
+			(at 99.06 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P45_resdesign"
+				(path "/ee494877-7a41-4d49-a07a-c985d5645949"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 38.1)
+		(size 48.26 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a193e4be-d78d-42c9-ac9a-8573fbd13a97")
+		(property "Sheetname" "FPGA"
+			(at 39.37 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 39.37 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P45_resdesign"
+				(path "/ee494877-7a41-4d49-a07a-c985d5645949"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 74.93)
+		(size 48.26 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fd73a032-3db5-4bc1-abdb-6f0e565ec399")
+		(property "Sheetname" "Connectors"
+			(at 39.37 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 39.37 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P45_resdesign"
+				(path "/ee494877-7a41-4d49-a07a-c985d5645949"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

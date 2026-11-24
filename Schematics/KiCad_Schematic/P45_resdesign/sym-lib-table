@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "S11B-PH-K-S") (type "KiCad") (uri "C:/Users/pniev/Documents/P45_Piano_Upgrade_Project/Schematics/KiCad_Schematic/symbol libary/ul_S11B-PH-K-S/KiCADv6/2026-11-21_19-48-56.kicad_sym") (options "") (descr "") (disabled) (hidden))
+	(lib (name "B6B-PH-K-S") (type "KiCad") (uri "C:/Users/pniev/Documents/P45_Piano_Upgrade_Project/Schematics/KiCad_Schematic/symbol libary/ul_B6B-PH-K-S/KiCADv6/2026-11-21_19-47-51.kicad_sym") (options "") (descr "") (disabled) (hidden))
+	(lib (name "B5B-PH-K-S") (type "KiCad") (uri "C:/Users/pniev/Documents/P45_Piano_Upgrade_Project/Schematics/KiCad_Schematic/symbol libary/ul_B5B-PH-K-S/KiCADv6/2026-11-21_19-49-58.kicad_sym") (options "") (descr "") (disabled) (hidden))
+)

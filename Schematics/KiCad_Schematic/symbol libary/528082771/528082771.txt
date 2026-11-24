@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"33-02042026-058824";"";
+"REFERENCE";"528082771";"";
+"TraceParts.PartTitle";"Easy-On";"";
+"TraceParts.InstanceId";"33-02042026-0588246YH5CBTALELJ1CI5V1SYC6R61";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"Easy-On FFC/FPC Connector, 1.00mm Pitch, Surface Mount, Vertical, Non-ZIF, Tin (Sn) Plating, with Pick-and-Place Polyimide Tape, 27 Circuits";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.8";"";
